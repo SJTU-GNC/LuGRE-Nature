@@ -7,9 +7,16 @@
   "language": "eng",
   "creators": [
     {
-      "name": "TO_BE_CONFIRMED",
-      "orcid": "TO_BE_CONFIRMED",
-      "affiliation": "TO_BE_CONFIRMED"
+      "name": "SJTU, GNC"
+    },
+    {
+      "name": "Yang, Rong"
+    },
+    {
+      "name": "Ma, Yuquan"
+    },
+    {
+      "name": "Li, Zhihong"
     }
   ],
   "description": "Python code and machine-readable task definitions used to regenerate LuGRE manuscript figures and independently recoverable scientific panels.",
@@ -25,11 +32,6 @@
       "identifier": "https://doi.org/10.5281/zenodo.21672261",
       "relation": "requires",
       "resource_type": "dataset"
-    },
-    {
-      "identifier": "https://doi.org/TO_BE_CONFIRMED_ARTICLE_OR_PREPRINT_DOI",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-article"
     }
   ]
 }

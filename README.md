@@ -1,7 +1,7 @@
 # LuGRE Reviewer Reproduction
 
-> Publication staging draft. Replace every remaining `TO_BE_CONFIRMED` field
-> before making the repository public.
+> Private publication staging repository. Create the public `v1.0.0` release
+> only after the GitHub and Zenodo metadata have been previewed.
 
 This repository contains the Python code, task registry, and reproducibility
 documentation used to regenerate the LuGRE manuscript figures and independently
@@ -82,12 +82,12 @@ documented in `manifest/external_large_sources.csv`.
 
 ## Citation
 
-Software DOI: `TO_BE_CONFIRMED_SOFTWARE_DOI`
+Software DOI: assigned by Zenodo when the GitHub `v1.0.0` release is archived.
 
 Dataset DOI: `10.5281/zenodo.21672261`
 
-See `CITATION.cff` for the software citation draft. Author names, ORCID records,
-affiliations, funding, and final DOI values must be completed before release.
+See `CITATION.cff` for the software citation metadata. ORCID records,
+affiliations, funding, and an article DOI may be added later when available.
 
 ## Licence
 
