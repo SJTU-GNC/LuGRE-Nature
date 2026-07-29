@@ -20,6 +20,24 @@ repository and its associated data deposit were prepared for this manuscript
 and are attributed to its authors. Full authorship and contact metadata are
 provided in `docs/MANUSCRIPT_METADATA.md`.
 
+## Research context and responsible reuse
+
+The dataset and software DOI records document the creators, release date,
+version, and provenance of this reproducibility package. Reuse is governed by
+CC BY 4.0 for the data and figures and by the MIT License for the software.
+
+Users must comply with the applicable licence terms, retain copyright and
+licence notices, provide appropriate attribution where required, and clearly
+identify modifications. Reuse must not imply endorsement by the manuscript
+authors or misrepresent the original data, methods, figures, or findings.
+
+For scholarly use, please cite both the dataset DOI and software DOI below.
+Publications based substantially on these resources should clearly distinguish
+reused material from new contributions and should cite the associated
+manuscript when a public citation becomes available. See
+[REUSE_AND_CITATION.md](REUSE_AND_CITATION.md) for the complete statement and
+corresponding-author contacts.
+
 ## Reproduction scope
 
 - 9 complete manuscript figures are regenerated exactly from packaged

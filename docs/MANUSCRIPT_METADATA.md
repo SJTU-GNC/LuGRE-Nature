@@ -12,6 +12,10 @@ package for the manuscript. All project-original code, data, figures, images,
 and documentation in the package were prepared for the manuscript and are
 attributed to the authors listed below.
 
+The repository's complete research-context, attribution, non-endorsement, and
+scholarly coordination statement is provided in
+[REUSE_AND_CITATION.md](../REUSE_AND_CITATION.md).
+
 ## Authors
 
 The affiliation numbers follow the manuscript source. Full institutional

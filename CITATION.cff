@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite the archived software release and its associated Zenodo dataset."
+message: "Please cite the archived software DOI and associated dataset DOI, and cite the manuscript when a public citation becomes available."
 title: "LuGRE Reviewer Reproduction"
 version: 1.0.0
 type: software
