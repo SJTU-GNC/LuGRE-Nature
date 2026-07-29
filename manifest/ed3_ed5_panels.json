@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "scope": "Independent panel redraws for Extended Data Figures 3, 4, and 5",
+  "runtime": "runtime/python_exact/python.exe",
+  "runner": "src/tasks/panel_ed3_ed5/runner.py",
+  "qa_directory": "work/qa/panel_ed3_ed5",
+  "qa_file_pattern": "work/qa/panel_ed3_ed5/<task_id>.json",
+  "validation_status": "passed_17_of_17",
+  "validation_date_utc": "2026-07-29",
+  "external_launcher_to_bundled_runtime_tested": true,
+  "output_contract": "Each entry clears outputs/<task>, creates exactly one PNG, validates it, and writes QA JSON outside the output directory.",
+  "data_policy": {
+    "package_relative": true,
+    "generated_pngs_in_data": false,
+    "panel_ready_payload_mib": 8.41,
+    "raw_to_panel_complete": false,
+    "note": "Panel-ready tables preserve the plotted scientific variables. Upstream raw telemetry, transmitter-attitude reconstruction, and multi-instrument preprocessing are not represented as a complete raw-to-panel chain."
+  },
+  "source_provenance": {
+    "ED3": [
+      "LuGRE_Scientific_Figure_Reproduction/data/analysis_ready/ED3/lugre_gnss_main_lobe_point_check.csv",
+      "LuGRE_Scientific_Figure_Reproduction/upstream/figure_workflows/figure_b_c_reproducible_package_20260727/derived_data/lugre_panel_c_derived_pattern_envelopes.csv",
+      "LuGRE_Scientific_Figure_Reproduction/upstream/figure_workflows/figure_b_c_reproducible_package_20260727/derived_data/lugre_panel_c_signal_summary.csv"
+    ],
+    "ED4": [
+      "LuGRE_Scientific_Figure_Reproduction/data/analysis_ready/ED4/op38_e23_anomaly_focused_cn0_data.csv",
+      "LuGRE_Scientific_Figure_Reproduction/data/analysis_ready/ED4/op38_e23_anomaly_focused_tangent_height.csv",
+      "LuGRE_Scientific_Figure_Reproduction/data/analysis_ready/ED4/op38_e23_anomaly_focused_simulated_footprint.csv"
+    ],
+    "ED5": [
+      "LuGRE_Scientific_Figure_Reproduction/upstream/figure_workflows/north_pair_nature_repro_package_20260623/data/extracted_context/track_187",
+      "LuGRE_Scientific_Figure_Reproduction/upstream/figure_workflows/Fig4_north_pair_nature_layout_candidate_20260623/south_pair_compact_track009_017_20260624/data",
+      "LuGRE_Scientific_Figure_Reproduction/upstream/figure_workflows/Fig4_north_pair_nature_layout_candidate_20260623/ro_ne_profiles_track009_017_145_187_ionprf_iri_package",
+      "LuGRE_Scientific_Figure_Reproduction/upstream/figure_workflows/Fig5_SuperDARN_mean_abs_velocity_filled_cells_60deg_border_20260727"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "ED3_A",
+      "entry": "ED3_A_main.py",
+      "output": "outputs/ED3_A/ED3_A.png",
+      "reference": "reference/panels/ED3/ED3_A_reference.png",
+      "data": [
+        "data/panel_ready/ED3/ed3_a_off_boresight_points.csv.gz"
+      ],
+      "reproduction_level": "analysis-ready numeric observations to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED3_B",
+      "entry": "ED3_B_main.py",
+      "output": "outputs/ED3_B/ED3_B.png",
+      "reference": "reference/panels/ED3/ED3_B_reference.png",
+      "data": [
+        "data/panel_ready/ED3/ed3_b_geometry_parameters.csv"
+      ],
+      "reproduction_level": "numeric geometry to alternative schematic",
+      "pixel_exact": false,
+      "alternative_schematic": true,
+      "required_label": "ALTERNATIVE SCHEMATIC - NON-EXACT",
+      "limitation": "The accepted illustration artwork and exact final compositor were not archived."
+    },
+    {
+      "id": "ED3_C",
+      "entry": "ED3_C_main.py",
+      "output": "outputs/ED3_C/ED3_C.png",
+      "reference": "reference/panels/ED3/ED3_C_reference.png",
+      "data": [
+        "data/panel_ready/ED3/ed3_c_pattern_envelopes.csv",
+        "data/panel_ready/ED3/ed3_c_observed_ranges.csv"
+      ],
+      "reproduction_level": "analysis-ready transmit-pattern envelopes to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED4_A",
+      "entry": "ED4_A_main.py",
+      "output": "outputs/ED4_A/ED4_A.png",
+      "reference": "reference/panels/ED4/ED4_A_reference.png",
+      "data": [
+        "data/panel_ready/ED4/op38_e23_anomaly_focused_cn0_data.csv"
+      ],
+      "reproduction_level": "analysis-ready numeric table to helper-independent panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED4_B",
+      "entry": "ED4_B_main.py",
+      "output": "outputs/ED4_B/ED4_B.png",
+      "reference": "reference/panels/ED4/ED4_B_reference.png",
+      "data": [
+        "data/panel_ready/ED4/op38_e23_anomaly_focused_cn0_data.csv"
+      ],
+      "reproduction_level": "analysis-ready residual table to helper-independent panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED4_C",
+      "entry": "ED4_C_main.py",
+      "output": "outputs/ED4_C/ED4_C.png",
+      "reference": "reference/panels/ED4/ED4_C_reference.png",
+      "data": [
+        "data/panel_ready/ED4/op38_e23_anomaly_focused_tangent_height.csv"
+      ],
+      "reproduction_level": "analysis-ready WGS84 tangent geometry to helper-independent panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED4_D",
+      "entry": "ED4_D_main.py",
+      "output": "outputs/ED4_D/ED4_D.png",
+      "reference": "reference/panels/ED4/ED4_D_reference.png",
+      "data": [
+        "data/panel_ready/ED4/op38_e23_anomaly_focused_simulated_footprint.csv"
+      ],
+      "reproduction_level": "analysis-ready simulated WGS84 footprint to helper-independent panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_A",
+      "entry": "ED5_A_main.py",
+      "output": "outputs/ED5_A/ED5_A.png",
+      "reference": "reference/panels/ED5/ED5_A_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_map_mean_abs_velocity_cells.csv.gz",
+        "data/panel_ready/ED5/ed5_map_tracks.csv.gz"
+      ],
+      "event": "north_track187_OP76_G26",
+      "observable": "mean_abs_velocity_ms",
+      "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_B",
+      "entry": "ED5_B_main.py",
+      "output": "outputs/ED5_B/ED5_B.png",
+      "reference": "reference/panels/ED5/ED5_B_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+        "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz"
+      ],
+      "event": "north_track187_OP76_G26",
+      "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_C",
+      "entry": "ED5_C_main.py",
+      "output": "outputs/ED5_C/ED5_C.png",
+      "reference": "reference/panels/ED5/ED5_C_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+        "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz",
+        "data/panel_ready/ED5/ed5_leoro_highrate_l1.csv.gz"
+      ],
+      "event": "north_track187_OP76_G26",
+      "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_D",
+      "entry": "ED5_D_main.py",
+      "output": "outputs/ED5_D/ED5_D.png",
+      "reference": "reference/panels/ED5/ED5_D_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_ne_profiles.csv.gz"
+      ],
+      "event": "north_track187_OP76_G26",
+      "reproduction_level": "selected-event YunYao/IRI/PFISR numeric profiles to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_E",
+      "entry": "ED5_E_main.py",
+      "output": "outputs/ED5_E/ED5_E.png",
+      "reference": "reference/panels/ED5/ED5_E_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_fan_north_mean_abs_velocity.csv.gz"
+      ],
+      "event": "north_track187_OP76_G26",
+      "observable": "mean_abs_velocity_ms",
+      "reproduction_level": "selected-event 2026-07-27 filled beam-range velocity cells to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_F",
+      "entry": "ED5_F_main.py",
+      "output": "outputs/ED5_F/ED5_F.png",
+      "reference": "reference/panels/ED5/ED5_F_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_map_mean_abs_velocity_cells.csv.gz",
+        "data/panel_ready/ED5/ed5_map_tracks.csv.gz"
+      ],
+      "event": "south_track017_OP38_E23",
+      "observable": "mean_abs_velocity_ms",
+      "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_G",
+      "entry": "ED5_G_main.py",
+      "output": "outputs/ED5_G/ED5_G.png",
+      "reference": "reference/panels/ED5/ED5_G_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+        "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz"
+      ],
+      "event": "south_track017_OP38_E23",
+      "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_H",
+      "entry": "ED5_H_main.py",
+      "output": "outputs/ED5_H/ED5_H.png",
+      "reference": "reference/panels/ED5/ED5_H_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+        "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz",
+        "data/panel_ready/ED5/ed5_leoro_highrate_l1.csv.gz"
+      ],
+      "event": "south_track017_OP38_E23",
+      "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_I",
+      "entry": "ED5_I_main.py",
+      "output": "outputs/ED5_I/ED5_I.png",
+      "reference": "reference/panels/ED5/ED5_I_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_ne_profiles.csv.gz"
+      ],
+      "event": "south_track017_OP38_E23",
+      "reproduction_level": "selected-event YunYao/IRI numeric profiles to panel",
+      "pixel_exact": false
+    },
+    {
+      "id": "ED5_J",
+      "entry": "ED5_J_main.py",
+      "output": "outputs/ED5_J/ED5_J.png",
+      "reference": "reference/panels/ED5/ED5_J_reference.png",
+      "data": [
+        "data/panel_ready/ED5/ed5_fan_south_mean_abs_velocity.csv.gz"
+      ],
+      "event": "south_track017_OP38_E23",
+      "observable": "mean_abs_velocity_ms",
+      "reproduction_level": "selected-event 2026-07-27 filled beam-range velocity cells to panel",
+      "pixel_exact": false
+    }
+  ]
+}

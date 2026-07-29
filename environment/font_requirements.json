@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Arial",
+    "path": "C:/Windows/Fonts/arial.ttf",
+    "sha256": "B3658EADAE55E682B5F69EB64C439C1ECC8F196C0BB8D4756D145D13BC86476A",
+    "used_by": ["ED1", "ED6", "ED7", "ED8", "ED9"]
+  },
+  {
+    "name": "Arial Bold",
+    "path": "C:/Windows/Fonts/arialbd.ttf",
+    "sha256": "E8F4E3BAF6CC35FED6FCCE3A540E8B39E8F6CDA1D22A28F2EC8F526FEF7A43F5",
+    "used_by": ["ED1", "ED6", "ED7", "ED8", "ED9"]
+  }
+]

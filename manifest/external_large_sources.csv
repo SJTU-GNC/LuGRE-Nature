@@ -1,0 +1,11 @@
+record_id,status,estimated_bytes,reason,reproducibility_effect
+commercial_ro_full,excluded_over_10_gib,233002397696,Complete commercial radio-occultation archive is about 217 GiB and redistribution is licensed,Panel tasks begin at event-level numerical extracts
+cosmic2_full,excluded_over_10_gib,327491256320,Complete COSMIC-2 source tree is about 305 GiB,Tasks use accepted compact coverage and event tables
+tsx_full,excluded_over_10_gib,13277820371,TerraSAR-X source tree is about 12.37 GiB and may be licensed,Tasks use the accepted compact mission table
+ground_rinex_full,excluded_over_10_gib,261993005056,Full ground-GNSS RINEX archive is about 244 GiB,Exact figures begin at accepted ground numerical tables
+pfisr_radar_full,excluded_over_10_gib,89120571392,Full PFISR and radar tree is about 83 GiB,Case panels use compact event products
+yunyao_atmphs_daily,excluded_over_10_gib,85899345920,Individual daily atmPhs source collections exceed 80 GiB,Case panels use event extracts and ionPrf profiles
+lugre_phase_analysis_full,excluded_over_10_gib,14801536655,Exploratory phase-analysis tree is about 13.79 GiB and is not an accepted deterministic task path,Accepted numerical tables are packaged
+superdarn_fitacf_full,excluded_over_10_gib,52613349376,Complete FITACF tree is about 49 GiB,Case panels use accepted cells and event-level products; raw-to-cell gap remains explicit
+planetiq_event_member,excluded_restricted,1002000,Redistribution permission is not confirmed,Accepted compact derived event data are used where permitted
+spire_event_member,excluded_restricted,287448,Redistribution permission is not confirmed,Accepted compact derived event data are used where permitted

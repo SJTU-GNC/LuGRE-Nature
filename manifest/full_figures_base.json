@@ -1,0 +1,253 @@
+[
+  {
+    "id": "Fig1",
+    "module": "",
+    "description": "Main Figure 1 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final four-panel composition and part of the upstream calculation code were not archived.",
+    "missing_items": [
+      "Final Fig1_R1 composition script",
+      "make_fig1_gridP95_v10_balanced_rotiQC_origin_fit_label_right.py",
+      "make_fig1_fig3_s_phase_only_candidates.py",
+      "make_fig1_robust_grid_statistic_candidates.py"
+    ]
+  },
+  {
+    "id": "Fig2",
+    "module": "",
+    "description": "Main Figure 2 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final map-plus-six-track composition script and an upstream grid-statistics module were not archived.",
+    "missing_items": [
+      "Final Fig2 composition script",
+      "make_fig1_robust_grid_statistic_candidates.py"
+    ]
+  },
+  {
+    "id": "Fig3",
+    "module": "src.tasks.fig3.task",
+    "description": "Redraw Main Figure 3 from six packaged numeric panel tables.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "output": "outputs/Fig3/Fig3.png",
+    "reference": "reference/Fig3.png",
+    "reference_sha256": "C0850CD88B270C74B7137B7B814BD9EB412E400DC14E83E2C20A2AD8C7B67043"
+  },
+  {
+    "id": "Fig4",
+    "module": "src.tasks.fig4.task",
+    "description": "Recalculate the packaged tail-sensitivity mask and redraw Main Figure 4 from analysis-ready LuGRE, LEO-RO, and ground tables.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to recomputed final derivatives to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "pixel_exact_verified": true,
+    "output": "outputs/Fig4/Fig4.png",
+    "reference": "reference/Fig4.png",
+    "reference_sha256": "752D2277C6E60FB9E8BB0B77BA4E45671A99803D8B7C90813B9C567417288804"
+  },
+  {
+    "id": "Fig5",
+    "module": "",
+    "description": "Main Figure 5 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final R1 multi-source composition was assembled manually and has no archived final script.",
+    "missing_items": [
+      "Final Fig5_R1 composition script",
+      "Pinned raw-to-panel preprocessing manifests for radar, LEO-RO, and ground data"
+    ]
+  },
+  {
+    "id": "Fig6",
+    "module": "src.tasks.fig6.task",
+    "description": "Recalculate the packaged response-ratio and projected-scale tables and redraw Main Figure 6.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to recomputed final derivatives to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "pixel_exact_verified": true,
+    "output": "outputs/Fig6/Fig6.png",
+    "reference": "reference/Fig6.png",
+    "reference_sha256": "5D4159D048C62687320F4FB26B7828764D54F64A3FD7E4B17047A7ED5D7D8D84"
+  },
+  {
+    "id": "ED1",
+    "module": "src.tasks.ed1",
+    "description": "Redraw Extended Data Figure 1 from packaged numeric space-weather and LuGRE context tables.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "output": "outputs/ED1/Extended_Data_Fig_01_space_weather_lugre_context_surface_phase.png",
+    "reference": "reference/Extended_Data_Fig_01_space_weather_lugre_context_surface_phase.png",
+    "reference_sha256": "A4DFEEF6DB968038AF261397374B32C0B29173FCA8C9F03F57E10238675B61E1"
+  },
+  {
+    "id": "ED2",
+    "module": "src.tasks.ed2",
+    "description": "Redraw Extended Data Figure 2 from packaged station, orbit, and occultation caches.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "output": "outputs/ED2/Extended_Data_Fig_02_observing_geometry.png",
+    "reference": "reference/Extended_Data_Fig_02_observing_geometry.png",
+    "reference_sha256": "39F2A78C06530BC7DD3852812F5C15E1D14CC2E66DF7A9050B453FAF1D12A95A"
+  },
+  {
+    "id": "ED3",
+    "module": "",
+    "description": "Extended Data Figure 3 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final R1 image is a manual three-part composite, and the source off-boresight table has no archived generator.",
+    "missing_items": [
+      "Final ED3_R1 assembly script",
+      "Generator for lugre_gnss_main_lobe_point_check.csv",
+      "Pinned transmitter attitude and antenna-frame provenance"
+    ]
+  },
+  {
+    "id": "ED4",
+    "module": "",
+    "description": "Extended Data Figure 4 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final plotting script calls helper APIs that are absent from every archived helper revision, so the scientific transformation and exact final output cannot be validated.",
+    "missing_items": [
+      "Helper revision exposing the final nature-plot APIs"
+    ]
+  },
+  {
+    "id": "ED5",
+    "module": "",
+    "description": "Extended Data Figure 5 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final R1 multi-source composition was assembled manually and has no archived final script.",
+    "missing_items": [
+      "Final ED5_R1 composition script",
+      "Pinned raw-to-panel preprocessing manifests for radar, LEO-RO, and ground data"
+    ]
+  },
+  {
+    "id": "ED6",
+    "module": "src.tasks.ed6_9.run_ed6",
+    "description": "Redraw Extended Data Figure 6 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED6/Extended_Data_Fig_06_s_phase_day1_op38_R1.png",
+    "reference": "reference/Extended_Data_Fig_06_s_phase_day1_op38_R1.png",
+    "reference_sha256": "A38E7B98191B6769C2C899E481E84B29B499689FA0F2435AA30DB5EA3359BC51"
+  },
+  {
+    "id": "ED7",
+    "module": "src.tasks.ed6_9.run_ed7",
+    "description": "Redraw Extended Data Figure 7 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED7/Extended_Data_Fig_07_s_phase_day2_op40_R1.png",
+    "reference": "reference/Extended_Data_Fig_07_s_phase_day2_op40_R1.png",
+    "reference_sha256": "8962E6BB854DFF1C08A6A4C04642CE829BFE46CD736FE8EEFCA02EE5E38D5029"
+  },
+  {
+    "id": "ED8",
+    "module": "src.tasks.ed6_9.run_ed8",
+    "description": "Redraw Extended Data Figure 8 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED8/Extended_Data_Fig_08_s_phase_day3_op74_R1.png",
+    "reference": "reference/Extended_Data_Fig_08_s_phase_day3_op74_R1.png",
+    "reference_sha256": "018AE8BA38FDF85A473982A1BA72742BC47EA3DC1EBF868DE0831D83E70A53B3"
+  },
+  {
+    "id": "ED9",
+    "module": "src.tasks.ed6_9.run_ed9",
+    "description": "Redraw Extended Data Figure 9 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED9/Extended_Data_Fig_09_s_phase_day4_op76_op78_R1.png",
+    "reference": "reference/Extended_Data_Fig_09_s_phase_day4_op76_op78_R1.png",
+    "reference_sha256": "DD0EEB05C42727757C2EA796D6CBD4C9C7BD3157759A33CBBAE80C7EF88B457C"
+  }
+]

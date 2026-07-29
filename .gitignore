@@ -1,0 +1,14 @@
+/.venv/
+/runtime/
+/data/*
+!/data/README.md
+/assets/*
+!/assets/README.md
+/reference/
+/outputs/
+/work/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db

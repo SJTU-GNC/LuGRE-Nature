@@ -1,0 +1,120 @@
+{
+  "figure": "Fig5",
+  "task_count": 10,
+  "scientific_source_level": "analysis-ready numeric inputs to source-code redraw",
+  "raw_telemetry_to_panel_complete": false,
+  "bundled_input_bytes": 21599742,
+  "reference_type": "standalone_source_render",
+  "reference_is_accepted_full_figure_crop": false,
+  "pixel_exact_scope": "standalone_panel_reference_only",
+  "accepted_full_figure_pixel_exact_verified": false,
+  "full_figure_status": "blocked_manual_assembly_unavailable",
+  "notes": [
+    "A, E, F, and J redraw the 2026-07-27 mean absolute SuperDARN line-of-sight velocity revision.",
+    "B, C, D, G, H, and I redraw the v37 standalone diagnostic-panel exports corresponding to Fig5 content.",
+    "All ten renders are pixel-identical to bundled standalone panel-render QA references; this does not claim pixel equality to a crop of the accepted Fig5_R1 montage or reproduce its manual assembly.",
+    "Per-run QA, input hashes, and reference comparisons are written under work/qa, outside the one-PNG output directories."
+  ],
+  "panels": [
+    {
+      "id": "Fig5_A",
+      "case": "north_track145",
+      "entrypoint": "Fig5_A_main.py",
+      "method": "mean_abs_velocity_20260727_map",
+      "output": "outputs/Fig5_A/Fig5_A.png",
+      "reference": "reference/panels/Fig5/Fig5_A.png",
+      "expected_sha256": "d7eaa069befa439d79a8d996f89f765f4318b58b34ff3f484488b77b0579fcd3",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_B",
+      "case": "north_track145",
+      "entrypoint": "Fig5_B_main.py",
+      "method": "v37_height_time",
+      "output": "outputs/Fig5_B/Fig5_B.png",
+      "reference": "reference/panels/Fig5/Fig5_B.png",
+      "expected_sha256": "0a48909288395733d2d4293a90eada71a17c93a8e89186707e5f33abc6d3b789",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_C",
+      "case": "north_track145",
+      "entrypoint": "Fig5_C_main.py",
+      "method": "v37_delta_cn0",
+      "output": "outputs/Fig5_C/Fig5_C.png",
+      "reference": "reference/panels/Fig5/Fig5_C.png",
+      "expected_sha256": "afe87c498aa64e4a794c54f7804b672e63a6b2de98c8b08f51957d28aa4a053d",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_D",
+      "case": "north_track145",
+      "entrypoint": "Fig5_D_main.py",
+      "method": "v37_yunyao_ne_with_pfisr",
+      "output": "outputs/Fig5_D/Fig5_D.png",
+      "reference": "reference/panels/Fig5/Fig5_D.png",
+      "expected_sha256": "502ca7584ba13de349ef018878ac7172e732576c5f239a1e9ba4fe550d549518",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_E",
+      "case": "north_track145",
+      "entrypoint": "Fig5_E_main.py",
+      "method": "mean_abs_velocity_20260727_fan",
+      "output": "outputs/Fig5_E/Fig5_E.png",
+      "reference": "reference/panels/Fig5/Fig5_E.png",
+      "expected_sha256": "d75a694688577f0d5f1426a7c87733f3707bc0d07131b317c094cc453e62b7fd",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_F",
+      "case": "south_track009",
+      "entrypoint": "Fig5_F_main.py",
+      "method": "mean_abs_velocity_20260727_map",
+      "output": "outputs/Fig5_F/Fig5_F.png",
+      "reference": "reference/panels/Fig5/Fig5_F.png",
+      "expected_sha256": "6a64028aa3331620e643931e9076ca3091387803143d43f52d0f184b849dc117",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_G",
+      "case": "south_track009",
+      "entrypoint": "Fig5_G_main.py",
+      "method": "v37_height_time",
+      "output": "outputs/Fig5_G/Fig5_G.png",
+      "reference": "reference/panels/Fig5/Fig5_G.png",
+      "expected_sha256": "6cb29306751c7d66948032429254ff5923732749619830a3f41ec05207dda6d7",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_H",
+      "case": "south_track009",
+      "entrypoint": "Fig5_H_main.py",
+      "method": "v37_delta_cn0",
+      "output": "outputs/Fig5_H/Fig5_H.png",
+      "reference": "reference/panels/Fig5/Fig5_H.png",
+      "expected_sha256": "0bb8bead89957ee43c78db20326edfa3f511b005a86d09ace25445af183eb506",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_I",
+      "case": "south_track009",
+      "entrypoint": "Fig5_I_main.py",
+      "method": "v37_yunyao_ne",
+      "output": "outputs/Fig5_I/Fig5_I.png",
+      "reference": "reference/panels/Fig5/Fig5_I.png",
+      "expected_sha256": "f39a27582521f54319c113f3984866fa56edd4a649054f172ba78b83aba478cb",
+      "validation": "pixel_exact"
+    },
+    {
+      "id": "Fig5_J",
+      "case": "south_track009",
+      "entrypoint": "Fig5_J_main.py",
+      "method": "mean_abs_velocity_20260727_fan",
+      "output": "outputs/Fig5_J/Fig5_J.png",
+      "reference": "reference/panels/Fig5/Fig5_J.png",
+      "expected_sha256": "48bafbf8275951eea06fc6b1de5c698eca246b41a5b3937b15ae6c68f13bd803",
+      "validation": "pixel_exact"
+    }
+  ]
+}

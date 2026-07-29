@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Replace placeholder metadata before release. Cite the archived software DOI."
+title: "LuGRE Reviewer Reproduction"
+version: 1.0.0
+type: software
+authors:
+  - family-names: "TO_BE_CONFIRMED"
+    given-names: "TO_BE_CONFIRMED"
+    orcid: "https://orcid.org/TO_BE_CONFIRMED"
+repository-code: "https://github.com/SJTU-GNC/LuGRE-Nature"
+doi: "TO_BE_CONFIRMED_SOFTWARE_DOI"
+license: "MIT"
+keywords:
+  - LuGRE
+  - GNSS
+  - radio occultation
+  - ionosphere
+  - reproducibility

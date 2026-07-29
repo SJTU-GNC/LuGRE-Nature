@@ -1,0 +1,2578 @@
+[
+  {
+    "id": "Fig1",
+    "module": "",
+    "description": "Main Figure 1 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final four-panel composition and part of the upstream calculation code were not archived.",
+    "missing_items": [
+      "Final Fig1_R1 composition script",
+      "make_fig1_gridP95_v10_balanced_rotiQC_origin_fit_label_right.py",
+      "make_fig1_fig3_s_phase_only_candidates.py",
+      "make_fig1_robust_grid_statistic_candidates.py"
+    ],
+    "kind": "full_figure",
+    "parent_figure": "Fig1",
+    "task_order": 1,
+    "reference": "reference/Fig1_R1.png",
+    "reference_sha256": "9B5E12E4159EA0D93DAE0F9DE32B42E97D2FC9753490F6EE3102CB5F32AB16B7",
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_full_figure",
+    "reference_scope": "accepted manuscript full figure; validation only"
+  },
+  {
+    "id": "Fig2",
+    "module": "",
+    "description": "Main Figure 2 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final map-plus-six-track composition script and an upstream grid-statistics module were not archived.",
+    "missing_items": [
+      "Final Fig2 composition script",
+      "make_fig1_robust_grid_statistic_candidates.py"
+    ],
+    "kind": "full_figure",
+    "parent_figure": "Fig2",
+    "task_order": 2,
+    "reference": "reference/Fig2.png",
+    "reference_sha256": "D3ECAE753A8FF5F08DFF368ADEA041A169C5048B43FF8B7C77DDAE7DEFAB6E64",
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_full_figure",
+    "reference_scope": "accepted manuscript full figure; validation only"
+  },
+  {
+    "id": "Fig3",
+    "module": "src.tasks.fig3.task",
+    "description": "Redraw Main Figure 3 from six packaged numeric panel tables.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "output": "outputs/Fig3/Fig3.png",
+    "reference": "reference/Fig3.png",
+    "reference_sha256": "C0850CD88B270C74B7137B7B814BD9EB412E400DC14E83E2C20A2AD8C7B67043",
+    "kind": "full_figure",
+    "parent_figure": "Fig3",
+    "task_order": 3,
+    "entry": "Fig3_main.py",
+    "output_sha256": "C0850CD88B270C74B7137B7B814BD9EB412E400DC14E83E2C20A2AD8C7B67043",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "Fig4",
+    "module": "src.tasks.fig4.task",
+    "description": "Recalculate the packaged tail-sensitivity mask and redraw Main Figure 4 from analysis-ready LuGRE, LEO-RO, and ground tables.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to recomputed final derivatives to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "pixel_exact_verified": true,
+    "output": "outputs/Fig4/Fig4.png",
+    "reference": "reference/Fig4.png",
+    "reference_sha256": "752D2277C6E60FB9E8BB0B77BA4E45671A99803D8B7C90813B9C567417288804",
+    "kind": "full_figure",
+    "parent_figure": "Fig4",
+    "task_order": 4,
+    "entry": "Fig4_main.py",
+    "output_sha256": "752D2277C6E60FB9E8BB0B77BA4E45671A99803D8B7C90813B9C567417288804",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "Fig5",
+    "module": "",
+    "description": "Main Figure 5 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final R1 multi-source composition was assembled manually and has no archived final script.",
+    "missing_items": [
+      "Final Fig5_R1 composition script",
+      "Pinned raw-to-panel preprocessing manifests for radar, LEO-RO, and ground data"
+    ],
+    "kind": "full_figure",
+    "parent_figure": "Fig5",
+    "task_order": 5,
+    "reference": "reference/Fig5_R1.png",
+    "reference_sha256": "6F09B8D96876443A46D1167291969D7F8DD4F9B524535018F7736F91D854B165",
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_full_figure",
+    "reference_scope": "accepted manuscript full figure; validation only"
+  },
+  {
+    "id": "Fig6",
+    "module": "src.tasks.fig6.task",
+    "description": "Recalculate the packaged response-ratio and projected-scale tables and redraw Main Figure 6.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to recomputed final derivatives to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "pixel_exact_verified": true,
+    "output": "outputs/Fig6/Fig6.png",
+    "reference": "reference/Fig6.png",
+    "reference_sha256": "5D4159D048C62687320F4FB26B7828764D54F64A3FD7E4B17047A7ED5D7D8D84",
+    "kind": "full_figure",
+    "parent_figure": "Fig6",
+    "task_order": 6,
+    "entry": "Fig6_main.py",
+    "output_sha256": "5D4159D048C62687320F4FB26B7828764D54F64A3FD7E4B17047A7ED5D7D8D84",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "ED1",
+    "module": "src.tasks.ed1",
+    "description": "Redraw Extended Data Figure 1 from packaged numeric space-weather and LuGRE context tables.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "output": "outputs/ED1/Extended_Data_Fig_01_space_weather_lugre_context_surface_phase.png",
+    "reference": "reference/Extended_Data_Fig_01_space_weather_lugre_context_surface_phase.png",
+    "reference_sha256": "A4DFEEF6DB968038AF261397374B32C0B29173FCA8C9F03F57E10238675B61E1",
+    "kind": "full_figure",
+    "parent_figure": "ED1",
+    "task_order": 7,
+    "entry": "ED1_main.py",
+    "output_sha256": "A4DFEEF6DB968038AF261397374B32C0B29173FCA8C9F03F57E10238675B61E1",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "ED2",
+    "module": "src.tasks.ed2",
+    "description": "Redraw Extended Data Figure 2 from packaged station, orbit, and occultation caches.",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric tables to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "output": "outputs/ED2/Extended_Data_Fig_02_observing_geometry.png",
+    "reference": "reference/Extended_Data_Fig_02_observing_geometry.png",
+    "reference_sha256": "39F2A78C06530BC7DD3852812F5C15E1D14CC2E66DF7A9050B453FAF1D12A95A",
+    "kind": "full_figure",
+    "parent_figure": "ED2",
+    "task_order": 8,
+    "entry": "ED2_main.py",
+    "output_sha256": "39F2A78C06530BC7DD3852812F5C15E1D14CC2E66DF7A9050B453FAF1D12A95A",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "ED3",
+    "module": "",
+    "description": "Extended Data Figure 3 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final R1 image is a manual three-part composite, and the source off-boresight table has no archived generator.",
+    "missing_items": [
+      "Final ED3_R1 assembly script",
+      "Generator for lugre_gnss_main_lobe_point_check.csv",
+      "Pinned transmitter attitude and antenna-frame provenance"
+    ],
+    "kind": "full_figure",
+    "parent_figure": "ED3",
+    "task_order": 9,
+    "reference": "reference/Extended_Data_Fig_03_main_lobe_antenna_geometry_R1.png",
+    "reference_sha256": "2D076E17907E89ED5D86E26362BA7C47C1A78EF35FED0219D730290D6FA99622",
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_full_figure",
+    "reference_scope": "accepted manuscript full figure; validation only"
+  },
+  {
+    "id": "ED4",
+    "module": "",
+    "description": "Extended Data Figure 4 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final plotting script calls helper APIs that are absent from every archived helper revision, so the scientific transformation and exact final output cannot be validated.",
+    "missing_items": [
+      "Helper revision exposing the final nature-plot APIs"
+    ],
+    "kind": "full_figure",
+    "parent_figure": "ED4",
+    "task_order": 10,
+    "reference": "reference/Extended_Data_Fig_04_cn0_detrending_op38_e23.png",
+    "reference_sha256": "E7276D27FAE000919E60DF044BDF652FADBD66968EAFE4C1735852119D31325A",
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_full_figure",
+    "reference_scope": "accepted manuscript full figure; validation only"
+  },
+  {
+    "id": "ED5",
+    "module": "",
+    "description": "Extended Data Figure 5 scientific reproduction.",
+    "runnable": false,
+    "reproduction_level": "blocked",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "blocked_reason": "The final R1 multi-source composition was assembled manually and has no archived final script.",
+    "missing_items": [
+      "Final ED5_R1 composition script",
+      "Pinned raw-to-panel preprocessing manifests for radar, LEO-RO, and ground data"
+    ],
+    "kind": "full_figure",
+    "parent_figure": "ED5",
+    "task_order": 11,
+    "reference": "reference/Extended_Data_Fig_05_polar_validation_diagnostics_R1.png",
+    "reference_sha256": "1E6AB0E5FE30943DF8021FBA6A85980172701999F33FFCF034FD6E3FBDFC3E44",
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_full_figure",
+    "reference_scope": "accepted manuscript full figure; validation only"
+  },
+  {
+    "id": "ED6",
+    "module": "src.tasks.ed6_9.run_ed6",
+    "description": "Redraw Extended Data Figure 6 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED6/Extended_Data_Fig_06_s_phase_day1_op38_R1.png",
+    "reference": "reference/Extended_Data_Fig_06_s_phase_day1_op38_R1.png",
+    "reference_sha256": "A38E7B98191B6769C2C899E481E84B29B499689FA0F2435AA30DB5EA3359BC51",
+    "kind": "full_figure",
+    "parent_figure": "ED6",
+    "task_order": 12,
+    "entry": "ED6_main.py",
+    "output_sha256": "A38E7B98191B6769C2C899E481E84B29B499689FA0F2435AA30DB5EA3359BC51",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "ED7",
+    "module": "src.tasks.ed6_9.run_ed7",
+    "description": "Redraw Extended Data Figure 7 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED7/Extended_Data_Fig_07_s_phase_day2_op40_R1.png",
+    "reference": "reference/Extended_Data_Fig_07_s_phase_day2_op40_R1.png",
+    "reference_sha256": "8962E6BB854DFF1C08A6A4C04642CE829BFE46CD736FE8EEFCA02EE5E38D5029",
+    "kind": "full_figure",
+    "parent_figure": "ED7",
+    "task_order": 13,
+    "entry": "ED7_main.py",
+    "output_sha256": "8962E6BB854DFF1C08A6A4C04642CE829BFE46CD736FE8EEFCA02EE5E38D5029",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "ED8",
+    "module": "src.tasks.ed6_9.run_ed8",
+    "description": "Redraw Extended Data Figure 8 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED8/Extended_Data_Fig_08_s_phase_day3_op74_R1.png",
+    "reference": "reference/Extended_Data_Fig_08_s_phase_day3_op74_R1.png",
+    "reference_sha256": "018AE8BA38FDF85A473982A1BA72742BC47EA3DC1EBF868DE0831D83E70A53B3",
+    "kind": "full_figure",
+    "parent_figure": "ED8",
+    "task_order": 14,
+    "entry": "ED8_main.py",
+    "output_sha256": "018AE8BA38FDF85A473982A1BA72742BC47EA3DC1EBF868DE0831D83E70A53B3",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "ED9",
+    "module": "src.tasks.ed6_9.run_ed9",
+    "description": "Redraw Extended Data Figure 9 while recalculating trailing 60-second ROTI; --rebuild-derived first rebuilds a validated hybrid observation table from raw LuGRE telemetry.",
+    "runnable": true,
+    "reproduction_level": "raw telemetry to validated hybrid observations with explicit processed fallbacks to exact figure",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": true,
+    "raw_rebuild_status": "partial_with_explicit_processed_fallbacks",
+    "raw_rebuild_output_sha256": "85AFD8079B68496F99E6DEB2B7D26C7BC1458B5CDEB08D21E5F9B144DED8049C",
+    "raw_rebuilt_components": [
+      "operation satellite signal receiver time raw C/N0 and continuity keys",
+      "dual-frequency STEC ROT and 5-minute ROTI where candidate QA agrees",
+      "trailing 60-second ROTI used by the figure"
+    ],
+    "processed_fallback_components": [
+      "exact robust fourth-order C/N0 detrending",
+      "accepted ECEF and WGS84 tangent geometry",
+      "small audited carrier-continuity boundary set"
+    ],
+    "pixel_exact_verified": true,
+    "output": "outputs/ED9/Extended_Data_Fig_09_s_phase_day4_op76_op78_R1.png",
+    "reference": "reference/Extended_Data_Fig_09_s_phase_day4_op76_op78_R1.png",
+    "reference_sha256": "DD0EEB05C42727757C2EA796D6CBD4C9C7BD3157759A33CBBAE80C7EF88B457C",
+    "kind": "full_figure",
+    "parent_figure": "ED9",
+    "task_order": 15,
+    "entry": "ED9_main.py",
+    "output_sha256": "DD0EEB05C42727757C2EA796D6CBD4C9C7BD3157759A33CBBAE80C7EF88B457C",
+    "comparison_class": "pixel_exact_accepted_full_figure",
+    "reference_scope": "accepted manuscript full figure"
+  },
+  {
+    "id": "Fig1_A",
+    "kind": "panel",
+    "parent_figure": "Fig1",
+    "panel": "A",
+    "task_order": 101,
+    "description": "Fig1_A reference-only panel.",
+    "runnable": false,
+    "reproduction_level": "formal-raster reference only",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "comparison_class": "blocked_reference_only",
+    "reference_scope": "accepted manuscript panel raster; validation only",
+    "reference": "reference/panels/Fig1/Fig1_A.png",
+    "reference_sha256": "4EA12DEF39CF3FA316762D6A5CC1BD4180D20F196A384D906CA8050B1E5B81BB",
+    "blocked_reason": "The observing-geometry artwork has no located editable or code-generated source matching the formal manuscript panel.",
+    "missing_items": [
+      "Accepted editable source or deterministic panel generator"
+    ],
+    "limitations": [
+      "No scientific redraw is claimed."
+    ],
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig1_B",
+    "kind": "panel",
+    "parent_figure": "Fig1",
+    "panel": "B",
+    "task_order": 102,
+    "entry": "Fig1_B_main.py",
+    "description": "Redraw Fig1_B (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready grid-cell reproduction",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig1_B/Fig1_B.png",
+    "reference": "reference/panels/Fig1/Fig1_B.png",
+    "output_sha256": "74EDEF92050A3F7798DB97A6511BAB6A08309D594F78FF52626412252AC839F4",
+    "reference_sha256": "99F61BA9E04C619DBB888F9616D083CA3A3795AEABE2E51726029879E4F33C6C",
+    "inputs": [
+      "data/panel_ready/Fig1/fig1_b_common_grid_cells.csv"
+    ],
+    "limitations": [
+      "Scientific values and panel semantics are reproduced from the packaged artifact-screened common-grid table; the manually assembled manuscript raster is not claimed to be byte-identical."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig1\\fig1_b_common_grid_cells.csv",
+      "grid_cell_counts_in_display_limits": {
+        "Equatorial": 100,
+        "Mid-latitude": 201,
+        "Polar": 199
+      },
+      "expected_counts": {
+        "Equatorial": 100,
+        "Mid-latitude": 201,
+        "Polar": 199
+      },
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig1\\Fig1_B.png",
+      "reference_sha256": "99F61BA9E04C619DBB888F9616D083CA3A3795AEABE2E51726029879E4F33C6C",
+      "byte_identical": false,
+      "generated_size_px": [
+        4890,
+        1667
+      ],
+      "reference_size_px": [
+        3070,
+        952
+      ],
+      "normalized_mean_absolute_error": 0.021669015288352966,
+      "normalized_luminance_correlation": 0.273997729939782,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig1_C",
+    "kind": "panel",
+    "parent_figure": "Fig1",
+    "panel": "C",
+    "task_order": 103,
+    "entry": "Fig1_C_main.py",
+    "description": "Redraw Fig1_C (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready artifact-screened grid-cell reproduction",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig1_C/Fig1_C.png",
+    "reference": "reference/panels/Fig1/Fig1_C.png",
+    "output_sha256": "D1D17F4D0FAED8218B70B6823B31B6B55D7C1D95CD0AFF6CB560945271EC9D4A",
+    "reference_sha256": "53CEF3D0363E98300F7821BF5D29D55FF588AA08555085EA3E0AACE5E7A63167",
+    "inputs": [
+      "data/panel_ready/Fig1/fig1_c_cn0_grid_cells.csv"
+    ],
+    "limitations": [
+      "Scientific values and Robinson-map semantics are reproduced from the packaged artifact-screened grid table; coastline/font rasterization may differ from the manually assembled manuscript raster."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig1\\fig1_c_cn0_grid_cells.csv",
+      "grid_cells": 672,
+      "metric_min": 0.113495667077208,
+      "metric_max": 7.442003891819508,
+      "display_range": [
+        0.0,
+        4.0
+      ],
+      "magnetic_coordinate_model": "centered dipole pole 80.65 N, -72.68 E; exactly fitted to packaged mlat values",
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig1\\Fig1_C.png",
+      "reference_sha256": "53CEF3D0363E98300F7821BF5D29D55FF588AA08555085EA3E0AACE5E7A63167",
+      "byte_identical": false,
+      "generated_size_px": [
+        4025,
+        1748
+      ],
+      "reference_size_px": [
+        2348,
+        1435
+      ],
+      "normalized_mean_absolute_error": 0.09908980131149292,
+      "normalized_luminance_correlation": 0.23174631396783535,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig1_D",
+    "kind": "panel",
+    "parent_figure": "Fig1",
+    "panel": "D",
+    "task_order": 104,
+    "entry": "Fig1_D_main.py",
+    "description": "Redraw Fig1_D (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready grid-cell reproduction",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig1_D/Fig1_D.png",
+    "reference": "reference/panels/Fig1/Fig1_D.png",
+    "output_sha256": "23AF871320BE2563EDB293E10D9113DE1817AA9D139153D85E097BACE868D412",
+    "reference_sha256": "ED85481B75A1ED8AF0CE05CA342FA9C2FA1C40A7F2F8E12EAAC9E7B845D4D2C2",
+    "inputs": [
+      "data/panel_ready/Fig1/fig1_d_roti_grid_cells.csv"
+    ],
+    "limitations": [
+      "Scientific values and Robinson-map semantics are reproduced from the packaged ROTI grid table; coastline/font rasterization may differ from the manually assembled manuscript raster."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig1\\fig1_d_roti_grid_cells.csv",
+      "grid_cells": 511,
+      "metric_min": 1.750578841480463,
+      "metric_max": 58.83090312668826,
+      "display_range": [
+        0.0,
+        30.0
+      ],
+      "magnetic_coordinate_model": "centered dipole pole 80.65 N, -72.68 E; exactly fitted to packaged mlat values",
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig1\\Fig1_D.png",
+      "reference_sha256": "ED85481B75A1ED8AF0CE05CA342FA9C2FA1C40A7F2F8E12EAAC9E7B845D4D2C2",
+      "byte_identical": false,
+      "generated_size_px": [
+        4139,
+        1748
+      ],
+      "reference_size_px": [
+        2348,
+        1197
+      ],
+      "normalized_mean_absolute_error": 0.07581539452075958,
+      "normalized_luminance_correlation": 0.1939689969747268,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_A",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "A",
+    "task_order": 105,
+    "entry": "Fig2_A_main.py",
+    "description": "Redraw Fig2_A (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready WGS84 point-track reproduction",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_A/Fig2_A.png",
+    "reference": "reference/panels/Fig2/Fig2_A.png",
+    "output_sha256": "08D30E57A883410BE5BCE6426828976170CC6C9909D3DACF2DD440548719BCEC",
+    "reference_sha256": "D34FE9F4382DA088ECC383257491333A80897E39F1DD2275F72DBFCDAE84389D",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "North-polar tracks and highlighted events are redrawn from packaged WGS84 point data; the package uses its bundled Natural Earth coastline."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "hemisphere": "north",
+      "point_rows": 31142,
+      "track_groups": 146,
+      "highlighted_event_labels": [
+        1,
+        2,
+        3
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_A.png",
+      "reference_sha256": "D34FE9F4382DA088ECC383257491333A80897E39F1DD2275F72DBFCDAE84389D",
+      "byte_identical": false,
+      "generated_size_px": [
+        2493,
+        2580
+      ],
+      "reference_size_px": [
+        3326,
+        3440
+      ],
+      "normalized_mean_absolute_error": 0.010292243212461472,
+      "normalized_luminance_correlation": 0.9471831425137494,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_B",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "B",
+    "task_order": 106,
+    "entry": "Fig2_B_main.py",
+    "description": "Redraw Fig2_B (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready WGS84 point-track reproduction",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_B/Fig2_B.png",
+    "reference": "reference/panels/Fig2/Fig2_B.png",
+    "output_sha256": "AB8054BB9D0EA98AA97B9400FBCF8D68F3225F4B3AF28B0B7D9BD6CF81AF632B",
+    "reference_sha256": "08B221C22AE1F9E5BE798AD0392F2582E78E6BFBC6899C23CB80E9BC68E3D46A",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "South-polar tracks and highlighted events are redrawn from packaged WGS84 point data; the package uses its bundled Natural Earth coastline."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "hemisphere": "south",
+      "point_rows": 17690,
+      "track_groups": 109,
+      "highlighted_event_labels": [
+        4,
+        5,
+        6
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_B.png",
+      "reference_sha256": "08B221C22AE1F9E5BE798AD0392F2582E78E6BFBC6899C23CB80E9BC68E3D46A",
+      "byte_identical": false,
+      "generated_size_px": [
+        2493,
+        2581
+      ],
+      "reference_size_px": [
+        3326,
+        3440
+      ],
+      "normalized_mean_absolute_error": 0.00718655064702034,
+      "normalized_luminance_correlation": 0.9568624843751733,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_C1",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "C1",
+    "task_order": 107,
+    "entry": "Fig2_C1_main.py",
+    "description": "Redraw Fig2_C1 (panel redraw) for OP76 G01 Night.",
+    "method": "panel redraw",
+    "case": "OP76 G01 Night",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numerical inputs to independent panel redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_C1/Fig2_C1.png",
+    "reference": "reference/panels/Fig2/Fig2_C1.png",
+    "output_sha256": "FC8E589513072C6D7295497ECC1B91F0F3347BC67CEF1250B01A90130E78996B",
+    "reference_sha256": "AF14222138A75A0C64EE076CA245528B6EEE8723DC533DDBC6FEA5F9731E4F86",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "C/N0 samples, WGS84 tangent heights, frequency colours and ionospheric layer context are redrawn from the packaged selected-event point data."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "selection_metadata": "data\\panel_ready\\Fig2\\fig2_selected_tracks.csv",
+      "event_label": 1,
+      "op": "OP76",
+      "satellite": "G01",
+      "daynight": "Night",
+      "point_rows": 591,
+      "signal_counts": {
+        "GPS L1": 319,
+        "GPS L5": 272
+      },
+      "signal_color_mapping": {
+        "GPS L1": {
+          "constellation": "GPS",
+          "role": "primary signal",
+          "color_hex": "#0b2e8a"
+        },
+        "GPS L5": {
+          "constellation": "GPS",
+          "role": "secondary signal",
+          "color_hex": "#8b0000"
+        },
+        "Galileo E1": {
+          "constellation": "Galileo",
+          "role": "primary signal",
+          "color_hex": "#0000ff"
+        },
+        "Galileo E5a": {
+          "constellation": "Galileo",
+          "role": "secondary signal",
+          "color_hex": "#ff0000"
+        }
+      },
+      "wgs84_tangent_height_range_km": [
+        144.19716861316556,
+        999.609211662897
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_C1.png",
+      "reference_sha256": "AF14222138A75A0C64EE076CA245528B6EEE8723DC533DDBC6FEA5F9731E4F86",
+      "byte_identical": false,
+      "generated_size_px": [
+        2128,
+        1655
+      ],
+      "reference_size_px": [
+        2841,
+        2205
+      ],
+      "normalized_mean_absolute_error": 0.003953562118113041,
+      "normalized_luminance_correlation": 0.9958206070020954,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_C2",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "C2",
+    "task_order": 108,
+    "entry": "Fig2_C2_main.py",
+    "description": "Redraw Fig2_C2 (panel redraw) for OP74 E36 Night.",
+    "method": "panel redraw",
+    "case": "OP74 E36 Night",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numerical inputs to independent panel redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_C2/Fig2_C2.png",
+    "reference": "reference/panels/Fig2/Fig2_C2.png",
+    "output_sha256": "A1178277C31AD0052854FC576D6AE348E50656566AAD82E7332A3E1AB951D2BE",
+    "reference_sha256": "3C5398955F6FBB2D03FE659B56F9B0FF0DF38768496B4AF9198355B2AFAECFB4",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "C/N0 samples, WGS84 tangent heights, frequency colours and ionospheric layer context are redrawn from the packaged selected-event point data."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "selection_metadata": "data\\panel_ready\\Fig2\\fig2_selected_tracks.csv",
+      "event_label": 2,
+      "op": "OP74",
+      "satellite": "E36",
+      "daynight": "Night",
+      "point_rows": 468,
+      "signal_counts": {
+        "Galileo E1": 291,
+        "Galileo E5a": 177
+      },
+      "signal_color_mapping": {
+        "GPS L1": {
+          "constellation": "GPS",
+          "role": "primary signal",
+          "color_hex": "#0b2e8a"
+        },
+        "GPS L5": {
+          "constellation": "GPS",
+          "role": "secondary signal",
+          "color_hex": "#8b0000"
+        },
+        "Galileo E1": {
+          "constellation": "Galileo",
+          "role": "primary signal",
+          "color_hex": "#0000ff"
+        },
+        "Galileo E5a": {
+          "constellation": "Galileo",
+          "role": "secondary signal",
+          "color_hex": "#ff0000"
+        }
+      },
+      "wgs84_tangent_height_range_km": [
+        164.85652929141634,
+        997.1494253118008
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_C2.png",
+      "reference_sha256": "3C5398955F6FBB2D03FE659B56F9B0FF0DF38768496B4AF9198355B2AFAECFB4",
+      "byte_identical": false,
+      "generated_size_px": [
+        2128,
+        1655
+      ],
+      "reference_size_px": [
+        2841,
+        2205
+      ],
+      "normalized_mean_absolute_error": 0.0037174797616899014,
+      "normalized_luminance_correlation": 0.9941622462465347,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_C3",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "C3",
+    "task_order": 109,
+    "entry": "Fig2_C3_main.py",
+    "description": "Redraw Fig2_C3 (panel redraw) for OP76 G26 Night.",
+    "method": "panel redraw",
+    "case": "OP76 G26 Night",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numerical inputs to independent panel redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_C3/Fig2_C3.png",
+    "reference": "reference/panels/Fig2/Fig2_C3.png",
+    "output_sha256": "FCE1A6855AD77F356A63D6F08DFDBFDE9CE077423762DC67654AD665CDD3347C",
+    "reference_sha256": "EB2905CE859656921F769CB0A4BCF9D7AC5093308D5E341F01946DD10E3F18F1",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "C/N0 samples, WGS84 tangent heights, frequency colours and ionospheric layer context are redrawn from the packaged selected-event point data."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "selection_metadata": "data\\panel_ready\\Fig2\\fig2_selected_tracks.csv",
+      "event_label": 3,
+      "op": "OP76",
+      "satellite": "G26",
+      "daynight": "Night",
+      "point_rows": 858,
+      "signal_counts": {
+        "GPS L1": 472,
+        "GPS L5": 386
+      },
+      "signal_color_mapping": {
+        "GPS L1": {
+          "constellation": "GPS",
+          "role": "primary signal",
+          "color_hex": "#0b2e8a"
+        },
+        "GPS L5": {
+          "constellation": "GPS",
+          "role": "secondary signal",
+          "color_hex": "#8b0000"
+        },
+        "Galileo E1": {
+          "constellation": "Galileo",
+          "role": "primary signal",
+          "color_hex": "#0000ff"
+        },
+        "Galileo E5a": {
+          "constellation": "Galileo",
+          "role": "secondary signal",
+          "color_hex": "#ff0000"
+        }
+      },
+      "wgs84_tangent_height_range_km": [
+        68.59873005508962,
+        999.125332945765
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_C3.png",
+      "reference_sha256": "EB2905CE859656921F769CB0A4BCF9D7AC5093308D5E341F01946DD10E3F18F1",
+      "byte_identical": false,
+      "generated_size_px": [
+        2128,
+        1655
+      ],
+      "reference_size_px": [
+        2841,
+        2205
+      ],
+      "normalized_mean_absolute_error": 0.004457182250916958,
+      "normalized_luminance_correlation": 0.9963005736515823,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_C4",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "C4",
+    "task_order": 110,
+    "entry": "Fig2_C4_main.py",
+    "description": "Redraw Fig2_C4 (panel redraw) for OP38 E21 Day.",
+    "method": "panel redraw",
+    "case": "OP38 E21 Day",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numerical inputs to independent panel redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_C4/Fig2_C4.png",
+    "reference": "reference/panels/Fig2/Fig2_C4.png",
+    "output_sha256": "92F1AA94498720C8E4C05DF66B9966512A83B3E7A616AF5182C463755C12C380",
+    "reference_sha256": "D0BF05FC51B6480457788F376114E8F23E68D856759EA596ADEF5694DE7B1F95",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "C/N0 samples, WGS84 tangent heights, frequency colours and ionospheric layer context are redrawn from the packaged selected-event point data."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "selection_metadata": "data\\panel_ready\\Fig2\\fig2_selected_tracks.csv",
+      "event_label": 4,
+      "op": "OP38",
+      "satellite": "E21",
+      "daynight": "Day",
+      "point_rows": 930,
+      "signal_counts": {
+        "Galileo E1": 543,
+        "Galileo E5a": 387
+      },
+      "signal_color_mapping": {
+        "GPS L1": {
+          "constellation": "GPS",
+          "role": "primary signal",
+          "color_hex": "#0b2e8a"
+        },
+        "GPS L5": {
+          "constellation": "GPS",
+          "role": "secondary signal",
+          "color_hex": "#8b0000"
+        },
+        "Galileo E1": {
+          "constellation": "Galileo",
+          "role": "primary signal",
+          "color_hex": "#0000ff"
+        },
+        "Galileo E5a": {
+          "constellation": "Galileo",
+          "role": "secondary signal",
+          "color_hex": "#ff0000"
+        }
+      },
+      "wgs84_tangent_height_range_km": [
+        106.139975884661,
+        998.442953876769
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_C4.png",
+      "reference_sha256": "D0BF05FC51B6480457788F376114E8F23E68D856759EA596ADEF5694DE7B1F95",
+      "byte_identical": false,
+      "generated_size_px": [
+        2128,
+        1655
+      ],
+      "reference_size_px": [
+        2841,
+        2205
+      ],
+      "normalized_mean_absolute_error": 0.0037840199656784534,
+      "normalized_luminance_correlation": 0.9943205319016996,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_C5",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "C5",
+    "task_order": 111,
+    "entry": "Fig2_C5_main.py",
+    "description": "Redraw Fig2_C5 (panel redraw) for OP38 E23 Day.",
+    "method": "panel redraw",
+    "case": "OP38 E23 Day",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numerical inputs to independent panel redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_C5/Fig2_C5.png",
+    "reference": "reference/panels/Fig2/Fig2_C5.png",
+    "output_sha256": "914792AFE2197DA92202EAB8055B1A7B547C6971E4BC09DA1BA96D3709E45029",
+    "reference_sha256": "B609C777727DB2A1A3A5B0C6FDA9BB88AA6D1B81A438C313BDCEC42367DCD5AE",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "C/N0 samples, WGS84 tangent heights, frequency colours and ionospheric layer context are redrawn from the packaged selected-event point data."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "selection_metadata": "data\\panel_ready\\Fig2\\fig2_selected_tracks.csv",
+      "event_label": 5,
+      "op": "OP38",
+      "satellite": "E23",
+      "daynight": "Day",
+      "point_rows": 808,
+      "signal_counts": {
+        "Galileo E1": 449,
+        "Galileo E5a": 359
+      },
+      "signal_color_mapping": {
+        "GPS L1": {
+          "constellation": "GPS",
+          "role": "primary signal",
+          "color_hex": "#0b2e8a"
+        },
+        "GPS L5": {
+          "constellation": "GPS",
+          "role": "secondary signal",
+          "color_hex": "#8b0000"
+        },
+        "Galileo E1": {
+          "constellation": "Galileo",
+          "role": "primary signal",
+          "color_hex": "#0000ff"
+        },
+        "Galileo E5a": {
+          "constellation": "Galileo",
+          "role": "secondary signal",
+          "color_hex": "#ff0000"
+        }
+      },
+      "wgs84_tangent_height_range_km": [
+        69.00352476931403,
+        997.9526626986726
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_C5.png",
+      "reference_sha256": "B609C777727DB2A1A3A5B0C6FDA9BB88AA6D1B81A438C313BDCEC42367DCD5AE",
+      "byte_identical": false,
+      "generated_size_px": [
+        2128,
+        1655
+      ],
+      "reference_size_px": [
+        2841,
+        2205
+      ],
+      "normalized_mean_absolute_error": 0.0038893355522304773,
+      "normalized_luminance_correlation": 0.9941914142616353,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig2_C6",
+    "kind": "panel",
+    "parent_figure": "Fig2",
+    "panel": "C6",
+    "task_order": 112,
+    "entry": "Fig2_C6_main.py",
+    "description": "Redraw Fig2_C6 (panel redraw) for OP38 E25 Day.",
+    "method": "panel redraw",
+    "case": "OP38 E25 Day",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numerical inputs to independent panel redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/Fig2_C6/Fig2_C6.png",
+    "reference": "reference/panels/Fig2/Fig2_C6.png",
+    "output_sha256": "12623ED7595F8FD9D4C70861EAFED27CC235DF4BE830E860F48D25956A0CDB64",
+    "reference_sha256": "23C4330CF3F3E8ED88B1D8F103E4D8A95704ABA41DB8347ED9985F7B5203651A",
+    "inputs": [
+      "data/panel_ready/Fig2/fig2_polar_points.csv",
+      "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+    ],
+    "limitations": [
+      "C/N0 samples, WGS84 tangent heights, frequency colours and ionospheric layer context are redrawn from the packaged selected-event point data."
+    ],
+    "scientific_checks": {
+      "input": "data\\panel_ready\\Fig2\\fig2_polar_points.csv",
+      "selection_metadata": "data\\panel_ready\\Fig2\\fig2_selected_tracks.csv",
+      "event_label": 6,
+      "op": "OP38",
+      "satellite": "E25",
+      "daynight": "Day",
+      "point_rows": 519,
+      "signal_counts": {
+        "Galileo E1": 348,
+        "Galileo E5a": 171
+      },
+      "signal_color_mapping": {
+        "GPS L1": {
+          "constellation": "GPS",
+          "role": "primary signal",
+          "color_hex": "#0b2e8a"
+        },
+        "GPS L5": {
+          "constellation": "GPS",
+          "role": "secondary signal",
+          "color_hex": "#8b0000"
+        },
+        "Galileo E1": {
+          "constellation": "Galileo",
+          "role": "primary signal",
+          "color_hex": "#0000ff"
+        },
+        "Galileo E5a": {
+          "constellation": "Galileo",
+          "role": "secondary signal",
+          "color_hex": "#ff0000"
+        }
+      },
+      "wgs84_tangent_height_range_km": [
+        70.55641462849144,
+        997.6035598503496
+      ],
+      "status": "passed"
+    },
+    "visual_reference_comparison": {
+      "available": true,
+      "reference": "reference\\panels\\Fig2\\Fig2_C6.png",
+      "reference_sha256": "23C4330CF3F3E8ED88B1D8F103E4D8A95704ABA41DB8347ED9985F7B5203651A",
+      "byte_identical": false,
+      "generated_size_px": [
+        2128,
+        1655
+      ],
+      "reference_size_px": [
+        2841,
+        2205
+      ],
+      "normalized_mean_absolute_error": 0.003690731944516301,
+      "normalized_luminance_correlation": 0.993564279341383,
+      "comparison_method": "non-white content bounding boxes independently fitted to a 256 px white canvas; intended as a rough visual QA metric, not an equivalence test"
+    },
+    "source_fragment": "manifest/fig1_fig2_panels.json"
+  },
+  {
+    "id": "Fig5_A",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "A",
+    "task_order": 113,
+    "entry": "Fig5_A_main.py",
+    "description": "Redraw Fig5_A (mean_abs_velocity_20260727_map) for north_track145.",
+    "method": "mean_abs_velocity_20260727_map",
+    "case": "north_track145",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_A/Fig5_A.png",
+    "reference": "reference/panels/Fig5/Fig5_A.png",
+    "output_sha256": "D7EAA069BEFA439D79A8D996F89F765F4318B58B34FF3F484488B77B0579FCD3",
+    "reference_sha256": "D7EAA069BEFA439D79A8D996F89F765F4318B58B34FF3F484488B77B0579FCD3",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/track_points.csv",
+        "exists": true,
+        "bytes": 79645,
+        "sha256": "bced4e718348861451c69fa3461f8aa143231e6d7b3a4c901bd5bb8e7d073845"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/superdarn_match_row.json",
+        "exists": true,
+        "bytes": 1792,
+        "sha256": "576852e2ec9cc7862e60c3ab49e21762a1820174ac6adbb7887f8091ca136b3b"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/ro_focus_used.json",
+        "exists": true,
+        "bytes": 497769,
+        "sha256": "f5ec31f3bce3f35669af22e6c854d248ba932a14d9c68ddfda67d6cfb607bdb2"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/superdarn_fan_cells.csv",
+        "exists": true,
+        "bytes": 167454,
+        "sha256": "51a23de83c829ff5115150de86427a182c55a6310de657dff8367f960f15df78"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/roti_context_field.csv",
+        "exists": true,
+        "bytes": 272244,
+        "sha256": "1890491ea0a0941364915c790e81eef1ce28934e4aad66d84ac081ddab203e59"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/ismr_context_field.csv",
+        "exists": true,
+        "bytes": 2488223,
+        "sha256": "b20fcb137b2f76a7d158868e44f6a3d144b0b090170b3f89d858dce92abc6b87"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/ground_roti_matches.csv",
+        "exists": true,
+        "bytes": 73594,
+        "sha256": "dee10ec1291cd0e5d1f55e9e71ed6cb5e7508edb51349e0c46dc690047ed9d66"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/matched_profiles.csv",
+        "exists": true,
+        "bytes": 3944,
+        "sha256": "9282f48f301292025d515026e07f42b4aa50ece438a3337e8cd34f1f5fe236bd"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/track_145_Y038_E05/ionprf_position_time_ne_profile.csv",
+        "exists": true,
+        "bytes": 59277,
+        "sha256": "c280f1b39f453e5ca0f638af1da4629284cc45f184b36189499313524a135c00"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_B",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "B",
+    "task_order": 114,
+    "entry": "Fig5_B_main.py",
+    "description": "Redraw Fig5_B (v37_height_time) for north_track145.",
+    "method": "v37_height_time",
+    "case": "north_track145",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_B/Fig5_B.png",
+    "reference": "reference/panels/Fig5/Fig5_B.png",
+    "output_sha256": "0A48909288395733D2D4293A90EADA71A17C93A8E89186707E5F33ABC6D3B789",
+    "reference_sha256": "0A48909288395733D2D4293A90EADA71A17C93A8E89186707E5F33ABC6D3B789",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/track_points.csv",
+        "exists": true,
+        "bytes": 79645,
+        "sha256": "bced4e718348861451c69fa3461f8aa143231e6d7b3a4c901bd5bb8e7d073845"
+      },
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/ro_focus_used.json",
+        "exists": true,
+        "bytes": 497769,
+        "sha256": "f5ec31f3bce3f35669af22e6c854d248ba932a14d9c68ddfda67d6cfb607bdb2"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_C",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "C",
+    "task_order": 115,
+    "entry": "Fig5_C_main.py",
+    "description": "Redraw Fig5_C (v37_delta_cn0) for north_track145.",
+    "method": "v37_delta_cn0",
+    "case": "north_track145",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_C/Fig5_C.png",
+    "reference": "reference/panels/Fig5/Fig5_C.png",
+    "output_sha256": "AFE87C498AA64E4A794C54F7804B672E63A6B2DE98C8B08F51957D28AA4A053D",
+    "reference_sha256": "AFE87C498AA64E4A794C54F7804B672E63A6B2DE98C8B08F51957D28AA4A053D",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/ro_focus_used.json",
+        "exists": true,
+        "bytes": 497769,
+        "sha256": "f5ec31f3bce3f35669af22e6c854d248ba932a14d9c68ddfda67d6cfb607bdb2"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/leoro_rolling_points.csv",
+        "exists": true,
+        "bytes": 131301,
+        "sha256": "784cf352bd212cb449129d2ef8b20890e48c8860148474283bdfdee81a6506f7"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/leoro_highrate_points.csv",
+        "exists": true,
+        "bytes": 5356380,
+        "sha256": "6cf951b4199960c5075a69f32e8927cfd55c73142dfcf3b85633751a39a38ffa"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_D",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "D",
+    "task_order": 116,
+    "entry": "Fig5_D_main.py",
+    "description": "Redraw Fig5_D (v37_yunyao_ne_with_pfisr) for north_track145.",
+    "method": "v37_yunyao_ne_with_pfisr",
+    "case": "north_track145",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_D/Fig5_D.png",
+    "reference": "reference/panels/Fig5/Fig5_D.png",
+    "output_sha256": "502CA7584BA13DE349EF018878AC7172E732576C5F239A1E9BA4FE550D549518",
+    "reference_sha256": "502CA7584BA13DE349EF018878AC7172E732576C5F239A1E9BA4FE550D549518",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/matched_profiles.csv",
+        "exists": true,
+        "bytes": 3944,
+        "sha256": "9282f48f301292025d515026e07f42b4aa50ece438a3337e8cd34f1f5fe236bd"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/track_145_Y038_E05/ionprf_position_time_ne_profile.csv",
+        "exists": true,
+        "bytes": 59277,
+        "sha256": "c280f1b39f453e5ca0f638af1da4629284cc45f184b36189499313524a135c00"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/track_145_Y038_E05/iri_profile_50_1000km_median_location.csv",
+        "exists": true,
+        "bytes": 28766,
+        "sha256": "7a9c4b052559db9af65d438be8655b16e7f21a8f1296e3bbd3706e559d1fd976"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/pfisr_profiles.csv",
+        "exists": true,
+        "bytes": 37605,
+        "sha256": "e6bc5e4ebfab0aa4b191794d60545f26df32cb3007469590b7ebdadf8ea0df9d"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_E",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "E",
+    "task_order": 117,
+    "entry": "Fig5_E_main.py",
+    "description": "Redraw Fig5_E (mean_abs_velocity_20260727_fan) for north_track145.",
+    "method": "mean_abs_velocity_20260727_fan",
+    "case": "north_track145",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_E/Fig5_E.png",
+    "reference": "reference/panels/Fig5/Fig5_E.png",
+    "output_sha256": "D75A694688577F0D5F1426A7C87733F3707BC0D07131B317C094CC453E62B7FD",
+    "reference_sha256": "D75A694688577F0D5F1426A7C87733F3707BC0D07131B317C094CC453E62B7FD",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/north/track_145/superdarn_fan_cells.csv",
+        "exists": true,
+        "bytes": 167454,
+        "sha256": "51a23de83c829ff5115150de86427a182c55a6310de657dff8367f960f15df78"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_F",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "F",
+    "task_order": 118,
+    "entry": "Fig5_F_main.py",
+    "description": "Redraw Fig5_F (mean_abs_velocity_20260727_map) for south_track009.",
+    "method": "mean_abs_velocity_20260727_map",
+    "case": "south_track009",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_F/Fig5_F.png",
+    "reference": "reference/panels/Fig5/Fig5_F.png",
+    "output_sha256": "6A64028AA3331620E643931E9076CA3091387803143D43F52D0F184B849DC117",
+    "reference_sha256": "6A64028AA3331620E643931E9076CA3091387803143D43F52D0F184B849DC117",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/south/track.csv",
+        "exists": true,
+        "bytes": 138947,
+        "sha256": "18256d353d05b42fa20868b3f3d1b324e73e43b49f5d99e729d0522f65f54866"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/ro_focus.json",
+        "exists": true,
+        "bytes": 8284363,
+        "sha256": "d9e7482455a38fb761e98b7fb5620a12508f2713eceb995c65f5f69b31e1b178"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/selected_superdarn_row.csv",
+        "exists": true,
+        "bytes": 267,
+        "sha256": "3f235251636fcb0af0f7d096de2d55e2611ec14f5f4cc24fecc79a3efa797fa0"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/selected_superdarn_station.csv",
+        "exists": true,
+        "bytes": 1215,
+        "sha256": "9da7dc8b98aa73cb81687ff0642924da761a392ee2894afaab7a1625fe971ecd"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/fan_cells.csv",
+        "exists": true,
+        "bytes": 283090,
+        "sha256": "0fde5bc97620eb35428a131d23e1a3ea04fdfb4f6dd4c8af00b87fc8a3007493"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/fan_context.csv",
+        "exists": true,
+        "bytes": 85320,
+        "sha256": "6e448457e7755bc4dd63769bb3ac47ceb17028f951a2119536cc3a8cc729c989"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/roti_context_field.csv",
+        "exists": true,
+        "bytes": 276001,
+        "sha256": "27b52e8a2d173c29ff468f8c31859d0c7c8bacc5127ff1ee927efa92092a2931"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/ismr_context_field.csv",
+        "exists": true,
+        "bytes": 1225812,
+        "sha256": "a0b3fd806a72de9fee3fef246b401ea6c19755c3a00406b019f977ed91f97146"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/lugre_los_paths.csv",
+        "exists": true,
+        "bytes": 1981943,
+        "sha256": "3f0b79d170ca1eb02d9e73d15b736ad4b4ea6091f997c8e4aa93ca9e1598aab2"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/matched_profiles.csv",
+        "exists": true,
+        "bytes": 3944,
+        "sha256": "9282f48f301292025d515026e07f42b4aa50ece438a3337e8cd34f1f5fe236bd"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/track_009_Y040_C19/ionprf_position_time_ne_profile.csv",
+        "exists": true,
+        "bytes": 50091,
+        "sha256": "2cab5e5a260cec18ccacbcb06b17510c1051733b0873ef3f59dbab4970ca9c84"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_G",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "G",
+    "task_order": 119,
+    "entry": "Fig5_G_main.py",
+    "description": "Redraw Fig5_G (v37_height_time) for south_track009.",
+    "method": "v37_height_time",
+    "case": "south_track009",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_G/Fig5_G.png",
+    "reference": "reference/panels/Fig5/Fig5_G.png",
+    "output_sha256": "6CB29306751C7D66948032429254FF5923732749619830A3F41EC05207DDA6D7",
+    "reference_sha256": "6CB29306751C7D66948032429254FF5923732749619830A3F41EC05207DDA6D7",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/south/track.csv",
+        "exists": true,
+        "bytes": 138947,
+        "sha256": "18256d353d05b42fa20868b3f3d1b324e73e43b49f5d99e729d0522f65f54866"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/ro_focus.json",
+        "exists": true,
+        "bytes": 8284363,
+        "sha256": "d9e7482455a38fb761e98b7fb5620a12508f2713eceb995c65f5f69b31e1b178"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_H",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "H",
+    "task_order": 120,
+    "entry": "Fig5_H_main.py",
+    "description": "Redraw Fig5_H (v37_delta_cn0) for south_track009.",
+    "method": "v37_delta_cn0",
+    "case": "south_track009",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_H/Fig5_H.png",
+    "reference": "reference/panels/Fig5/Fig5_H.png",
+    "output_sha256": "0BB8BEAD89957EE43C78DB20326EDFA3F511B005A86D09ACE25445AF183EB506",
+    "reference_sha256": "0BB8BEAD89957EE43C78DB20326EDFA3F511B005A86D09ACE25445AF183EB506",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/south/ro_focus.json",
+        "exists": true,
+        "bytes": 8284363,
+        "sha256": "d9e7482455a38fb761e98b7fb5620a12508f2713eceb995c65f5f69b31e1b178"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/leoro_rolling_points.csv",
+        "exists": true,
+        "bytes": 131301,
+        "sha256": "784cf352bd212cb449129d2ef8b20890e48c8860148474283bdfdee81a6506f7"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/leoro_highrate_points.csv",
+        "exists": true,
+        "bytes": 5356380,
+        "sha256": "6cf951b4199960c5075a69f32e8927cfd55c73142dfcf3b85633751a39a38ffa"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_I",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "I",
+    "task_order": 121,
+    "entry": "Fig5_I_main.py",
+    "description": "Redraw Fig5_I (v37_yunyao_ne) for south_track009.",
+    "method": "v37_yunyao_ne",
+    "case": "south_track009",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_I/Fig5_I.png",
+    "reference": "reference/panels/Fig5/Fig5_I.png",
+    "output_sha256": "F39A27582521F54319C113F3984866FA56EDD4A649054F172BA78B83ABA478CB",
+    "reference_sha256": "F39A27582521F54319C113F3984866FA56EDD4A649054F172BA78B83ABA478CB",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/matched_profiles.csv",
+        "exists": true,
+        "bytes": 3944,
+        "sha256": "9282f48f301292025d515026e07f42b4aa50ece438a3337e8cd34f1f5fe236bd"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/track_009_Y040_C19/ionprf_position_time_ne_profile.csv",
+        "exists": true,
+        "bytes": 50091,
+        "sha256": "2cab5e5a260cec18ccacbcb06b17510c1051733b0873ef3f59dbab4970ca9c84"
+      },
+      {
+        "path": "data/panel_ready/Fig5/common/yunyao_profiles/track_009_Y040_C19/iri_profile_50_1000km_median_location.csv",
+        "exists": true,
+        "bytes": 28598,
+        "sha256": "d6854ccd53b47be8eeaa4afc42c0d2e3b5c28c48b16be1a151191500958248f1"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "Fig5_J",
+    "kind": "panel",
+    "parent_figure": "Fig5",
+    "panel": "J",
+    "task_order": 122,
+    "entry": "Fig5_J_main.py",
+    "description": "Redraw Fig5_J (mean_abs_velocity_20260727_fan) for south_track009.",
+    "method": "mean_abs_velocity_20260727_fan",
+    "case": "south_track009",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric inputs to source-code redraw",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": true,
+    "pixel_exact_scope": "standalone_panel_reference_only",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "pixel_exact",
+    "reference_scope": "archived standalone source-redrawn panel reference; not an accepted full-figure assembly",
+    "reference_type": "standalone_source_render",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_manual_assembly_unavailable",
+    "output": "outputs/Fig5_J/Fig5_J.png",
+    "reference": "reference/panels/Fig5/Fig5_J.png",
+    "output_sha256": "48BAFBF8275951EEA06FC6B1DE5C698ECA246B41A5B3937B15AE6C68F13BD803",
+    "reference_sha256": "48BAFBF8275951EEA06FC6B1DE5C698ECA246B41A5B3937B15AE6C68F13BD803",
+    "inputs": [
+      {
+        "path": "data/panel_ready/Fig5/south/fan_cells.csv",
+        "exists": true,
+        "bytes": 283090,
+        "sha256": "0fde5bc97620eb35428a131d23e1a3ea04fdfb4f6dd4c8af00b87fc8a3007493"
+      },
+      {
+        "path": "data/panel_ready/Fig5/south/selected_superdarn_station.csv",
+        "exists": true,
+        "bytes": 1215,
+        "sha256": "9da7dc8b98aa73cb81687ff0642924da761a392ee2894afaab7a1625fe971ecd"
+      }
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": true
+    },
+    "source_fragment": "manifest/fig5_panels.json"
+  },
+  {
+    "id": "ED3_A",
+    "kind": "panel",
+    "parent_figure": "ED3",
+    "panel": "A",
+    "task_order": 123,
+    "entry": "ED3_A_main.py",
+    "description": "Redraw ED3_A (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric observations to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED3_A/ED3_A.png",
+    "reference": "reference/panels/ED3/ED3_A_reference.png",
+    "output_sha256": "08178CE76677DA0FA8DF8846D18D915DA899811A99375FA423506593328C459A",
+    "reference_sha256": "F3095E4433865D72887027974767829BCBBB55F0A3381A73B7CDB5D098D5103A",
+    "inputs": [
+      "data/panel_ready/ED3/ed3_a_off_boresight_points.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED3_B",
+    "kind": "panel",
+    "parent_figure": "ED3",
+    "panel": "B",
+    "task_order": 124,
+    "entry": "ED3_B_main.py",
+    "description": "Redraw ED3_B (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "numeric geometry to alternative schematic",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED3_B/ED3_B.png",
+    "reference": "reference/panels/ED3/ED3_B_reference.png",
+    "output_sha256": "CF202108DA76F02E934CEA86FB194A8EC9C473F460803D0684E6E39DB267BE2E",
+    "reference_sha256": "327AB93E84B795BE217C6347C4C5497BD866E5588A1679274393394F18CED429",
+    "inputs": [
+      "data/panel_ready/ED3/ed3_b_geometry_parameters.csv"
+    ],
+    "limitations": [
+      "The accepted illustration artwork and exact final compositor were not archived."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED3_C",
+    "kind": "panel",
+    "parent_figure": "ED3",
+    "panel": "C",
+    "task_order": 125,
+    "entry": "ED3_C_main.py",
+    "description": "Redraw ED3_C (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready transmit-pattern envelopes to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED3_C/ED3_C.png",
+    "reference": "reference/panels/ED3/ED3_C_reference.png",
+    "output_sha256": "058CCF609B3DB91B75E4F98D5537FEAEBA507628DBD31D82B02C2071ACC7B6CC",
+    "reference_sha256": "A91D2CE5E70F35FE677E0D7949E29130B574C27B8746DBE83E894EB5465C2E45",
+    "inputs": [
+      "data/panel_ready/ED3/ed3_c_pattern_envelopes.csv",
+      "data/panel_ready/ED3/ed3_c_observed_ranges.csv"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED4_A",
+    "kind": "panel",
+    "parent_figure": "ED4",
+    "panel": "A",
+    "task_order": 126,
+    "entry": "ED4_A_main.py",
+    "description": "Redraw ED4_A (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready numeric table to helper-independent panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED4_A/ED4_A.png",
+    "reference": "reference/panels/ED4/ED4_A_reference.png",
+    "output_sha256": "9CBAA6B089A0CC0297F64149875171D7C1FEC05A5D009C7544456E1292AE2F9A",
+    "reference_sha256": "40101344A6185DCB43F0A3D25BC0DB22FD3D7AA5666CDFD504F94A0B7B2A91F9",
+    "inputs": [
+      "data/panel_ready/ED4/op38_e23_anomaly_focused_cn0_data.csv"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED4_B",
+    "kind": "panel",
+    "parent_figure": "ED4",
+    "panel": "B",
+    "task_order": 127,
+    "entry": "ED4_B_main.py",
+    "description": "Redraw ED4_B (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready residual table to helper-independent panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED4_B/ED4_B.png",
+    "reference": "reference/panels/ED4/ED4_B_reference.png",
+    "output_sha256": "EDEBB4D54AEAE0396CF57D9EB35165EF125CD9DB35E19C150B142CB01A6B07A5",
+    "reference_sha256": "B383F0ACCB9892058DDA242752D994269C7CB278D80D96E5006CA10645D777F8",
+    "inputs": [
+      "data/panel_ready/ED4/op38_e23_anomaly_focused_cn0_data.csv"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED4_C",
+    "kind": "panel",
+    "parent_figure": "ED4",
+    "panel": "C",
+    "task_order": 128,
+    "entry": "ED4_C_main.py",
+    "description": "Redraw ED4_C (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready WGS84 tangent geometry to helper-independent panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED4_C/ED4_C.png",
+    "reference": "reference/panels/ED4/ED4_C_reference.png",
+    "output_sha256": "9F17D17D9BE9C56D09E27DBFBFF52906DF79707EAED067D3611D4FF8F1262228",
+    "reference_sha256": "3E337917D115E588ACEDB4B283D3C4181E32CC9C24FEC44D7AE4196FA677D9B6",
+    "inputs": [
+      "data/panel_ready/ED4/op38_e23_anomaly_focused_tangent_height.csv"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED4_D",
+    "kind": "panel",
+    "parent_figure": "ED4",
+    "panel": "D",
+    "task_order": 129,
+    "entry": "ED4_D_main.py",
+    "description": "Redraw ED4_D (panel redraw).",
+    "method": "panel redraw",
+    "case": "",
+    "runnable": true,
+    "reproduction_level": "analysis-ready simulated WGS84 footprint to helper-independent panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED4_D/ED4_D.png",
+    "reference": "reference/panels/ED4/ED4_D_reference.png",
+    "output_sha256": "330567CBFFE6BDBA9FF5627FD7EF92743FCF39D34CC348697F6C62478B992D22",
+    "reference_sha256": "E4A4CD709F6C31F4D0268FB2A9CD188FD4D096EB036976F4970A4A8EA369706D",
+    "inputs": [
+      "data/panel_ready/ED4/op38_e23_anomaly_focused_simulated_footprint.csv"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_A",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "A",
+    "task_order": 130,
+    "entry": "ED5_A_main.py",
+    "description": "Redraw ED5_A (mean_abs_velocity_ms) for north_track187_OP76_G26.",
+    "method": "mean_abs_velocity_ms",
+    "case": "north_track187_OP76_G26",
+    "runnable": true,
+    "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_A/ED5_A.png",
+    "reference": "reference/panels/ED5/ED5_A_reference.png",
+    "output_sha256": "444B06EFB7DFF357635BA0A0D463B8787A2B92FB1F33F670C7CFD452F4D1B14A",
+    "reference_sha256": "082F28B449F498FDB9221BE67518DA5D21F0AC450652E57570219A47F0023F0A",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_map_mean_abs_velocity_cells.csv.gz",
+      "data/panel_ready/ED5/ed5_map_tracks.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_B",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "B",
+    "task_order": 131,
+    "entry": "ED5_B_main.py",
+    "description": "Redraw ED5_B (panel redraw) for north_track187_OP76_G26.",
+    "method": "panel redraw",
+    "case": "north_track187_OP76_G26",
+    "runnable": true,
+    "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_B/ED5_B.png",
+    "reference": "reference/panels/ED5/ED5_B_reference.png",
+    "output_sha256": "50645F9DD1489B8196CF5DCAA00FCAE3564DC1507C8FCFD60172D6552E2D1E38",
+    "reference_sha256": "42370562A36B5B640C39DEE9835F0E9A0178FD0BE41E23285A6747003AA35491",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+      "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_C",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "C",
+    "task_order": 132,
+    "entry": "ED5_C_main.py",
+    "description": "Redraw ED5_C (panel redraw) for north_track187_OP76_G26.",
+    "method": "panel redraw",
+    "case": "north_track187_OP76_G26",
+    "runnable": true,
+    "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_C/ED5_C.png",
+    "reference": "reference/panels/ED5/ED5_C_reference.png",
+    "output_sha256": "FF7CE419ED189610DD6562EC01428E7069CA1F40CB1C7A479DE93A7F03A9B23F",
+    "reference_sha256": "D96ACEF73C23312FE9E2E58DF9364F5C7B49BDEB7402053F2D146E1565712C80",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+      "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz",
+      "data/panel_ready/ED5/ed5_leoro_highrate_l1.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_D",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "D",
+    "task_order": 133,
+    "entry": "ED5_D_main.py",
+    "description": "Redraw ED5_D (panel redraw) for north_track187_OP76_G26.",
+    "method": "panel redraw",
+    "case": "north_track187_OP76_G26",
+    "runnable": true,
+    "reproduction_level": "selected-event YunYao/IRI/PFISR numeric profiles to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_D/ED5_D.png",
+    "reference": "reference/panels/ED5/ED5_D_reference.png",
+    "output_sha256": "E20D9829F7083D537B82BC17D66437CB6FA259CD77E7A0CF7C9304DFBDB8C998",
+    "reference_sha256": "9D09EC3552BB6055656F3A5830E55191A1F1B6D1CD45DC7F9857F24F071238B5",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_ne_profiles.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_E",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "E",
+    "task_order": 134,
+    "entry": "ED5_E_main.py",
+    "description": "Redraw ED5_E (mean_abs_velocity_ms) for north_track187_OP76_G26.",
+    "method": "mean_abs_velocity_ms",
+    "case": "north_track187_OP76_G26",
+    "runnable": true,
+    "reproduction_level": "selected-event 2026-07-27 filled beam-range velocity cells to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_E/ED5_E.png",
+    "reference": "reference/panels/ED5/ED5_E_reference.png",
+    "output_sha256": "02C221CF3360C54A0C1CE0E49858140F2A0218D818C972B58F31F59C2F4DE271",
+    "reference_sha256": "A950477310CEE1CC032350FAAD9AB41F49333C8FC9905D5DFB19D59A5A3A34A2",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_fan_north_mean_abs_velocity.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_F",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "F",
+    "task_order": 135,
+    "entry": "ED5_F_main.py",
+    "description": "Redraw ED5_F (mean_abs_velocity_ms) for south_track017_OP38_E23.",
+    "method": "mean_abs_velocity_ms",
+    "case": "south_track017_OP38_E23",
+    "runnable": true,
+    "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_F/ED5_F.png",
+    "reference": "reference/panels/ED5/ED5_F_reference.png",
+    "output_sha256": "E680FF6C91EB02F8050EBCA42F92600DB1D1770B85CCB50DEC10BD5262C7F406",
+    "reference_sha256": "4D781C120D5BE6AA1860D11617EF9090A56B0B00884658CF419F8B01901295D1",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_map_mean_abs_velocity_cells.csv.gz",
+      "data/panel_ready/ED5/ed5_map_tracks.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_G",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "G",
+    "task_order": 136,
+    "entry": "ED5_G_main.py",
+    "description": "Redraw ED5_G (panel redraw) for south_track017_OP38_E23.",
+    "method": "panel redraw",
+    "case": "south_track017_OP38_E23",
+    "runnable": true,
+    "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_G/ED5_G.png",
+    "reference": "reference/panels/ED5/ED5_G_reference.png",
+    "output_sha256": "609ADEC6A97D3F00397E10EA10194327807525A62E5FC405BE39C78D7BB4F663",
+    "reference_sha256": "B9D48EE70C4ED5D3030E268B62F3E6E9CE753266A8CA548334C32188E081059A",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+      "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_H",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "H",
+    "task_order": 137,
+    "entry": "ED5_H_main.py",
+    "description": "Redraw ED5_H (panel redraw) for south_track017_OP38_E23.",
+    "method": "panel redraw",
+    "case": "south_track017_OP38_E23",
+    "runnable": true,
+    "reproduction_level": "selected-event panel-ready numeric inputs to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_H/ED5_H.png",
+    "reference": "reference/panels/ED5/ED5_H_reference.png",
+    "output_sha256": "524DB42124EDE18DB0150BAE3BD154C2BAF28A0C9EE82F255B1EED0C0EAFEB92",
+    "reference_sha256": "679D3B15A0420903BB15E5E5BF79C4A245211D44B1B889B56941BB9509C1FCD3",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_lugre_profiles.csv.gz",
+      "data/panel_ready/ED5/ed5_leoro_profiles.csv.gz",
+      "data/panel_ready/ED5/ed5_leoro_highrate_l1.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_I",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "I",
+    "task_order": 138,
+    "entry": "ED5_I_main.py",
+    "description": "Redraw ED5_I (panel redraw) for south_track017_OP38_E23.",
+    "method": "panel redraw",
+    "case": "south_track017_OP38_E23",
+    "runnable": true,
+    "reproduction_level": "selected-event YunYao/IRI numeric profiles to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_I/ED5_I.png",
+    "reference": "reference/panels/ED5/ED5_I_reference.png",
+    "output_sha256": "50ED37AC0F0B9B81AF4C544ECDF236128F1BC3B5312F18C76CD704F1F897CB93",
+    "reference_sha256": "3978D0FBE5387E07FAFF5A9B7AAC2D658BB9CF6DA0A6E0DFA3B5E86F2999B312",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_ne_profiles.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  },
+  {
+    "id": "ED5_J",
+    "kind": "panel",
+    "parent_figure": "ED5",
+    "panel": "J",
+    "task_order": 139,
+    "entry": "ED5_J_main.py",
+    "description": "Redraw ED5_J (mean_abs_velocity_ms) for south_track017_OP38_E23.",
+    "method": "mean_abs_velocity_ms",
+    "case": "south_track017_OP38_E23",
+    "runnable": true,
+    "reproduction_level": "selected-event 2026-07-27 filled beam-range velocity cells to panel",
+    "raw_to_figure_complete": false,
+    "rebuild_derived_supported": false,
+    "pixel_exact_verified": false,
+    "pixel_exact_scope": "not_claimed",
+    "accepted_full_figure_pixel_exact_verified": false,
+    "comparison_class": "scientific_reproduction_only",
+    "reference_scope": "panel-only visual-QA raster; not used as a plotting input",
+    "reference_type": "panel_visual_qa_raster",
+    "reference_is_accepted_full_figure_crop": false,
+    "full_figure_status": "blocked_final_assembly_chain_incomplete",
+    "output": "outputs/ED5_J/ED5_J.png",
+    "reference": "reference/panels/ED5/ED5_J_reference.png",
+    "output_sha256": "A50B63327D283E7670C928D8A0AB11650A9F6692645CC740296CDDD92CA1D747",
+    "reference_sha256": "131B56117F5E37CCC7950D518235949C2A999960C8A7650802807BF6B7983EAE",
+    "inputs": [
+      "data/panel_ready/ED5/ed5_fan_south_mean_abs_velocity.csv.gz"
+    ],
+    "limitations": [
+      "The accepted full-figure assembly chain is incomplete.",
+      "Pixel equality, when true, applies to the standalone panel reference only."
+    ],
+    "scientific_checks": {},
+    "visual_reference_comparison": {
+      "available": true,
+      "byte_identical": false
+    },
+    "source_fragment": "manifest/ed3_ed5_panels.json"
+  }
+]

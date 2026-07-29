@@ -1,0 +1,13 @@
+scope,missing_component,effect
+Fig1,Accepted schematic source final assembler and portions of point-to-grid code,Full accepted figure cannot be regenerated; panels B-D are exposed separately
+Fig2,Accepted final assembler and archived helper imports,Full accepted figure cannot be regenerated; map and six track panels are exposed separately
+Fig3,Generators for all six accepted panel tables,Exact figure is regenerated from analysis-ready tables
+Fig4,Pinned raw ingestion and QC generators,Exact figure and final derivatives are regenerated from analysis-ready tables
+Fig5,Accepted ten-panel assembler and pinned multisource raw-to-panel manifests,Ten scientific panels are exposed separately and match standalone source-render references; accepted-montage equality is not claimed
+Fig6,Complete raw ground LEO-RO and FITACF-to-gate chain,Exact figure and final derivatives are regenerated from analysis-ready tables
+ED1,Accepted raw-to-analysis-ready table builder,Exact figure is regenerated from analysis-ready tables
+ED2,Accepted raw station orbit occultation cache builders,Exact figure is regenerated from analysis-ready tables
+ED3,Accepted assembler exact schematic artwork and point-table upstream generator,Panels are exposed with panel B labeled as a non-exact scientific alternative
+ED4,Accepted final helper API revision,Panels use a helper-independent scientific redraw and do not claim pixel equality
+ED5,Accepted event-selection reordering and final assembler plus raw-to-panel manifests,Ten scientific panels are exposed separately
+ED6-ED9,Exact robust C/N0 detrending tangent geometry and small carrier-continuity metadata,Raw telemetry hybrid rebuild uses audited explicit processed fallbacks

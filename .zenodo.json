@@ -1,0 +1,35 @@
+{
+  "title": "LuGRE Reviewer Reproduction",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "TO_BE_CONFIRMED",
+      "orcid": "TO_BE_CONFIRMED",
+      "affiliation": "TO_BE_CONFIRMED"
+    }
+  ],
+  "description": "Python code and machine-readable task definitions used to regenerate LuGRE manuscript figures and independently recoverable scientific panels.",
+  "keywords": [
+    "LuGRE",
+    "GNSS",
+    "radio occultation",
+    "ionosphere",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/TO_BE_CONFIRMED_DATA_DOI",
+      "relation": "requires",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/TO_BE_CONFIRMED_ARTICLE_OR_PREPRINT_DOI",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ]
+}

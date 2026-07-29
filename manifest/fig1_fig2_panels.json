@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "scope": "Panel-level scientific reproduction for manuscript Figures 1 and 2",
+  "runtime": "runtime/python_exact/python.exe",
+  "path_policy": "All reviewer entry points and renderers resolve package-relative paths.",
+  "output_policy": "Each runnable entry clears only its own output directory and leaves exactly one verified PNG there. JSON QA records are written under work/qa/panel_fig1_fig2.",
+  "data_policy": "data/panel_ready contains CSV scientific inputs only; archived/generated PNGs are stored under reference/panels.",
+  "source_provenance": {
+    "Fig1_B": "artifact-screened common 5-degree C/N0-ROTI grid-cell table",
+    "Fig1_C": "artifact-screened 5-degree P95 absolute delta-C/N0 grid-cell table",
+    "Fig1_D": "5-degree P95 one-minute ROTI grid-cell table",
+    "Fig2": "WGS84 50-1000 km point cache trimmed to absolute latitude >=60 degrees, plus the six registered event windows"
+  },
+  "figure2_c_signal_color_mapping": {
+    "GPS L1": {
+      "role": "primary signal",
+      "color_hex": "#0b2e8a"
+    },
+    "GPS L5": {
+      "role": "secondary signal",
+      "color_hex": "#8b0000"
+    },
+    "Galileo E1": {
+      "role": "primary signal",
+      "color_hex": "#0000ff"
+    },
+    "Galileo E5a": {
+      "role": "secondary signal",
+      "color_hex": "#ff0000"
+    }
+  },
+  "panels": [
+    {
+      "id": "Fig1_A",
+      "status": "blocked_reference_only",
+      "entry": null,
+      "reason": "The observing-geometry artwork has no located editable or code-generated source matching the formal manuscript panel.",
+      "reference": "reference/panels/Fig1/Fig1_A.png",
+      "level": "formal-raster reference only",
+      "exactness": "No scientific redraw is claimed."
+    },
+    {
+      "id": "Fig1_B",
+      "status": "runnable",
+      "entry": "Fig1_B_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig1",
+      "inputs": [
+        "data/panel_ready/Fig1/fig1_b_common_grid_cells.csv"
+      ],
+      "reference": "reference/panels/Fig1/Fig1_B.png",
+      "output": "outputs/Fig1_B/Fig1_B.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig1_B.json",
+      "level": "analysis-ready grid-cell reproduction",
+      "expected_science": {
+        "Equatorial": 100,
+        "Mid-latitude": 201,
+        "Polar": 199
+      }
+    },
+    {
+      "id": "Fig1_C",
+      "status": "runnable",
+      "entry": "Fig1_C_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig1",
+      "inputs": [
+        "data/panel_ready/Fig1/fig1_c_cn0_grid_cells.csv"
+      ],
+      "reference": "reference/panels/Fig1/Fig1_C.png",
+      "output": "outputs/Fig1_C/Fig1_C.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig1_C.json",
+      "level": "analysis-ready artifact-screened grid-cell reproduction"
+    },
+    {
+      "id": "Fig1_D",
+      "status": "runnable",
+      "entry": "Fig1_D_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig1",
+      "inputs": [
+        "data/panel_ready/Fig1/fig1_d_roti_grid_cells.csv"
+      ],
+      "reference": "reference/panels/Fig1/Fig1_D.png",
+      "output": "outputs/Fig1_D/Fig1_D.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig1_D.json",
+      "level": "analysis-ready grid-cell reproduction"
+    },
+    {
+      "id": "Fig2_A",
+      "status": "runnable",
+      "entry": "Fig2_A_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_A.png",
+      "output": "outputs/Fig2_A/Fig2_A.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_A.json",
+      "level": "analysis-ready WGS84 point-track reproduction"
+    },
+    {
+      "id": "Fig2_B",
+      "status": "runnable",
+      "entry": "Fig2_B_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_B.png",
+      "output": "outputs/Fig2_B/Fig2_B.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_B.json",
+      "level": "analysis-ready WGS84 point-track reproduction"
+    },
+    {
+      "id": "Fig2_C1",
+      "status": "runnable",
+      "entry": "Fig2_C1_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_C1.png",
+      "output": "outputs/Fig2_C1/Fig2_C1.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_C1.json",
+      "selection": "OP76 G01 Night"
+    },
+    {
+      "id": "Fig2_C2",
+      "status": "runnable",
+      "entry": "Fig2_C2_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_C2.png",
+      "output": "outputs/Fig2_C2/Fig2_C2.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_C2.json",
+      "selection": "OP74 E36 Night"
+    },
+    {
+      "id": "Fig2_C3",
+      "status": "runnable",
+      "entry": "Fig2_C3_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_C3.png",
+      "output": "outputs/Fig2_C3/Fig2_C3.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_C3.json",
+      "selection": "OP76 G26 Night"
+    },
+    {
+      "id": "Fig2_C4",
+      "status": "runnable",
+      "entry": "Fig2_C4_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_C4.png",
+      "output": "outputs/Fig2_C4/Fig2_C4.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_C4.json",
+      "selection": "OP38 E21 Day"
+    },
+    {
+      "id": "Fig2_C5",
+      "status": "runnable",
+      "entry": "Fig2_C5_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_C5.png",
+      "output": "outputs/Fig2_C5/Fig2_C5.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_C5.json",
+      "selection": "OP38 E23 Day"
+    },
+    {
+      "id": "Fig2_C6",
+      "status": "runnable",
+      "entry": "Fig2_C6_main.py",
+      "module": "src.tasks.panel_fig1_fig2.fig2",
+      "inputs": [
+        "data/panel_ready/Fig2/fig2_polar_points.csv",
+        "data/panel_ready/Fig2/fig2_selected_tracks.csv"
+      ],
+      "reference": "reference/panels/Fig2/Fig2_C6.png",
+      "output": "outputs/Fig2_C6/Fig2_C6.png",
+      "validation": "work/qa/panel_fig1_fig2/Fig2_C6.json",
+      "selection": "OP38 E25 Day"
+    }
+  ]
+}
