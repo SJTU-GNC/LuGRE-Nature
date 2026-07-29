@@ -1,11 +1,24 @@
 # LuGRE Reviewer Reproduction
 
-> Private publication staging repository. Create the public `v1.0.0` release
-> only after the GitHub and Zenodo metadata have been previewed.
+> Public reproducibility repository for the manuscript *Lunar GNSS reveals a
+> polar-dominant ionospheric amplitude response*.
 
 This repository contains the Python code, task registry, and reproducibility
-documentation used to regenerate the LuGRE manuscript figures and independently
+documentation used to regenerate the manuscript figures and independently
 recoverable scientific panels.
+
+## Associated manuscript
+
+- Title: *Lunar GNSS reveals a polar-dominant ionospheric amplitude response*
+- Status: ready to submit (unpublished; no article DOI has been assigned)
+- Authors: Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio Dovis,
+  Y. Jade Morton, Xirui Miao, Yuquan Ma, Wei Gao, Li-Ta Hsu, and Xingqun Zhan
+- Corresponding authors: Rong Yang and Y. Jade Morton
+
+All project-original code, data, figures, images, and documentation in this
+repository and its associated data deposit were prepared for this manuscript
+and are attributed to its authors. Full authorship and contact metadata are
+provided in `docs/MANUSCRIPT_METADATA.md`.
 
 ## Reproduction scope
 
@@ -86,8 +99,10 @@ Software DOI: assigned by Zenodo when the GitHub `v1.0.0` release is archived.
 
 Dataset DOI: `10.5281/zenodo.21672261`
 
-See `CITATION.cff` for the software citation metadata. ORCID records,
-affiliations, funding, and an article DOI may be added later when available.
+See `CITATION.cff` for the software citation metadata. The associated
+manuscript is ready to submit but is not yet published; an article DOI,
+complete affiliation text, ORCID records, and funding metadata may be added
+when available.
 
 ## Licence
 

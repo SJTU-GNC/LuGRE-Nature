@@ -7,19 +7,40 @@
   "language": "eng",
   "creators": [
     {
-      "name": "SJTU, GNC"
+      "name": "Yang, Rong"
     },
     {
-      "name": "Yang, Rong"
+      "name": "Li, Zhihong"
+    },
+    {
+      "name": "Nardin, Andrea"
+    },
+    {
+      "name": "Minetto, Alex"
+    },
+    {
+      "name": "Dovis, Fabio"
+    },
+    {
+      "name": "Morton, Y. Jade"
+    },
+    {
+      "name": "Miao, Xirui"
     },
     {
       "name": "Ma, Yuquan"
     },
     {
-      "name": "Li, Zhihong"
+      "name": "Gao, Wei"
+    },
+    {
+      "name": "Hsu, Li-Ta"
+    },
+    {
+      "name": "Zhan, Xingqun"
     }
   ],
-  "description": "Python code and machine-readable task definitions used to regenerate LuGRE manuscript figures and independently recoverable scientific panels.",
+  "description": "Python code and machine-readable task definitions supporting the manuscript 'Lunar GNSS reveals a polar-dominant ionospheric amplitude response', which is ready to submit and has not yet been published. The software regenerates manuscript figures and independently recoverable scientific panels.",
   "keywords": [
     "LuGRE",
     "GNSS",

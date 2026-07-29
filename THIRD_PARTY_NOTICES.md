@@ -11,9 +11,10 @@ licences.
 
 Data, generated figures, reference figures, and non-code image assets are
 distributed through the separate Zenodo dataset record, not this GitHub code
-repository. SJTU-GNC confirmed on 2026-07-29 that all data in that deposit are
-project-owned, no third-party data are included, and all included materials are
-approved for public redistribution under the declared CC BY 4.0 licence.
+repository. The manuscript authors confirmed on 2026-07-29 that all data in
+that deposit are project-owned, no third-party data are included, and all
+included materials are approved for public redistribution under the declared
+CC BY 4.0 licence.
 
 ## Excluded source archives
 
