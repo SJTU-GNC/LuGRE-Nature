@@ -37,6 +37,8 @@ affiliation wording was not supplied for this metadata update.
   [doi:10.5281/zenodo.21672261](https://doi.org/10.5281/zenodo.21672261)
 - Code: [SJTU-GNC/LuGRE-Nature](https://github.com/SJTU-GNC/LuGRE-Nature),
   release `v1.0.0`
+- Software archive: Zenodo,
+  [doi:10.5281/zenodo.21675358](https://doi.org/10.5281/zenodo.21675358)
 - Data and figures licence: CC BY 4.0
 - Code licence: MIT
 - Copyright holder: SJTU-GNC
@@ -53,14 +55,11 @@ published:
 > https://doi.org/10.5281/zenodo.21672261 under the Creative Commons
 > Attribution 4.0 International licence.
 
-Use the following code statement while Zenodo is still archiving the GitHub
-release:
+Use the following code statement:
 
 > The code used to reproduce the manuscript figures is available from
-> https://github.com/SJTU-GNC/LuGRE-Nature under the MIT License.
-
-After archiving is complete, add the assigned Zenodo software DOI to this
-statement and to the repository citation metadata.
+> https://github.com/SJTU-GNC/LuGRE-Nature and is archived in Zenodo at
+> https://doi.org/10.5281/zenodo.21675358 under the MIT License.
 
 ## Metadata update rule
 

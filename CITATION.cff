@@ -3,6 +3,7 @@ message: "Cite the archived software release and its associated Zenodo dataset."
 title: "LuGRE Reviewer Reproduction"
 version: 1.0.0
 type: software
+doi: "10.5281/zenodo.21675358"
 date-released: 2026-07-29
 abstract: "Reproduction software supporting the manuscript 'Lunar GNSS reveals a polar-dominant ionospheric amplitude response', which is ready to submit and has not yet been published."
 authors:

@@ -95,7 +95,7 @@ documented in `manifest/external_large_sources.csv`.
 
 ## Citation
 
-Software DOI: assigned by Zenodo when the GitHub `v1.0.0` release is archived.
+Software DOI: `10.5281/zenodo.21675358`
 
 Dataset DOI: `10.5281/zenodo.21672261`
 
