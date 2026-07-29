@@ -22,7 +22,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://doi.org/TO_BE_CONFIRMED_DATA_DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.21672261",
       "relation": "requires",
       "resource_type": "dataset"
     },

@@ -16,3 +16,7 @@ keywords:
   - radio occultation
   - ionosphere
   - reproducibility
+references:
+  - type: dataset
+    title: "LuGRE figure reproduction data and source data"
+    doi: "10.5281/zenodo.21672261"

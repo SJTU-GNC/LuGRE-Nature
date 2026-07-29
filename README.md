@@ -25,7 +25,7 @@ The precise level and known limitation of every task are recorded in
 The data, generated figures, validation references, and machine-readable file
 manifest are deposited separately:
 
-- Zenodo dataset DOI: `TO_BE_CONFIRMED_DATA_DOI`
+- Zenodo dataset DOI: `10.5281/zenodo.21672261`
 - Dataset version: `1.0.0`
 
 Download and extract the Zenodo archive into the repository root so that the
@@ -84,7 +84,7 @@ licensed, very large, or unavailable source families are documented in
 
 Software DOI: `TO_BE_CONFIRMED_SOFTWARE_DOI`
 
-Dataset DOI: `TO_BE_CONFIRMED_DATA_DOI`
+Dataset DOI: `10.5281/zenodo.21672261`
 
 See `CITATION.cff` for the software citation draft. Author names, ORCID records,
 affiliations, funding, and final DOI values must be completed before release.
