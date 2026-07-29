@@ -1,7 +1,7 @@
 # LuGRE Reviewer Reproduction
 
-> Publication staging draft. Replace every `TO_BE_CONFIRMED` field and resolve
-> the rights checklist before making the repository public.
+> Publication staging draft. Replace every remaining `TO_BE_CONFIRMED` field
+> before making the repository public.
 
 This repository contains the Python code, task registry, and reproducibility
 documentation used to regenerate the LuGRE manuscript figures and independently
@@ -76,9 +76,9 @@ python run_all.py --group panel
 
 The deposit contains analysis-ready numerical tables, panel-ready products,
 selected raw LuGRE telemetry, generated figures, and validation references. It
-does not contain all third-party provider archives. Excluded commercial,
-licensed, very large, or unavailable source families are documented in
-`manifest/external_large_sources.csv`.
+contains no third-party data and does not contain complete external provider
+archives. Excluded commercial, very large, or unavailable source families are
+documented in `manifest/external_large_sources.csv`.
 
 ## Citation
 
@@ -92,8 +92,9 @@ affiliations, funding, and final DOI values must be completed before release.
 ## Licence
 
 Copyright (c) 2026 SJTU-GNC. Original project code is released under the MIT
-License; see `LICENSE`. Third-party components and provider-derived materials
-remain subject to their original terms; see `THIRD_PARTY_NOTICES.md`.
+License; see `LICENSE`. Python dependencies retain their upstream terms; see
+`THIRD_PARTY_NOTICES.md`.
 
-Author-owned data and figures are handled separately in the Zenodo dataset
-record under CC BY 4.0, subject to the file-level rights review.
+Project-owned data and figures are handled separately in the Zenodo dataset
+record under CC BY 4.0. SJTU-GNC confirmed their public redistribution rights
+on 2026-07-29.

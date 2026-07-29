@@ -11,12 +11,13 @@ licences.
 
 Data, generated figures, reference figures, and non-code image assets are
 distributed through the separate Zenodo dataset record, not this GitHub code
-repository. Their public release remains subject to the rights audit supplied
-with the Zenodo staging package.
+repository. SJTU-GNC confirmed on 2026-07-29 that all data in that deposit are
+project-owned, no third-party data are included, and all included materials are
+approved for public redistribution under the declared CC BY 4.0 licence.
 
 ## Excluded source archives
 
-Commercial, licensed, unavailable, and very large provider archives are not
-included. The scientific effect of each exclusion is documented in
+Complete commercial, unavailable, and very large external source archives are
+not included. The scientific effect of each exclusion is documented in
 `manifest/external_large_sources.csv` and
 `docs/REPRODUCIBILITY_MATRIX.md`.
