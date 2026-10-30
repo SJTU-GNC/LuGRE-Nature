@@ -23,6 +23,6 @@
   "description": "Portable R3 analysis and figure-reproduction code supporting the manuscript 'Observing Earth's ionospheric irregularities from the moon'. This selected 182-station release is dated 30 October 2026. Numerical inputs and source data are versioned separately in Zenodo; YunYao profiles requiring provider permission are not publicly redistributed.",
   "keywords": ["LuGRE", "GNSS", "ionosphere", "radio occultation", "lunar navigation", "reproducibility"],
   "related_identifiers": [
-    {"identifier": "https://doi.org/10.5281/zenodo.21672261", "relation": "requires", "resource_type": "dataset"}
+    {"identifier": "https://doi.org/10.5281/zenodo.21672260", "relation": "requires", "resource_type": "dataset"}
   ]
 }

@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the archived R3 software release, the associated Zenodo data version, and the manuscript when a public citation becomes available."
+message: "Please cite the stable Zenodo software and data concept DOIs, and the manuscript when a public citation becomes available."
 title: "LuGRE R3 reproduction code: selected 182-station version"
 version: "R3-Ground182-20261030"
 date-released: 2026-10-30
 type: software
+doi: "10.5281/zenodo.21675357"
 abstract: "Portable analysis and figure-reproduction code supporting the manuscript 'Observing Earth's ionospheric irregularities from the moon'."
 authors:
   - family-names: "Yang"
@@ -97,7 +98,7 @@ references:
         given-names: "Li-Ta"
       - family-names: "Zhan"
         given-names: "Xingqun"
-    doi: "10.5281/zenodo.21672261"
+    doi: "10.5281/zenodo.21672260"
   - type: article
     title: "Observing Earth's ionospheric irregularities from the moon"
     status: in-preparation

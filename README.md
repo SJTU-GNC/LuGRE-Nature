@@ -33,8 +33,8 @@ Full creator and affiliation metadata are recorded in `CITATION.cff` and
 
 ## Data download
 
-Download the latest R3 data version from the Zenodo dataset record associated
-with DOI `10.5281/zenodo.21672261`, then extract its contents into this
+Download the latest R3 data version from the Zenodo dataset concept record
+`10.5281/zenodo.21672260`, then extract its contents into this
 repository root. The data package restores the numerical-input, reference, and
 result paths expected by the code.
 
@@ -76,8 +76,9 @@ access inventories rather than redistributed here.
 
 ## Citation and responsible reuse
 
-Please cite the archived R3 software release and the associated Zenodo data
-version. Cite the manuscript when a public citation becomes available. Reuse
+Please cite the software concept DOI `10.5281/zenodo.21675357` and the data
+concept DOI `10.5281/zenodo.21672260`. Cite the manuscript when a public
+citation becomes available. Reuse
 must preserve applicable copyright and licence notices, give appropriate
 attribution, identify modifications, and must not imply endorsement or
 misrepresent the original data, methods, results, figures, or limitations.
