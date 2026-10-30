@@ -1,0 +1,572 @@
+[
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig1_R3.png",
+    "package": "reference/Fig1_R3.png",
+    "bytes": 8272073,
+    "sha256": "fde7c0ddc129dbe3bdaa49e4a73fea43a4dbce6c8d86bfdbbf68d4428a344278"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig2_R3.png",
+    "package": "reference/Fig2_R3.png",
+    "bytes": 2301510,
+    "sha256": "13bb242e581fc5058c5efef5300381c1333c455b5b9eace372bc474d4b6508dd"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_CN0_detrending_OP38_E21.png",
+    "package": "reference/Extended_Data_CN0_detrending_OP38_E21.png",
+    "bytes": 739755,
+    "sha256": "198cc8446c4ff76eed8a1414a6a89190f37e8c3facbd690d072725b0977b87e6"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Space_weather_index.png",
+    "package": "reference/Extended_Data_Space_weather_index.png",
+    "bytes": 1469822,
+    "sha256": "41ce1410d03406a005476ae2aa2c5e3a5b5b92ea095a0f97942b13293e044df9"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_GNSS_antenna_geometry.png",
+    "package": "reference/Extended_Data_GNSS_antenna_geometry.png",
+    "bytes": 2878036,
+    "sha256": "504d05243312d17abecc86c6dd38627f8f75f2109e580b5ef8d990adca22bc6f"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\Fig1_R3_export_20261013\\Fig1_R3_source_snapshot.pptx",
+    "package": "source_artwork/Fig1_R3.pptx",
+    "bytes": 8625328,
+    "sha256": "836e6bda8ca8d736c17d71c88d0effe0eeb069dffe6d32ac104d929fcc9a5130"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\Fig1_R3_export_20261013\\Fig1_R3_final_png_QA.json",
+    "package": "provenance/Fig1_original_export_QA.json",
+    "bytes": 1485,
+    "sha256": "17352f3120ffcf4a813de0f6de6ce09f4943c5de0554f05f39a2b0cab89f851d"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\Fig1_R3_export_20261013\\export_Fig1_R3.ps1",
+    "package": "provenance/original_code/export_Fig1_R3.ps1",
+    "bytes": 7865,
+    "sha256": "e99bfc8c19584ee51e6a2c70d50c10c87fdc87f950b2052516c17b775bbbe3b0"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\all_60s_windows.csv",
+    "package": "data/fig2/all_60s_windows.csv",
+    "bytes": 565288,
+    "sha256": "945497f9b4e8f0bc898df8dc5681faac1564efef6ca0728bd096ac1f8e9b944b"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\fig3_panel_a_psd_no_time_interpolation.csv",
+    "package": "data/fig2/fig3_panel_a_psd_no_time_interpolation.csv",
+    "bytes": 92878,
+    "sha256": "fcb23a6bff4cad04a848b52e2df1838ff268d2dffc1c4547f46d918c6780b373"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\fig3_panel_b_event_level_points.csv",
+    "package": "data/fig2/fig3_panel_b_event_level_points.csv",
+    "bytes": 70652,
+    "sha256": "c133d8fbc74af540b43f13516ab16cf552503fcf0ba55033e321d8305543fe88"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\fig3_panel_d_altitude_layer_heatmap.csv",
+    "package": "data/fig2/fig3_panel_d_altitude_layer_heatmap.csv",
+    "bytes": 569,
+    "sha256": "1f851f445a1a81ddd3910db67c1d77f1357f3ecf9d98f40bec183821d0c88c67"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\OP38_E21_measured_samples.csv",
+    "package": "data/fig2/OP38_E21_measured_samples.csv",
+    "bytes": 392588,
+    "sha256": "d5fd01afeea3aa78a9c87a6f6aebb3a59f3835b27526492ecbb4f5a60c6d3653"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\OP76_G01_measured_samples.csv",
+    "package": "data/fig2/OP76_G01_measured_samples.csv",
+    "bytes": 245104,
+    "sha256": "a4682f0399aea43b6a16b786670caa04644c4b1057d66c956561f75d7038e46c"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\paired_exact60_blocks.csv",
+    "package": "data/fig2/paired_exact60_blocks.csv",
+    "bytes": 36662,
+    "sha256": "71e39ae2a822f2aa8f4777cd6acd8757891b42ccf793d3671e0c4b31b3216892"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\paired_geometry.csv",
+    "package": "data/fig2/paired_geometry.csv",
+    "bytes": 68445,
+    "sha256": "a7f22b816e17d1c583d1ea954fcc3e264d9194f07a144701690621caab8c7c9c"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\panel_c_paired_frequency_segments.csv",
+    "package": "data/fig2/panel_c_paired_frequency_segments.csv",
+    "bytes": 68445,
+    "sha256": "a7f22b816e17d1c583d1ea954fcc3e264d9194f07a144701690621caab8c7c9c"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\psd_excluded_runs.csv",
+    "package": "data/fig2/psd_excluded_runs.csv",
+    "bytes": 9840,
+    "sha256": "1fecc4e37ee9abafe5b83a16365db2aa2a2ff3d2e17c9b473b60b888d4f46f56"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\psd_per_run_frequency_bins.csv",
+    "package": "data/fig2/psd_per_run_frequency_bins.csv",
+    "bytes": 2867893,
+    "sha256": "645b35b2ae790c75ed12f468a9a4a4e9cf5f6669a2162c5cf50d9e12a06a0de3"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\psd_retained_runs.csv",
+    "package": "data/fig2/psd_retained_runs.csv",
+    "bytes": 43947,
+    "sha256": "0978e1f051fc2a38ebd93fb775a02f3c66a54ede9e17267643bceb2f59d3b974"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\spatial_amplitude_cells.csv",
+    "package": "data/fig2/spatial_amplitude_cells.csv",
+    "bytes": 87386,
+    "sha256": "2799d31b5dd73533b4242aa5166ab921e3e82799868c4c3d40c44772ea24abb1"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\spatial_roti_cells.csv",
+    "package": "data/fig2/spatial_roti_cells.csv",
+    "bytes": 66870,
+    "sha256": "e7d9c949752d4328b7ad6d9866f0fb224aeab12afb8ac35255c569293c972e60"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\data\\updated_points.csv",
+    "package": "data/fig2/updated_points.csv",
+    "bytes": 74429720,
+    "sha256": "a2926d0206b5cacc059b4f9765101674e916bfd7706e68e80a1225ceb2f52a81"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\main_figures_lugre_reference_update_20260622\\Fig1_replace_1_OP76G01_replace_6_OP38E25_new_reference_ecef_summary.csv",
+    "package": "data/fig2/selected_track_summary.csv",
+    "bytes": 2162,
+    "sha256": "8b53c4c27ba0c0c48dd88200b4a6089a69db87251fc2a0303835e25f4ee19dc6"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\Fig2_polar_track_panels_wgs84_update_20260702\\data\\fig2_selected_tracks_wgs84_height_latlon_QA.csv",
+    "package": "data/fig2/selected_track_geometry_QA.csv",
+    "bytes": 1326,
+    "sha256": "1ace7d99ba66088db3db57fe24c4123e96f13f1a2fbb4b150bca23ebf7ecb27f"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Program\\plot_lugre_ionosphere_tangent_tracks_by_phase.py",
+    "package": "provenance/original_code/plot_lugre_ionosphere_tangent_tracks_by_phase.py",
+    "bytes": 1002,
+    "sha256": "7dd0044198be5fd1a2cd4dd0f79a9c85bc4be9625dc8a8a35b4d56d8c1b91def"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Program\\plot_lugre_polar_abs_nonuniform_polarcoords.py",
+    "package": "provenance/original_code/plot_lugre_polar_abs_nonuniform_polarcoords.py",
+    "bytes": 18482,
+    "sha256": "8178e33dbdcb455fd9dae0cce3c1876d2b6be3488b9dc9b9dead2926ef62c979"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\main_text_panel_png_exports_20260630\\redraw_fig1_source_panels_no_labels.py",
+    "package": "provenance/original_code/redraw_fig1_source_panels_no_labels.py",
+    "bytes": 20641,
+    "sha256": "b10886cd08d2e738bbf33d4a7162b73e1ff7619b0659c95c7f519dd7040f51f9"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\rendered_Fig2_source.py",
+    "package": "provenance/original_code/rendered_Fig2_source.py",
+    "bytes": 27379,
+    "sha256": "4d29ed30cdb3d28f51719430f4b0412908014e5ce294041f096d10ae8f9d05eb"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\rendered_polar_helper_source.py",
+    "package": "provenance/original_code/rendered_polar_helper_source.py",
+    "bytes": 9837,
+    "sha256": "4ee6b0d9f48209836ae7509f1643330dac4d4af9347c215bd497eb904161dd3d"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.cpg",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_land.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.dbf",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_land.dbf",
+    "bytes": 3431,
+    "sha256": "db7cf6d2de2811df09bd7fcc6f243ab78a715b83571a0cb7b36b4e2af3297caa"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.prj",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_land.prj",
+    "bytes": 147,
+    "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.shp",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_land.shp",
+    "bytes": 89504,
+    "sha256": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.shx",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_land.shx",
+    "bytes": 1116,
+    "sha256": "2719254764a70262a34333581d582d503b8af5d6626e6da4eb2b5f86e7316faa"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.cpg",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.dbf",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.dbf",
+    "bytes": 3747,
+    "sha256": "ac7e59083a862bafc20b86d73595fdf2a7c0693a411cf3ba91910a5de9df9bc3"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.prj",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.prj",
+    "bytes": 147,
+    "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.shp",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.shp",
+    "bytes": 89652,
+    "sha256": "a1f8285d0e0a4858392cd78fc74fa3ee4cd9088947cf6e3693729dc852d70b60"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.shx",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.shx",
+    "bytes": 1172,
+    "sha256": "53d8c141edfb7e05c59feecc7bb64b0e22bc2e282dfa1024d20ae54c3ef7b01e"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.cpg",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_land.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.dbf",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_land.dbf",
+    "bytes": 69709,
+    "sha256": "d082add78c82e01b9bf422df3143ad6fbe43ca1bcb798d12a334f9e001b67bc0"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.prj",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_land.prj",
+    "bytes": 143,
+    "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.shp",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_land.shp",
+    "bytes": 1050332,
+    "sha256": "140d1419f7ace66bf0ea8ceb068cab544d413170f4e8c48e0a11bde6c978b319"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.shx",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_land.shx",
+    "bytes": 11460,
+    "sha256": "c1b93ee40fe83d6322197251517c141c2c91970915ac61d7bf7a4821fc2a68d7"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.cpg",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.dbf",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.dbf",
+    "bytes": 70101,
+    "sha256": "f100fa5a99786c63ec9eb2cd430e389bc6235b8e26d2712d33f9bfd6cb6aadfc"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.prj",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.prj",
+    "bytes": 143,
+    "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.shp",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.shp",
+    "bytes": 1046728,
+    "sha256": "797d675af9613f80b51ab6049fa32e589974d7a97c6497ca56772965f179ed26"
+  },
+  {
+    "source": "C:\\Users\\YR\\.local\\share\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.shx",
+    "package": "assets/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.shx",
+    "bytes": 11524,
+    "sha256": "0ff1792f2d16b58246d074215edd9d12fa280880ecaad61a91b9382fee854065"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\data\\E21_independent_WGS84_geometry.csv",
+    "package": "data/e21/E21_independent_WGS84_geometry.csv",
+    "bytes": 16510,
+    "sha256": "f08c7f8e09b1a45bffdce29587b5968379d0c7310de54e8780fb0110ef717f16"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\data\\E21_measured_CNo_joint_quartic_candidate.csv",
+    "package": "data/e21/E21_measured_CNo_joint_quartic_candidate.csv",
+    "bytes": 3453110,
+    "sha256": "e132b97dc1b745742ef9f6c241b1fee119d10b6f405e1663f8d19547c27d6487"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\data\\E21_plotted_observations_R3.csv",
+    "package": "data/e21/E21_plotted_observations_R3.csv",
+    "bytes": 2527874,
+    "sha256": "fe219e48e256c4d4227abf55aac5598677e880c0b49a6c43362517616379c786"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\data\\E21_quartic_model_evaluation_not_measurements.csv",
+    "package": "data/e21/E21_quartic_model_evaluation_not_measurements.csv",
+    "bytes": 787882,
+    "sha256": "43a930b56ff1204546282a0a6c613d1a4a7d7acdbb9c61aaf8b2dcde8c851fcd"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\qa\\E21_independent_geometry_QA.json",
+    "package": "data/e21/E21_independent_geometry_QA.json",
+    "bytes": 3484,
+    "sha256": "bacbb1d218304bfca36e0852d1d83aeae2295c3ddeb89e283b173f5d8db922b0"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\op38_e23_front_arc_example_package_20260616_145440\\data\\op38_e23_anomaly_focused_cn0_data.csv",
+    "package": "data/e21/E23_archived_validation.csv",
+    "bytes": 2044273,
+    "sha256": "15d3d26351cc9bf906eccc768d76059fba7119489bf1209caba1fdff68607132"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\code\\archived_check_and_build_E21_whole_arc.py",
+    "package": "provenance/original_code/archived_check_and_build_E21_whole_arc.py",
+    "bytes": 15780,
+    "sha256": "caa84516ea3b82d9bde608c59a30bc23c76c12c5b6e680cae04ab9170f6b0ddd"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\E21_example\\code\\build_E21_whole_arc_h50.py",
+    "package": "provenance/original_code/build_E21_whole_arc_h50.py",
+    "bytes": 18182,
+    "sha256": "ae1ccf29bf5766e01dc86ba4b689d3a17ba8ccad104821da3f7002c2566adc0b"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Space_weather_sync\\unchanged_space_weather_context.csv",
+    "package": "data/space_weather/unchanged_space_weather_context.csv",
+    "bytes": 39708,
+    "sha256": "7b27b0e0e0cc65e12628787d2edb767c936341c2b61afc4a610921ed477d7779"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Space_weather_sync\\op_mean_all_latitude_and_polar_h50.csv",
+    "package": "data/space_weather/op_mean_all_latitude_and_polar_h50.csv",
+    "bytes": 782,
+    "sha256": "83e96b34315e39b662ad4046982107afd891b06d48502911d9aff19cc14fb9c2"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Space_weather_sync\\all_eligible_60s_windows_h50.csv",
+    "package": "data/space_weather/all_eligible_60s_windows_h50.csv",
+    "bytes": 554657,
+    "sha256": "a99276fe9d494d57f0b96974cfe7f9d2f6e409a7efe35cab3a6e0ac5622b12cf"
+  },
+  {
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Space_weather_sync\\rendered_source.py",
+    "package": "provenance/original_code/space_weather_rendered_source.py",
+    "bytes": 22986,
+    "sha256": "d3fbed4ddf77c464c014704ef50ab9f4f86224aadb72a5f5ddb5e6c92fbc1377"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\lugre_gnss_main_lobe_point_check.csv",
+    "package": "data/antenna/lugre_gnss_main_lobe_point_check.csv",
+    "bytes": 32181156,
+    "sha256": "c1f2f987be740ca8111b4ade4589551657aeb42926f215cbeca0d2c00c0b3b10"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\lugre_full_geometry_noise_windows_refined.csv",
+    "package": "data/antenna/lugre_full_geometry_noise_windows_refined.csv",
+    "bytes": 5140918,
+    "sha256": "4a9223d569e9900d1188bcfc07b1a60ef6766e2184f5c990416ad4368d77563b"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN62_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN62_L1_L2_L5.xlsx",
+    "bytes": 7021680,
+    "sha256": "9e1bdebaf03d6c650572fb38d847f6fddbda7d50cceadb437d88e952d1a5f9e0"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN64_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN64_L1_L2_L5.xlsx",
+    "bytes": 3914063,
+    "sha256": "d54e3848243b254df4fc9eecaa61811358199fe3ada96f74d8110e4a023be20d"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN65_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN65_L1_L2_L5.xlsx",
+    "bytes": 3219550,
+    "sha256": "3ce5b6bce0f8cda770545f59b9f5d0ee61d2e8ab6721af8f3aa7cce45b95f750"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN66_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN66_L1_L2_L5.xlsx",
+    "bytes": 3208458,
+    "sha256": "261e45dee260fffb54e8510da32cf93fb0eeb66da462a2cdea785b3cafae41df"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN67_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN67_L1_L2_L5.xlsx",
+    "bytes": 3234077,
+    "sha256": "0f016384cd4dd08b2553065cb0ac056173d1964dfec5760e12267906b83834f9"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN69_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN69_L1_L2_L5.xlsx",
+    "bytes": 3947657,
+    "sha256": "83f0e84f695341710f0f833f4927b8ae1ad99c993430c136153e781fb6abd421"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN70_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN70_L1_L2_L5.xlsx",
+    "bytes": 3939480,
+    "sha256": "4ee25e899d77906c7967f043538623a6fc358a79dc29988815e04213adfbdbfa"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN71_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN71_L1_L2_L5.xlsx",
+    "bytes": 3935573,
+    "sha256": "2a242e97e97cbc0927fe0d1ab1fa3ee2aefcd67e66f726ee01288d26333702b1"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIF_SVN73_L1_L2_L5.xlsx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIF_SVN73_L1_L2_L5.xlsx",
+    "bytes": 3670151,
+    "sha256": "7ee10c9ccfccc71ab756429ed69b44365b074512ee202475496d84538f218d70"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_III_SVN74_Directivity.zip",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_III_SVN74_Directivity.zip",
+    "bytes": 699352,
+    "sha256": "20a93a164da92074e5c15f2e09d29282cd35991a348c6bf031c98bc0944d65d5"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_III_SVN75_Directivity.zip",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_III_SVN75_Directivity.zip",
+    "bytes": 696863,
+    "sha256": "960385f5c3d4992786c37fadaff096dd0e4dcf2492f3b4ba684fdd5da220f19e"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_III_SVN76_Directivity.zip",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_III_SVN76_Directivity.zip",
+    "bytes": 697250,
+    "sha256": "b090b70b62f6f203c0015d937895d17704f2e40b0b36505015bcce97f7d27985"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_III_SVN77_Directivity.zip",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_III_SVN77_Directivity.zip",
+    "bytes": 697655,
+    "sha256": "b3b9deabf8e3b9913286d41a8debd90198863406ea788a5bcbe5e0958ca09282"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_III_SVN78_Directivity.zip",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_III_SVN78_Directivity.zip",
+    "bytes": 697318,
+    "sha256": "3abcb2e8a7bcf2392b30c23cc51150fe93377c103e07bf7cbd71ef47a9cf323f"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\GPS_IIR_IIRM_SV_specific_patterns_data.pptx",
+    "package": "data/antenna/GPS_antenna_patterns/GPS_IIR_IIRM_SV_specific_patterns_data.pptx",
+    "bytes": 4062294,
+    "sha256": "24fe8163dbfd75ece9760c2884bb16f6739e60659af5fffd64282f0cf57e6cb6"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GPS_antenna_patterns\\igs_satellite_metadata.snx",
+    "package": "data/antenna/GPS_antenna_patterns/igs_satellite_metadata.snx",
+    "bytes": 271124,
+    "sha256": "37927c9938dd1450f9a2fe42c16716a02008b6b56771f2947b5fdfcce9c884a9"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GRAP_metadata\\GRAP_File_E1_.xlsx",
+    "package": "data/antenna/GRAP_metadata/GRAP_File_E1_.xlsx",
+    "bytes": 1400133,
+    "sha256": "9bdf8eec37dfa9549de145248755ea784b37cf8c1583dfe2e1fe231a03ce3310"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\GRAP_metadata\\GRAP_File_E5a_.xlsx",
+    "package": "data/antenna/GRAP_metadata/GRAP_File_E5a_.xlsx",
+    "bytes": 1407906,
+    "sha256": "095def0f1e1503e509e4b919f6c3cad95deceb5e4f6e713267ffdb75c4d9022d"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\lugre_gps_pattern_source_manifest.csv",
+    "package": "data/antenna/derived_data/lugre_gps_pattern_source_manifest.csv",
+    "bytes": 7990,
+    "sha256": "7a7302c56d63c111e5a52b29a9ae0893d32e2f05da60b43db42dd1b51f675386"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\lugre_main_lobe_pattern_coverage.csv",
+    "package": "data/antenna/derived_data/lugre_main_lobe_pattern_coverage.csv",
+    "bytes": 1011,
+    "sha256": "9c87edeaf42c3921def6d82a8eb6d422cc59dac4d02e3bfb95b7e803370afa56"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\lugre_panel_b_gps_first_valley_by_svn.csv",
+    "package": "data/antenna/derived_data/lugre_panel_b_gps_first_valley_by_svn.csv",
+    "bytes": 5525,
+    "sha256": "bb613d751dd1543787505f656475a8045bdb2bbd877f4f4ffbbf5a0032ffe7c4"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\lugre_panel_c_derived_pattern_envelopes.csv",
+    "package": "data/antenna/derived_data/lugre_panel_c_derived_pattern_envelopes.csv",
+    "bytes": 43008,
+    "sha256": "1e45dcec4813117eba098500a121e028d4e6982e3a3647db37987f27826e7bd5"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\lugre_panel_c_points_50_1000km.csv",
+    "package": "data/antenna/derived_data/lugre_panel_c_points_50_1000km.csv",
+    "bytes": 28336155,
+    "sha256": "08f85b6575234d01a242f38fd2fa4db688d24faa22c860afc64da7de1bffdf09"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\lugre_panel_c_signal_summary.csv",
+    "package": "data/antenna/derived_data/lugre_panel_c_signal_summary.csv",
+    "bytes": 778,
+    "sha256": "daf058f3131109cb1490a74feab46d82ea1e7a7c91d1500d59139ad5e81a3c45"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\derived_data\\panel_b_first_valley_summary.csv",
+    "package": "data/antenna/derived_data/panel_b_first_valley_summary.csv",
+    "bytes": 598,
+    "sha256": "008ff63abf101817bcc50b2b9ef008f33ca34e53d5c899b045981474be21b84b"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\plot_main_lobe_gps_galileo.py",
+    "package": "provenance/original_code/plot_main_lobe_gps_galileo.py",
+    "bytes": 43816,
+    "sha256": "c54c884b1075964faebb2403104443ac30cf706c1ece43b09c1ac385ad4e5640"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\plot_main_lobe_grap_revised.py",
+    "package": "provenance/original_code/plot_main_lobe_grap_revised.py",
+    "bytes": 28216,
+    "sha256": "e5ad36f2b3ee37717b253a94f4eafde2a14e168a5f97406708ec0375937bc494"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\plot_main_lobe_previous_ab_gps_galileo.py",
+    "package": "provenance/original_code/plot_main_lobe_previous_ab_gps_galileo.py",
+    "bytes": 47117,
+    "sha256": "40552906619730df6357594dd3c3728b2ff8a3260adc5a0967d94fdeb2194e4f"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\plot_main_lobe_nature_figures.py",
+    "package": "provenance/original_code/plot_main_lobe_nature_figures.py",
+    "bytes": 45510,
+    "sha256": "5a45a77e366019fa9f7d5fe04f47c1037bf16fad0092ef16e3b49880e6fb9477"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\earth_user_reference_globe.png",
+    "package": "data/antenna/earth_user_reference_globe.png",
+    "bytes": 183079,
+    "sha256": "31a7b410c257745906b9c2a7d3e5c88684dfccf831a6973368e47679d582ee44"
+  },
+  {
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Nature_LuGRE_Latex\\figure_b_c_reproducible_package_20260727\\gps_iii_satellite_cutout.png",
+    "package": "data/antenna/gps_iii_satellite_cutout.png",
+    "bytes": 116969,
+    "sha256": "65ec37b7c02f6d0c08c67460c0adb855becaf6f5037baa6e59f438dbff8c3e87"
+  }
+]

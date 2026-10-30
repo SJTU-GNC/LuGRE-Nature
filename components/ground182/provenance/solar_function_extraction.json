@@ -1,0 +1,11 @@
+{
+  "source": "E:\\LUGRE\\ground_1Hz_sameUTC_20261009\\sampling_illumination_R3_3x2_20261013\\build_sampling_illumination_R3.py",
+  "source_sha256": "d8ec4025a77293f5dd20e436436fcf78158a5c53a6c75f2bf20e2cab7c2e3a45",
+  "functions": [
+    "circular_median",
+    "sun_ecef",
+    "ray_blocked"
+  ],
+  "functions_copied_verbatim": true,
+  "runtime_external_source_read_removed": true
+}

@@ -1,0 +1,159 @@
+[
+  {
+    "task": "fig1",
+    "component": "main12",
+    "returncode": 0,
+    "seconds": 1.438,
+    "reproduction_class": "authored schematic reference plus verified finite-source Fresnel calculation; optional Windows PowerPoint native source export",
+    "notes": "Editable PPTX supplied. Six embedded chart series (646 values) are independently calculated and checked. The approved schematic image is copied explicitly. Run code/export_fig1.ps1 to export editable artwork with PowerPoint.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\main12\\fig1\\Fig1_R3.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\fig1.log"
+  },
+  {
+    "task": "fig2",
+    "component": "main12",
+    "returncode": 0,
+    "seconds": 40.328,
+    "reproduction_class": "frozen source tables to full scientific figure",
+    "notes": "Current h50 E23 residual statistics; map and selected cases retain current scientific samples. Offline Natural Earth50m/110m supplied.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\main12\\fig2\\Fig2_R3_E23_h50_detrending.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\fig2.log"
+  },
+  {
+    "task": "e21",
+    "component": "main12",
+    "returncode": 0,
+    "seconds": 6.875,
+    "reproduction_class": "measured C/N0 through archived E23 robust quartic to full figure",
+    "notes": "Measured height>=50km; independent geometry retained; display-only20\u201340 and\u22122\u20132 axes.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\main12\\e21\\figures\\Extended_Data_CN0_detrending_OP38_E21.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\e21.log"
+  },
+  {
+    "task": "space_weather",
+    "component": "main12",
+    "returncode": 0,
+    "seconds": 3.532,
+    "reproduction_class": "frozen context grid plus recomputed OP statistics to full figure",
+    "notes": "Panel f mean widths recomputed from2244actual60s windows. Saved hourly context grid supplied for other panels.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\main12\\space_weather\\Extended_Data_Space_weather_index.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\space_weather.log"
+  },
+  {
+    "task": "antenna",
+    "component": "main12",
+    "returncode": 0,
+    "seconds": 82.016,
+    "reproduction_class": "raw/reference antenna inputs and point cache to numerical panels; authored schematic bitmap retained",
+    "notes": "Original selected composite assembled manually. New deterministic assembly does not claim pixel identity. NAVCEN/JRC inputs and original numerical code supplied.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\main12\\antenna\\Extended_Data_GNSS_antenna_geometry.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\antenna.log"
+  },
+  {
+    "task": "fig3",
+    "component": "ground182",
+    "returncode": 0,
+    "seconds": 44.375,
+    "reproduction_class": "plot_from_frozen_source_data",
+    "notes": "Histograms, quantiles, height envelopes and actual near-space residual/height points; no input populations changed.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground182\\Fig3_R3.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\fig3.log"
+  },
+  {
+    "task": "fig4",
+    "component": "ground182",
+    "returncode": 0,
+    "seconds": 28.266,
+    "reproduction_class": "plot_from_frozen_source_data",
+    "notes": "All accepted windows and exact15degree median/IQR summaries included; validation recomputes summaries.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground182\\Fig4_R3.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\fig4.log"
+  },
+  {
+    "task": "illumination",
+    "component": "ground182",
+    "returncode": 0,
+    "seconds": 59.172,
+    "reproduction_class": "plot_from_frozen_source_data",
+    "notes": "All accepted source windows retained; offline solar input table included.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground182\\Extended_Data_Local_time_illumination.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\illumination.log"
+  },
+  {
+    "task": "geometry",
+    "component": "ground182",
+    "returncode": 0,
+    "seconds": 9.047,
+    "reproduction_class": "plot_from_frozen_source_data",
+    "notes": "Exact current182 angleCDF and speed/time histograms; source selection binding included.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground182\\Extended_Data_Geometry_angles.png",
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground182\\Extended_Data_Scan_speed_Fresnel_time.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\geometry.log"
+  },
+  {
+    "task": "context",
+    "component": "ground182",
+    "returncode": 0,
+    "seconds": 25.593,
+    "reproduction_class": "plot_from_frozen_source_data_and_cartographic_assets",
+    "notes": "All station/context/track tables and offline NaturalEarth map assets included; context categories are separate populations.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground182\\Extended_Data_Observing_context.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\context.log"
+  },
+  {
+    "task": "fig5",
+    "component": "fig5joint",
+    "returncode": 0,
+    "seconds": 8.422,
+    "reproduction_class": "scientific_numerical_redraw",
+    "notes": "All scientific panels redraw from included numerical case inputs. Exact 591/930 LuGRE h50 case epochs and corrected southern mean(abs(v_LOS)) retained. Original PowerPoint composite geometry/font pixels are not claimed exact. Two YunYao profiles require provider approval before public redistribution.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\fig5joint\\Fig5_R3.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\fig5.log"
+  },
+  {
+    "task": "ed_joint",
+    "component": "fig5joint",
+    "returncode": 0,
+    "seconds": 2.656,
+    "reproduction_class": "scientific_numerical_redraw",
+    "notes": "920 LuGRE amplitude/ROTI pairs, 1,619 true-P95 LEO profiles and the separate ground scintillation station-minute dataset retained. Source-specific historical grouping is intentional; not the Ground182 main-figure population.",
+    "outputs": [
+      "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\fig5joint\\Extended_Data_Joint_observables.png"
+    ],
+    "missing_outputs": [],
+    "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\logs\\ed_joint.log"
+  }
+]

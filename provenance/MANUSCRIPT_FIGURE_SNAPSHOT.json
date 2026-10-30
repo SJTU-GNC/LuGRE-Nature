@@ -1,0 +1,92 @@
+{
+  "version": "R3-Ground182-20261030",
+  "station_count": 182,
+  "Ground_epochs": 29803114,
+  "Ground_windows": 498430,
+  "selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "figures": [
+    {
+      "figure": "Fig1",
+      "file": "official_figures/Fig1_R3.png",
+      "bytes": 8272073,
+      "sha256": "fde7c0ddc129dbe3bdaa49e4a73fea43a4dbce6c8d86bfdbbf68d4428a344278"
+    },
+    {
+      "figure": "Fig2",
+      "file": "official_figures/Fig2_R3.png",
+      "bytes": 2301510,
+      "sha256": "13bb242e581fc5058c5efef5300381c1333c455b5b9eace372bc474d4b6508dd"
+    },
+    {
+      "figure": "Fig3",
+      "file": "official_figures/Fig3_R3.png",
+      "bytes": 2719728,
+      "sha256": "daa2a851e0b8ad270ca15d4539c5758490d464fad54ecc1b350a1981ae684fc1"
+    },
+    {
+      "figure": "Fig4",
+      "file": "official_figures/Fig4_R3.png",
+      "bytes": 430502,
+      "sha256": "811aa40cc0b162512bde294a298f48fdbed5780b48a43e07234ab16f0631fff7"
+    },
+    {
+      "figure": "Fig5",
+      "file": "official_figures/Fig5_R3.png",
+      "bytes": 5606045,
+      "sha256": "e823d7f743b3e6bac69c8c8ce602757d1bf11a544514b61e49a089b47eea10ae"
+    },
+    {
+      "figure": "Extended Data Fig1",
+      "file": "official_figures/Extended_Data_CN0_detrending_OP38_E21.png",
+      "bytes": 739755,
+      "sha256": "198cc8446c4ff76eed8a1414a6a89190f37e8c3facbd690d072725b0977b87e6"
+    },
+    {
+      "figure": "Extended Data Fig2",
+      "file": "official_figures/Extended_Data_Space_weather_index.png",
+      "bytes": 1469822,
+      "sha256": "41ce1410d03406a005476ae2aa2c5e3a5b5b92ea095a0f97942b13293e044df9"
+    },
+    {
+      "figure": "Extended Data Fig3",
+      "file": "official_figures/Extended_Data_GNSS_antenna_geometry.png",
+      "bytes": 2878036,
+      "sha256": "504d05243312d17abecc86c6dd38627f8f75f2109e580b5ef8d990adca22bc6f"
+    },
+    {
+      "figure": "Extended Data Fig4",
+      "file": "official_figures/Extended_Data_Observing_context.png",
+      "bytes": 2859553,
+      "sha256": "6a7084f42293d03dc10761c72075329248eaf4b931eabef74eb78746e654ee6d"
+    },
+    {
+      "figure": "Extended Data Fig5",
+      "file": "official_figures/Extended_Data_Local_time_illumination.png",
+      "bytes": 2213150,
+      "sha256": "7c1106dccc9b75b7576df7df9c214ce1b358ebbe6916d4d018388fd8c11b7863"
+    },
+    {
+      "figure": "Extended Data Fig6",
+      "file": "official_figures/Extended_Data_Geometry_angles.png",
+      "bytes": 903299,
+      "sha256": "c64e51ba2c4cd601730143ed5cdb0069f0557b4ba1eb31a6d0584127aca62e6b"
+    },
+    {
+      "figure": "Extended Data Fig7",
+      "file": "official_figures/Extended_Data_Scan_speed_Fresnel_time.png",
+      "bytes": 922390,
+      "sha256": "d18ee242a32dfb83f53434be2b6804d3eeed3b87116b59604c128b67829b55d3"
+    },
+    {
+      "figure": "Extended Data Fig8",
+      "file": "official_figures/Extended_Data_Joint_observables.png",
+      "bytes": 1120850,
+      "sha256": "d0ef36148e710fd0d661d1b07374265c0986d37322ef97106376de7323d83ab1"
+    }
+  ],
+  "scientific_scope": "Current selected182 Ground figures; accepted LuGRE h50 and LEO observations unchanged.",
+  "reproduction_scope": "Fixed numerical source tables to figure outputs; authored schematics separately identified. Full upstream raw holdings are referenced, not duplicated.",
+  "previous_data_release": "https://doi.org/10.5281/zenodo.21672261",
+  "previous_code_release": "https://doi.org/10.5281/zenodo.21675358",
+  "third_party_restricted": "Only two used YunYao profiles are included for local reproduction. Their public redistribution requires provider approval; no approval is asserted by this bundle."
+}

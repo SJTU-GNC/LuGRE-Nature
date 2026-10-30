@@ -1,0 +1,34 @@
+{
+  "status": "PASS_FIG1_R3_HIGH_RESOLUTION_EXPORT",
+  "revision": "R3",
+  "source_saved_time": "2026-10-13 18:01:18",
+  "source_sha256": "80B1412A3A218832FB034605178CC648272DFD3DD63D4664694EFDE64F65E92F",
+  "source_unchanged": true,
+  "slide_count": 1,
+  "source_artwork_preserved": true,
+  "typography": "Arial; regular labels 5-7 pt; a-f labels 8 pt bold",
+  "minimum_native_stroke_pt": 0.25,
+  "final_width_mm": 183,
+  "final_height_mm": 167.75,
+  "image_info": {
+    "pixels": [
+      4323,
+      3963
+    ],
+    "mode": "RGB",
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "post_export_resampling": false,
+  "native_image_data_sha256": "1d6340cabdec948cbccc4b862d1235554ca5b7d0113a309aa855e03419435552",
+  "export_png": "H:\\LUGRE\\figures_R3\\Fig1_R3_export_20261013\\Fig1_R3_20261013_180118_600dpi.png",
+  "export_png_sha256": "fde7c0ddc129dbe3bdaa49e4a73fea43a4dbce6c8d86bfdbbf68d4428a344278",
+  "bytes": 8272073,
+  "use": "High-resolution PNG for manuscript layout; final Nature production requires editable vector artwork",
+  "notes": "Original source notes retain schematic provenance and illustrative assumptions. This export is not journal acceptance certification.",
+  "figure_specification_url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+  "formal_manuscript_png": "D:/Reference/Paper/2026/Nature_LuGRE/Nature_LuGRE_Latex/Fig1_R3.png",
+  "formal_copy_sha256_verified": true
+}

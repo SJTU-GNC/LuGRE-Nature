@@ -1,58 +1,28 @@
 {
-  "title": "LuGRE Reviewer Reproduction",
+  "title": "LuGRE R3 reproduction code: selected 182-station version",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "R3-Ground182-20261030",
   "access_right": "open",
   "license": "mit",
   "language": "eng",
   "creators": [
-    {
-      "name": "Yang, Rong"
-    },
-    {
-      "name": "Li, Zhihong"
-    },
-    {
-      "name": "Nardin, Andrea"
-    },
-    {
-      "name": "Minetto, Alex"
-    },
-    {
-      "name": "Dovis, Fabio"
-    },
-    {
-      "name": "Morton, Y. Jade"
-    },
-    {
-      "name": "Miao, Xirui"
-    },
-    {
-      "name": "Ma, Yuquan"
-    },
-    {
-      "name": "Gao, Wei"
-    },
-    {
-      "name": "Hsu, Li-Ta"
-    },
-    {
-      "name": "Zhan, Xingqun"
-    }
+    {"name": "Yang, Rong", "affiliation": "School of Aeronautics and Astronautics, Shanghai Jiao Tong University"},
+    {"name": "Li, Zhihong", "affiliation": "School of Aeronautics and Astronautics, Shanghai Jiao Tong University"},
+    {"name": "Nardin, Andrea", "affiliation": "Department of Electronics and Telecommunications, Politecnico di Torino"},
+    {"name": "Minetto, Alex", "affiliation": "Department of Electronics and Telecommunications, Politecnico di Torino"},
+    {"name": "Dovis, Fabio", "affiliation": "Department of Electronics and Telecommunications, Politecnico di Torino"},
+    {"name": "Cesaroni, Claudio", "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia"},
+    {"name": "Spogli, Luca", "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia"},
+    {"name": "Alfonsi, Lucilla", "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia"},
+    {"name": "Miao, Xirui", "affiliation": "School of Aeronautics and Astronautics, Shanghai Jiao Tong University"},
+    {"name": "Ma, Yuquan", "affiliation": "School of Aeronautics and Astronautics, Shanghai Jiao Tong University"},
+    {"name": "Gao, Wei", "affiliation": "School of Aeronautics and Astronautics, Shanghai Jiao Tong University"},
+    {"name": "Hsu, Li-Ta", "affiliation": "Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University"},
+    {"name": "Zhan, Xingqun", "affiliation": "School of Aeronautics and Astronautics, Shanghai Jiao Tong University"}
   ],
-  "description": "Python code and machine-readable task definitions supporting the manuscript 'Lunar GNSS reveals a polar-dominant ionospheric amplitude response', which is ready to submit and has not yet been published. The software regenerates manuscript figures and independently recoverable scientific panels.",
-  "keywords": [
-    "LuGRE",
-    "GNSS",
-    "radio occultation",
-    "ionosphere",
-    "reproducibility"
-  ],
+  "description": "Portable R3 analysis and figure-reproduction code supporting the manuscript 'Observing Earth's ionospheric irregularities from the moon'. This selected 182-station release is dated 30 October 2026. Numerical inputs and source data are versioned separately in Zenodo; YunYao profiles requiring provider permission are not publicly redistributed.",
+  "keywords": ["LuGRE", "GNSS", "ionosphere", "radio occultation", "lunar navigation", "reproducibility"],
   "related_identifiers": [
-    {
-      "identifier": "https://doi.org/10.5281/zenodo.21672261",
-      "relation": "requires",
-      "resource_type": "dataset"
-    }
+    {"identifier": "https://doi.org/10.5281/zenodo.21672261", "relation": "requires", "resource_type": "dataset"}
   ]
 }

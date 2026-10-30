@@ -1,0 +1,214 @@
+{
+  "status": "USER_SELECTED_GROUND182_SIX_FIGURES",
+  "created_utc": "2026-10-30T08:14:50.332483+00:00",
+  "revision": "R3",
+  "station_count": 182,
+  "Ground_epochs": 29803114,
+  "Ground_windows": 498430,
+  "latitude_epoch_counts": {
+    "Equatorial": 4372844,
+    "Mid-latitude": 22214337,
+    "Polar": 3215933
+  },
+  "latitude_window_counts": {
+    "Equatorial": 72374,
+    "Mid-latitude": 373152,
+    "Polar": 52904
+  },
+  "contributing_stations_by_IPP_band": {
+    "Equatorial": 64,
+    "Mid-latitude": 123,
+    "Polar": 33
+  },
+  "station_counts_overlap_bands": true,
+  "dates_UTC": [
+    "2025-03-03",
+    "2025-03-04",
+    "2025-03-14",
+    "2025-03-15",
+    "2025-03-16"
+  ],
+  "selection_manifest": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\Ground_selection_R3.json",
+  "selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "source_index": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\SIX_FIGURES_PROMOTED_R3.json",
+  "backup_directory": "E:\\LUGRE\\manuscript_R3_backups\\Before_Ground182_selected_six_20261030T080702Z",
+  "images": [
+    {
+      "name": "Fig3_R3.png",
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\figures\\Fig3_R3.png",
+      "selected_copy": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\selected_assets\\Fig3_R3.png",
+      "sha256": "daa2a851e0b8ad270ca15d4539c5758490d464fad54ecc1b350a1981ae684fc1",
+      "pixels": [
+        4322,
+        4488
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig3_R3.png"
+    },
+    {
+      "name": "Fig4_R3.png",
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\figures\\Fig4_R3.png",
+      "selected_copy": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\selected_assets\\Fig4_R3.png",
+      "sha256": "811aa40cc0b162512bde294a298f48fdbed5780b48a43e07234ab16f0631fff7",
+      "pixels": [
+        4322,
+        3118
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig4_R3.png"
+    },
+    {
+      "name": "Extended_Data_Observing_context.png",
+      "source": "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\observing_context\\final182_candidate_30s\\Extended_Data_Observing_context.png",
+      "selected_copy": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\selected_assets\\Extended_Data_Observing_context.png",
+      "sha256": "6a7084f42293d03dc10761c72075329248eaf4b931eabef74eb78746e654ee6d",
+      "pixels": [
+        4251,
+        3188
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Observing_context.png"
+    },
+    {
+      "name": "Extended_Data_Geometry_angles.png",
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\figures\\Extended_Data_Geometry_angles.png",
+      "selected_copy": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\selected_assets\\Extended_Data_Geometry_angles.png",
+      "sha256": "c64e51ba2c4cd601730143ed5cdb0069f0557b4ba1eb31a6d0584127aca62e6b",
+      "pixels": [
+        4251,
+        4181
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Geometry_angles.png"
+    },
+    {
+      "name": "Extended_Data_Scan_speed_Fresnel_time.png",
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\figures\\Extended_Data_Scan_speed_Fresnel_time.png",
+      "selected_copy": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\selected_assets\\Extended_Data_Scan_speed_Fresnel_time.png",
+      "sha256": "d18ee242a32dfb83f53434be2b6804d3eeed3b87116b59604c128b67829b55d3",
+      "pixels": [
+        4724,
+        4960
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Scan_speed_Fresnel_time.png"
+    },
+    {
+      "name": "Extended_Data_Local_time_illumination.png",
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\figures\\Extended_Data_Local_time_illumination.png",
+      "selected_copy": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\selected_assets\\Extended_Data_Local_time_illumination.png",
+      "sha256": "7c1106dccc9b75b7576df7df9c214ce1b358ebbe6916d4d018388fd8c11b7863",
+      "pixels": [
+        4322,
+        4488
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Local_time_illumination.png"
+    }
+  ],
+  "user_approval": "2026-10-30: select182stationversion after182vs170comparison and update allsixGround1Hzfigures inD",
+  "inherited_manifest_flags": "Historical pre-QC metadata-stage flags remain immutable in the source manifest; current background_QC,interval_QC proofs and this later user selection establish this promotion.",
+  "quality_screening": {
+    "excluded_complete_receiver_satellite_signal_windows": 249,
+    "excluded_original_epochs": 14940,
+    "no_whole_station_exclusion": true,
+    "residual_amplitude_point_clipping": false,
+    "retained_residuals_refitted": false,
+    "missing_or_unconfirmed_cases_retained": true
+  },
+  "nearspace_unchanged": true,
+  "LuGRE_epochs": 82761,
+  "LEO_epochs": 73519,
+  "nearspace_note": "Ground/LEO same-band UTC support is contained within the current LuGRE h50 support; coverage need not be identical.",
+  "unchanged_LuGRE_reference": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_h50_current_version.json",
+  "source_quality_note": "Inherited strictQC for original118 products and CN0/continuity/full-context-background screening for later additions; common observable thresholds and geometry/UTC definitions do not erase these historical screening differences.",
+  "context_PNG_reused_for_exact_same_station_membership_and_coordinates": true,
+  "geometry_reaggregated_from_exact_current_masks": true,
+  "manuscript_source_changes": [
+    {
+      "name": "LuGRE_Nature_R3.tex",
+      "before_sha256": "8900431c3a8af2a8095eaf6e0cfb65d8b6a42bd31c4ec5c9cb962f0659d54bea",
+      "staged_sha256": "cb598f2a3a227bb3e7bf6690501194b851f0c97c47d0828fbf3f916a5d384aff",
+      "scope": [
+        "141 to182",
+        "Polar network caption30s",
+        "confirmed full affected Ground interval screening sentence"
+      ],
+      "figure_labels_and_review_wrappers_preserved": true
+    },
+    {
+      "name": "LuGRE_Nature_R3_zh.tex",
+      "before_sha256": "a94c330afbc75ce9c6a952ac38f6fa991f78151a3ba7b90cd0fa86398e53cfc9",
+      "staged_sha256": "74b7be8b0c6368cfa11e7a8a691d4f160e5b371c6e0d2301534c8adebbbb85ef",
+      "scope": [
+        "141 to182",
+        "Polar network caption30s",
+        "confirmed full affected Ground interval screening sentence"
+      ],
+      "figure_labels_and_review_wrappers_preserved": true
+    }
+  ],
+  "online_project_modified": false,
+  "pdf_status": "PASS_LOCAL_TECTONIC_BOTH_LANGUAGES_COMPILED_AND_DIRECT_PAGE_REVIEW",
+  "email_pdf_status": "Preserved previous emailPDF; not regenerated by this sixfigure promotion",
+  "independent_geometry_receipt": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\independent_checks\\INDEPENDENT_GEOMETRY_POSTCHECK_R3.json",
+  "visual_review": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\VISUAL_REVIEW_SIX_R3.json",
+  "updated_utc": "2026-10-30T08:23:00.911946+00:00",
+  "current_bilingual_pdfs": [
+    {
+      "language": "en",
+      "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3.pdf",
+      "sha256": "57497f001981cd1943325d7822db9a28d835e3a877f38325582cfce48ca3eb60",
+      "pages": 28,
+      "source_sha256": "cb598f2a3a227bb3e7bf6690501194b851f0c97c47d0828fbf3f916a5d384aff",
+      "compiler_flags": [],
+      "reviewed_pages": [
+        5,
+        8,
+        9,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "language": "zh",
+      "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_zh.pdf",
+      "sha256": "da1c738cc1c51801f3befb3743be17ccc9fccd05af99b1697ba351d3b18cc572",
+      "pages": 25,
+      "source_sha256": "74b7be8b0c6368cfa11e7a8a691d4f160e5b371c6e0d2301534c8adebbbb85ef",
+      "compiler_flags": [],
+      "reviewed_pages": [
+        4,
+        6,
+        7,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  ],
+  "built_in_preview_status": "Both previews exceeded the20MiB limit; the actual local compiler succeeded without source errors.",
+  "direct_page_review": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\BILINGUAL_DIRECT_VISUAL_QA_R3.json",
+  "independent_D_promotion_review": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\independent_checks\\INDEPENDENT_D_PROMOTION_R3.json"
+}

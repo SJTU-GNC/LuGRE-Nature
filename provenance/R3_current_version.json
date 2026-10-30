@@ -1,0 +1,249 @@
+{
+  "status": "USER_SELECTED_GROUND182_SIX_FIGURES",
+  "date_utc": "20261028T102953Z",
+  "active_Ground_comparison": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_Ground182_current_version.json",
+  "unchanged_LuGRE_h50_and_other_assets_reference": "D:/Reference/Paper/2026/Nature_LuGRE/LuGRE_Latex_R3/R3_h50_current_version.json",
+  "precedence": "The selected182 record supersedes only the six Ground1Hz figure entries in historical141/h50 indices. All other assets and historical indices are preserved.",
+  "team_review": {
+    "revision": "R3",
+    "purpose": "Team technical review",
+    "completed_utc": "2026-10-28T10:42:26.564Z",
+    "colours": {
+      "PoliTo_NavSAS": "blue",
+      "INGV": "red",
+      "existing_other": "black",
+      "future_SJTU_PolyU": "#006400"
+    },
+    "scientific_content_unchanged": true,
+    "visually_checked": true,
+    "reviewed_pages": {
+      "en": [
+        2,
+        4,
+        8,
+        14,
+        16
+      ],
+      "zh": [
+        2,
+        3,
+        9,
+        11,
+        13
+      ]
+    },
+    "online_updated": false,
+    "online_status": "Browser automation stopped because the current URL could not be determined reliably; no Overleaf edits performed.",
+    "files": [
+      {
+        "language": "en",
+        "source": "D:/Reference/Paper/2026/Nature_LuGRE/LuGRE_Latex_R3/LuGRE_Nature_R3.tex",
+        "source_sha256": "d5bece210b7ba4d648ef4db6d79a5af030a83284a6960f76ea1f8ef7034db673",
+        "pdf": "D:/Reference/Paper/2026/Nature_LuGRE/LuGRE_Latex_R3/LuGRE_Nature_R3.pdf",
+        "pdf_sha256": "89bfd5b8fa8cadc86c156ffe7c88dbe89915f1003e5ca9d56ec4b18d9f0930cb",
+        "pages": 28,
+        "compiler_flags": [],
+        "orange_text_characters": 0
+      },
+      {
+        "language": "zh",
+        "source": "D:/Reference/Paper/2026/Nature_LuGRE/LuGRE_Latex_R3/LuGRE_Nature_R3_zh.tex",
+        "source_sha256": "532e9846cd13c75ddbff6e9071686320c861382c6bc5d9ddbffab9386fe1cd73",
+        "pdf": "D:/Reference/Paper/2026/Nature_LuGRE/LuGRE_Latex_R3/LuGRE_Nature_R3_zh.pdf",
+        "pdf_sha256": "826bbc1b07d3c44e740031d56aa076460b904ecd754e49ace6c2155f257e3402",
+        "pages": 25,
+        "compiler_flags": [],
+        "orange_text_characters": 0
+      }
+    ],
+    "source_QA": "E:/LUGRE/manuscript_R3_writing_20261028/Team_review/source_QA.json",
+    "build_QA": "E:/LUGRE/manuscript_R3_writing_20261028/Team_review/build_QA.json",
+    "colour_QA": "E:/LUGRE/manuscript_R3_writing_20261028/Team_review/colour_QA.json"
+  },
+  "latest_prose_revision": {
+    "date": "2026-10-30",
+    "scope": "Data availability source-completeness update for selected182 Ground network; bilingual dark-green edits",
+    "completed_utc": "2026-10-30T08:42:20.001643+00:00",
+    "record": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\delivery_QA.json",
+    "source_QA": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\source_QA.json",
+    "build_QA": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\build_QA.json",
+    "email_QA": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\email_QA.json",
+    "files": [
+      {
+        "language": "en",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3.pdf",
+        "sha256": "020860627013c5cce5e7d1eeb4ac9a4e51c5e612470c30ed11041772b86e2165",
+        "pages": 28,
+        "reviewed_data_pages": [
+          15,
+          16
+        ]
+      },
+      {
+        "language": "zh",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_zh.pdf",
+        "sha256": "5e8ca234562819248f6ca2d82a65d28431fa625f5712be5fda0eac2234342fd6",
+        "pages": 25,
+        "reviewed_data_pages": [
+          12,
+          13
+        ]
+      },
+      {
+        "language": "en_email",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_email.pdf",
+        "sha256": "72eedfb5fb88c06cd1fe8c8ad21a3df17d389e9a7b333b1ac5cedb8f44ab2ad9",
+        "pages": 28,
+        "bytes": 19464191
+      }
+    ],
+    "online_updated": false,
+    "selected_scientific_figures_unchanged": true,
+    "only_Data_availability_prose_changed": true,
+    "data_archive_action_pending": "Publish current R3/182station source data, source identifiers and QC masks; existing public Zenodo21672261 is a July2026 earlier release.",
+    "visual_review": {
+      "en": [
+        15,
+        16
+      ],
+      "zh": [
+        12,
+        13
+      ],
+      "email": [
+        8,
+        15
+      ]
+    },
+    "built_in_compiler": "Both preview calls exceeded20MiB; local Tectonic successfully compiled both documents with no source errors."
+  },
+  "updated_utc": "2026-10-30T08:42:20.001643+00:00",
+  "latest_figure_revision": {
+    "record": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_Ground182_current_version.json",
+    "station_count": 182,
+    "figures": 6,
+    "source_selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+    "pdf_status": "PASS_LOCAL_TECTONIC_BOTH_LANGUAGES_COMPILED_AND_DIRECT_PAGE_REVIEW",
+    "bilingual_pdfs": [
+      {
+        "language": "en",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3.pdf",
+        "sha256": "57497f001981cd1943325d7822db9a28d835e3a877f38325582cfce48ca3eb60",
+        "pages": 28,
+        "source_sha256": "cb598f2a3a227bb3e7bf6690501194b851f0c97c47d0828fbf3f916a5d384aff",
+        "compiler_flags": [],
+        "reviewed_pages": [
+          5,
+          8,
+          9,
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "language": "zh",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_zh.pdf",
+        "sha256": "da1c738cc1c51801f3befb3743be17ccc9fccd05af99b1697ba351d3b18cc572",
+        "pages": 25,
+        "source_sha256": "74b7be8b0c6368cfa11e7a8a691d4f160e5b371c6e0d2301534c8adebbbb85ef",
+        "compiler_flags": [],
+        "reviewed_pages": [
+          4,
+          6,
+          7,
+          21,
+          22,
+          23,
+          24
+        ]
+      }
+    ],
+    "completed_utc": "2026-10-30T08:23:00.911946+00:00",
+    "previous_version_backup": "E:\\LUGRE\\manuscript_R3_backups\\Before_Ground182_selected_six_20261030T080702Z"
+  },
+  "prose_revision_history": [
+    {
+      "date": "2026-10-29",
+      "scope": "Fig3 Results contextual transition; bilingual dark-green edits",
+      "record": "E:\\LUGRE\\manuscript_R3_writing_20261029\\Fig3_transition\\delivery_QA.json",
+      "files": [
+        {
+          "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3.pdf",
+          "sha256": "f6480485bcaf593b1dda4df0f412b09c9e6ba7806352ce3d1227a1cfa98cfc24",
+          "pages": 28
+        },
+        {
+          "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_zh.pdf",
+          "sha256": "490eb85d8f6c31d6e66956a60973c8f56160eb1666c055641824e479452e12f2",
+          "pages": 25
+        },
+        {
+          "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_email.pdf",
+          "sha256": "f41991b04f4983e729af28f522ad5bebb259d4ab8205bf36d2b717d4d8e76698",
+          "bytes": 19454714,
+          "pages": 28
+        }
+      ],
+      "online_updated": false
+    }
+  ],
+  "latest_data_revision": {
+    "date": "2026-10-30",
+    "scope": "Data availability source-completeness update for selected182 Ground network; bilingual dark-green edits",
+    "completed_utc": "2026-10-30T08:42:20.001643+00:00",
+    "record": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\delivery_QA.json",
+    "source_QA": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\source_QA.json",
+    "build_QA": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\build_QA.json",
+    "email_QA": "E:\\LUGRE\\manuscript_R3_writing_20261030\\Data_sources_182\\email_QA.json",
+    "files": [
+      {
+        "language": "en",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3.pdf",
+        "sha256": "020860627013c5cce5e7d1eeb4ac9a4e51c5e612470c30ed11041772b86e2165",
+        "pages": 28,
+        "reviewed_data_pages": [
+          15,
+          16
+        ]
+      },
+      {
+        "language": "zh",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_zh.pdf",
+        "sha256": "5e8ca234562819248f6ca2d82a65d28431fa625f5712be5fda0eac2234342fd6",
+        "pages": 25,
+        "reviewed_data_pages": [
+          12,
+          13
+        ]
+      },
+      {
+        "language": "en_email",
+        "path": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\LuGRE_Nature_R3_email.pdf",
+        "sha256": "72eedfb5fb88c06cd1fe8c8ad21a3df17d389e9a7b333b1ac5cedb8f44ab2ad9",
+        "pages": 28,
+        "bytes": 19464191
+      }
+    ],
+    "online_updated": false,
+    "selected_scientific_figures_unchanged": true,
+    "only_Data_availability_prose_changed": true,
+    "data_archive_action_pending": "Publish current R3/182station source data, source identifiers and QC masks; existing public Zenodo21672261 is a July2026 earlier release.",
+    "visual_review": {
+      "en": [
+        15,
+        16
+      ],
+      "zh": [
+        12,
+        13
+      ],
+      "email": [
+        8,
+        15
+      ]
+    },
+    "built_in_compiler": "Both preview calls exceeded20MiB; local Tectonic successfully compiled both documents with no source errors."
+  }
+}

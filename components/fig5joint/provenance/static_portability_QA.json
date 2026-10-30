@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "runtime_source_files": 9,
+  "absolute_drive_literal_count": 0,
+  "two_YunYao_raw_profiles": 2,
+  "restricted_files": [
+    "data/restricted_yunyao/matched_profiles.csv",
+    "data/restricted_yunyao/track_009_Y040_C19/ionprf_position_time_ne_profile.csv",
+    "data/restricted_yunyao/track_009_Y040_C19/iri_profile_50_1000km_median_location.csv",
+    "data/restricted_yunyao/track_009_Y040_C19/source_ionPrf_Y040.2025.062.12.17.C19_0001.0107_nc.nc",
+    "data/restricted_yunyao/track_145_Y038_E05/ionprf_position_time_ne_profile.csv",
+    "data/restricted_yunyao/track_145_Y038_E05/iri_profile_50_1000km_median_location.csv",
+    "data/restricted_yunyao/track_145_Y038_E05/source_ionPrf_Y038.2025.074.16.00.E05_0001.0107_nc.nc"
+  ],
+  "reference_artifacts_read_by_runtime": false,
+  "render_test": "deferred to root serial clean-environment run"
+}

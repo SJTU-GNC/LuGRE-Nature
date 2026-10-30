@@ -1,0 +1,17 @@
+{
+  "component": "main12",
+  "date": "2026-10-30",
+  "assembly": "COMPLETE",
+  "operational_paths": "relative to component directory or explicit output argument; original drive paths isolated under provenance",
+  "reference_artwork": "exact copies of current selected manuscript PNGs",
+  "fig1_illustrative_fresnel_calculation": "PASS:6series646points;maximum error4.991562718714704e-13km",
+  "full_lugre_h50_refit": "PASS:993093native positive observations,440arcs,423qualified quartics;eligibility/status/arcIDs identical;residual/background agreement1e-10dB",
+  "full_refit_receipt": "outputs/full_lugre_refit/verification.json",
+  "full_refit_input_receipt": "provenance/full_refit_input_QA.json",
+  "all_python_plots_clean_relocated_test": "PENDING_ROOT_COORDINATED_SERIAL_TEST",
+  "limitations": [
+    "Fig1 is an authored schematic; editable PPTX and original native PowerPoint exporter supplied. Default task verifies numerical Fresnel curve and explicitly copies approved schematic PNG.",
+    "Antenna selected composite was assembled manually; supported runtime independently recomputes numerical panels and preserves authored left schematic bitmap. Pixel-identical final manual assembly is not claimed.",
+    "Package starts from native C/N0 with verified geometry or frozen numerical source tables; it does not decode mission telemetry, determine orbits or download complete external archives."
+  ]
+}

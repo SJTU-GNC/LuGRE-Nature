@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "independent_method": "Direct original FITACF parse; independent raw admission loops and grouped pandas mean(abs(v)); neither original nor new aggregate functions invoked.",
+  "old_fan_sha256": "0fde5bc97620eb35428a131d23e1a3ea04fdfb4f6dd4c8af00b87fc8a3007493",
+  "corrected_fan_sha256": "8eb2b8607e8034b679726b389affcc828881a11184c8ba032efc63a356cce9a7",
+  "raw_files": [
+    {
+      "path": "H:\\LUGRE\\\u96f7\u8fbe\u6570\u636e\\superdarn_\u4e94\u5929\\\u539f\u59cbfitacf\\data_fitacf\\2025\\03\\fir\\20250303.1200.00.fir.a.fitacf.bz2",
+      "sha256": "4f1962c371a0f8eeead182177557d90f79d69bca2b58e72e60bba9d8e37101f5",
+      "total_records": 1920
+    },
+    {
+      "path": "H:\\LUGRE\\\u96f7\u8fbe\u6570\u636e\\superdarn_\u4e94\u5929\\\u539f\u59cbfitacf\\data_fitacf\\2025\\03\\fir\\20250303.1200.00.fir.b.fitacf.bz2",
+      "sha256": "2dff235968cb9f8184b121b18280c30a87fe8bf13fa06f631a003c30900c4cd2",
+      "total_records": 1920
+    }
+  ],
+  "window_utc": [
+    "2025-03-03T12:21:50.296169+00:00",
+    "2025-03-03T12:34:02.296169+00:00"
+  ],
+  "endpoints_inclusive": true,
+  "selected_records": 390,
+  "accepted_echoes": 2819,
+  "nonfinite_accepted_velocity": 0,
+  "grid_cells": 2400,
+  "nonempty_cells": 1269,
+  "raw_geometry_max_abs_error": 0.0,
+  "original_statistics_max_abs_error": {
+    "N_echo": 0.0,
+    "mean_velocity_ms": 2.2737367544323206e-13,
+    "mean_power_db": 3.552713678800501e-15,
+    "mean_width_ms": 2.2737367544323206e-13,
+    "N_possible": 0.0
+  },
+  "corrected_meanabs_max_abs_error_vs_independent_raw_ms": 2.2737367544323206e-13,
+  "unchanged_columns_max_abs_csv_serialization_error": {
+    "radar": "identical",
+    "date": "identical",
+    "hour": 0.0,
+    "beam": 0.0,
+    "range_gate": 0.0,
+    "bmazm_deg": 0.0,
+    "range_start_km": 0.0,
+    "range_center_km": 0.0,
+    "range_width_km": 0.0,
+    "N_possible": 0.0,
+    "N_echo": 0.0,
+    "P_echo_percent": 0.0,
+    "mean_power_db": 8.881784197001252e-16,
+    "mean_velocity_ms": 2.842170943040401e-14,
+    "mean_width_ms": 5.684341886080802e-14
+  },
+  "changed_cells": 382,
+  "max_increase_ms": 1420.654541015625,
+  "median_old_ms": 93.30295817057292,
+  "median_corrected_ms": 146.60431671142578,
+  "max_old_ms": 2192.78955078125,
+  "max_corrected_ms": 2192.78955078125,
+  "same_support_QC_and_grid": true,
+  "inputs_modified": false
+}

@@ -1,24 +1,17 @@
 # Third-party notices and exclusions
 
-## Python dependencies
+Original project code is released under the MIT License, but that licence does
+not replace third-party software, observation, artwork, map-data, or source
+archive terms.
 
-The public-code staging repository does not vendor the portable Python runtime
-or the previous local copies of `openpyxl` and `pypdf`. Dependencies are
-declared in `environment/requirements.txt` and retain their own upstream
-licences.
+The R3 source bundle identifies two YunYao electron-density profiles and their
+derived numerical extracts as requiring provider permission before public
+redistribution. These files are not included in this GitHub release and will
+not be included in the public Zenodo data update without documented provider
+permission. Their expected relative paths and scientific role remain described
+in the component metadata so that the limitation is transparent.
 
-## Scientific data and images
-
-Data, generated figures, reference figures, and non-code image assets are
-distributed through the separate Zenodo dataset record, not this GitHub code
-repository. The manuscript authors confirmed on 2026-07-29 that all data in
-that deposit are project-owned, no third-party data are included, and all
-included materials are approved for public redistribution under the declared
-CC BY 4.0 licence.
-
-## Excluded source archives
-
-Complete commercial, unavailable, and very large external source archives are
-not included. The scientific effect of each exclusion is documented in
-`manifest/external_large_sources.csv` and
-`docs/REPRODUCIBILITY_MATRIX.md`.
+Large mission, RINEX, radar, and radio-occultation archives remain with their
+original providers. Access routes and acknowledgements are recorded in the R3
+provenance. Natural Earth resources and Python dependencies retain their own
+upstream terms. No third-party material is relicensed by this repository.

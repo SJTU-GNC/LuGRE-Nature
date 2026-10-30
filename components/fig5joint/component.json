@@ -1,0 +1,63 @@
+{
+  "component": "fig5joint",
+  "revision": "R3",
+  "scope": "Current polar case study and contextual joint observables",
+  "requirements": [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "Pillow"
+  ],
+  "tasks": [
+    {
+      "id": "fig5",
+      "command": [
+        "run.py",
+        "--figure",
+        "Fig5"
+      ],
+      "output_names": [
+        "Fig5_R3.png"
+      ],
+      "reproduction_class": "scientific_numerical_redraw",
+      "notes": "All scientific panels redraw when separately authorised case inputs are supplied. Exact 591/930 LuGRE h50 case epochs and corrected southern mean(abs(v_LOS)) are retained in the public data package. Original PowerPoint composite geometry/font pixels are not claimed exact. Two YunYao profiles and Fig.5 PNGs incorporating them are excluded from the public release pending provider approval."
+    },
+    {
+      "id": "ed_joint",
+      "command": [
+        "run.py",
+        "--figure",
+        "ED8"
+      ],
+      "output_names": [
+        "Extended_Data_Joint_observables.png"
+      ],
+      "reproduction_class": "scientific_numerical_redraw",
+      "notes": "920 LuGRE amplitude/ROTI pairs, 1,619 true-P95 LEO profiles and the separate ground scintillation station-minute dataset retained. Source-specific historical grouping is intentional; not the Ground182 main-figure population."
+    }
+  ],
+  "validation_command": [
+    "verify_inputs.py"
+  ],
+  "restricted_files": [
+    "data/restricted_yunyao/matched_profiles.csv",
+    "data/restricted_yunyao/track_145_Y038_E05/source_ionPrf_Y038.2025.074.16.00.E05_0001.0107_nc.nc",
+    "data/restricted_yunyao/track_145_Y038_E05/ionprf_position_time_ne_profile.csv",
+    "data/restricted_yunyao/track_145_Y038_E05/iri_profile_50_1000km_median_location.csv",
+    "data/restricted_yunyao/track_009_Y040_C19/source_ionPrf_Y040.2025.062.12.17.C19_0001.0107_nc.nc",
+    "data/restricted_yunyao/track_009_Y040_C19/ionprf_position_time_ne_profile.csv",
+    "data/restricted_yunyao/track_009_Y040_C19/iri_profile_50_1000km_median_location.csv"
+  ],
+  "restricted_data_notice": "THIRD_PARTY_ACCESS.md",
+  "reference_artifacts_are_runtime_inputs": false,
+  "raw_archive_to_figures_complete": false,
+  "runtime_supports_offline_numerical_inputs": true,
+  "distribution_exclude": [
+    "_packaging",
+    "work",
+    "__pycache__"
+  ],
+  "original_plot_sources": "provenance/input_origin_manifest.json",
+  "execution_status": "PRIVATE SOURCE VALIDATION PASS: numerical validators and relocated offline-guarded Fig5/EDjoint entrypoints executed before public filtering. PUBLIC RELEASE: EDjoint remains runnable; Fig5 is explicitly blocked until separately authorised YunYao inputs are supplied. See ../../validation/VALIDATION_SUMMARY.json and THIRD_PARTY_ACCESS.md."
+}

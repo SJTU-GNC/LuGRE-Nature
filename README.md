@@ -1,133 +1,96 @@
-# LuGRE Reviewer Reproduction
+# LuGRE R3 Reproduction Code
 
-> Public reproducibility repository for the manuscript *Lunar GNSS reveals a
-> polar-dominant ionospheric amplitude response*.
+Python and PowerShell code supporting the manuscript *Observing Earth's
+ionospheric irregularities from the moon*.
 
-This repository contains the Python code, task registry, and reproducibility
-documentation used to regenerate the manuscript figures and independently
-recoverable scientific panels.
+This repository contains the public code release for the frozen R3 selected
+182-station analysis dated 30 October 2026. Numerical inputs, source data,
+official figure references, and verified outputs are versioned separately in
+the associated Zenodo data record.
+
+## R3 scope
+
+- Five main figures and eight Extended Data figures.
+- A selected Ground population of 182 stations, 29,803,114 native 1-Hz
+  receiver-satellite epochs, and 498,430 accepted minute windows.
+- The accepted LuGRE h50 and LEO populations.
+- Portable relative-path entry points for Windows and Python 3.12.
+- Environment, provenance, selection, and validation metadata needed to audit
+  the analysis code.
 
 ## Associated manuscript
 
-- Title: *Lunar GNSS reveals a polar-dominant ionospheric amplitude response*
-- Status: ready to submit (unpublished; no article DOI has been assigned)
-- Authors: Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio Dovis,
-  Y. Jade Morton, Xirui Miao, Yuquan Ma, Wei Gao, Li-Ta Hsu, and Xingqun Zhan
-- Corresponding authors: Rong Yang and Y. Jade Morton
+**Title:** *Observing Earth's ionospheric irregularities from the moon*
 
-All project-original code, data, figures, images, and documentation in this
-repository and its associated data deposit were prepared for this manuscript
-and are attributed to its authors. Full authorship and contact metadata are
-provided in `docs/MANUSCRIPT_METADATA.md`.
+**Authors:** Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio Dovis,
+Claudio Cesaroni, Luca Spogli, Lucilla Alfonsi, Xirui Miao, Yuquan Ma, Wei Gao,
+Li-Ta Hsu, and Xingqun Zhan.
 
-## Research context and responsible reuse
+**Corresponding author:** Rong Yang (rongyang@sjtu.edu.cn)
 
-The dataset and software DOI records document the creators, release date,
-version, and provenance of this reproducibility package. Reuse is governed by
-CC BY 4.0 for the data and figures and by the MIT License for the software.
-
-Users must comply with the applicable licence terms, retain copyright and
-licence notices, provide appropriate attribution where required, and clearly
-identify modifications. Reuse must not imply endorsement by the manuscript
-authors or misrepresent the original data, methods, figures, or findings.
-
-For scholarly use, please cite both the dataset DOI and software DOI below.
-Publications based substantially on these resources should clearly distinguish
-reused material from new contributions and should cite the associated
-manuscript when a public citation becomes available. See
-[REUSE_AND_CITATION.md](REUSE_AND_CITATION.md) for the complete statement and
-corresponding-author contacts.
-
-## Reproduction scope
-
-- 9 complete manuscript figures are regenerated exactly from packaged
-  analysis-ready inputs.
-- 38 scientific panel redraws are runnable for figures whose final assembly
-  chain is incomplete.
-- 6 full-figure records and 1 reference-only panel are explicitly marked as
-  blocked.
-- Reference images are validation targets and are never plotting inputs.
-
-The precise level and known limitation of every task are recorded in
-`manifest/tasks.json` and `docs/REPRODUCIBILITY_MATRIX.md`.
+Full creator and affiliation metadata are recorded in `CITATION.cff` and
+`.zenodo.json`.
 
 ## Data download
 
-The data, generated figures, validation references, and machine-readable file
-manifest are deposited separately:
+Download the latest R3 data version from the Zenodo dataset record associated
+with DOI `10.5281/zenodo.21672261`, then extract its contents into this
+repository root. The data package restores the numerical-input, reference, and
+result paths expected by the code.
 
-- Zenodo dataset DOI: `10.5281/zenodo.21672261`
-- Dataset version: `1.0.0`
+The public data package deliberately excludes the YunYao profiles under
+`components/fig5joint/data/restricted_yunyao/` because provider permission for
+public redistribution has not been documented. The Fig.5 workflow therefore
+requires those separately authorised inputs for complete execution. No
+restricted YunYao file is present in this GitHub repository.
 
-Download and extract the Zenodo archive into the repository root so that the
-following directories exist:
+## Environment and execution
 
-```text
-data/
-assets/
-reference/
-outputs/
-```
-
-## Environment
-
-Create a Python environment and install the pinned dependencies:
+Create a Python 3.12 environment and install the pinned requirements:
 
 ```text
 python -m venv .venv
-.venv\Scripts\python -m pip install -r environment\requirements.txt
+.venv\Scripts\python -m pip install -r requirements.txt
 ```
 
-The published GitHub repository does not contain the 454.7 MiB portable Python
-runtime from the reviewer handoff package. The dependency versions required to
-recreate the environment are listed in `environment/requirements.txt`.
-
-## Run
-
-On Windows:
+After merging the Zenodo data package into the repository root:
 
 ```text
-run_one.cmd --list
-run_one.cmd Fig3
-run_all.cmd --group exact
-run_all.cmd --group panel
-run_all.cmd
-verify_release.cmd
+.venv\Scripts\python run_all.py --list
+.venv\Scripts\python run_all.py
+.venv\Scripts\python run_all.py --tasks fig3 fig4
 ```
 
-Or call the Python entry points directly:
+The bundled Windows setup script in the complete Zenodo reproduction package
+can install from its verified offline wheels. Those wheels are not duplicated
+in this code repository.
 
-```text
-python run_one.py --list
-python run_all.py --group exact
-python run_all.py --group panel
-```
+## Reproduction boundaries
 
-## Data and code boundaries
+The code regenerates scientific plots from the versioned numerical inputs.
+Some approved manuscript figures contain authored artwork or manual composite
+layout elements; their task metadata states where pixel identity is not
+claimed. Large upstream mission, RINEX, radar, and radio-occultation archives
+remain with their original providers and are documented through provenance and
+access inventories rather than redistributed here.
 
-The deposit contains analysis-ready numerical tables, panel-ready products,
-selected raw LuGRE telemetry, generated figures, and validation references. It
-contains no third-party data and does not contain complete external provider
-archives. Excluded commercial, very large, or unavailable source families are
-documented in `manifest/external_large_sources.csv`.
+## Citation and responsible reuse
 
-## Citation
+Please cite the archived R3 software release and the associated Zenodo data
+version. Cite the manuscript when a public citation becomes available. Reuse
+must preserve applicable copyright and licence notices, give appropriate
+attribution, identify modifications, and must not imply endorsement or
+misrepresent the original data, methods, results, figures, or limitations.
 
-Software DOI: `10.5281/zenodo.21675358`
+See `REUSE_AND_CITATION.md` for the complete statement.
 
-Dataset DOI: `10.5281/zenodo.21672261`
+## Licences
 
-See `CITATION.cff` for the software citation metadata. The associated
-manuscript is ready to submit but is not yet published; an article DOI,
-complete affiliation text, ORCID records, and funding metadata may be added
-when available.
+Copyright (c) 2026 Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio
+Dovis, Claudio Cesaroni, Luca Spogli, Lucilla Alfonsi, Xirui Miao, Yuquan Ma,
+Wei Gao, Li-Ta Hsu, and Xingqun Zhan.
 
-## Licence
-
-Copyright (c) 2026 SJTU-GNC. Original project code is released under the MIT
-License; see `LICENSE`. Python dependencies retain their upstream terms; see
-`THIRD_PARTY_NOTICES.md`.
-
-Project-owned data and figures are handled separately in the Zenodo dataset
-record under CC BY 4.0. SJTU-GNC confirmed their public redistribution rights
-on 2026-07-29.
+Original project software is released under the MIT License; see `LICENSE`.
+Author-generated data are licensed separately under CC BY 4.0 in the Zenodo
+data record. Third-party materials retain their original terms and are not
+relicensed by this repository.

@@ -1,0 +1,341 @@
+{
+  "figure_contract": {
+    "conclusion": "Reassess the geographic, spectral and paired-frequency LuGRE amplitude characterization with one declared independent E23-method quartic procedure.",
+    "archetype": "asymmetric mixed-modality figure",
+    "backend": "existing Python/matplotlib workflow",
+    "dimensions_mm": [
+      183,
+      170
+    ],
+    "export": "600 dpi PNG only",
+    "evidence_chain": "a-c amplitude geography; d unchanged phase-derived ROTI; e-f original C/N0; g,j PSD; h paired widths; i occurrence by geometric height; k event widths",
+    "review_risks": "old masks frozen; h>=50 fit/statistical domain; h<50 raw retained; degree0 excluded; count changes and no-qualification rows explicit"
+  },
+  "scope": "new residuals on frozen prior panel cohorts/QC/artifact masks; no old residual values used",
+  "source_hashes": {
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\data\\all_LuGRE_E23_method_residuals.parquet": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+    "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\centered_dipole_rebuild_fig1_fig3_fig4_20260730\\Fig1_centered_dipole_1min_5deg_cn0QC_artifactMask\\data\\fig1c_l1e1_cn0_1hz_samples_with_5deg_bins_after_artifactMask.csv": "ab17e00cf1e7aaf2c2269359a6d6c1e7d9a2f090b0c0e9030cce9a01a928d1e4",
+    "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\Fig3_R2_min60_20260915\\data\\inputs\\fig3_points_source.csv": "7871c0bc59a063afcdaa01e8bfbcde1d23b8ecbb769ed2f7572a733463ab2ef0",
+    "C:\\Users\\YR\\Documents\\Nature_LuGRE\\outputs\\Fig6_geometry_sensitivity_R2_INGV_20260918\\model\\data\\window_geometry.csv": "d39934d4b88bbd4b12397dbf484cb4d02bc592951b63261b5e757333939f751a",
+    "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\Fig3_R2_min60_20260915\\code\\build_psd_min60_native_bins.py": "377960cfc1f6d1efcb2c1e5fcf2440ebe81be4d0d4416769b15eff1bcad3d58a",
+    "C:\\Users\\YR\\Documents\\Nature_LuGRE\\outputs\\Fig6_joint_response_R2_INGV_20260920\\observation_test\\all_104_segments_exact_measured_pairs.csv.gz": "918598421f8a09e338d6538cb6da6f08b2152ecd468331d525260e64bf4ddd5b",
+    "C:\\Users\\YR\\Documents\\Nature_LuGRE\\outputs\\Fig6_joint_response_R2_INGV_20260920\\observation_test\\all_104_natural_segments.csv": "9eee8dd2a87dd7b06b92f7154d739b96d872e7883c623bafcd8598e4118b6ea3",
+    "H:\\LUGRE\\R3_main_figures_20260920\\source_data\\Fig2_R3_OP76_G01_measured_samples.csv": "45bf2a7657ab5675897cf514bdc7f490850e7dc3236794a2f319ed1519d161d6",
+    "H:\\LUGRE\\R3_main_figures_20260920\\source_data\\Fig2_R3_OP38_E21_measured_samples.csv": "1629db0f20d3e3b4c38c6046c2e43020330c426d1519487df055520ecc78b4d7",
+    "C:\\Users\\YR\\Documents\\Nature_LuGRE\\outputs\\Fig1_R2_INGV_20260917\\data\\spatial_roti_cells.csv": "7b5c9043ae9ffb76f1e18852b556645348f6e9832325191de5b0faf71c0f4491"
+  },
+  "QA": {
+    "panel_a_map": {
+      "original_rows": 83313,
+      "eligible_rows": 83313,
+      "excluded_no_quartic_or_height_rows": 0,
+      "raw_cn0_max_abs_change_db": 0.0,
+      "old_QC_and_geometry_identities_frozen": true,
+      "minimum_retained_geometry_height_km": 50.1324547872091,
+      "occupied_cells": 682
+    },
+    "spectral_event_points": {
+      "original_rows": 137686,
+      "eligible_rows": 137686,
+      "excluded_no_quartic_or_height_rows": 0,
+      "raw_cn0_max_abs_change_db": 0.0,
+      "old_QC_and_geometry_identities_frozen": true,
+      "minimum_retained_geometry_height_km": 50.1324547872091
+    },
+    "events": {
+      "valid_windows": 2244,
+      "event_windows": 266,
+      "width_definition": "P95(residual)-P05(residual)",
+      "criterion_db": 1.5,
+      "operator": ">=",
+      "window_origin": "frozen original signal/segment first point, before new eligibility filtering",
+      "window_seconds": 60,
+      "minimum_actual_points": 30,
+      "window_height_and_latitude": "mode of per-observation categories, original rule",
+      "peak_frequency_no_interpolation": true,
+      "counts_by_band": [
+        {
+          "lat_group": "Equatorial",
+          "events": 24,
+          "total_windows": 533,
+          "event_fraction_percent": 4.50281425891182
+        },
+        {
+          "lat_group": "Mid-lat",
+          "events": 27,
+          "total_windows": 1018,
+          "event_fraction_percent": 2.6522593320235757
+        },
+        {
+          "lat_group": "Polar",
+          "events": 215,
+          "total_windows": 693,
+          "event_fraction_percent": 31.024531024531026
+        }
+      ],
+      "frozen_old_bias_screen_window_identities": 2244,
+      "new_residual_bias_screen_not_reapplied": true,
+      "old_window_identities_lost_for_new_eligibility": 0,
+      "maximum_event_width_db": 9.949182017677117,
+      "height_band_rates": [
+        {
+          "height_layer": "Topside",
+          "lat_group": "Equatorial",
+          "events": 0,
+          "total_windows": 265,
+          "event_fraction_percent": 0.0
+        },
+        {
+          "height_layer": "Topside",
+          "lat_group": "Mid-lat",
+          "events": 3,
+          "total_windows": 457,
+          "event_fraction_percent": 0.6564551422319475
+        },
+        {
+          "height_layer": "Topside",
+          "lat_group": "Polar",
+          "events": 57,
+          "total_windows": 377,
+          "event_fraction_percent": 15.119363395225465
+        },
+        {
+          "height_layer": "F2",
+          "lat_group": "Equatorial",
+          "events": 7,
+          "total_windows": 173,
+          "event_fraction_percent": 4.046242774566474
+        },
+        {
+          "height_layer": "F2",
+          "lat_group": "Mid-lat",
+          "events": 5,
+          "total_windows": 319,
+          "event_fraction_percent": 1.567398119122257
+        },
+        {
+          "height_layer": "F2",
+          "lat_group": "Polar",
+          "events": 107,
+          "total_windows": 229,
+          "event_fraction_percent": 46.724890829694324
+        },
+        {
+          "height_layer": "F1",
+          "lat_group": "Equatorial",
+          "events": 12,
+          "total_windows": 61,
+          "event_fraction_percent": 19.672131147540984
+        },
+        {
+          "height_layer": "F1",
+          "lat_group": "Mid-lat",
+          "events": 11,
+          "total_windows": 128,
+          "event_fraction_percent": 8.59375
+        },
+        {
+          "height_layer": "F1",
+          "lat_group": "Polar",
+          "events": 45,
+          "total_windows": 78,
+          "event_fraction_percent": 57.69230769230769
+        },
+        {
+          "height_layer": "E",
+          "lat_group": "Equatorial",
+          "events": 4,
+          "total_windows": 24,
+          "event_fraction_percent": 16.666666666666668
+        },
+        {
+          "height_layer": "E",
+          "lat_group": "Mid-lat",
+          "events": 5,
+          "total_windows": 71,
+          "event_fraction_percent": 7.042253521126761
+        },
+        {
+          "height_layer": "E",
+          "lat_group": "Polar",
+          "events": 6,
+          "total_windows": 9,
+          "event_fraction_percent": 66.66666666666667
+        },
+        {
+          "height_layer": "D",
+          "lat_group": "Equatorial",
+          "events": 1,
+          "total_windows": 10,
+          "event_fraction_percent": 10.0
+        },
+        {
+          "height_layer": "D",
+          "lat_group": "Mid-lat",
+          "events": 3,
+          "total_windows": 43,
+          "event_fraction_percent": 6.976744186046512
+        },
+        {
+          "height_layer": "D",
+          "lat_group": "Polar",
+          "events": 0,
+          "total_windows": 0,
+          "event_fraction_percent": NaN
+        }
+      ]
+    },
+    "PSD": {
+      "retained_runs": 441,
+      "retained_actual_points": 133141,
+      "minimum_run_samples": 60,
+      "strict_1Hz_run_split": true,
+      "time_interpolation": false,
+      "frequency_interpolation": false,
+      "window": "numpy Hanning",
+      "nperseg": "min(256,N)",
+      "overlap": "min(128,floor(nperseg/2))",
+      "subwindow_mean_removal": true,
+      "aggregation": "native positive ordinates into fixed k/256 +/-1/512 Hz bins; median across runs",
+      "max_parseval_error": 1.7763568394002505e-15,
+      "above_0p1_to_0p45_Hz_polar_ratios": [
+        {
+          "signal_name": "GPS L1",
+          "reference": "Equatorial",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 2.312591791067073,
+          "polar_over_reference_median": 7.299102272300149,
+          "polar_over_reference_max": 26.370510145465264,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "GPS L1",
+          "reference": "Mid-lat",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 3.4171474695363155,
+          "polar_over_reference_median": 7.35245542170493,
+          "polar_over_reference_max": 18.789233024262145,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "GPS L5",
+          "reference": "Equatorial",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 9.054879871288476,
+          "polar_over_reference_median": 33.69564079522087,
+          "polar_over_reference_max": 98.37293575133718,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "GPS L5",
+          "reference": "Mid-lat",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 8.496101359527746,
+          "polar_over_reference_median": 25.479905881545122,
+          "polar_over_reference_max": 82.72697133837856,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "Galileo E1",
+          "reference": "Equatorial",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 1.0015263845071334,
+          "polar_over_reference_median": 2.9855203648887008,
+          "polar_over_reference_max": 9.10453723141866,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "Galileo E1",
+          "reference": "Mid-lat",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 1.2915126283504461,
+          "polar_over_reference_median": 3.3297642418345093,
+          "polar_over_reference_max": 6.935587493983123,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "Galileo E5a",
+          "reference": "Equatorial",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 1.9746889783936046,
+          "polar_over_reference_median": 5.002445592441371,
+          "polar_over_reference_max": 16.3651202331579,
+          "frequencies_polar_not_larger": []
+        },
+        {
+          "signal_name": "Galileo E5a",
+          "reference": "Mid-lat",
+          "n_common_frequencies": 90,
+          "polar_over_reference_min": 1.3724683808821432,
+          "polar_over_reference_median": 4.236244021381301,
+          "polar_over_reference_max": 17.045932795650376,
+          "frequencies_polar_not_larger": []
+        }
+      ]
+    },
+    "paired_points": {
+      "original_fixed_pairs": 39981,
+      "eligible_pairs": 39981,
+      "excluded_pairs": 0,
+      "original_natural_runs": 104,
+      "updated_eligible_runs": 104,
+      "complete60_blocks": 627,
+      "coordinate_definition": "per-frequency median of exact contiguous non-overlapping 60-sample block P95-P05 widths within fixed old independent-pair cohorts",
+      "minimum_pairs": 180,
+      "colour_definition": "absolute centered-dipole latitude median of each retained contiguous paired run",
+      "old_shared_baseline_excluded_population_not_automatically_added": true,
+      "summary_by_display_latitude": [
+        {
+          "latitude_band": "All",
+          "n_runs": 104,
+          "n_lower_carrier_broader": 32,
+          "percent_lower_carrier_broader": 30.76923076923077,
+          "median_low_over_high_width": 0.7352435666575876,
+          "max_lower_carrier_width_db": 5.17661459271228
+        },
+        {
+          "latitude_band": "Equatorial",
+          "n_runs": 25,
+          "n_lower_carrier_broader": 0,
+          "percent_lower_carrier_broader": 0.0,
+          "median_low_over_high_width": 0.6556668824116763,
+          "max_lower_carrier_width_db": 0.47927359776713174
+        },
+        {
+          "latitude_band": "Mid-latitude",
+          "n_runs": 46,
+          "n_lower_carrier_broader": 9,
+          "percent_lower_carrier_broader": 19.565217391304348,
+          "median_low_over_high_width": 0.7340955416988966,
+          "max_lower_carrier_width_db": 1.5577392210814227
+        },
+        {
+          "latitude_band": "Polar",
+          "n_runs": 33,
+          "n_lower_carrier_broader": 23,
+          "percent_lower_carrier_broader": 69.6969696969697,
+          "median_low_over_high_width": 1.349909316545364,
+          "max_lower_carrier_width_db": 5.17661459271228
+        }
+      ]
+    },
+    "rawcase_OP76_G01": {
+      "original_rows": 591,
+      "eligible_rows": 591,
+      "excluded_no_quartic_or_height_rows": 0,
+      "raw_cn0_max_abs_change_db": 0.0,
+      "old_QC_and_geometry_identities_frozen": true,
+      "minimum_retained_geometry_height_km": 144.19716861316556
+    },
+    "rawcase_OP38_E21": {
+      "original_rows": 930,
+      "eligible_rows": 930,
+      "excluded_no_quartic_or_height_rows": 0,
+      "raw_cn0_max_abs_change_db": 0.0,
+      "old_QC_and_geometry_identities_frozen": true,
+      "minimum_retained_geometry_height_km": 106.139975884661
+    }
+  },
+  "all_derived_statistics_recomputed": true,
+  "formal_files_modified": false
+}

@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "figure": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Space_weather_sync\\Extended_Data_Space_weather_index.png",
+  "figure_sha256": "41ce1410d03406a005476ae2aa2c5e3a5b5b92ea095a0f97942b13293e044df9",
+  "figure_pixels": [
+    4320,
+    4344
+  ],
+  "dpi": 600,
+  "controlled_change": "Only panel f LuGRE mean window widths refreshed from the exact h50 E23 Fig2 windows; native re-rendered at 600dpi",
+  "current_D_figure_sha256": "a6d0240a643bb6421d5a6703bb0365fa6656b100228f67ba14382d89d0e8f3e9",
+  "historical_full_figure_pixels_reproduced": true,
+  "historical_panels_a_e_pixels_reproduced": true,
+  "panels_a_e_at_600dpi_before_after_pixels_identical": true,
+  "window_identities_and_latitude_and_sample_counts_unchanged": true,
+  "all_windows": 2244,
+  "polar_windows": 693,
+  "total_event_windows": 266,
+  "polar_event_windows": 215,
+  "statistic": "Arithmetic mean of P95-P05 residual widths; equal weight per accepted 60-s window; all-latitude includes polar subset",
+  "time_axis": [
+    "2025-03-03 00:00:00",
+    "2025-03-17 00:00:00"
+  ],
+  "OP_positions_labels_and_shading_unchanged": true,
+  "raw_index_sources": {
+    "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\polar_scintillation_all_indices_figure_package_20260615\\Polar_scintillation_support_1min_merged_20250115_20250317.csv": "a2e2ebbc7c70a9c2027cf5a4505f068c1599a47cfc5a2f0839c61a2a48e3a834",
+    "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\polar_scintillation_all_indices_figure_package_20260615\\OMNI2_Dst_F107_20250115_20250317.csv": "8948b60f15122313e6ce167d8336fdce25941a9875db48737ac7d1ad77e617bf"
+  },
+  "source_window_file": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\fig2_adapter\\derived_source_data\\all_60s_windows.csv",
+  "source_window_sha256": "945497f9b4e8f0bc898df8dc5681faac1564efef6ca0728bd096ac1f8e9b944b",
+  "current_E23_residual_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "original_renderer": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\polar_scintillation_all_indices_figure_package_20260615\\visualization\\make_extended_data_solarwind_lugre_chain_surface_phase_candidate.py",
+  "original_renderer_sha256": "467e3eb56f368d5c75ba6e0ac41c4769de2ed84d243b17f6eb1b7dcb87c6f446",
+  "original_panel_f_renderer_sha256": "91a142e8073417958be45d31b5ca11ddd64efe466cef49055b5814e27e751299",
+  "per_OP": [
+    {
+      "op_id": "38_0",
+      "all_windows": 419,
+      "all_mean_width_db": 0.666917852793119,
+      "polar_windows": 106,
+      "polar_mean_width_db": 0.8514819781065257,
+      "start": "2025-03-03 06:19:00",
+      "end": "2025-03-04 06:10:00",
+      "center": "2025-03-03 18:14:30",
+      "display_label": "OP38"
+    },
+    {
+      "op_id": "40_0",
+      "all_windows": 244,
+      "all_mean_width_db": 0.9318458716912243,
+      "polar_windows": 69,
+      "polar_mean_width_db": 1.704555174581841,
+      "start": "2025-03-04 07:09:00",
+      "end": "2025-03-04 20:31:00",
+      "center": "2025-03-04 13:50:00",
+      "display_label": "OP40"
+    },
+    {
+      "op_id": "74_0",
+      "all_windows": 611,
+      "all_mean_width_db": 1.1255058680893633,
+      "polar_windows": 230,
+      "polar_mean_width_db": 2.216473630827715,
+      "start": "2025-03-14 12:54:00",
+      "end": "2025-03-15 12:44:00",
+      "center": "2025-03-15 00:49:00",
+      "display_label": "OP74"
+    },
+    {
+      "op_id": "76_0",
+      "all_windows": 823,
+      "all_mean_width_db": 0.7205494604658879,
+      "polar_windows": 276,
+      "polar_mean_width_db": 1.1474075437076974,
+      "start": "2025-03-15 13:21:00",
+      "end": "2025-03-16 15:05:00",
+      "center": "2025-03-16 02:13:00",
+      "display_label": "OP76"
+    },
+    {
+      "op_id": "77_0",
+      "all_windows": 134,
+      "all_mean_width_db": 0.4180886539768054,
+      "polar_windows": 12,
+      "polar_mean_width_db": 0.6004898994088287,
+      "start": "2025-03-16 15:17:00",
+      "end": "2025-03-16 17:55:00",
+      "center": "2025-03-16 16:36:00",
+      "display_label": "OP77_0"
+    },
+    {
+      "op_id": "78_1",
+      "all_windows": 13,
+      "all_mean_width_db": 0.9899876518190774,
+      "polar_windows": 0,
+      "polar_mean_width_db": null,
+      "start": "2025-03-16 22:16:00",
+      "end": "2025-03-16 22:50:00",
+      "center": "2025-03-16 22:33:00",
+      "display_label": "OP78_1"
+    }
+  ],
+  "old_mean_absolute_changes_db": {
+    "all_mean_width_db": 0.016552950662069077,
+    "polar_mean_width_db": 0.006063080616130145
+  },
+  "no_observation_interpolation": true,
+  "missing_polar_OP78_preserved_as_missing": true,
+  "formal_manuscript_modified": false,
+  "visual_review": "Inspected final PNG: approved six-panel layout, dates, OP labels, legends and axis labels retained; no clipping or overlap introduced."
+}

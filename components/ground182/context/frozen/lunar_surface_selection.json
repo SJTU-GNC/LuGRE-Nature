@@ -1,0 +1,54 @@
+{
+  "source_zip": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\All_CTLS_recomputed_J2000_tracks_50_1000km.zip",
+  "source_sha256": "07749e9e7a7606410990f3c3dffd0bb89d28dcc4257deb9a41f5ed23dac6f336",
+  "selection": "phase == 'S'; retain original 50–1,000 km tangent-height selection",
+  "before": {
+    "tracks": 527,
+    "satellites": 41,
+    "points": 152797
+  },
+  "after": {
+    "tracks": 461,
+    "satellites": 38,
+    "points": 139809
+  },
+  "dates_utc": [
+    "2025-03-03",
+    "2025-03-04",
+    "2025-03-14",
+    "2025-03-15",
+    "2025-03-16"
+  ],
+  "phases_in_original_figure": {
+    "C": {
+      "points": 2422,
+      "satellite_signal_tracks": 12,
+      "satellites": 4,
+      "start_utc": "2025-01-15T15:52:49.437020+00:00",
+      "end_utc": "2025-01-16T01:48:28.654489+00:00"
+    },
+    "L": {
+      "points": 1802,
+      "satellite_signal_tracks": 12,
+      "satellites": 4,
+      "start_utc": "2025-02-14T04:18:41.420219+00:00",
+      "end_utc": "2025-02-27T16:30:23.318120+00:00"
+    },
+    "S": {
+      "points": 139809,
+      "satellite_signal_tracks": 461,
+      "satellites": 38,
+      "start_utc": "2025-03-03T06:47:50.296169+00:00",
+      "end_utc": "2025-03-16T22:30:24.436490+00:00"
+    },
+    "T": {
+      "points": 8764,
+      "satellite_signal_tracks": 42,
+      "satellites": 11,
+      "start_utc": "2025-01-19T05:18:41.218519+00:00",
+      "end_utc": "2025-02-12T03:45:34.236059+00:00"
+    }
+  },
+  "accepted_coordinates_and_times_unchanged": true,
+  "original_satellite_colours_preserved": true
+}

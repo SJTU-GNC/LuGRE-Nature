@@ -1,0 +1,24 @@
+{
+  "component_id": "ground182",
+  "description": "Six current R3 figures from the user-selected182 Ground network and unchanged accepted near-space inputs",
+  "source_selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "station_count": 182,
+  "Ground_epochs": 29803114,
+  "Ground_windows": 498430,
+  "requirements": ["numpy>=2.0", "pandas>=2.2", "matplotlib>=3.9", "scipy>=1.13", "Pillow>=11", "pyarrow>=17", "cartopy>=0.24", "pyerfa>=2.0"],
+  "validation_command": ["validate_inputs.py"],
+  "tasks": [
+    {"id": "fig3", "command": ["reproduce.py", "fig3"], "output_names": ["Fig3_R3.png"], "reproduction_class": "plot_from_frozen_source_data", "notes": "Histograms, quantiles, height envelopes and actual near-space residual/height points; no input populations changed."},
+    {"id": "fig4", "command": ["reproduce.py", "fig4"], "output_names": ["Fig4_R3.png"], "reproduction_class": "plot_from_frozen_source_data", "notes": "All accepted windows and exact15degree median/IQR summaries included; validation recomputes summaries."},
+    {"id": "illumination", "command": ["reproduce.py", "illumination"], "output_names": ["Extended_Data_Local_time_illumination.png"], "reproduction_class": "plot_from_frozen_source_data", "notes": "All accepted source windows retained; offline solar input table included."},
+    {"id": "geometry", "command": ["reproduce.py", "geometry"], "output_names": ["Extended_Data_Geometry_angles.png", "Extended_Data_Scan_speed_Fresnel_time.png"], "reproduction_class": "plot_from_frozen_source_data", "notes": "Exact current182 angleCDF and speed/time histograms; source selection binding included."},
+    {"id": "context", "command": ["reproduce.py", "context"], "output_names": ["Extended_Data_Observing_context.png"], "reproduction_class": "plot_from_frozen_source_data_and_cartographic_assets", "notes": "All station/context/track tables and offline NaturalEarth map assets included; context categories are separate populations."}
+  ],
+  "restricted_files": [],
+  "third_party_rights_retained": ["OriginalGNSS observations", "NaturalEarth map assets", "Mission satellite illustrations"],
+  "font_policy": "Use Arial when installed; fall back to Matplotlib DejaVuSans without redistributingWindows fonts.",
+  "upstream_raw_reprocessing_included": false,
+  "upstream_source_archive": "provenance/upstream_source_archive",
+  "archival_python_not_supported_entrypoints": ["provenance/assemble_on_original_machine.py", "provenance/finalize_component_metadata.py", "provenance/upstream_source_archive"],
+  "runtime_outputs_directory": "outputs"
+}

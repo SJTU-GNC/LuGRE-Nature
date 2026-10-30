@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "test_root": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3",
+  "source_root_was_not_allowed_for_runtime_reads": true,
+  "input_copy_method": "Independent NTFS hard-link filenames, not junctions; release ZIP stores complete bytes.",
+  "new_linked_files": 1,
+  "network_disabled_by_audit_guard": true,
+  "denied_access_attempts": 0,
+  "steps": [
+    {
+      "step": "environment",
+      "returncode": 0,
+      "seconds": 29.34,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\environment.log"
+    },
+    {
+      "step": "ground_inputs",
+      "returncode": 0,
+      "seconds": 49.86,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground_inputs.log"
+    },
+    {
+      "step": "joint_inputs",
+      "returncode": 0,
+      "seconds": 4.91,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\joint_inputs.log"
+    },
+    {
+      "step": "all_figures",
+      "returncode": 0,
+      "seconds": 261.8,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\all_figures.log"
+    },
+    {
+      "step": "ground_outputs",
+      "returncode": 0,
+      "seconds": 2.94,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\ground_outputs.log"
+    },
+    {
+      "step": "full_lugre_refit",
+      "returncode": 0,
+      "seconds": 11.34,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\full_lugre_refit.log"
+    },
+    {
+      "step": "fig5_layout",
+      "returncode": 0,
+      "seconds": 8.58,
+      "log": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\fig5_layout.log"
+    }
+  ],
+  "run_report": "E:\\LUGRE\\Zenodo_R3_build_20261030\\relocated test\\Standalone R3\\outputs\\RUN_REPORT.json"
+}

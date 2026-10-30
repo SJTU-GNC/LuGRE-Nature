@@ -1,0 +1,1434 @@
+{
+  "pairs": [
+    {
+      "pair_id": "359404_359406",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "ABPO00MDG",
+        "receiver_identity": "4f467030d0718d6bd2708980b02eef1a7f82359cc5a49bec5117bdf82ee8bf4c",
+        "satellite": "G20",
+        "signal": "GPS L1",
+        "fit_arc_id": "ABPO00MDG_G_4f467030d0|arc_13715",
+        "qc_segment_id": "ABPO00MDG_G_4f467030d0|arc_13715"
+      },
+      "physical_receiver_identity": "32b71602251d91095417e6f27129a68cacb91b976129e596936721d69e6c5e3b",
+      "first_utc_s": 1742014020,
+      "last_utc_s": 1742014199,
+      "seed_ids": [
+        359404,
+        359406
+      ],
+      "all_window_ids": [
+        359404,
+        359405,
+        359406
+      ],
+      "additional_gap_ids": [
+        359405
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\359404_359406_episode_R3.json",
+        "SHA256": "d9a9dbd056d8f3730853cca2a3180f0025ce9cf66d862b2489ea8b8e065cc157"
+      },
+      "source_unit": "ABPO00MDG",
+      "left_seed_window_id": 359404,
+      "right_seed_window_id": 359406,
+      "gap_window_ids": [
+        359405
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        359405
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\359404_359406_episode_R3.json",
+      "proof_sha256": "d9a9dbd056d8f3730853cca2a3180f0025ce9cf66d862b2489ea8b8e065cc157"
+    },
+    {
+      "pair_id": "3859_3861",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "ARCC00CAN",
+        "receiver_identity": "a000510f0f197bc3b1316f283e1405fb60492f7a22716851f66508a6002a07fd",
+        "satellite": "G13",
+        "signal": "GPS L1",
+        "fit_arc_id": "ARCC00CAN_G13_a000510f0f197bc3b1316f283e1405fb60492f7a22716851f66508a6002a07fd|arc_11",
+        "qc_segment_id": "ARCC00CAN_G13_a000510f0f197bc3b1316f283e1405fb60492f7a22716851f66508a6002a07fd|arc_11"
+      },
+      "physical_receiver_identity": "90873ff418cbd0112cafe0f0d3448e9e01f7ac75f2b18bcea2b221b81c91999b",
+      "first_utc_s": 1742008020,
+      "last_utc_s": 1742008199,
+      "seed_ids": [
+        3859,
+        3861
+      ],
+      "all_window_ids": [
+        3859,
+        3860,
+        3861
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\3859_3861_episode_R3.json",
+        "SHA256": "a6f301b73844ea40f1e96c25126aa0830e8823c9f127121c9d3d002afa6a2767"
+      },
+      "source_unit": "ARCC00CAN",
+      "left_seed_window_id": 3859,
+      "right_seed_window_id": 3861,
+      "gap_window_ids": [
+        3860
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\3859_3861_episode_R3.json",
+      "proof_sha256": "a6f301b73844ea40f1e96c25126aa0830e8823c9f127121c9d3d002afa6a2767"
+    },
+    {
+      "pair_id": "368345_368347",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "ARUC00ARM",
+        "receiver_identity": "fd67a3c46190a699946e5497aeb56cd52f7354fff6c2f72f2ffb511fed85168f",
+        "satellite": "G20",
+        "signal": "GPS L1",
+        "fit_arc_id": "ARUC00ARM_G_fd67a3c461|arc_5321",
+        "qc_segment_id": "ARUC00ARM_G_fd67a3c461|arc_5321"
+      },
+      "physical_receiver_identity": "3de39669c72f7e05f1f6277fc6aa726a551251cacd40994d14f629d690a38114",
+      "first_utc_s": 1742004240,
+      "last_utc_s": 1742004419,
+      "seed_ids": [
+        368345,
+        368347
+      ],
+      "all_window_ids": [
+        368345,
+        368346,
+        368347
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\368345_368347_episode_R3.json",
+        "SHA256": "38c87d2d1bf486a7278a3358f612fc45587fc79dffca723ce710c96e18091125"
+      },
+      "source_unit": "ARUC00ARM",
+      "left_seed_window_id": 368345,
+      "right_seed_window_id": 368347,
+      "gap_window_ids": [
+        368346
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\368345_368347_episode_R3.json",
+      "proof_sha256": "38c87d2d1bf486a7278a3358f612fc45587fc79dffca723ce710c96e18091125"
+    },
+    {
+      "pair_id": "59491_59493",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "GROT00AUS",
+        "receiver_identity": "2101b5b14536b2f3f3f45097a3e4c8ebf43d9f1b3047f2091f5d30e188fa9ef0",
+        "satellite": "G29",
+        "signal": "GPS L1",
+        "fit_arc_id": "GROT00AUS_G29_2101b5b14536b2f3f3f45097a3e4c8ebf43d9f1b3047f2091f5d30e188fa9ef0|arc_194",
+        "qc_segment_id": "GROT00AUS_G29_2101b5b14536b2f3f3f45097a3e4c8ebf43d9f1b3047f2091f5d30e188fa9ef0|arc_194"
+      },
+      "physical_receiver_identity": "ef0694df39504748e3a125634e032256ebf8f1558b24ef7b158d5421ce45da09",
+      "first_utc_s": 1742142240,
+      "last_utc_s": 1742142419,
+      "seed_ids": [
+        59491,
+        59493
+      ],
+      "all_window_ids": [
+        59491,
+        59492,
+        59493
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\59491_59493_episode_R3.json",
+        "SHA256": "c2d2da478cb31120498a30d71eec7206e54c22e4ba6d9275b8011118ab136df6"
+      },
+      "source_unit": "GROT00AUS",
+      "left_seed_window_id": 59491,
+      "right_seed_window_id": 59493,
+      "gap_window_ids": [
+        59492
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\59491_59493_episode_R3.json",
+      "proof_sha256": "c2d2da478cb31120498a30d71eec7206e54c22e4ba6d9275b8011118ab136df6"
+    },
+    {
+      "pair_id": "446912_446914",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "HARB00ZAF",
+        "receiver_identity": "a7aa2fcb66fc0ee9d04fc9198717e6a3d417082aa13ebf07366353cd8a705e79",
+        "satellite": "G12",
+        "signal": "GPS L1",
+        "fit_arc_id": "HARB00ZAF_G_a7aa2fcb66|arc_1920",
+        "qc_segment_id": "HARB00ZAF_G_a7aa2fcb66|arc_1920"
+      },
+      "physical_receiver_identity": null,
+      "first_utc_s": 1742124720,
+      "last_utc_s": 1742124899,
+      "seed_ids": [
+        446912,
+        446914
+      ],
+      "all_window_ids": [
+        446912,
+        446913,
+        446914
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\446912_446914_episode_R3.json",
+        "SHA256": "e1fa5b102a19f58f15387b6bb80e0ef563b60b440f184c3b3e45bb1b4b8f64b1"
+      },
+      "source_unit": "HARB00ZAF",
+      "left_seed_window_id": 446912,
+      "right_seed_window_id": 446914,
+      "gap_window_ids": [
+        446913
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "EXISTING_KEEP_FAST_MIXED_GAP",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\446912_446914_episode_R3.json",
+      "proof_sha256": "e1fa5b102a19f58f15387b6bb80e0ef563b60b440f184c3b3e45bb1b4b8f64b1"
+    },
+    {
+      "pair_id": "446914_446918",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "HARB00ZAF",
+        "receiver_identity": "a7aa2fcb66fc0ee9d04fc9198717e6a3d417082aa13ebf07366353cd8a705e79",
+        "satellite": "G12",
+        "signal": "GPS L1",
+        "fit_arc_id": "HARB00ZAF_G_a7aa2fcb66|arc_1920",
+        "qc_segment_id": "HARB00ZAF_G_a7aa2fcb66|arc_1920"
+      },
+      "physical_receiver_identity": "ead2fe017f9c3e443b1ce6835b5f6cdcb104fdaedac177a6dfa65f7f559ab271",
+      "first_utc_s": 1742124840,
+      "last_utc_s": 1742125139,
+      "seed_ids": [
+        446914,
+        446918
+      ],
+      "all_window_ids": [
+        446914,
+        446915,
+        446916,
+        446917,
+        446918
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\446914_446918_episode_R3.json",
+        "SHA256": "2d2a81706f81237ef1198255b3e83e55b232fbe9d6fd1411ae9e5d05fd248557"
+      },
+      "source_unit": "HARB00ZAF",
+      "left_seed_window_id": 446914,
+      "right_seed_window_id": 446918,
+      "gap_window_ids": [
+        446915,
+        446916,
+        446917
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\446914_446918_episode_R3.json",
+      "proof_sha256": "2d2a81706f81237ef1198255b3e83e55b232fbe9d6fd1411ae9e5d05fd248557"
+    },
+    {
+      "pair_id": "451864_451867",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "IISC00IND",
+        "receiver_identity": "0c61b2cd6322b412ce03dde6b30af55b46b5340c55417310a3dfd670ec3afd5a",
+        "satellite": "G27",
+        "signal": "GPS L1",
+        "fit_arc_id": "IISC00IND_G_0c61b2cd63|arc_12557",
+        "qc_segment_id": "IISC00IND_G_0c61b2cd63|arc_12557"
+      },
+      "physical_receiver_identity": "d50e62ee43471989e4d3566f5cc393c5b2ebdaac60b574164d7c11d3b66d2184",
+      "first_utc_s": 1741997880,
+      "last_utc_s": 1741998119,
+      "seed_ids": [
+        451864,
+        451867
+      ],
+      "all_window_ids": [
+        451864,
+        451865,
+        451866,
+        451867
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\451864_451867_episode_R3.json",
+        "SHA256": "427fdd6524f4930d174a00b8d34b769ffd7778eba33d5bd0e5fba2d14ddcc182"
+      },
+      "source_unit": "IISC00IND",
+      "left_seed_window_id": 451864,
+      "right_seed_window_id": 451867,
+      "gap_window_ids": [
+        451865,
+        451866
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\451864_451867_episode_R3.json",
+      "proof_sha256": "427fdd6524f4930d174a00b8d34b769ffd7778eba33d5bd0e5fba2d14ddcc182"
+    },
+    {
+      "pair_id": "451889_451894",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "IISC00IND",
+        "receiver_identity": "0c61b2cd6322b412ce03dde6b30af55b46b5340c55417310a3dfd670ec3afd5a",
+        "satellite": "G27",
+        "signal": "GPS L1",
+        "fit_arc_id": "IISC00IND_G_0c61b2cd63|arc_12670",
+        "qc_segment_id": "IISC00IND_G_0c61b2cd63|arc_12670"
+      },
+      "physical_receiver_identity": "d50e62ee43471989e4d3566f5cc393c5b2ebdaac60b574164d7c11d3b66d2184",
+      "first_utc_s": 1742085480,
+      "last_utc_s": 1742085839,
+      "seed_ids": [
+        451889,
+        451894
+      ],
+      "all_window_ids": [
+        451889,
+        451890,
+        451891,
+        451892,
+        451893,
+        451894
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\451889_451894_episode_R3.json",
+        "SHA256": "d4bfd91eaf5f640ba2dcc22449433c120eb2cbf05b9ec53e66d72b78f4a0c6ca"
+      },
+      "source_unit": "IISC00IND",
+      "left_seed_window_id": 451889,
+      "right_seed_window_id": 451894,
+      "gap_window_ids": [
+        451890,
+        451891,
+        451892,
+        451893
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\451889_451894_episode_R3.json",
+      "proof_sha256": "d4bfd91eaf5f640ba2dcc22449433c120eb2cbf05b9ec53e66d72b78f4a0c6ca"
+    },
+    {
+      "pair_id": "462949_462954",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G08",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_980",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_980"
+      },
+      "physical_receiver_identity": null,
+      "first_utc_s": 1741017960,
+      "last_utc_s": 1741018319,
+      "seed_ids": [
+        462949,
+        462954
+      ],
+      "all_window_ids": [
+        462949,
+        462950,
+        462951,
+        462952,
+        462953,
+        462954
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\462949_462954_episode_R3.json",
+        "SHA256": "1f9eaef8f8cc6f1b75dcbc509c2d9fe3927fe259ca41393e6f20118abf331192"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 462949,
+      "right_seed_window_id": 462954,
+      "gap_window_ids": [
+        462950,
+        462951,
+        462952,
+        462953
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "EXISTING_KEEP_FAST_MIXED_GAP",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\462949_462954_episode_R3.json",
+      "proof_sha256": "1f9eaef8f8cc6f1b75dcbc509c2d9fe3927fe259ca41393e6f20118abf331192"
+    },
+    {
+      "pair_id": "463695_463697",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G17",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_2143",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_2143"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1741981680,
+      "last_utc_s": 1741981859,
+      "seed_ids": [
+        463695,
+        463697
+      ],
+      "all_window_ids": [
+        463695,
+        463696,
+        463697
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\463695_463697_episode_R3.json",
+        "SHA256": "8c8f42870fdb6a6f07ab5a22186c81db5cd157ed2929846a957d7193cbfefb94"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 463695,
+      "right_seed_window_id": 463697,
+      "gap_window_ids": [
+        463696
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\463695_463697_episode_R3.json",
+      "proof_sha256": "8c8f42870fdb6a6f07ab5a22186c81db5cd157ed2929846a957d7193cbfefb94"
+    },
+    {
+      "pair_id": "463900_463903",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G22",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_2636",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_2636"
+      },
+      "physical_receiver_identity": null,
+      "first_utc_s": 1741061160,
+      "last_utc_s": 1741061399,
+      "seed_ids": [
+        463900,
+        463903
+      ],
+      "all_window_ids": [
+        463900,
+        463901,
+        463902,
+        463903
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\463900_463903_episode_R3.json",
+        "SHA256": "2af670de15f34f109b63c6aa2813748d5904b5d898bb7ea8ad6b6e2af1610d93"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 463900,
+      "right_seed_window_id": 463903,
+      "gap_window_ids": [
+        463901,
+        463902
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "EXISTING_KEEP_FAST_MIXED_GAP",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\463900_463903_episode_R3.json",
+      "proof_sha256": "2af670de15f34f109b63c6aa2813748d5904b5d898bb7ea8ad6b6e2af1610d93"
+    },
+    {
+      "pair_id": "463956_463959",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G23",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_2867",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_2867"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1741017900,
+      "last_utc_s": 1741018139,
+      "seed_ids": [
+        463956,
+        463959
+      ],
+      "all_window_ids": [
+        463956,
+        463957,
+        463958,
+        463959
+      ],
+      "additional_gap_ids": [
+        463957,
+        463958
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\463956_463959_episode_R3.json",
+        "SHA256": "2a9543637a48631389525e6deb19d15739745cc038065c93054df5bb32360f51"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 463956,
+      "right_seed_window_id": 463959,
+      "gap_window_ids": [
+        463957,
+        463958
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        463957,
+        463958
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\463956_463959_episode_R3.json",
+      "proof_sha256": "2a9543637a48631389525e6deb19d15739745cc038065c93054df5bb32360f51"
+    },
+    {
+      "pair_id": "464043_464047",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G24",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_2990",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_2990"
+      },
+      "physical_receiver_identity": null,
+      "first_utc_s": 1740992460,
+      "last_utc_s": 1740992759,
+      "seed_ids": [
+        464043,
+        464047
+      ],
+      "all_window_ids": [
+        464043,
+        464044,
+        464045,
+        464046,
+        464047
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464043_464047_episode_R3.json",
+        "SHA256": "87ea9e042b02fe50a8f26d3b61db305dd577dbd8cf9119ec44d517c2dfd65fee"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464043,
+      "right_seed_window_id": 464047,
+      "gap_window_ids": [
+        464044,
+        464045,
+        464046
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "EXISTING_KEEP_FAST_MIXED_GAP",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464043_464047_episode_R3.json",
+      "proof_sha256": "87ea9e042b02fe50a8f26d3b61db305dd577dbd8cf9119ec44d517c2dfd65fee"
+    },
+    {
+      "pair_id": "464141_464146",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G24",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3135",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3135"
+      },
+      "physical_receiver_identity": null,
+      "first_utc_s": 1742112180,
+      "last_utc_s": 1742112539,
+      "seed_ids": [
+        464141,
+        464146
+      ],
+      "all_window_ids": [
+        464141,
+        464142,
+        464143,
+        464144,
+        464145,
+        464146
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464141_464146_episode_R3.json",
+        "SHA256": "b5fc207c682953c08ca40bcbd6384f53d5f2e49a807e4f73e31bc3cce2e8f39f"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464141,
+      "right_seed_window_id": 464146,
+      "gap_window_ids": [
+        464142,
+        464143,
+        464144,
+        464145
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "EXISTING_KEEP_FAST_MIXED_GAP",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464141_464146_episode_R3.json",
+      "proof_sha256": "b5fc207c682953c08ca40bcbd6384f53d5f2e49a807e4f73e31bc3cce2e8f39f"
+    },
+    {
+      "pair_id": "464146_464148",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G24",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3135",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3135"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1742112480,
+      "last_utc_s": 1742112659,
+      "seed_ids": [
+        464146,
+        464148
+      ],
+      "all_window_ids": [
+        464146,
+        464147,
+        464148
+      ],
+      "additional_gap_ids": [
+        464147
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464146_464148_episode_R3.json",
+        "SHA256": "ca040d9c23b714db78d2a2d310e6e7f5bd98ef32fdd83f3acd85490f4595a42a"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464146,
+      "right_seed_window_id": 464148,
+      "gap_window_ids": [
+        464147
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        464147
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464146_464148_episode_R3.json",
+      "proof_sha256": "ca040d9c23b714db78d2a2d310e6e7f5bd98ef32fdd83f3acd85490f4595a42a"
+    },
+    {
+      "pair_id": "464245_464249",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G25",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3197",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3197"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1742109840,
+      "last_utc_s": 1742110139,
+      "seed_ids": [
+        464245,
+        464249
+      ],
+      "all_window_ids": [
+        464245,
+        464246,
+        464247,
+        464248,
+        464249
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464245_464249_episode_R3.json",
+        "SHA256": "aa1ee316c4b88d0b10025e44214304fd3c5d354d981dc3ec57d657ff70d19400"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464245,
+      "right_seed_window_id": 464249,
+      "gap_window_ids": [
+        464246,
+        464247,
+        464248
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464245_464249_episode_R3.json",
+      "proof_sha256": "aa1ee316c4b88d0b10025e44214304fd3c5d354d981dc3ec57d657ff70d19400"
+    },
+    {
+      "pair_id": "464472_464475",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G27",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3346",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3346"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1742131740,
+      "last_utc_s": 1742131979,
+      "seed_ids": [
+        464472,
+        464475
+      ],
+      "all_window_ids": [
+        464472,
+        464473,
+        464474,
+        464475
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464472_464475_episode_R3.json",
+        "SHA256": "f1869fbae0b0a33e5a1bf9f270186f8c024b6e9e40a472c250338327ffd3e324"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464472,
+      "right_seed_window_id": 464475,
+      "gap_window_ids": [
+        464473,
+        464474
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "OWN_MINUTE_ORIGINAL_FAST_POWER_EXCESS",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464472_464475_episode_R3.json",
+      "proof_sha256": "f1869fbae0b0a33e5a1bf9f270186f8c024b6e9e40a472c250338327ffd3e324"
+    },
+    {
+      "pair_id": "464475_464480",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G27",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3346",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3346"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1742131920,
+      "last_utc_s": 1742132279,
+      "seed_ids": [
+        464475,
+        464480
+      ],
+      "all_window_ids": [
+        464475,
+        464476,
+        464477,
+        464478,
+        464479,
+        464480
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464475_464480_episode_R3.json",
+        "SHA256": "b4cbe0cb90e71ab87d4ecbeef4fe70ab60a0ad568bd986fc9fbb92da8c4c7427"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464475,
+      "right_seed_window_id": 464480,
+      "gap_window_ids": [
+        464476,
+        464477,
+        464478,
+        464479
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464475_464480_episode_R3.json",
+      "proof_sha256": "b4cbe0cb90e71ab87d4ecbeef4fe70ab60a0ad568bd986fc9fbb92da8c4c7427"
+    },
+    {
+      "pair_id": "464480_464482",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G27",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3346",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3346"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1742132220,
+      "last_utc_s": 1742132399,
+      "seed_ids": [
+        464480,
+        464482
+      ],
+      "all_window_ids": [
+        464480,
+        464481,
+        464482
+      ],
+      "additional_gap_ids": [
+        464481
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464480_464482_episode_R3.json",
+        "SHA256": "9ab99bf197739f2566a34f7bf8d4d0843fe78356d1c848973a253ea9a9dd7038"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464480,
+      "right_seed_window_id": 464482,
+      "gap_window_ids": [
+        464481
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        464481
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464480_464482_episode_R3.json",
+      "proof_sha256": "9ab99bf197739f2566a34f7bf8d4d0843fe78356d1c848973a253ea9a9dd7038"
+    },
+    {
+      "pair_id": "464754_464758",
+      "status": "KEEP_BLOCK",
+      "identity": {
+        "source_unit": "KARL00DEU",
+        "receiver_identity": "cf0a3137262ef22e013102b77bb7ae8e6857210ef25b8053eb4a06c6a8eef786",
+        "satellite": "G31",
+        "signal": "GPS L1",
+        "fit_arc_id": "KARL00DEU_G_cf0a313726|arc_3721",
+        "qc_segment_id": "KARL00DEU_G_cf0a313726|arc_3721"
+      },
+      "physical_receiver_identity": "fbdc1146e44bc45f1e8440644327b0cc71b020ccb3e0034185f183b85ca540bb",
+      "first_utc_s": 1742125380,
+      "last_utc_s": 1742125679,
+      "seed_ids": [
+        464754,
+        464758
+      ],
+      "all_window_ids": [
+        464754,
+        464755,
+        464756,
+        464757,
+        464758
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464754_464758_episode_R3.json",
+        "SHA256": "7d079e1c4ff4642c3eb3064e81eb1d4de2c2e16732316e996a934472c8448048"
+      },
+      "source_unit": "KARL00DEU",
+      "left_seed_window_id": 464754,
+      "right_seed_window_id": 464758,
+      "gap_window_ids": [
+        464755,
+        464756,
+        464757
+      ],
+      "classification": "KEEP_BLOCK",
+      "reason": "OWN_MINUTE_ORIGINAL_FAST_POWER_EXCESS",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\464754_464758_episode_R3.json",
+      "proof_sha256": "7d079e1c4ff4642c3eb3064e81eb1d4de2c2e16732316e996a934472c8448048"
+    },
+    {
+      "pair_id": "140988_140990",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "PTAG00PHL",
+        "receiver_identity": "411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef",
+        "satellite": "G03",
+        "signal": "GPS L1",
+        "fit_arc_id": "PTAG00PHL_G03_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_289",
+        "qc_segment_id": "PTAG00PHL_G03_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_289"
+      },
+      "physical_receiver_identity": "a9455b72cee5bf8805c0892b5bbcee145e8cb296111dcdd3a8e1df2e42575204",
+      "first_utc_s": 1742014140,
+      "last_utc_s": 1742014319,
+      "seed_ids": [
+        140988,
+        140990
+      ],
+      "all_window_ids": [
+        140988,
+        140989,
+        140990
+      ],
+      "additional_gap_ids": [
+        140989
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\140988_140990_episode_R3.json",
+        "SHA256": "0eb749e8ad0cc6bb29eca09c50ca30b712936263d8abc97807fd9f1c826da545"
+      },
+      "source_unit": "PTAG00PHL",
+      "left_seed_window_id": 140988,
+      "right_seed_window_id": 140990,
+      "gap_window_ids": [
+        140989
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        140989
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\140988_140990_episode_R3.json",
+      "proof_sha256": "0eb749e8ad0cc6bb29eca09c50ca30b712936263d8abc97807fd9f1c826da545"
+    },
+    {
+      "pair_id": "141033_141035",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "PTAG00PHL",
+        "receiver_identity": "411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef",
+        "satellite": "G04",
+        "signal": "GPS L1",
+        "fit_arc_id": "PTAG00PHL_G04_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_99",
+        "qc_segment_id": "PTAG00PHL_G04_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_99"
+      },
+      "physical_receiver_identity": "a9455b72cee5bf8805c0892b5bbcee145e8cb296111dcdd3a8e1df2e42575204",
+      "first_utc_s": 1741997880,
+      "last_utc_s": 1741998059,
+      "seed_ids": [
+        141033,
+        141035
+      ],
+      "all_window_ids": [
+        141033,
+        141034,
+        141035
+      ],
+      "additional_gap_ids": [
+        141034
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\141033_141035_episode_R3.json",
+        "SHA256": "7577ef72a4f9749f3ce13d27a76ebf6f91a93511e305d1cca35a57a6b4584fc6"
+      },
+      "source_unit": "PTAG00PHL",
+      "left_seed_window_id": 141033,
+      "right_seed_window_id": 141035,
+      "gap_window_ids": [
+        141034
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        141034
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\141033_141035_episode_R3.json",
+      "proof_sha256": "7577ef72a4f9749f3ce13d27a76ebf6f91a93511e305d1cca35a57a6b4584fc6"
+    },
+    {
+      "pair_id": "141633_141636",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "PTAG00PHL",
+        "receiver_identity": "411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef",
+        "satellite": "G25",
+        "signal": "GPS L1",
+        "fit_arc_id": "PTAG00PHL_G25_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_63",
+        "qc_segment_id": "PTAG00PHL_G25_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_63"
+      },
+      "physical_receiver_identity": "a9455b72cee5bf8805c0892b5bbcee145e8cb296111dcdd3a8e1df2e42575204",
+      "first_utc_s": 1741110900,
+      "last_utc_s": 1741111139,
+      "seed_ids": [
+        141633,
+        141636
+      ],
+      "all_window_ids": [
+        141633,
+        141634,
+        141635,
+        141636
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\141633_141636_episode_R3.json",
+        "SHA256": "6405830be07f4bd5443154dba3dbffa5803b313992c9fb6f362fa7f73de27e09"
+      },
+      "source_unit": "PTAG00PHL",
+      "left_seed_window_id": 141633,
+      "right_seed_window_id": 141636,
+      "gap_window_ids": [
+        141634,
+        141635
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\141633_141636_episode_R3.json",
+      "proof_sha256": "6405830be07f4bd5443154dba3dbffa5803b313992c9fb6f362fa7f73de27e09"
+    },
+    {
+      "pair_id": "141801_141803",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "PTAG00PHL",
+        "receiver_identity": "411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef",
+        "satellite": "G31",
+        "signal": "GPS L1",
+        "fit_arc_id": "PTAG00PHL_G31_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_190",
+        "qc_segment_id": "PTAG00PHL_G31_411b56ccba8e3d76966f9ded9c5f31426f01b908a40de6ce2c51e7eaa6f165ef|arc_190"
+      },
+      "physical_receiver_identity": "a9455b72cee5bf8805c0892b5bbcee145e8cb296111dcdd3a8e1df2e42575204",
+      "first_utc_s": 1742072400,
+      "last_utc_s": 1742072579,
+      "seed_ids": [
+        141801,
+        141803
+      ],
+      "all_window_ids": [
+        141801,
+        141802,
+        141803
+      ],
+      "additional_gap_ids": [
+        141802
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\141801_141803_episode_R3.json",
+        "SHA256": "3bd7947bafa6f892185f8587d90705c0fbc5fb38e1d219d058465315db5fc18c"
+      },
+      "source_unit": "PTAG00PHL",
+      "left_seed_window_id": 141801,
+      "right_seed_window_id": 141803,
+      "gap_window_ids": [
+        141802
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        141802
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\141801_141803_episode_R3.json",
+      "proof_sha256": "3bd7947bafa6f892185f8587d90705c0fbc5fb38e1d219d058465315db5fc18c"
+    },
+    {
+      "pair_id": "235091_235093",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "SGOC00LKA",
+        "receiver_identity": "e17896d029347918784cb4b1fc29a60919e7e50da65dada41a6d5c1096124e50",
+        "satellite": "G04",
+        "signal": "GPS L1",
+        "fit_arc_id": "SGOC00LKA_G_e17896d029|arc_763",
+        "qc_segment_id": "SGOC00LKA_G_e17896d029|arc_763"
+      },
+      "physical_receiver_identity": "3efbe5db9584530ff350de103948ea1be708654917bfa3b03dac03ddb46e29ee",
+      "first_utc_s": 1742007480,
+      "last_utc_s": 1742007659,
+      "seed_ids": [
+        235091,
+        235093
+      ],
+      "all_window_ids": [
+        235091,
+        235092,
+        235093
+      ],
+      "additional_gap_ids": [
+        235092
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235091_235093_episode_R3.json",
+        "SHA256": "0c6ec188b23e55e2034c631cbc027f0953e3e6ea02dece4943216326ffef0df2"
+      },
+      "source_unit": "SGOC00LKA",
+      "left_seed_window_id": 235091,
+      "right_seed_window_id": 235093,
+      "gap_window_ids": [
+        235092
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        235092
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235091_235093_episode_R3.json",
+      "proof_sha256": "0c6ec188b23e55e2034c631cbc027f0953e3e6ea02dece4943216326ffef0df2"
+    },
+    {
+      "pair_id": "235093_235095",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "SGOC00LKA",
+        "receiver_identity": "e17896d029347918784cb4b1fc29a60919e7e50da65dada41a6d5c1096124e50",
+        "satellite": "G04",
+        "signal": "GPS L1",
+        "fit_arc_id": "SGOC00LKA_G_e17896d029|arc_763",
+        "qc_segment_id": "SGOC00LKA_G_e17896d029|arc_763"
+      },
+      "physical_receiver_identity": "3efbe5db9584530ff350de103948ea1be708654917bfa3b03dac03ddb46e29ee",
+      "first_utc_s": 1742007600,
+      "last_utc_s": 1742007779,
+      "seed_ids": [
+        235093,
+        235095
+      ],
+      "all_window_ids": [
+        235093,
+        235094,
+        235095
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235093_235095_episode_R3.json",
+        "SHA256": "72a5e2300808c3901bb46ad24e51f47cad58c39bd64c981063c7672498858a0e"
+      },
+      "source_unit": "SGOC00LKA",
+      "left_seed_window_id": 235093,
+      "right_seed_window_id": 235095,
+      "gap_window_ids": [
+        235094
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235093_235095_episode_R3.json",
+      "proof_sha256": "72a5e2300808c3901bb46ad24e51f47cad58c39bd64c981063c7672498858a0e"
+    },
+    {
+      "pair_id": "235095_235097",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "SGOC00LKA",
+        "receiver_identity": "e17896d029347918784cb4b1fc29a60919e7e50da65dada41a6d5c1096124e50",
+        "satellite": "G04",
+        "signal": "GPS L1",
+        "fit_arc_id": "SGOC00LKA_G_e17896d029|arc_763",
+        "qc_segment_id": "SGOC00LKA_G_e17896d029|arc_763"
+      },
+      "physical_receiver_identity": "3efbe5db9584530ff350de103948ea1be708654917bfa3b03dac03ddb46e29ee",
+      "first_utc_s": 1742007720,
+      "last_utc_s": 1742007899,
+      "seed_ids": [
+        235095,
+        235097
+      ],
+      "all_window_ids": [
+        235095,
+        235096,
+        235097
+      ],
+      "additional_gap_ids": [
+        235096
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235095_235097_episode_R3.json",
+        "SHA256": "2215bb07e1ac2a7f694ce27d8edf8e3640b3ec22aa490360e3ea3eab1174c1c6"
+      },
+      "source_unit": "SGOC00LKA",
+      "left_seed_window_id": 235095,
+      "right_seed_window_id": 235097,
+      "gap_window_ids": [
+        235096
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        235096
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235095_235097_episode_R3.json",
+      "proof_sha256": "2215bb07e1ac2a7f694ce27d8edf8e3640b3ec22aa490360e3ea3eab1174c1c6"
+    },
+    {
+      "pair_id": "235692_235694",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "SGOC00LKA",
+        "receiver_identity": "e17896d029347918784cb4b1fc29a60919e7e50da65dada41a6d5c1096124e50",
+        "satellite": "G17",
+        "signal": "GPS L1",
+        "fit_arc_id": "SGOC00LKA_G_e17896d029|arc_4367",
+        "qc_segment_id": "SGOC00LKA_G_e17896d029|arc_4367"
+      },
+      "physical_receiver_identity": "3efbe5db9584530ff350de103948ea1be708654917bfa3b03dac03ddb46e29ee",
+      "first_utc_s": 1742017800,
+      "last_utc_s": 1742017979,
+      "seed_ids": [
+        235692,
+        235694
+      ],
+      "all_window_ids": [
+        235692,
+        235693,
+        235694
+      ],
+      "additional_gap_ids": [
+        235693
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235692_235694_episode_R3.json",
+        "SHA256": "10fb3f6e3e18f4a629a49cdf71620009a8b414ba4b83a12eb22facef2557f43f"
+      },
+      "source_unit": "SGOC00LKA",
+      "left_seed_window_id": 235692,
+      "right_seed_window_id": 235694,
+      "gap_window_ids": [
+        235693
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        235693
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235692_235694_episode_R3.json",
+      "proof_sha256": "10fb3f6e3e18f4a629a49cdf71620009a8b414ba4b83a12eb22facef2557f43f"
+    },
+    {
+      "pair_id": "235694_235696",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "SGOC00LKA",
+        "receiver_identity": "e17896d029347918784cb4b1fc29a60919e7e50da65dada41a6d5c1096124e50",
+        "satellite": "G17",
+        "signal": "GPS L1",
+        "fit_arc_id": "SGOC00LKA_G_e17896d029|arc_4367",
+        "qc_segment_id": "SGOC00LKA_G_e17896d029|arc_4367"
+      },
+      "physical_receiver_identity": "3efbe5db9584530ff350de103948ea1be708654917bfa3b03dac03ddb46e29ee",
+      "first_utc_s": 1742017920,
+      "last_utc_s": 1742018099,
+      "seed_ids": [
+        235694,
+        235696
+      ],
+      "all_window_ids": [
+        235694,
+        235695,
+        235696
+      ],
+      "additional_gap_ids": [
+        235695
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235694_235696_episode_R3.json",
+        "SHA256": "2f4049527a174d995c426bbb858373da773b2801848bcfc3e5f54613da11502e"
+      },
+      "source_unit": "SGOC00LKA",
+      "left_seed_window_id": 235694,
+      "right_seed_window_id": 235696,
+      "gap_window_ids": [
+        235695
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        235695
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\235694_235696_episode_R3.json",
+      "proof_sha256": "2f4049527a174d995c426bbb858373da773b2801848bcfc3e5f54613da11502e"
+    },
+    {
+      "pair_id": "236260_236264",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "SGOC00LKA",
+        "receiver_identity": "e17896d029347918784cb4b1fc29a60919e7e50da65dada41a6d5c1096124e50",
+        "satellite": "G30",
+        "signal": "GPS L1",
+        "fit_arc_id": "SGOC00LKA_G_e17896d029|arc_9185",
+        "qc_segment_id": "SGOC00LKA_G_e17896d029|arc_9185"
+      },
+      "physical_receiver_identity": "3efbe5db9584530ff350de103948ea1be708654917bfa3b03dac03ddb46e29ee",
+      "first_utc_s": 1742108400,
+      "last_utc_s": 1742108699,
+      "seed_ids": [
+        236260,
+        236264
+      ],
+      "all_window_ids": [
+        236260,
+        236261,
+        236262,
+        236263,
+        236264
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\236260_236264_episode_R3.json",
+        "SHA256": "66caedf6c8cb1ba1cc3383e8807864b64619a17a2388218f9418d8bece54159c"
+      },
+      "source_unit": "SGOC00LKA",
+      "left_seed_window_id": 236260,
+      "right_seed_window_id": 236264,
+      "gap_window_ids": [
+        236261,
+        236262,
+        236263
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\236260_236264_episode_R3.json",
+      "proof_sha256": "66caedf6c8cb1ba1cc3383e8807864b64619a17a2388218f9418d8bece54159c"
+    },
+    {
+      "pair_id": "285059_285062",
+      "status": "UNKNOWN",
+      "identity": {
+        "source_unit": "STJ300CAN",
+        "receiver_identity": "1cd01fffae628f7ce918612b3478262fc4fa239621a4bf999d147a5914ca1618",
+        "satellite": "G29",
+        "signal": "GPS L1",
+        "fit_arc_id": "STJ300CAN_G_1cd01fffae|arc_4289",
+        "qc_segment_id": "STJ300CAN_G_1cd01fffae|arc_4289"
+      },
+      "physical_receiver_identity": "fb27dfb6d01fc4bd7c23c7437aae805c5f3a53f82e80b44724c8944ab52461e4",
+      "first_utc_s": 1742118360,
+      "last_utc_s": 1742118599,
+      "seed_ids": [
+        285059,
+        285062
+      ],
+      "all_window_ids": [
+        285059,
+        285060,
+        285061,
+        285062
+      ],
+      "additional_gap_ids": [],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\285059_285062_episode_R3.json",
+        "SHA256": "5da772ff742f1ec3d299a8ea2f07bada8a97c8ce68cc460e52cd0751bfa66d19"
+      },
+      "source_unit": "STJ300CAN",
+      "left_seed_window_id": 285059,
+      "right_seed_window_id": 285062,
+      "gap_window_ids": [
+        285060,
+        285061
+      ],
+      "classification": "UNKNOWN",
+      "reason": "WHOLE_SPAN_DOMINANCE_OR_OWN_MINUTE_FAST_GUARD_FAILED",
+      "added_gap_ids": [],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\285059_285062_episode_R3.json",
+      "proof_sha256": "5da772ff742f1ec3d299a8ea2f07bada8a97c8ce68cc460e52cd0751bfa66d19"
+    },
+    {
+      "pair_id": "293602_293604",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "WAMC00USA",
+        "receiver_identity": "a4873fa5d59bd4a3a155df9f814ea634d86d0751feaee041e05d3394e324f37d",
+        "satellite": "G19",
+        "signal": "GPS L1",
+        "fit_arc_id": "WAMC00USA_G_a4873fa5d5|arc_1367",
+        "qc_segment_id": "WAMC00USA_G_a4873fa5d5|arc_1367"
+      },
+      "physical_receiver_identity": "00edda4e7fa00632538c69761ba198f86b2b111b5078dc0b36096f88515b7670",
+      "first_utc_s": 1742144640,
+      "last_utc_s": 1742144819,
+      "seed_ids": [
+        293602,
+        293604
+      ],
+      "all_window_ids": [
+        293602,
+        293603,
+        293604
+      ],
+      "additional_gap_ids": [
+        293603
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\293602_293604_episode_R3.json",
+        "SHA256": "dedde88443376f3dc56b3d1e21f819880bd7eafb7ae3b3f58d0d6e3c94d7cdd3"
+      },
+      "source_unit": "WAMC00USA",
+      "left_seed_window_id": 293602,
+      "right_seed_window_id": 293604,
+      "gap_window_ids": [
+        293603
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        293603
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\293602_293604_episode_R3.json",
+      "proof_sha256": "dedde88443376f3dc56b3d1e21f819880bd7eafb7ae3b3f58d0d6e3c94d7cdd3"
+    },
+    {
+      "pair_id": "293961_293963",
+      "status": "PASS_CONFIRMED_EPISODE",
+      "identity": {
+        "source_unit": "WAMC00USA",
+        "receiver_identity": "a4873fa5d59bd4a3a155df9f814ea634d86d0751feaee041e05d3394e324f37d",
+        "satellite": "G25",
+        "signal": "GPS L1",
+        "fit_arc_id": "WAMC00USA_G_a4873fa5d5|arc_1870",
+        "qc_segment_id": "WAMC00USA_G_a4873fa5d5|arc_1870"
+      },
+      "physical_receiver_identity": "00edda4e7fa00632538c69761ba198f86b2b111b5078dc0b36096f88515b7670",
+      "first_utc_s": 1742082300,
+      "last_utc_s": 1742082479,
+      "seed_ids": [
+        293961,
+        293963
+      ],
+      "all_window_ids": [
+        293961,
+        293962,
+        293963
+      ],
+      "additional_gap_ids": [
+        293962
+      ],
+      "proof": {
+        "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\293961_293963_episode_R3.json",
+        "SHA256": "d7a2262ef1957f3aa32b0b744ab0535adde7eb085cca4d680198340926a45085"
+      },
+      "source_unit": "WAMC00USA",
+      "left_seed_window_id": 293961,
+      "right_seed_window_id": 293963,
+      "gap_window_ids": [
+        293962
+      ],
+      "classification": "CONFIRMED_SINGLE_BACKGROUND_EPISODE",
+      "reason": "TWO_DATE_WHOLE_SPAN_CONSENSUS_AND_ALL_MINUTE_FAST_GUARDS",
+      "added_gap_ids": [
+        293962
+      ],
+      "proof_path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\pairs\\293961_293963_episode_R3.json",
+      "proof_sha256": "d7a2262ef1957f3aa32b0b744ab0535adde7eb085cca4d680198340926a45085"
+    }
+  ]
+}

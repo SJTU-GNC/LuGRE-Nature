@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+scipy>=1.13
+Pillow>=11
+pyarrow>=17
+cartopy>=0.24
+pyerfa>=2.0

@@ -1,0 +1,3094 @@
+{
+  "source_selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "files": [
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\Fig3_R3_data_manifest.json",
+      "package_path": "fig34/amplitude_source/Fig3_R3_data_manifest.json",
+      "bytes": 6061,
+      "copied_original_sha256": "052c5cf2391459421b32eb365180f1f013d92cc5e58d4ab0ba26b554169eb5da",
+      "release_sha256": "052c5cf2391459421b32eb365180f1f013d92cc5e58d4ab0ba26b554169eb5da",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\height_envelopes.csv",
+      "package_path": "fig34/amplitude_source/height_envelopes.csv",
+      "bytes": 18738,
+      "copied_original_sha256": "3663ce13513d63de113cee199c87f0f8a77204e28bec58e7761c29f8e1e8f83c",
+      "release_sha256": "3663ce13513d63de113cee199c87f0f8a77204e28bec58e7761c29f8e1e8f83c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\histogram_source_data.csv",
+      "package_path": "fig34/amplitude_source/histogram_source_data.csv",
+      "bytes": 65549,
+      "copied_original_sha256": "cace66e7f7fa21e908069104eb24307c1c7fe2a559c1de32f7bfc98164520fd4",
+      "release_sha256": "cace66e7f7fa21e908069104eb24307c1c7fe2a559c1de32f7bfc98164520fd4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\leo_delta_height_selection.npz",
+      "package_path": "fig34/amplitude_source/leo_delta_height_selection.npz",
+      "bytes": 878420,
+      "copied_original_sha256": "fb989633d36352cb3376a52a4abcf2ce377ebcf8f96db97fd1b662e27e3eb178",
+      "release_sha256": "fb989633d36352cb3376a52a4abcf2ce377ebcf8f96db97fd1b662e27e3eb178",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\lugre_height_selection.npz",
+      "package_path": "fig34/amplitude_source/lugre_height_selection.npz",
+      "bytes": 1208393,
+      "copied_original_sha256": "452caab87368b2660157243871205b79a148d94ca7bbcba28d65710ab60d6e97",
+      "release_sha256": "452caab87368b2660157243871205b79a148d94ca7bbcba28d65710ab60d6e97",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\quantiles.csv",
+      "package_path": "fig34/amplitude_source/quantiles.csv",
+      "bytes": 1135,
+      "copied_original_sha256": "dcb2947379a55ec395ad3c1b11f62af8177ac2e286cebd464dccf349ec53c5f3",
+      "release_sha256": "dcb2947379a55ec395ad3c1b11f62af8177ac2e286cebd464dccf349ec53c5f3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\amplitude_source\\signed_distribution_summary.csv",
+      "package_path": "fig34/amplitude_source/signed_distribution_summary.csv",
+      "bytes": 2268,
+      "copied_original_sha256": "7c3404320b10672e311fe9b90de3e092475828df2d2a76b24af29ef3a7041a61",
+      "release_sha256": "7c3404320b10672e311fe9b90de3e092475828df2d2a76b24af29ef3a7041a61",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\response_source\\angle_bin_median_IQR_counts_R3.csv",
+      "package_path": "fig34/response_source/angle_bin_median_IQR_counts_R3.csv",
+      "bytes": 19857,
+      "copied_original_sha256": "ab28f6df488eed5ae619585693e43df28b117c5970f5a6849f4b65418c41f637",
+      "release_sha256": "ab28f6df488eed5ae619585693e43df28b117c5970f5a6849f4b65418c41f637",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\response_source\\common_60s_response_windows_R3.csv",
+      "package_path": "fig34/response_source/common_60s_response_windows_R3.csv",
+      "bytes": 260921813,
+      "copied_original_sha256": "d4f28c92b28b6900cbbf50fca4f696c93f8df7eb84eb9f2b663ca7755da6819e",
+      "release_sha256": "d4f28c92b28b6900cbbf50fca4f696c93f8df7eb84eb9f2b663ca7755da6819e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\response_source\\Ground_response_windows_R3.parquet",
+      "package_path": "fig34/response_source/Ground_response_windows_R3.parquet",
+      "bytes": 40015566,
+      "copied_original_sha256": "9e91d6b5f49e6b5ca916d06d1a5234a24720accb943bf37bb0c0e2cb6a7eb7a5",
+      "release_sha256": "9e91d6b5f49e6b5ca916d06d1a5234a24720accb943bf37bb0c0e2cb6a7eb7a5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\response_source\\response_window_manifest_R3.json",
+      "package_path": "fig34/response_source/response_window_manifest_R3.json",
+      "bytes": 6057,
+      "copied_original_sha256": "2e1a50a396bd4b93ac80932cdcdaf91806506d55298e044c3476ad2623147fd2",
+      "release_sha256": "2e1a50a396bd4b93ac80932cdcdaf91806506d55298e044c3476ad2623147fd2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\comparison\\Ground_absolute_residual_quantiles_R3.csv",
+      "package_path": "provenance/fig34_statistics/Ground_absolute_residual_quantiles_R3.csv",
+      "bytes": 957,
+      "copied_original_sha256": "a07f48b5c3e5022e51b21d849ccd9db9a8d9513c3476481d9ea56f86ac5c7e62",
+      "release_sha256": "a07f48b5c3e5022e51b21d849ccd9db9a8d9513c3476481d9ea56f86ac5c7e62",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\comparison\\Ground_window_width_comparison_R3.csv",
+      "package_path": "provenance/fig34_statistics/Ground_window_width_comparison_R3.csv",
+      "bytes": 943,
+      "copied_original_sha256": "7d1cd543981cc903e72020bdfe970508b893d0eb1ea91139d45d3e66e9c61552",
+      "release_sha256": "7d1cd543981cc903e72020bdfe970508b893d0eb1ea91139d45d3e66e9c61552",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\comparison\\Population_change_R3.json",
+      "package_path": "provenance/fig34_statistics/Population_change_R3.json",
+      "bytes": 215,
+      "copied_original_sha256": "f299ef95634fc69eb1856ebabe826203ad33645b2cc43408c4b273f1e1d34520",
+      "release_sha256": "f299ef95634fc69eb1856ebabe826203ad33645b2cc43408c4b273f1e1d34520",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\comparison\\Station_signal_band_counts_R3.csv",
+      "package_path": "provenance/fig34_statistics/Station_signal_band_counts_R3.csv",
+      "bytes": 21266,
+      "copied_original_sha256": "8f0b67b86a52c5f266e46d37ccfb23296760ff80b578dd52ae2afc164a689f1f",
+      "release_sha256": "8f0b67b86a52c5f266e46d37ccfb23296760ff80b578dd52ae2afc164a689f1f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\captions\\Fig3_R3_caption.tex",
+      "package_path": "captions/Fig3_R3_caption.tex",
+      "bytes": 2152,
+      "copied_original_sha256": "196400fac00fdd0dea9ff2acf54872a37a1786992be8ed05189cacf3ecdc026f",
+      "release_sha256": "196400fac00fdd0dea9ff2acf54872a37a1786992be8ed05189cacf3ecdc026f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\captions\\Fig3_R3_caption_zh.tex",
+      "package_path": "captions/Fig3_R3_caption_zh.tex",
+      "bytes": 1843,
+      "copied_original_sha256": "c43e3b9c79fb8a82ce7dd68743783ccba43b59998dfe3f40775432fa86e1e8e5",
+      "release_sha256": "c43e3b9c79fb8a82ce7dd68743783ccba43b59998dfe3f40775432fa86e1e8e5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\captions\\Fig4_R3_caption.tex",
+      "package_path": "captions/Fig4_R3_caption.tex",
+      "bytes": 1633,
+      "copied_original_sha256": "cd107b8112c5549bcc4e0f6503eaa93965137aefa077547317a3d859698d493d",
+      "release_sha256": "cd107b8112c5549bcc4e0f6503eaa93965137aefa077547317a3d859698d493d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\captions\\Fig4_R3_caption_zh.tex",
+      "package_path": "captions/Fig4_R3_caption_zh.tex",
+      "bytes": 1454,
+      "copied_original_sha256": "d06ac9790a3d6b8574e76acfe0a69115743d0957972bd85c353e27b490711c9d",
+      "release_sha256": "d06ac9790a3d6b8574e76acfe0a69115743d0957972bd85c353e27b490711c9d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\plotting\\plot_Fig3_R3.py",
+      "package_path": "fig34/plotting/plot_Fig3_R3.py",
+      "bytes": 22215,
+      "copied_original_sha256": "348f009268524066353f646b99a2f3803837d614c51c6e48b8bee838cf3519cc",
+      "release_sha256": "11fad3d357006a8b402ede56cd41318abacd7e28a31a7b61addd5fae8153379f",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\plotting\\plot_Fig4_R3.py",
+      "package_path": "fig34/plotting/plot_Fig4_R3.py",
+      "bytes": 17625,
+      "copied_original_sha256": "d23959bf5faf06edd51eba12580085350da148b92e1dbb81ab8188f6d6388763",
+      "release_sha256": "e19e9680dfb3e111e702f6e71b9f09cdb92c52565714d6826f44742b7bb5bb26",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\plotting\\smoothing.py",
+      "package_path": "fig34/plotting/smoothing.py",
+      "bytes": 2738,
+      "copied_original_sha256": "eb0bc1972e2e895f2918b1a215f95f24609c6e2c51211a5924464b02b0de3d65",
+      "release_sha256": "eb0bc1972e2e895f2918b1a215f95f24609c6e2c51211a5924464b02b0de3d65",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\ground\\Ground_solar_windows_R3.parquet",
+      "package_path": "illumination/ground/Ground_solar_windows_R3.parquet",
+      "bytes": 121582512,
+      "copied_original_sha256": "2c463eb267186b57ce78324c7f2b45c278312f76c4cecd51382279f2fee68c4e",
+      "release_sha256": "2c463eb267186b57ce78324c7f2b45c278312f76c4cecd51382279f2fee68c4e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\ground\\Ground_expanded_solar_QA_R3.json",
+      "package_path": "illumination/ground/Ground_expanded_solar_QA_R3.json",
+      "bytes": 2878,
+      "copied_original_sha256": "2f2e01802eb3c21ca97c867a5f84f9730fadee61f73d9f3ea530dce9ff4ae37d",
+      "release_sha256": "2f2e01802eb3c21ca97c867a5f84f9730fadee61f73d9f3ea530dce9ff4ae37d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\nearspace\\nearspace_solar_windows_R3.parquet",
+      "package_path": "illumination/nearspace/nearspace_solar_windows_R3.parquet",
+      "bytes": 975775,
+      "copied_original_sha256": "769cf8483ff29e14ccd1ad259d24425480a154fec7a2bf527dd8996f587fb23b",
+      "release_sha256": "769cf8483ff29e14ccd1ad259d24425480a154fec7a2bf527dd8996f587fb23b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\nearspace\\solar_geometry_R3.py",
+      "package_path": "illumination/nearspace/solar_geometry_R3.py",
+      "bytes": 2654,
+      "copied_original_sha256": "f84049cf27350462fb6fda091c6db81bbaa31e428d54d87f17f9a0216304fa51",
+      "release_sha256": "af62b31a169580abce0bfd8a73f85dd67864fe4db94a1a1ba75afddf8a3c16ef",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\plot_LT_illumination_R3.py",
+      "package_path": "illumination/plot_LT_illumination_R3.py",
+      "bytes": 14195,
+      "copied_original_sha256": "f9fefbe5c896c014727c15a79df6926a79ce1863fcec1b58088e228db22b5f85",
+      "release_sha256": "fa46391cbdad857e6f28c4c3a1bad08570ba057aa8d17927213c4c44afa7a270",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\baseline_source_contract_R3.json",
+      "package_path": "baseline_source_contract_R3.json",
+      "bytes": 3145,
+      "copied_original_sha256": "68737b10e1f3fe29f9dd07272a73638401898cdd4745c5b7609f4bc8f3b5ac64",
+      "release_sha256": "68737b10e1f3fe29f9dd07272a73638401898cdd4745c5b7609f4bc8f3b5ac64",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\captions\\Extended_Data_Local_time_illumination_caption.tex",
+      "package_path": "captions/Extended_Data_Local_time_illumination_caption.tex",
+      "bytes": 2409,
+      "copied_original_sha256": "474aa2b4e898206a22196da1fda7fc8bb34e9424576560ebc7e3b26c33074ffc",
+      "release_sha256": "474aa2b4e898206a22196da1fda7fc8bb34e9424576560ebc7e3b26c33074ffc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\captions\\Extended_Data_Local_time_illumination_caption_zh.tex",
+      "package_path": "captions/Extended_Data_Local_time_illumination_caption_zh.tex",
+      "bytes": 2012,
+      "copied_original_sha256": "bf9440a1d739ee2d1c206262f4b1e88f635b9ff9b4d615ed6e5decb1fcb411ec",
+      "release_sha256": "bf9440a1d739ee2d1c206262f4b1e88f635b9ff9b4d615ed6e5decb1fcb411ec",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\geometry_angle_CDF_curves_R3.csv",
+      "package_path": "geometry/plot_data/geometry_angle_CDF_curves_R3.csv",
+      "bytes": 1757576,
+      "copied_original_sha256": "1121aa12cb9aacfd4131ff5df7b14b15a06d164fa44dbf49b142d3b1a972b5a3",
+      "release_sha256": "1121aa12cb9aacfd4131ff5df7b14b15a06d164fa44dbf49b142d3b1a972b5a3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\GEOMETRY_FREEZE.json",
+      "package_path": "geometry/plot_data/GEOMETRY_FREEZE.json",
+      "bytes": 1089547,
+      "copied_original_sha256": "1b19e263f41d32607492c892eb2d4343fd934a46cf92380f3d73c7f670aec02f",
+      "release_sha256": "1b19e263f41d32607492c892eb2d4343fd934a46cf92380f3d73c7f670aec02f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\geometry_speed_bins_R3.csv",
+      "package_path": "geometry/plot_data/geometry_speed_bins_R3.csv",
+      "bytes": 163035,
+      "copied_original_sha256": "153c651a6dfbed704407a356b2afb99507a919a3330de1d7c6f5452d9799463c",
+      "release_sha256": "153c651a6dfbed704407a356b2afb99507a919a3330de1d7c6f5452d9799463c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\geometry_speed_support_R3.csv",
+      "package_path": "geometry/plot_data/geometry_speed_support_R3.csv",
+      "bytes": 2906,
+      "copied_original_sha256": "d1c12e8ae1868345b23d85a4dea43c70d87ba733392acb023ca4a9a7e5dc4f93",
+      "release_sha256": "d1c12e8ae1868345b23d85a4dea43c70d87ba733392acb023ca4a9a7e5dc4f93",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\Ground_geometry_angle_CDF_curves_R3.csv",
+      "package_path": "geometry/plot_data/Ground_geometry_angle_CDF_curves_R3.csv",
+      "bytes": 738042,
+      "copied_original_sha256": "ccab54ed482a51d63dc7b5cc9e783d2906994fd31d5dc802437d9b62607bf6ee",
+      "release_sha256": "ccab54ed482a51d63dc7b5cc9e783d2906994fd31d5dc802437d9b62607bf6ee",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\Ground_geometry_speed_bins_R3.csv",
+      "package_path": "geometry/plot_data/Ground_geometry_speed_bins_R3.csv",
+      "bytes": 18522,
+      "copied_original_sha256": "e9c31db0870f3c20dc5a6bdc7b58b6863a9a8f9bf3d1ba1172d1cf987d09976b",
+      "release_sha256": "e9c31db0870f3c20dc5a6bdc7b58b6863a9a8f9bf3d1ba1172d1cf987d09976b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\Ground_geometry_speed_support_R3.csv",
+      "package_path": "geometry/plot_data/Ground_geometry_speed_support_R3.csv",
+      "bytes": 1109,
+      "copied_original_sha256": "f0dbdab1a63383ff51a9025a24429e8c3554567f5db7c138af83e80ea308b214",
+      "release_sha256": "f0dbdab1a63383ff51a9025a24429e8c3554567f5db7c138af83e80ea308b214",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_data\\Ground_station_epoch_counts_R3.csv",
+      "package_path": "geometry/plot_data/Ground_station_epoch_counts_R3.csv",
+      "bytes": 4573,
+      "copied_original_sha256": "ec67fd850ff52750a59a5a84804491b6c541ab297a0f445c91a08badb667e75f",
+      "release_sha256": "ec67fd850ff52750a59a5a84804491b6c541ab297a0f445c91a08badb667e75f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\plot_geometry_R3.py",
+      "package_path": "geometry/plot_geometry_R3.py",
+      "bytes": 19050,
+      "copied_original_sha256": "2d04d826c45516dfbc3feae8f194ddcfc21d36d93e9d928182480fb118c21117",
+      "release_sha256": "1cc9b55d0bc3ae5f738fd4bc79d66fd4d83367bf55e5d9f535822701ec50e0b7",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\All_CTLS_recomputed_J2000_tracks_50_1000km.zip",
+      "package_path": "context/data/All_CTLS_recomputed_J2000_tracks_50_1000km.zip",
+      "bytes": 8170648,
+      "copied_original_sha256": "07749e9e7a7606410990f3c3dffd0bb89d28dcc4257deb9a41f5ed23dac6f336",
+      "release_sha256": "07749e9e7a7606410990f3c3dffd0bb89d28dcc4257deb9a41f5ed23dac6f336",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\extended_data_fig7_leoro_panel_c_sources_20260617.csv",
+      "package_path": "context/data/extended_data_fig7_leoro_panel_c_sources_20260617.csv",
+      "bytes": 3326,
+      "copied_original_sha256": "a02db96234e7afb150d58435057019a710c5af1c1147ce1e3d2754c60e8fb463",
+      "release_sha256": "a02db96234e7afb150d58435057019a710c5af1c1147ce1e3d2754c60e8fb463",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_current_superdarn_radars.csv",
+      "package_path": "context/data/global_plus_polar_current_superdarn_radars.csv",
+      "bytes": 1802,
+      "copied_original_sha256": "c90d3f03672a2eaa972075bbf50b5fa69cc4c3b32131796a8b556bb849565b79",
+      "release_sha256": "c90d3f03672a2eaa972075bbf50b5fa69cc4c3b32131796a8b556bb849565b79",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_eswua_chain_ismr_stations.csv",
+      "package_path": "context/data/global_plus_polar_eswua_chain_ismr_stations.csv",
+      "bytes": 4321,
+      "copied_original_sha256": "2ec50146914f0cb95f0ed08403aab0ed3a53b5ba3877096855aea91a8d905c8c",
+      "release_sha256": "2ec50146914f0cb95f0ed08403aab0ed3a53b5ba3877096855aea91a8d905c8c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_fig3_op74_metop_occultation_line_cache.csv",
+      "package_path": "context/data/global_plus_polar_fig3_op74_metop_occultation_line_cache.csv",
+      "bytes": 4248367,
+      "copied_original_sha256": "1bf17bf8e95dc33628a31018d0bbca0acc2ca87954ed75307d878a2e7e072927",
+      "release_sha256": "1bf17bf8e95dc33628a31018d0bbca0acc2ca87954ed75307d878a2e7e072927",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_fig3_op74_metop_occultation_summary_cache.csv",
+      "package_path": "context/data/global_plus_polar_fig3_op74_metop_occultation_summary_cache.csv",
+      "bytes": 151,
+      "copied_original_sha256": "1b1cdb41bf57a66b0b01c0c19e01b49bb8400f957339910ef32e6e21c5675334",
+      "release_sha256": "1b1cdb41bf57a66b0b01c0c19e01b49bb8400f957339910ef32e6e21c5675334",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_gnss_roti_stations.csv",
+      "package_path": "context/data/global_plus_polar_gnss_roti_stations.csv",
+      "bytes": 33036,
+      "copied_original_sha256": "8daeab590bd9955e69fd6a7d676f574ab7d12ec0d7d4983d01757afce32f6e90",
+      "release_sha256": "8daeab590bd9955e69fd6a7d676f574ab7d12ec0d7d4983d01757afce32f6e90",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_op74_global_occultation_line_cache.csv",
+      "package_path": "context/data/global_plus_polar_op74_global_occultation_line_cache.csv",
+      "bytes": 57172914,
+      "copied_original_sha256": "acc274fee1d6fc77372ff79c19bb426dce2033848afddd1a9e34e671ab234fdb",
+      "release_sha256": "acc274fee1d6fc77372ff79c19bb426dce2033848afddd1a9e34e671ab234fdb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\global_plus_polar_op74_global_occultation_summary_cache.csv",
+      "package_path": "context/data/global_plus_polar_op74_global_occultation_summary_cache.csv",
+      "bytes": 288,
+      "copied_original_sha256": "8b62d096b83f3442a3f826c2434221d085eb6889f998d671dace83e094d88c37",
+      "release_sha256": "8b62d096b83f3442a3f826c2434221d085eb6889f998d671dace83e094d88c37",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\orbit_schematic_assets\\FengYun_GNOS.png",
+      "package_path": "context/data/orbit_schematic_assets/FengYun_GNOS.png",
+      "bytes": 12598,
+      "copied_original_sha256": "19d2c35a0d78d2cde59279eefb5afaf8727a65a83353013ad6c3bca2a2e8d894",
+      "release_sha256": "19d2c35a0d78d2cde59279eefb5afaf8727a65a83353013ad6c3bca2a2e8d894",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\orbit_schematic_assets\\MetOp.png",
+      "package_path": "context/data/orbit_schematic_assets/MetOp.png",
+      "bytes": 36601,
+      "copied_original_sha256": "93530bd132bb69167633026723be986775fe88263659c2f92a53bb782a692695",
+      "release_sha256": "93530bd132bb69167633026723be986775fe88263659c2f92a53bb782a692695",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\orbit_schematic_assets\\PlanetiQ.png",
+      "package_path": "context/data/orbit_schematic_assets/PlanetiQ.png",
+      "bytes": 10036,
+      "copied_original_sha256": "592e9aa8ccd9c7817acf75fe55e5c1835f9a6c1253f61759027e70ec88b21215",
+      "release_sha256": "592e9aa8ccd9c7817acf75fe55e5c1835f9a6c1253f61759027e70ec88b21215",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\orbit_schematic_assets\\Sentinel.png",
+      "package_path": "context/data/orbit_schematic_assets/Sentinel.png",
+      "bytes": 24405,
+      "copied_original_sha256": "85cdb57a39dc3dfcc5bbd5cbc917ab5da9d4fb0cd137b44907757305f542a2f8",
+      "release_sha256": "85cdb57a39dc3dfcc5bbd5cbc917ab5da9d4fb0cd137b44907757305f542a2f8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\orbit_schematic_assets\\Spire.png",
+      "package_path": "context/data/orbit_schematic_assets/Spire.png",
+      "bytes": 9039,
+      "copied_original_sha256": "0abacefac1d752ca2651d89dd7219b77eeb7cbcb4d2d316eeb3d1578ef441e9b",
+      "release_sha256": "0abacefac1d752ca2651d89dd7219b77eeb7cbcb4d2d316eeb3d1578ef441e9b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\orbit_schematic_assets\\TSX.png",
+      "package_path": "context/data/orbit_schematic_assets/TSX.png",
+      "bytes": 14444,
+      "copied_original_sha256": "3934ba86fe59322d7a02ae5ff74725697a83e13f67164d55a90e1ec2ab348601",
+      "release_sha256": "3934ba86fe59322d7a02ae5ff74725697a83e13f67164d55a90e1ec2ab348601",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.cpg",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/cultural/ne_110m_admin_0_boundary_lines_land.cpg",
+      "bytes": 5,
+      "copied_original_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.dbf",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/cultural/ne_110m_admin_0_boundary_lines_land.dbf",
+      "bytes": 483250,
+      "copied_original_sha256": "373d7a150b9f8dcb6ec918b52eea0f0361ad40ef433602a1b9f59b4de668daec",
+      "release_sha256": "373d7a150b9f8dcb6ec918b52eea0f0361ad40ef433602a1b9f59b4de668daec",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.prj",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/cultural/ne_110m_admin_0_boundary_lines_land.prj",
+      "bytes": 147,
+      "copied_original_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "release_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.shp",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/cultural/ne_110m_admin_0_boundary_lines_land.shp",
+      "bytes": 68372,
+      "copied_original_sha256": "d19f784f92626816c064f878571f61bc43ec7bfc407666ce6a450d6e757afff0",
+      "release_sha256": "d19f784f92626816c064f878571f61bc43ec7bfc407666ce6a450d6e757afff0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.shx",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/cultural/ne_110m_admin_0_boundary_lines_land.shx",
+      "bytes": 2748,
+      "copied_original_sha256": "849899c47c51c6edd04750307b21cb109ae4c7e8ca3c5fee8606f8646dbe2787",
+      "release_sha256": "849899c47c51c6edd04750307b21cb109ae4c7e8ca3c5fee8606f8646dbe2787",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.cpg",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.cpg",
+      "bytes": 5,
+      "copied_original_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.dbf",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.dbf",
+      "bytes": 3747,
+      "copied_original_sha256": "ac7e59083a862bafc20b86d73595fdf2a7c0693a411cf3ba91910a5de9df9bc3",
+      "release_sha256": "ac7e59083a862bafc20b86d73595fdf2a7c0693a411cf3ba91910a5de9df9bc3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.prj",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.prj",
+      "bytes": 147,
+      "copied_original_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "release_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.shp",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.shp",
+      "bytes": 89652,
+      "copied_original_sha256": "a1f8285d0e0a4858392cd78fc74fa3ee4cd9088947cf6e3693729dc852d70b60",
+      "release_sha256": "a1f8285d0e0a4858392cd78fc74fa3ee4cd9088947cf6e3693729dc852d70b60",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.shx",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_coastline.shx",
+      "bytes": 1172,
+      "copied_original_sha256": "53d8c141edfb7e05c59feecc7bb64b0e22bc2e282dfa1024d20ae54c3ef7b01e",
+      "release_sha256": "53d8c141edfb7e05c59feecc7bb64b0e22bc2e282dfa1024d20ae54c3ef7b01e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.cpg",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_land.cpg",
+      "bytes": 5,
+      "copied_original_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.dbf",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_land.dbf",
+      "bytes": 3431,
+      "copied_original_sha256": "db7cf6d2de2811df09bd7fcc6f243ab78a715b83571a0cb7b36b4e2af3297caa",
+      "release_sha256": "db7cf6d2de2811df09bd7fcc6f243ab78a715b83571a0cb7b36b4e2af3297caa",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.prj",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_land.prj",
+      "bytes": 147,
+      "copied_original_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "release_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.shp",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_land.shp",
+      "bytes": 89504,
+      "copied_original_sha256": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de",
+      "release_sha256": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_land.shx",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_land.shx",
+      "bytes": 1116,
+      "copied_original_sha256": "2719254764a70262a34333581d582d503b8af5d6626e6da4eb2b5f86e7316faa",
+      "release_sha256": "2719254764a70262a34333581d582d503b8af5d6626e6da4eb2b5f86e7316faa",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_ocean.cpg",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_ocean.cpg",
+      "bytes": 5,
+      "copied_original_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_ocean.dbf",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_ocean.dbf",
+      "bytes": 211,
+      "copied_original_sha256": "6e852a0a16f4fd4a02fcaf015b9c0f93c2374ab5f344b07346affdc2949ac1c4",
+      "release_sha256": "6e852a0a16f4fd4a02fcaf015b9c0f93c2374ab5f344b07346affdc2949ac1c4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_ocean.prj",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_ocean.prj",
+      "bytes": 147,
+      "copied_original_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "release_sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_ocean.shp",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_ocean.shp",
+      "bytes": 84804,
+      "copied_original_sha256": "8006f16c5af40875fbe8e975bef6d4b6c1ffc7b767491bdc277fbc0b62ba5d02",
+      "release_sha256": "8006f16c5af40875fbe8e975bef6d4b6c1ffc7b767491bdc277fbc0b62ba5d02",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_110m_ocean.shx",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_110m_ocean.shx",
+      "bytes": 116,
+      "copied_original_sha256": "b3388def7b13abb0e94c91053a989219c35aaaa233fb0029b68cdc5d84487c1a",
+      "release_sha256": "b3388def7b13abb0e94c91053a989219c35aaaa233fb0029b68cdc5d84487c1a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.cpg",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.cpg",
+      "bytes": 5,
+      "copied_original_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.dbf",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.dbf",
+      "bytes": 70101,
+      "copied_original_sha256": "f100fa5a99786c63ec9eb2cd430e389bc6235b8e26d2712d33f9bfd6cb6aadfc",
+      "release_sha256": "f100fa5a99786c63ec9eb2cd430e389bc6235b8e26d2712d33f9bfd6cb6aadfc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.prj",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.prj",
+      "bytes": 143,
+      "copied_original_sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb",
+      "release_sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.shp",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.shp",
+      "bytes": 1046728,
+      "copied_original_sha256": "797d675af9613f80b51ab6049fa32e589974d7a97c6497ca56772965f179ed26",
+      "release_sha256": "797d675af9613f80b51ab6049fa32e589974d7a97c6497ca56772965f179ed26",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_coastline.shx",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_coastline.shx",
+      "bytes": 11524,
+      "copied_original_sha256": "0ff1792f2d16b58246d074215edd9d12fa280880ecaad61a91b9382fee854065",
+      "release_sha256": "0ff1792f2d16b58246d074215edd9d12fa280880ecaad61a91b9382fee854065",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.cpg",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_land.cpg",
+      "bytes": 5,
+      "copied_original_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "release_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.dbf",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_land.dbf",
+      "bytes": 69709,
+      "copied_original_sha256": "d082add78c82e01b9bf422df3143ad6fbe43ca1bcb798d12a334f9e001b67bc0",
+      "release_sha256": "d082add78c82e01b9bf422df3143ad6fbe43ca1bcb798d12a334f9e001b67bc0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.prj",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_land.prj",
+      "bytes": 143,
+      "copied_original_sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb",
+      "release_sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.shp",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_land.shp",
+      "bytes": 1050332,
+      "copied_original_sha256": "140d1419f7ace66bf0ea8ceb068cab544d413170f4e8c48e0a11bde6c978b319",
+      "release_sha256": "140d1419f7ace66bf0ea8ceb068cab544d413170f4e8c48e0a11bde6c978b319",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\data\\cartopy\\shapefiles\\natural_earth\\physical\\ne_50m_land.shx",
+      "package_path": "context/data/cartopy/shapefiles/natural_earth/physical/ne_50m_land.shx",
+      "bytes": 11460,
+      "copied_original_sha256": "c1b93ee40fe83d6322197251517c141c2c91970915ac61d7bf7a4821fc2a68d7",
+      "release_sha256": "c1b93ee40fe83d6322197251517c141c2c91970915ac61d7bf7a4821fc2a68d7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\surface_only_scope.py",
+      "package_path": "context/surface_only_scope.py",
+      "bytes": 2439,
+      "copied_original_sha256": "36627374ff9d26fd1f5a9bb8fda1777814d1d043219d3cedcdd5e407f397cc4d",
+      "release_sha256": "36627374ff9d26fd1f5a9bb8fda1777814d1d043219d3cedcdd5e407f397cc4d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\surface_only_layout.py",
+      "package_path": "context/surface_only_layout.py",
+      "bytes": 8754,
+      "copied_original_sha256": "79936a1b3eb4743400103fb2e5b08228098b720235ea7dd7c3afa333937d4da8",
+      "release_sha256": "7ab4d7f5a7beeeac44d8e8b0aecd5cca9cf3d2e9917dc086cc1db9df138ba6a5",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\reproduce_figure.py",
+      "package_path": "context/reproduce_figure.py",
+      "bytes": 5040,
+      "copied_original_sha256": "c32d817cc6fab0777b23aa6480b3a84ee6f94abbe4b531d083de753b1b24cc1c",
+      "release_sha256": "c32d817cc6fab0777b23aa6480b3a84ee6f94abbe4b531d083de753b1b24cc1c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\code\\create_global_plus_polar_zoom_station_map.py",
+      "package_path": "context/code/create_global_plus_polar_zoom_station_map.py",
+      "bytes": 72639,
+      "copied_original_sha256": "448592a78475ee09ef71a0c07819460252c597c8a50b39f9416db18685a12814",
+      "release_sha256": "3c1bc68a2b3ee467389be5629938c71e9ca11cb604b9914bb69da344e4e6d880",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\code\\create_global_plus_polar_zoom_station_map_v5_fig3_consistent_time_matched.py",
+      "package_path": "context/code/create_global_plus_polar_zoom_station_map_v5_fig3_consistent_time_matched.py",
+      "bytes": 21416,
+      "copied_original_sha256": "5c6c837307f9ce06ebb3a137f8bb4e8f9d168015a75fe8fe62f3609525a4f7fa",
+      "release_sha256": "1da3259b816775f3c1c02a3543eb0422b4957f65a7122c2629a75c87ae30405e",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\code\\dependency_create_combined_polar_source_maps.py",
+      "package_path": "context/code/dependency_create_combined_polar_source_maps.py",
+      "bytes": 20378,
+      "copied_original_sha256": "14a2d49dd210bcd6735c09a358b04aa162ec5c775e3472a2c4ae6192ed1c6afb",
+      "release_sha256": "77dcb68a981b3beda8e2f745ff49a27a32390563a6201cfeee285b9ca0053d8d",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_contributing143_R3_20261027\\render_contributing143_R3.py",
+      "package_path": "context/render_context.py",
+      "bytes": 41603,
+      "copied_original_sha256": "85cc858e8e2dc85b2b024adcdd7655ac173b7036b0bfa3128471776a0c066c4a",
+      "release_sha256": "0818dadabfe46fdb59dd87d5f70c238da112209cdd46895dbae70d3b396eb1da",
+      "adapted_for_portability": true
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Observing_context_labels_R3_20261026\\LuGRE_190sites_sampling_source\\results\\panel_summary_R3.csv",
+      "package_path": "context/results/panel_summary_R3.csv",
+      "bytes": 984,
+      "copied_original_sha256": "9a1a9693e6a96c490b9b6c27c03f4b56d24e48fa18d30c6d88931a95e1c8b2a6",
+      "release_sha256": "9a1a9693e6a96c490b9b6c27c03f4b56d24e48fa18d30c6d88931a95e1c8b2a6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\observing_context\\final182_candidate_30s\\Ground_final_contributors_R3.csv",
+      "package_path": "context/frozen/Ground_final_contributors_R3.csv",
+      "bytes": 37914,
+      "copied_original_sha256": "a24a45f0c6ed58332a6717bb4e976b9fb6952bdb87260853139851ca530b3f76",
+      "release_sha256": "a24a45f0c6ed58332a6717bb4e976b9fb6952bdb87260853139851ca530b3f76",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\observing_context\\final182_candidate_30s\\Station_selection_provenance_R3.json",
+      "package_path": "context/frozen/Station_selection_provenance_R3.json",
+      "bytes": 5767,
+      "copied_original_sha256": "2c9623f99d3d91fffe37f0f5fb20590e3ba382eaa0ce040004b8d8c6bd80b2ab",
+      "release_sha256": "2c9623f99d3d91fffe37f0f5fb20590e3ba382eaa0ce040004b8d8c6bd80b2ab",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\observing_context\\final182_candidate_30s\\panel_summary.csv",
+      "package_path": "context/frozen/panel_summary.csv",
+      "bytes": 1020,
+      "copied_original_sha256": "acff14a55fd30b10cb89f3e968ff4f54b37c192a6306d18fc622878edb999b96",
+      "release_sha256": "acff14a55fd30b10cb89f3e968ff4f54b37c192a6306d18fc622878edb999b96",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\observing_context\\final182_candidate_30s\\lunar_surface_selection.json",
+      "package_path": "context/frozen/lunar_surface_selection.json",
+      "bytes": 1636,
+      "copied_original_sha256": "1f10d577b7c424dfe4c7c2e8740de968ca57aa64fb9fe71b50e63c00a098a039",
+      "release_sha256": "1f10d577b7c424dfe4c7c2e8740de968ca57aa64fb9fe71b50e63c00a098a039",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\observing_context\\final182_candidate_30s\\lunar_surface_track_ledger.csv",
+      "package_path": "context/frozen/lunar_surface_track_ledger.csv",
+      "bytes": 56299,
+      "copied_original_sha256": "9dff53cd40255d0b6b2319d0a7d04de685a9c13ea6f23bd62b67860d595bc6ff",
+      "release_sha256": "9dff53cd40255d0b6b2319d0a7d04de685a9c13ea6f23bd62b67860d595bc6ff",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_Ground182_current_version.json",
+      "package_path": "provenance/R3_Ground182_current_version.json",
+      "bytes": 9656,
+      "copied_original_sha256": "75f3c5a0249991c37b445d87e968b7c70f1906d2bec3532154f81d76ac1de040",
+      "release_sha256": "75f3c5a0249991c37b445d87e968b7c70f1906d2bec3532154f81d76ac1de040",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_h50_current_version.json",
+      "package_path": "provenance/R3_h50_current_version.json",
+      "bytes": 7506,
+      "copied_original_sha256": "470b3e89e31e90d7ab77170e9fefdf5b8a99a82eab0fca4307045afc08c23b8f",
+      "release_sha256": "470b3e89e31e90d7ab77170e9fefdf5b8a99a82eab0fca4307045afc08c23b8f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\Ground_selection_R3.json",
+      "package_path": "provenance/frozen_original_Ground_selection_R3.json",
+      "bytes": 359933,
+      "copied_original_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+      "release_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig3_R3.png",
+      "package_path": "reference/Fig3_R3.png",
+      "bytes": 2719728,
+      "copied_original_sha256": "daa2a851e0b8ad270ca15d4539c5758490d464fad54ecc1b350a1981ae684fc1",
+      "release_sha256": "daa2a851e0b8ad270ca15d4539c5758490d464fad54ecc1b350a1981ae684fc1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig4_R3.png",
+      "package_path": "reference/Fig4_R3.png",
+      "bytes": 430502,
+      "copied_original_sha256": "811aa40cc0b162512bde294a298f48fdbed5780b48a43e07234ab16f0631fff7",
+      "release_sha256": "811aa40cc0b162512bde294a298f48fdbed5780b48a43e07234ab16f0631fff7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Observing_context.png",
+      "package_path": "reference/Extended_Data_Observing_context.png",
+      "bytes": 2859553,
+      "copied_original_sha256": "6a7084f42293d03dc10761c72075329248eaf4b931eabef74eb78746e654ee6d",
+      "release_sha256": "6a7084f42293d03dc10761c72075329248eaf4b931eabef74eb78746e654ee6d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Geometry_angles.png",
+      "package_path": "reference/Extended_Data_Geometry_angles.png",
+      "bytes": 903299,
+      "copied_original_sha256": "c64e51ba2c4cd601730143ed5cdb0069f0557b4ba1eb31a6d0584127aca62e6b",
+      "release_sha256": "c64e51ba2c4cd601730143ed5cdb0069f0557b4ba1eb31a6d0584127aca62e6b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Scan_speed_Fresnel_time.png",
+      "package_path": "reference/Extended_Data_Scan_speed_Fresnel_time.png",
+      "bytes": 922390,
+      "copied_original_sha256": "d18ee242a32dfb83f53434be2b6804d3eeed3b87116b59604c128b67829b55d3",
+      "release_sha256": "d18ee242a32dfb83f53434be2b6804d3eeed3b87116b59604c128b67829b55d3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Local_time_illumination.png",
+      "package_path": "reference/Extended_Data_Local_time_illumination.png",
+      "bytes": 2213150,
+      "copied_original_sha256": "7c1106dccc9b75b7576df7df9c214ce1b358ebbe6916d4d018388fd8c11b7863",
+      "release_sha256": "7c1106dccc9b75b7576df7df9c214ce1b358ebbe6916d4d018388fd8c11b7863",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_0_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0000.npz",
+      "bytes": 1156,
+      "copied_original_sha256": "59cb1ff64107dc81805130224c20e87afbbc39c42e05325f5a072e993854fb26",
+      "release_sha256": "59cb1ff64107dc81805130224c20e87afbbc39c42e05325f5a072e993854fb26",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0001_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0001.npz",
+      "bytes": 1285,
+      "copied_original_sha256": "066c8c7aea568d6664406112eb3dc436aa9811fa09719dfcebd7e11baa50db2f",
+      "release_sha256": "066c8c7aea568d6664406112eb3dc436aa9811fa09719dfcebd7e11baa50db2f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_2_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0002.npz",
+      "bytes": 1229,
+      "copied_original_sha256": "32014a1f50173505afe68bb94bc19601844fdd9bfd414bb271606a03f9e99bbf",
+      "release_sha256": "32014a1f50173505afe68bb94bc19601844fdd9bfd414bb271606a03f9e99bbf",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0003_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0003.npz",
+      "bytes": 1375,
+      "copied_original_sha256": "fefaa48ebe604cc4fbe5630d4d8ff1f72044a067f9dc49994b4605863e6c14c9",
+      "release_sha256": "fefaa48ebe604cc4fbe5630d4d8ff1f72044a067f9dc49994b4605863e6c14c9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0004_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0004.npz",
+      "bytes": 1561,
+      "copied_original_sha256": "487ac405b3919afce09dd02b94196b2ed18da44da4168c1d1e3f14e4c855c081",
+      "release_sha256": "487ac405b3919afce09dd02b94196b2ed18da44da4168c1d1e3f14e4c855c081",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0005_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0005.npz",
+      "bytes": 1248,
+      "copied_original_sha256": "dedc3fe663bb1ff7a8d450f5c268f5abb435568a0d77b7065dd7148d5966be37",
+      "release_sha256": "dedc3fe663bb1ff7a8d450f5c268f5abb435568a0d77b7065dd7148d5966be37",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0006_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0006.npz",
+      "bytes": 1318,
+      "copied_original_sha256": "fd450e2067fb9e26c8739fdfe8df4aa63f434763b2f09d2084c0a3b19020ea0b",
+      "release_sha256": "fd450e2067fb9e26c8739fdfe8df4aa63f434763b2f09d2084c0a3b19020ea0b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_7_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0007.npz",
+      "bytes": 1439,
+      "copied_original_sha256": "8f54fa9b8d1c0779136eaf66417755789d61e28c38eae950689c84c93f35f3fb",
+      "release_sha256": "8f54fa9b8d1c0779136eaf66417755789d61e28c38eae950689c84c93f35f3fb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0008_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0008.npz",
+      "bytes": 1442,
+      "copied_original_sha256": "be0c5ac5c9dcb03f9d996aed9efd54e66f7f3436c9d36165b98b100c12a85e26",
+      "release_sha256": "be0c5ac5c9dcb03f9d996aed9efd54e66f7f3436c9d36165b98b100c12a85e26",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0009_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0009.npz",
+      "bytes": 1457,
+      "copied_original_sha256": "d923c3b0d6f13ae84ed940b823c98160e56450aaf8751e5ab6c2bdc62cd323e6",
+      "release_sha256": "d923c3b0d6f13ae84ed940b823c98160e56450aaf8751e5ab6c2bdc62cd323e6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0010_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0010.npz",
+      "bytes": 1412,
+      "copied_original_sha256": "2d5ae55d3edba97517b81d935f764d98269d8b0c244a7c8a7cf6e4f2c49ca929",
+      "release_sha256": "2d5ae55d3edba97517b81d935f764d98269d8b0c244a7c8a7cf6e4f2c49ca929",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0011_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0011.npz",
+      "bytes": 1310,
+      "copied_original_sha256": "20a23478049d3e842f1f395a8ef44b03e073fde391d02d8c7743b0d1e9352e6a",
+      "release_sha256": "20a23478049d3e842f1f395a8ef44b03e073fde391d02d8c7743b0d1e9352e6a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0012_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0012.npz",
+      "bytes": 1027,
+      "copied_original_sha256": "627930998ce3be1fe59e1517a2d84f4006f9737aafa1de7d5605b024d171ff04",
+      "release_sha256": "627930998ce3be1fe59e1517a2d84f4006f9737aafa1de7d5605b024d171ff04",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0013_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0013.npz",
+      "bytes": 1326,
+      "copied_original_sha256": "dc117972377e59579b9db56f82ec547bc922cff7c3c262b0bc645e1afc7a44f1",
+      "release_sha256": "dc117972377e59579b9db56f82ec547bc922cff7c3c262b0bc645e1afc7a44f1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0014_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0014.npz",
+      "bytes": 1155,
+      "copied_original_sha256": "486441b52908f367ab8129530eecc97f9f3e857345ee83527def38e2038cac5b",
+      "release_sha256": "486441b52908f367ab8129530eecc97f9f3e857345ee83527def38e2038cac5b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0015_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0015.npz",
+      "bytes": 1098,
+      "copied_original_sha256": "636ebaa8abbaad733f5ff7dfc1ada57155559f63c5f535f0c114a367c8f835d5",
+      "release_sha256": "636ebaa8abbaad733f5ff7dfc1ada57155559f63c5f535f0c114a367c8f835d5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0016_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0016.npz",
+      "bytes": 1440,
+      "copied_original_sha256": "a70ae49b66931227e8f75410a864af968148eba923d4789eec46a80641f1c6a2",
+      "release_sha256": "a70ae49b66931227e8f75410a864af968148eba923d4789eec46a80641f1c6a2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_17_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0017.npz",
+      "bytes": 1181,
+      "copied_original_sha256": "3f5b12de00002b413a062a9d296b085950ecde066e5952d5142b65c6bd5d1a21",
+      "release_sha256": "3f5b12de00002b413a062a9d296b085950ecde066e5952d5142b65c6bd5d1a21",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0018_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0018.npz",
+      "bytes": 1084,
+      "copied_original_sha256": "b5c2dc94c5af71f079ac70b59e38411bba2e9039da16b327c6e909706d8cef62",
+      "release_sha256": "b5c2dc94c5af71f079ac70b59e38411bba2e9039da16b327c6e909706d8cef62",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_19_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0019.npz",
+      "bytes": 1317,
+      "copied_original_sha256": "73e022482e66ccc529178eaebd6038b6218b1551d7fb86fc9bcd173f9c6b6543",
+      "release_sha256": "73e022482e66ccc529178eaebd6038b6218b1551d7fb86fc9bcd173f9c6b6543",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0020_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0020.npz",
+      "bytes": 1303,
+      "copied_original_sha256": "9f7be70cbafaed59ab49d372fa0a9ab116e67ed94583c3166d31d7ef2836a6fb",
+      "release_sha256": "9f7be70cbafaed59ab49d372fa0a9ab116e67ed94583c3166d31d7ef2836a6fb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0021_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0021.npz",
+      "bytes": 1449,
+      "copied_original_sha256": "f9028c0be2d8fe12197f519ff7ea3d5ba86d9db37f0a7b1bdc53e1ed449bb7e0",
+      "release_sha256": "f9028c0be2d8fe12197f519ff7ea3d5ba86d9db37f0a7b1bdc53e1ed449bb7e0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0022_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0022.npz",
+      "bytes": 1259,
+      "copied_original_sha256": "0f1c6319ff171efd81abccedf777836c83ac6a29bd24a5dfbfad7753aa21f12e",
+      "release_sha256": "0f1c6319ff171efd81abccedf777836c83ac6a29bd24a5dfbfad7753aa21f12e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0023_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0023.npz",
+      "bytes": 1393,
+      "copied_original_sha256": "b768f70f45cf70d4ba4ae400f7ec616777575f6ef58519e139eb35c691a751be",
+      "release_sha256": "b768f70f45cf70d4ba4ae400f7ec616777575f6ef58519e139eb35c691a751be",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_24_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0024.npz",
+      "bytes": 1297,
+      "copied_original_sha256": "51cbd422580b2ea817b86a2d17ede20bd1c2d2119f063aa2b7df2be7811dc84c",
+      "release_sha256": "51cbd422580b2ea817b86a2d17ede20bd1c2d2119f063aa2b7df2be7811dc84c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0025_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0025.npz",
+      "bytes": 1238,
+      "copied_original_sha256": "33d0d74af683fa4d34163e13dc8850afc645e7636b6612f81d30b71b2e9704e5",
+      "release_sha256": "33d0d74af683fa4d34163e13dc8850afc645e7636b6612f81d30b71b2e9704e5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0026_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0026.npz",
+      "bytes": 1174,
+      "copied_original_sha256": "905a9942d404a49e82c7c07ebd4bc72b411ffc5cb753678aba264860d95e32a5",
+      "release_sha256": "905a9942d404a49e82c7c07ebd4bc72b411ffc5cb753678aba264860d95e32a5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_27_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0027.npz",
+      "bytes": 1466,
+      "copied_original_sha256": "81c6714c2a8b4ab8b7cf85f65fc9c56c82a003dbff19fafd586e47b5e9ddd228",
+      "release_sha256": "81c6714c2a8b4ab8b7cf85f65fc9c56c82a003dbff19fafd586e47b5e9ddd228",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0028_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0028.npz",
+      "bytes": 1352,
+      "copied_original_sha256": "119513c68f1ff2db31cb07645f7a8f991278d17b23c6a282c91288bee128eb0d",
+      "release_sha256": "119513c68f1ff2db31cb07645f7a8f991278d17b23c6a282c91288bee128eb0d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0029_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0029.npz",
+      "bytes": 1565,
+      "copied_original_sha256": "20934f8c033641df8df681f789991d1493530cc0fd22b7249d97cfd42eb4b0e2",
+      "release_sha256": "20934f8c033641df8df681f789991d1493530cc0fd22b7249d97cfd42eb4b0e2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0030_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0030.npz",
+      "bytes": 965,
+      "copied_original_sha256": "287ea1a0d631a80d870440f30fea4a86428a35f9ec83cad1eaf2fcd08f3bca9f",
+      "release_sha256": "287ea1a0d631a80d870440f30fea4a86428a35f9ec83cad1eaf2fcd08f3bca9f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0031_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0031.npz",
+      "bytes": 1196,
+      "copied_original_sha256": "607020dcf1a9428c37043a76b58df03954180f14ce670ade10e1ccc3a40d40fe",
+      "release_sha256": "607020dcf1a9428c37043a76b58df03954180f14ce670ade10e1ccc3a40d40fe",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0032_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0032.npz",
+      "bytes": 1456,
+      "copied_original_sha256": "b3a0fd1a2639ad24a6fc6adfcc7bfe8808e314235f9c459962b2cbb13e3e03a7",
+      "release_sha256": "b3a0fd1a2639ad24a6fc6adfcc7bfe8808e314235f9c459962b2cbb13e3e03a7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0033_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0033.npz",
+      "bytes": 1400,
+      "copied_original_sha256": "27907116ae0b3821abced15d6d2586c3598fc42caf365e62b1423297f06ebc0e",
+      "release_sha256": "27907116ae0b3821abced15d6d2586c3598fc42caf365e62b1423297f06ebc0e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0034_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0034.npz",
+      "bytes": 1079,
+      "copied_original_sha256": "d4be53c95f837a5f6a598cb0c460e57cbbfef60edd30db815887b9ff1c623504",
+      "release_sha256": "d4be53c95f837a5f6a598cb0c460e57cbbfef60edd30db815887b9ff1c623504",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0035_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0035.npz",
+      "bytes": 1225,
+      "copied_original_sha256": "796f6184e1db5cf30686132999c0639365cdbed40915d99550c34416753e7a2f",
+      "release_sha256": "796f6184e1db5cf30686132999c0639365cdbed40915d99550c34416753e7a2f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_37_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0036.npz",
+      "bytes": 1300,
+      "copied_original_sha256": "0d4c8c3813e31536e2ad22ca56f251d70723a1c081d00fadaa9611513671bc46",
+      "release_sha256": "0d4c8c3813e31536e2ad22ca56f251d70723a1c081d00fadaa9611513671bc46",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0038_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0037.npz",
+      "bytes": 1385,
+      "copied_original_sha256": "a67ae7b3fc4f34d9e094bade5cdc6e9a14608295678cab75c5fb35c31aa84515",
+      "release_sha256": "a67ae7b3fc4f34d9e094bade5cdc6e9a14608295678cab75c5fb35c31aa84515",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0039_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0038.npz",
+      "bytes": 1398,
+      "copied_original_sha256": "a5700c8943f4e8b226a5b7ad555d2de036dcb9fc4ce29f121c310738740cb358",
+      "release_sha256": "a5700c8943f4e8b226a5b7ad555d2de036dcb9fc4ce29f121c310738740cb358",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_40_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0039.npz",
+      "bytes": 1202,
+      "copied_original_sha256": "3cf4c146a36d1953bb8d421194fffa18995f9e2c751f1c8900893391c050d62a",
+      "release_sha256": "3cf4c146a36d1953bb8d421194fffa18995f9e2c751f1c8900893391c050d62a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0041_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0040.npz",
+      "bytes": 1068,
+      "copied_original_sha256": "ea167d729cbd2aeb0768b4faa40c0f9344d0d8ad630c0968f757593f2260b955",
+      "release_sha256": "ea167d729cbd2aeb0768b4faa40c0f9344d0d8ad630c0968f757593f2260b955",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0042_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0041.npz",
+      "bytes": 1244,
+      "copied_original_sha256": "59e3cd85586c1bedf696645226431372129da0a4efba4c5d1a87b51f440bacb1",
+      "release_sha256": "59e3cd85586c1bedf696645226431372129da0a4efba4c5d1a87b51f440bacb1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_43_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0042.npz",
+      "bytes": 1388,
+      "copied_original_sha256": "cb22e21677147511466692eb2ecb5181c8f79a6fad0652af1bbe100a7162f99a",
+      "release_sha256": "cb22e21677147511466692eb2ecb5181c8f79a6fad0652af1bbe100a7162f99a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_44_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0043.npz",
+      "bytes": 1271,
+      "copied_original_sha256": "54648d224fd671ff2e2cf75270ff2bf32453ceff78c762593f162ee5016e3dd2",
+      "release_sha256": "54648d224fd671ff2e2cf75270ff2bf32453ceff78c762593f162ee5016e3dd2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0045_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0044.npz",
+      "bytes": 1394,
+      "copied_original_sha256": "1ae671c91b1800a2773803a5a1e8abcacb601f3c8dda58623e549f2c1d418bb0",
+      "release_sha256": "1ae671c91b1800a2773803a5a1e8abcacb601f3c8dda58623e549f2c1d418bb0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_46_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0045.npz",
+      "bytes": 1145,
+      "copied_original_sha256": "b0c05045d56f790bbf948f042478dfaa2f7e196ed2c7e80d9e64a83702f5398e",
+      "release_sha256": "b0c05045d56f790bbf948f042478dfaa2f7e196ed2c7e80d9e64a83702f5398e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0048_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0046.npz",
+      "bytes": 1280,
+      "copied_original_sha256": "2cf280a62de8a0ad2dc6b28b258dbb0c516217ed971cdbd63ca91b1419b0d996",
+      "release_sha256": "2cf280a62de8a0ad2dc6b28b258dbb0c516217ed971cdbd63ca91b1419b0d996",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0049_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0047.npz",
+      "bytes": 1395,
+      "copied_original_sha256": "049e97742a3f2d2d490702863d5455aa0977c1807d7345f82264c38684db3e40",
+      "release_sha256": "049e97742a3f2d2d490702863d5455aa0977c1807d7345f82264c38684db3e40",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0050_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0048.npz",
+      "bytes": 1447,
+      "copied_original_sha256": "f882354c80c006c0fcb497904265d6e5b4019064cb05da485d94c5123d5dd156",
+      "release_sha256": "f882354c80c006c0fcb497904265d6e5b4019064cb05da485d94c5123d5dd156",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0051_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0049.npz",
+      "bytes": 1553,
+      "copied_original_sha256": "7f67a853a8419d8203bdb5c8d20b16d5138f9740c5c9aa6335a1c458a715d764",
+      "release_sha256": "7f67a853a8419d8203bdb5c8d20b16d5138f9740c5c9aa6335a1c458a715d764",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0052_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0050.npz",
+      "bytes": 1446,
+      "copied_original_sha256": "3cf8d10052a3f108229e016848d2129472e937bb7ae6b6a6477d99b702c6cd27",
+      "release_sha256": "3cf8d10052a3f108229e016848d2129472e937bb7ae6b6a6477d99b702c6cd27",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0053_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0051.npz",
+      "bytes": 1409,
+      "copied_original_sha256": "f4d937d5ddcc250c2ceafd0fb7c40cb66fbb3cce9b7f109d5652238739d28dc4",
+      "release_sha256": "f4d937d5ddcc250c2ceafd0fb7c40cb66fbb3cce9b7f109d5652238739d28dc4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0054_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0052.npz",
+      "bytes": 1382,
+      "copied_original_sha256": "084f3d24f34cb51eb16dc8aafa8d53985558263fa8333665dcebafa271d5eaf0",
+      "release_sha256": "084f3d24f34cb51eb16dc8aafa8d53985558263fa8333665dcebafa271d5eaf0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_55_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0053.npz",
+      "bytes": 1284,
+      "copied_original_sha256": "baf7e10631d6e3de30789e7460e1820610a50625f6227955365ce794cd79cbba",
+      "release_sha256": "baf7e10631d6e3de30789e7460e1820610a50625f6227955365ce794cd79cbba",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0056_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0054.npz",
+      "bytes": 1177,
+      "copied_original_sha256": "d09b2f2a5e8d349c14157074677d1c61c77798d644d8c0de16eef063b441fa86",
+      "release_sha256": "d09b2f2a5e8d349c14157074677d1c61c77798d644d8c0de16eef063b441fa86",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0057_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0055.npz",
+      "bytes": 1447,
+      "copied_original_sha256": "37225959df8656f213cc6d19754a33962eda4a6b46510bcddc46616fa9a12b28",
+      "release_sha256": "37225959df8656f213cc6d19754a33962eda4a6b46510bcddc46616fa9a12b28",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0058_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0056.npz",
+      "bytes": 1277,
+      "copied_original_sha256": "68930a8bd58eb1d7799304aa8fa0afec261c08e334921badf7e70292ec56bc7c",
+      "release_sha256": "68930a8bd58eb1d7799304aa8fa0afec261c08e334921badf7e70292ec56bc7c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0060_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0057.npz",
+      "bytes": 1259,
+      "copied_original_sha256": "03217a770a1645253b5bb538d1a6b289e95e03018ac1ac50b4eb1f889740f3f8",
+      "release_sha256": "03217a770a1645253b5bb538d1a6b289e95e03018ac1ac50b4eb1f889740f3f8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0061_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0058.npz",
+      "bytes": 1341,
+      "copied_original_sha256": "813167b49eb6f84f5fc688d07faea22d766f218bf42ee4f61cac8732feb1507e",
+      "release_sha256": "813167b49eb6f84f5fc688d07faea22d766f218bf42ee4f61cac8732feb1507e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_62_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0059.npz",
+      "bytes": 1344,
+      "copied_original_sha256": "dc1a6121b79cfe6a6452a2797c018cfda6a94377dc7fa64bc93bdd82583d4843",
+      "release_sha256": "dc1a6121b79cfe6a6452a2797c018cfda6a94377dc7fa64bc93bdd82583d4843",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0063_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0060.npz",
+      "bytes": 1188,
+      "copied_original_sha256": "1303dada89436cf22df431cd87e33c0ddd56a6f6325920b0b0eca2dd523edfb8",
+      "release_sha256": "1303dada89436cf22df431cd87e33c0ddd56a6f6325920b0b0eca2dd523edfb8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_64_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0061.npz",
+      "bytes": 1307,
+      "copied_original_sha256": "1d9d18d32d410e05746a4cff904b152f36b83701910664e52e9df863068e2dfb",
+      "release_sha256": "1d9d18d32d410e05746a4cff904b152f36b83701910664e52e9df863068e2dfb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\masks\\part_65_episode_R3.npz",
+      "package_path": "provenance/selection_masks/part_0062.npz",
+      "bytes": 1305,
+      "copied_original_sha256": "fcb88d9469d23ba9885f00b59ad7a4739ebab9e6d581a7eb5c75a0769b832203",
+      "release_sha256": "fcb88d9469d23ba9885f00b59ad7a4739ebab9e6d581a7eb5c75a0769b832203",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_66_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0063.npz",
+      "bytes": 1353,
+      "copied_original_sha256": "7cc674c2ee9006fd0ae232bc701fd9a1cf95b38b55769775fdecf6a5c0476138",
+      "release_sha256": "7cc674c2ee9006fd0ae232bc701fd9a1cf95b38b55769775fdecf6a5c0476138",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0067_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0064.npz",
+      "bytes": 1434,
+      "copied_original_sha256": "23036fc6a2fe435d115e60feda5dd2aeef8931ca6e5421d2484520898d484e55",
+      "release_sha256": "23036fc6a2fe435d115e60feda5dd2aeef8931ca6e5421d2484520898d484e55",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0068_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0065.npz",
+      "bytes": 1387,
+      "copied_original_sha256": "e7ef8d749dce31a61d978338339168cc76b7a70674c012e7edc9432d6d55f595",
+      "release_sha256": "e7ef8d749dce31a61d978338339168cc76b7a70674c012e7edc9432d6d55f595",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0069_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0066.npz",
+      "bytes": 1366,
+      "copied_original_sha256": "08c9389d8508b178b8e54d0f8d84debffec0e95c00b2479d95b6188676aad21a",
+      "release_sha256": "08c9389d8508b178b8e54d0f8d84debffec0e95c00b2479d95b6188676aad21a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0070_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0067.npz",
+      "bytes": 1241,
+      "copied_original_sha256": "3cfd31b51701c5fdc034f2cf7aff58292de0b2ea6dc7a159b0d69d5a41cd40a4",
+      "release_sha256": "3cfd31b51701c5fdc034f2cf7aff58292de0b2ea6dc7a159b0d69d5a41cd40a4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0071_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0068.npz",
+      "bytes": 1349,
+      "copied_original_sha256": "c7d4dd3d108e323bc95ddeaabd85366d0481db6f754a466c7d53e9d7bf483574",
+      "release_sha256": "c7d4dd3d108e323bc95ddeaabd85366d0481db6f754a466c7d53e9d7bf483574",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_72_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0069.npz",
+      "bytes": 1232,
+      "copied_original_sha256": "22d29977c5f41eebb38f36be16e4a326c953e04f29fc7542a28c35bf1d7f6924",
+      "release_sha256": "22d29977c5f41eebb38f36be16e4a326c953e04f29fc7542a28c35bf1d7f6924",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_73_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0070.npz",
+      "bytes": 1153,
+      "copied_original_sha256": "6ff3ac22dd08c853f36ab2face5a8b3e03ede714d7f5fd97f290c867193f9a95",
+      "release_sha256": "6ff3ac22dd08c853f36ab2face5a8b3e03ede714d7f5fd97f290c867193f9a95",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0074_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0071.npz",
+      "bytes": 1114,
+      "copied_original_sha256": "ba906a31d08e0f961427fd8f685990fc8c9b2334e72247bdc5ca30035b15b9cd",
+      "release_sha256": "ba906a31d08e0f961427fd8f685990fc8c9b2334e72247bdc5ca30035b15b9cd",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0075_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0072.npz",
+      "bytes": 1203,
+      "copied_original_sha256": "5e9e59a541ebc164b4665308e79e83368652e5c95a3d7c73b79bbe740fdca5c8",
+      "release_sha256": "5e9e59a541ebc164b4665308e79e83368652e5c95a3d7c73b79bbe740fdca5c8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0076_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0073.npz",
+      "bytes": 1049,
+      "copied_original_sha256": "12777c57d70e290816046760693bb9871b9717605c6519e9ad72d0c214075ac4",
+      "release_sha256": "12777c57d70e290816046760693bb9871b9717605c6519e9ad72d0c214075ac4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0077_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0074.npz",
+      "bytes": 1393,
+      "copied_original_sha256": "ba2987af9a3e52c441f05c343a2a4270ef2210050db73f6e7db29b4ebe1f1300",
+      "release_sha256": "ba2987af9a3e52c441f05c343a2a4270ef2210050db73f6e7db29b4ebe1f1300",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_78_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0075.npz",
+      "bytes": 1332,
+      "copied_original_sha256": "ca9741a2c6feb3b39ab0fb4b50e14808980a1ef282dc4e557452ed426d5b7c35",
+      "release_sha256": "ca9741a2c6feb3b39ab0fb4b50e14808980a1ef282dc4e557452ed426d5b7c35",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0079_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0076.npz",
+      "bytes": 1506,
+      "copied_original_sha256": "4626e3aa871e4e41ab1479b3b701d2f3ee329d60baa9c1e3f9457a6bc3c8b331",
+      "release_sha256": "4626e3aa871e4e41ab1479b3b701d2f3ee329d60baa9c1e3f9457a6bc3c8b331",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0080_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0077.npz",
+      "bytes": 1352,
+      "copied_original_sha256": "cd13454a07b0c4c259396b3789c6a057913eb80426ea1b9e0514069c264b97dd",
+      "release_sha256": "cd13454a07b0c4c259396b3789c6a057913eb80426ea1b9e0514069c264b97dd",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_81_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0078.npz",
+      "bytes": 1288,
+      "copied_original_sha256": "3fbfd45b901195493ceff690cbb75334c79c0e3b60fb7cb93f97a09ae517b124",
+      "release_sha256": "3fbfd45b901195493ceff690cbb75334c79c0e3b60fb7cb93f97a09ae517b124",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_82_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0079.npz",
+      "bytes": 1378,
+      "copied_original_sha256": "51c18930644f30e906fd518b63aaf6eae8dd493817f6b9cc8ddbffd583d0f730",
+      "release_sha256": "51c18930644f30e906fd518b63aaf6eae8dd493817f6b9cc8ddbffd583d0f730",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0083_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0080.npz",
+      "bytes": 1197,
+      "copied_original_sha256": "3df8d2bee6e0ca59cbcb9a0b942919414be8b972236eb58994343542a548fe08",
+      "release_sha256": "3df8d2bee6e0ca59cbcb9a0b942919414be8b972236eb58994343542a548fe08",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0089_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0081.npz",
+      "bytes": 1189,
+      "copied_original_sha256": "4cc78370e4081853535b27ef424635bb9b353d5155c515f3324f3806ea1fe463",
+      "release_sha256": "4cc78370e4081853535b27ef424635bb9b353d5155c515f3324f3806ea1fe463",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0090_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0082.npz",
+      "bytes": 1311,
+      "copied_original_sha256": "689266d2c0ff66652c866ae28629ac9d26ce48d76ec3e2135226f2ba90f372ae",
+      "release_sha256": "689266d2c0ff66652c866ae28629ac9d26ce48d76ec3e2135226f2ba90f372ae",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0095_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0083.npz",
+      "bytes": 1353,
+      "copied_original_sha256": "9a0c190e8991397597dc27d2d07357fd73460c17c27a0d60314064e0f10dc4d2",
+      "release_sha256": "9a0c190e8991397597dc27d2d07357fd73460c17c27a0d60314064e0f10dc4d2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_99_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0084.npz",
+      "bytes": 1481,
+      "copied_original_sha256": "a0de91df518a675e2548b867557420d81b59bd86c3d1f964f0eadf52c15bf529",
+      "release_sha256": "a0de91df518a675e2548b867557420d81b59bd86c3d1f964f0eadf52c15bf529",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0100_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0085.npz",
+      "bytes": 1059,
+      "copied_original_sha256": "503ebcbdd2cf4fb94ba8b348dc696417b1f10db258e311cd7bbc54e0853184e9",
+      "release_sha256": "503ebcbdd2cf4fb94ba8b348dc696417b1f10db258e311cd7bbc54e0853184e9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\base122\\Ground_part0101_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0086.npz",
+      "bytes": 1178,
+      "copied_original_sha256": "c07a41aaf5a8390ff7d9951994cfb4c482f4717741deaca908331d9b6bf4b746",
+      "release_sha256": "c07a41aaf5a8390ff7d9951994cfb4c482f4717741deaca908331d9b6bf4b746",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\added\\AREG00PER\\Ground_part1000_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0087.npz",
+      "bytes": 1485,
+      "copied_original_sha256": "6da1f9b280ed4ae6cd0898b881d625d2ebe785f380e57b0ec4c10b05eaa07bde",
+      "release_sha256": "6da1f9b280ed4ae6cd0898b881d625d2ebe785f380e57b0ec4c10b05eaa07bde",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\added\\AREG00PER\\Ground_part1001_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0088.npz",
+      "bytes": 1560,
+      "copied_original_sha256": "1c9ca60593893eeedba446d3f6e6a0738f0c0910c31f8d795a6db80b73a78a8b",
+      "release_sha256": "1c9ca60593893eeedba446d3f6e6a0738f0c0910c31f8d795a6db80b73a78a8b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\added\\SCRZ00BOL\\Ground_part2000_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0089.npz",
+      "bytes": 1435,
+      "copied_original_sha256": "ef23ff17fe601f501da1faef85d9b4e40fb4461ebc2dbec297cf00257cc6e9ff",
+      "release_sha256": "ef23ff17fe601f501da1faef85d9b4e40fb4461ebc2dbec297cf00257cc6e9ff",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_2001_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0090.npz",
+      "bytes": 1184,
+      "copied_original_sha256": "b1a8da9559dbd5db5b0f2bc5418d57322f580567615d681fc44d75a33ef6428c",
+      "release_sha256": "b1a8da9559dbd5db5b0f2bc5418d57322f580567615d681fc44d75a33ef6428c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\added\\SGOC00LKA\\Ground_part3000_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0091.npz",
+      "bytes": 1681,
+      "copied_original_sha256": "5ef6911ccb7d01a38cf517ca207de2053fa43d91133d227d7aa4c82d243e8e32",
+      "release_sha256": "5ef6911ccb7d01a38cf517ca207de2053fa43d91133d227d7aa4c82d243e8e32",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\masks\\part_3001_episode_R3.npz",
+      "package_path": "provenance/selection_masks/part_0092.npz",
+      "bytes": 1220,
+      "copied_original_sha256": "ef213b3b7eccf0088b98a038ad056b23aef7cf1a27c6501db2943b0ae08540be",
+      "release_sha256": "ef213b3b7eccf0088b98a038ad056b23aef7cf1a27c6501db2943b0ae08540be",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground_equatorial_expansion_R3_20261028\\selection\\added\\THTG00PYF\\Ground_part4000_retained_R3.npz",
+      "package_path": "provenance/selection_masks/part_0093.npz",
+      "bytes": 1660,
+      "copied_original_sha256": "b8689e466ca071835dc1ccc9e10c9b4e80b114ba115f66706b425223c633488b",
+      "release_sha256": "b8689e466ca071835dc1ccc9e10c9b4e80b114ba115f66706b425223c633488b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_4001_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0094.npz",
+      "bytes": 1237,
+      "copied_original_sha256": "f8e4d261d311a2a7ae93fbd105df1c80deedd6766df543fb11d561a0b45d5e8f",
+      "release_sha256": "f8e4d261d311a2a7ae93fbd105df1c80deedd6766df543fb11d561a0b45d5e8f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10000_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0095.npz",
+      "bytes": 945,
+      "copied_original_sha256": "94cf50505f0ae471782db222f73a037f210a5f13985f6150ee6bf4d14af1e201",
+      "release_sha256": "94cf50505f0ae471782db222f73a037f210a5f13985f6150ee6bf4d14af1e201",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10001_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0096.npz",
+      "bytes": 955,
+      "copied_original_sha256": "df6ecddfa059eef9e28034caa30f408db07a2dfaee8566ab8feab6f6050cbc64",
+      "release_sha256": "df6ecddfa059eef9e28034caa30f408db07a2dfaee8566ab8feab6f6050cbc64",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10002_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0097.npz",
+      "bytes": 947,
+      "copied_original_sha256": "091c4fb002414a4aca851b0b51c5456dfa2c7657ca8062fcc98107498ed0445f",
+      "release_sha256": "091c4fb002414a4aca851b0b51c5456dfa2c7657ca8062fcc98107498ed0445f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10003_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0098.npz",
+      "bytes": 942,
+      "copied_original_sha256": "e11b178bc974c81b4a23c4b9ffc90529723f8de72d4307e44dbede0f56c7b4f8",
+      "release_sha256": "e11b178bc974c81b4a23c4b9ffc90529723f8de72d4307e44dbede0f56c7b4f8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10004_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0099.npz",
+      "bytes": 950,
+      "copied_original_sha256": "a74088c2ba23e37dec3371f9f34a6b3aabf5e11dd5b183c30edae7ca132d2842",
+      "release_sha256": "a74088c2ba23e37dec3371f9f34a6b3aabf5e11dd5b183c30edae7ca132d2842",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10005_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0100.npz",
+      "bytes": 948,
+      "copied_original_sha256": "585958fea7b3cc2ec344554e21bb794e42eab30e0854c913b0d43a0cdf39a256",
+      "release_sha256": "585958fea7b3cc2ec344554e21bb794e42eab30e0854c913b0d43a0cdf39a256",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10006_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0101.npz",
+      "bytes": 952,
+      "copied_original_sha256": "1d55b57a257061e98b905dc41866c93aa75886278c23bafd30d84a9b7cb5909b",
+      "release_sha256": "1d55b57a257061e98b905dc41866c93aa75886278c23bafd30d84a9b7cb5909b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10007_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0102.npz",
+      "bytes": 947,
+      "copied_original_sha256": "8e62c81af4c53fabbd26c2ee0fb8d55b73adb855af0eddbd41cfaae26543425a",
+      "release_sha256": "8e62c81af4c53fabbd26c2ee0fb8d55b73adb855af0eddbd41cfaae26543425a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10008_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0103.npz",
+      "bytes": 976,
+      "copied_original_sha256": "9afd3846884e811bf10191dd0fc2e88fe66c3dba10eb0f6e96c2a0633920c143",
+      "release_sha256": "9afd3846884e811bf10191dd0fc2e88fe66c3dba10eb0f6e96c2a0633920c143",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10009_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0104.npz",
+      "bytes": 942,
+      "copied_original_sha256": "3a737793379c6a56da4a782403a1ce52801d885cfeac18fba6e56b12d7067a23",
+      "release_sha256": "3a737793379c6a56da4a782403a1ce52801d885cfeac18fba6e56b12d7067a23",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10010_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0105.npz",
+      "bytes": 947,
+      "copied_original_sha256": "82332e57029c9ca4bbb68eccf414e8c2050bccd5e2aa0fdf0caf0038f5017834",
+      "release_sha256": "82332e57029c9ca4bbb68eccf414e8c2050bccd5e2aa0fdf0caf0038f5017834",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10011_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0106.npz",
+      "bytes": 965,
+      "copied_original_sha256": "358dc6dbed11a2c1d4d1406471a94c28bea42501ce550f8b9bf38ec711c08aed",
+      "release_sha256": "358dc6dbed11a2c1d4d1406471a94c28bea42501ce550f8b9bf38ec711c08aed",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10012_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0107.npz",
+      "bytes": 946,
+      "copied_original_sha256": "fb8ef9763afe733d14e94a2b12a8f9c27e693f6319a4dee137a7875100085e75",
+      "release_sha256": "fb8ef9763afe733d14e94a2b12a8f9c27e693f6319a4dee137a7875100085e75",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10013_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0108.npz",
+      "bytes": 946,
+      "copied_original_sha256": "cded2a992d9aa6467a1ac95e75fc44acf4b40d15f613763630d401f466168bc9",
+      "release_sha256": "cded2a992d9aa6467a1ac95e75fc44acf4b40d15f613763630d401f466168bc9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10014_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0109.npz",
+      "bytes": 949,
+      "copied_original_sha256": "9a80a46c2415ac51818a5c54b4670a15c630b2228bbc89a9f77f369f2be3bb85",
+      "release_sha256": "9a80a46c2415ac51818a5c54b4670a15c630b2228bbc89a9f77f369f2be3bb85",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10015_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0110.npz",
+      "bytes": 943,
+      "copied_original_sha256": "9e9e98b67375f6b862a79aeddf4d712395148d1ab54a5ec8959af869925bfa5e",
+      "release_sha256": "9e9e98b67375f6b862a79aeddf4d712395148d1ab54a5ec8959af869925bfa5e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10016_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0111.npz",
+      "bytes": 950,
+      "copied_original_sha256": "c0da23e39e86a567efafc9bde7401f077dd6b246273c5d699f79cdd972740a9f",
+      "release_sha256": "c0da23e39e86a567efafc9bde7401f077dd6b246273c5d699f79cdd972740a9f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10017_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0112.npz",
+      "bytes": 944,
+      "copied_original_sha256": "45a6533a51a2afe99180b465c66fe494fb5785d21df874714a78e183844bec01",
+      "release_sha256": "45a6533a51a2afe99180b465c66fe494fb5785d21df874714a78e183844bec01",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10018_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0113.npz",
+      "bytes": 997,
+      "copied_original_sha256": "045eb2b43dc4d312853660550adb4d5132994e22ac7da2f2bd37ccb313b5c0c9",
+      "release_sha256": "045eb2b43dc4d312853660550adb4d5132994e22ac7da2f2bd37ccb313b5c0c9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10019_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0114.npz",
+      "bytes": 943,
+      "copied_original_sha256": "637cbd99b1506cd557b2c8dae417be6514f08b0aa3969f81fdbc956c3b93b93b",
+      "release_sha256": "637cbd99b1506cd557b2c8dae417be6514f08b0aa3969f81fdbc956c3b93b93b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10020_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0115.npz",
+      "bytes": 949,
+      "copied_original_sha256": "0bdb627e7c06daa772e3d18f0d7d6d0a2bb0cfe087aa845c6e588b82aeb9eae3",
+      "release_sha256": "0bdb627e7c06daa772e3d18f0d7d6d0a2bb0cfe087aa845c6e588b82aeb9eae3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10021_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0116.npz",
+      "bytes": 946,
+      "copied_original_sha256": "23d90e4270c5fda3d222dbe71743c547cbc94810318ebe4b2f47b40d58dcdff6",
+      "release_sha256": "23d90e4270c5fda3d222dbe71743c547cbc94810318ebe4b2f47b40d58dcdff6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\masks\\part_10022_episode_R3.npz",
+      "package_path": "provenance/selection_masks/part_0117.npz",
+      "bytes": 1058,
+      "copied_original_sha256": "6545f6a5deafd7d58a5edf2d145462fa0f5d6049153ef150fdb1bc6e9f66a8e8",
+      "release_sha256": "6545f6a5deafd7d58a5edf2d145462fa0f5d6049153ef150fdb1bc6e9f66a8e8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10023_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0118.npz",
+      "bytes": 943,
+      "copied_original_sha256": "9f63f8c0de6ae863f573e3249b257f8f17266a589a0d3c68e7274cad5c61b0d0",
+      "release_sha256": "9f63f8c0de6ae863f573e3249b257f8f17266a589a0d3c68e7274cad5c61b0d0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\selection\\masks\\Ground_part10024_primary141_R3.npz",
+      "package_path": "provenance/selection_masks/part_0119.npz",
+      "bytes": 951,
+      "copied_original_sha256": "bfdaf91283bdbc07dd6b3ebf2dc8b7796af0b1c8d17d7f81b54467d8abbdb819",
+      "release_sha256": "bfdaf91283bdbc07dd6b3ebf2dc8b7796af0b1c8d17d7f81b54467d8abbdb819",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\NORF00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0120.npz",
+      "bytes": 917,
+      "copied_original_sha256": "a7b4782a267355f164e49c93b7a69811916c13b510cc854e5539dce77e71151d",
+      "release_sha256": "a7b4782a267355f164e49c93b7a69811916c13b510cc854e5539dce77e71151d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRST00FRA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0121.npz",
+      "bytes": 946,
+      "copied_original_sha256": "927954e4cadcb4fb6d530d371f63174d1ddbc8b0ab4af3cf322b2ea19570312f",
+      "release_sha256": "927954e4cadcb4fb6d530d371f63174d1ddbc8b0ab4af3cf322b2ea19570312f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\FAIR00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0122.npz",
+      "bytes": 943,
+      "copied_original_sha256": "6f6bfe256e116bb63c83af7658af09a004d6f851653356cbd55be676d761edcc",
+      "release_sha256": "6f6bfe256e116bb63c83af7658af09a004d6f851653356cbd55be676d761edcc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\FAIR00USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0123.npz",
+      "bytes": 947,
+      "copied_original_sha256": "5da08a9f13a99b7e9d412b774dc80b67e7bca724e08840bbfc0eefb3f89d6d30",
+      "release_sha256": "5da08a9f13a99b7e9d412b774dc80b67e7bca724e08840bbfc0eefb3f89d6d30",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\AIRA00JPN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0124.npz",
+      "bytes": 944,
+      "copied_original_sha256": "294a1bc227b2685a12398d5919078b4706b50d28722f278d4a5580c40f00b14a",
+      "release_sha256": "294a1bc227b2685a12398d5919078b4706b50d28722f278d4a5580c40f00b14a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KUGC00CAN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0125.npz",
+      "bytes": 943,
+      "copied_original_sha256": "6e96fe849745a991c416d3b22d9209c1a023f5bdc968762f082cf571b0988807",
+      "release_sha256": "6e96fe849745a991c416d3b22d9209c1a023f5bdc968762f082cf571b0988807",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MAW100ATA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0126.npz",
+      "bytes": 947,
+      "copied_original_sha256": "f8dce8996343c315af6524a88d8ac2de0669215f1cc7f9a28bbc3d02b8a21f4f",
+      "release_sha256": "f8dce8996343c315af6524a88d8ac2de0669215f1cc7f9a28bbc3d02b8a21f4f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MAW100ATA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0127.npz",
+      "bytes": 945,
+      "copied_original_sha256": "e41153253c674b506f8606f834e67db25d5d805c9f99236baeaaefce52d099f6",
+      "release_sha256": "e41153253c674b506f8606f834e67db25d5d805c9f99236baeaaefce52d099f6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MCM400ATA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0128.npz",
+      "bytes": 945,
+      "copied_original_sha256": "eec2d616a67bcaba120978d0375afd9b959ea36ee480d1ac6382236d03ea055b",
+      "release_sha256": "eec2d616a67bcaba120978d0375afd9b959ea36ee480d1ac6382236d03ea055b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MCM400ATA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0129.npz",
+      "bytes": 950,
+      "copied_original_sha256": "88ba83fda367a2b72bde4a888eac97d758aecf01ed30930f6cf510b703da07a1",
+      "release_sha256": "88ba83fda367a2b72bde4a888eac97d758aecf01ed30930f6cf510b703da07a1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BREW00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0130.npz",
+      "bytes": 950,
+      "copied_original_sha256": "fb0fc0ecfaf913595cbe46147579f8de32581e7eba195677eafdd4354fe7f54d",
+      "release_sha256": "fb0fc0ecfaf913595cbe46147579f8de32581e7eba195677eafdd4354fe7f54d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BREW00USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0131.npz",
+      "bytes": 950,
+      "copied_original_sha256": "8d3d7793d86515e3ae130345cd61d04f018220140a8e791da87b98e5c06028ca",
+      "release_sha256": "8d3d7793d86515e3ae130345cd61d04f018220140a8e791da87b98e5c06028ca",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\AMC400USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0132.npz",
+      "bytes": 949,
+      "copied_original_sha256": "22a04d3411edea7bf7f30121f51658f4087b06efcd773635ea2f507f7f188a6d",
+      "release_sha256": "22a04d3411edea7bf7f30121f51658f4087b06efcd773635ea2f507f7f188a6d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\AMC400USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0133.npz",
+      "bytes": 949,
+      "copied_original_sha256": "a331da87a9be2aefaaac26df4bdea4a57ff4093747f025ea69935774d5ef0cc8",
+      "release_sha256": "a331da87a9be2aefaaac26df4bdea4a57ff4093747f025ea69935774d5ef0cc8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GODE00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0134.npz",
+      "bytes": 952,
+      "copied_original_sha256": "dd8e6081b2d2d4d5d089cf900699b89d2c49c66e975f933bc49698bacd2bd082",
+      "release_sha256": "dd8e6081b2d2d4d5d089cf900699b89d2c49c66e975f933bc49698bacd2bd082",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GODE00USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0135.npz",
+      "bytes": 953,
+      "copied_original_sha256": "d0abcdcebb1d68fcca60bd886210d64035eddc4bc59628ea50c5914eabdd2165",
+      "release_sha256": "d0abcdcebb1d68fcca60bd886210d64035eddc4bc59628ea50c5914eabdd2165",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\JPLM00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0136.npz",
+      "bytes": 947,
+      "copied_original_sha256": "fab607065d4632017d881866db054b1cf12ffd967334bc08978f013fa06a11a8",
+      "release_sha256": "fab607065d4632017d881866db054b1cf12ffd967334bc08978f013fa06a11a8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\JPLM00USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0137.npz",
+      "bytes": 948,
+      "copied_original_sha256": "fc6f5ddc0873a13dde6c5ae38674a6d4f8c3f54553ea442a611918472bfd0490",
+      "release_sha256": "fc6f5ddc0873a13dde6c5ae38674a6d4f8c3f54553ea442a611918472bfd0490",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MDO100USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0138.npz",
+      "bytes": 953,
+      "copied_original_sha256": "53d5bc5ddaa0e28360c3706ca659c0a3ec9dbf7df82eec8a90b840251c7304b7",
+      "release_sha256": "53d5bc5ddaa0e28360c3706ca659c0a3ec9dbf7df82eec8a90b840251c7304b7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MDO100USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0139.npz",
+      "bytes": 953,
+      "copied_original_sha256": "84b6f61ef6d3bc072ce8b3d1450cee51c048dfe6096011ac06d548c4de420ada",
+      "release_sha256": "84b6f61ef6d3bc072ce8b3d1450cee51c048dfe6096011ac06d548c4de420ada",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\NLIB00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0140.npz",
+      "bytes": 949,
+      "copied_original_sha256": "9d0f0027e932b23b55db86fcb794fc2658435d740afa3902492ff0b2b414079f",
+      "release_sha256": "9d0f0027e932b23b55db86fcb794fc2658435d740afa3902492ff0b2b414079f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10046_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0141.npz",
+      "bytes": 967,
+      "copied_original_sha256": "9be5e9aa3a6ef0dc2da00d76178864b67123a3dd608f6470d8539e5e940a246e",
+      "release_sha256": "9be5e9aa3a6ef0dc2da00d76178864b67123a3dd608f6470d8539e5e940a246e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\USN700USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0142.npz",
+      "bytes": 947,
+      "copied_original_sha256": "1d56761e5660b4b8abde28cf232d3915eca01882e5cbdcd7bab0d8a83ed77137",
+      "release_sha256": "1d56761e5660b4b8abde28cf232d3915eca01882e5cbdcd7bab0d8a83ed77137",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10048_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0143.npz",
+      "bytes": 993,
+      "copied_original_sha256": "ea8805c2d4c5ea87e9cb94d6a587bcfd9924d8d552c11e848c5ef22d12f65428",
+      "release_sha256": "ea8805c2d4c5ea87e9cb94d6a587bcfd9924d8d552c11e848c5ef22d12f65428",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\ABPO00MDG\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0144.npz",
+      "bytes": 950,
+      "copied_original_sha256": "5d945453bf3c44b4ea8075ac0c9baf0a3c9f64a5aaf720b0f598495d02bdb3cd",
+      "release_sha256": "5d945453bf3c44b4ea8075ac0c9baf0a3c9f64a5aaf720b0f598495d02bdb3cd",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\masks\\part_10050_episode_R3.npz",
+      "package_path": "provenance/selection_masks/part_0145.npz",
+      "bytes": 1022,
+      "copied_original_sha256": "88b3d68514a3067eb61cb589b21708dcfdd655002823bf7b50efabbbea230b74",
+      "release_sha256": "88b3d68514a3067eb61cb589b21708dcfdd655002823bf7b50efabbbea230b74",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\AREQ00PER\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0146.npz",
+      "bytes": 942,
+      "copied_original_sha256": "f4811acb55dcf9e8028713c7ee043d900c715b458013a8cad5790ec0695322ca",
+      "release_sha256": "f4811acb55dcf9e8028713c7ee043d900c715b458013a8cad5790ec0695322ca",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\AREQ00PER\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0147.npz",
+      "bytes": 943,
+      "copied_original_sha256": "f4e59c34d25031922969b4d935050c8d151bfbb6cb1f7b61567122ad3321e3b8",
+      "release_sha256": "f4e59c34d25031922969b4d935050c8d151bfbb6cb1f7b61567122ad3321e3b8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\ARUC00ARM\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0148.npz",
+      "bytes": 953,
+      "copied_original_sha256": "3a7d97f061cdc64a16f32728a73649e6e9700b0e26f15deceba830b0edb29dce",
+      "release_sha256": "3a7d97f061cdc64a16f32728a73649e6e9700b0e26f15deceba830b0edb29dce",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10054_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0149.npz",
+      "bytes": 986,
+      "copied_original_sha256": "72060e9f57d7422e40bb7e1c11e474f41b7caaa3635a714000d92d96c0f493fa",
+      "release_sha256": "72060e9f57d7422e40bb7e1c11e474f41b7caaa3635a714000d92d96c0f493fa",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\AUBG00DEU\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0150.npz",
+      "bytes": 949,
+      "copied_original_sha256": "4888551a705177e6291f8b0b0fcfa88623f9e640c374cb253a445e7a6df46bba",
+      "release_sha256": "4888551a705177e6291f8b0b0fcfa88623f9e640c374cb253a445e7a6df46bba",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BHPL00IND\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0151.npz",
+      "bytes": 925,
+      "copied_original_sha256": "7179fa7b1b640b7459ddd8d80cc9d8a68d40ae3eac538db50fdc6b9c868ff767",
+      "release_sha256": "7179fa7b1b640b7459ddd8d80cc9d8a68d40ae3eac538db50fdc6b9c868ff767",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BING00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0152.npz",
+      "bytes": 907,
+      "copied_original_sha256": "79278563a86b69008fa06b7bca080f06d4d8cb195ca07e17a3c9ca922716b079",
+      "release_sha256": "79278563a86b69008fa06b7bca080f06d4d8cb195ca07e17a3c9ca922716b079",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BNDY00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0153.npz",
+      "bytes": 904,
+      "copied_original_sha256": "3707292d3efeda0679a92bc72c7c3422f7efec09661bd5499f6a37b324f10f41",
+      "release_sha256": "3707292d3efeda0679a92bc72c7c3422f7efec09661bd5499f6a37b324f10f41",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRLA00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0154.npz",
+      "bytes": 906,
+      "copied_original_sha256": "8483bdbd0d55595c981cb5267cc8b99edebdf309019fea20a39b5926f1bab6e3",
+      "release_sha256": "8483bdbd0d55595c981cb5267cc8b99edebdf309019fea20a39b5926f1bab6e3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRMF00FRA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0155.npz",
+      "bytes": 945,
+      "copied_original_sha256": "554561fe59908ab3d05ada5fa5837fc01ef55ff92a716b7299c79ad4e5ac12d2",
+      "release_sha256": "554561fe59908ab3d05ada5fa5837fc01ef55ff92a716b7299c79ad4e5ac12d2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRMF00FRA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0156.npz",
+      "bytes": 951,
+      "copied_original_sha256": "67b13edbd57dd5195c914c09099574e3885bf32ec5858d42a8530ca51e411f3d",
+      "release_sha256": "67b13edbd57dd5195c914c09099574e3885bf32ec5858d42a8530ca51e411f3d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRO100AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0157.npz",
+      "bytes": 914,
+      "copied_original_sha256": "bb5cea5e8545d2135c1577cd5a23089ded5ffcf99e07dcb8f5685bd6cca5b46d",
+      "release_sha256": "bb5cea5e8545d2135c1577cd5a23089ded5ffcf99e07dcb8f5685bd6cca5b46d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRUX00BEL\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0158.npz",
+      "bytes": 949,
+      "copied_original_sha256": "5d70f5bdc1a320e1475cad36cfd1302212eb987dca72ac0c7c74f7321ae52488",
+      "release_sha256": "5d70f5bdc1a320e1475cad36cfd1302212eb987dca72ac0c7c74f7321ae52488",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\BRUX00BEL\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0159.npz",
+      "bytes": 947,
+      "copied_original_sha256": "4f25c1243365648d163eb1a17c71ad6f650e542999c9c28fd9c1a1d5da013221",
+      "release_sha256": "4f25c1243365648d163eb1a17c71ad6f650e542999c9c28fd9c1a1d5da013221",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CCJ200JPN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0160.npz",
+      "bytes": 943,
+      "copied_original_sha256": "c38962b93fa858fc18e9e790134759ac012105376602767460425a38adf64ef3",
+      "release_sha256": "c38962b93fa858fc18e9e790134759ac012105376602767460425a38adf64ef3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CEU100ESP\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0161.npz",
+      "bytes": 944,
+      "copied_original_sha256": "4e6a57378b3cdaf1b944fc798c9e2c5f3479c19613287f3577a158ab1f6d731c",
+      "release_sha256": "4e6a57378b3cdaf1b944fc798c9e2c5f3479c19613287f3577a158ab1f6d731c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CHOF00JPN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0162.npz",
+      "bytes": 951,
+      "copied_original_sha256": "b7302c5503588890a2b27f52fc683334741f1fb5fdc434b8d1ac01233347eec3",
+      "release_sha256": "b7302c5503588890a2b27f52fc683334741f1fb5fdc434b8d1ac01233347eec3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CHPG00BRA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0163.npz",
+      "bytes": 944,
+      "copied_original_sha256": "4cdd7cf2457bedc30c51d1f2ed1ff568b1e733f46d6e1532655058aca53f26da",
+      "release_sha256": "4cdd7cf2457bedc30c51d1f2ed1ff568b1e733f46d6e1532655058aca53f26da",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CHPI00BRA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0164.npz",
+      "bytes": 942,
+      "copied_original_sha256": "24f35fa82416c6105101f13f6c263e0b620eec78b1ae6b16e10fa46a164ce231",
+      "release_sha256": "24f35fa82416c6105101f13f6c263e0b620eec78b1ae6b16e10fa46a164ce231",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CHPI00BRA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0165.npz",
+      "bytes": 943,
+      "copied_original_sha256": "6e7cf5909711e64e8af223f437acfb57042342420b68fdd64dca72d98d1106d2",
+      "release_sha256": "6e7cf5909711e64e8af223f437acfb57042342420b68fdd64dca72d98d1106d2",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CIBG00IDN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0166.npz",
+      "bytes": 941,
+      "copied_original_sha256": "0a54afc95512ff0a24c61fb352c51f901d09b2c532583cc5d84bceb92be2eb38",
+      "release_sha256": "0a54afc95512ff0a24c61fb352c51f901d09b2c532583cc5d84bceb92be2eb38",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CKIS00COK\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0167.npz",
+      "bytes": 944,
+      "copied_original_sha256": "da6f12ae649c6e724e0ad6e8d20468c70a911121aac4415d3f608a7d51ebc0af",
+      "release_sha256": "da6f12ae649c6e724e0ad6e8d20468c70a911121aac4415d3f608a7d51ebc0af",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10073_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0168.npz",
+      "bytes": 982,
+      "copied_original_sha256": "d16a9e32c1ba834e1c8ba7237315ad9a7a34403ae0db23c8b5c6c01bd6861b00",
+      "release_sha256": "d16a9e32c1ba834e1c8ba7237315ad9a7a34403ae0db23c8b5c6c01bd6861b00",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CORD00ARG\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0169.npz",
+      "bytes": 947,
+      "copied_original_sha256": "ba8c2d071459ed23a82e420312a66ed67fb43407d3d749dd035a76d67dd749cb",
+      "release_sha256": "ba8c2d071459ed23a82e420312a66ed67fb43407d3d749dd035a76d67dd749cb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CORD00ARG\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0170.npz",
+      "bytes": 948,
+      "copied_original_sha256": "d6116acd893a5199dbae08e8710b91620f8ca87a06f710a057a073d2c3896514",
+      "release_sha256": "d6116acd893a5199dbae08e8710b91620f8ca87a06f710a057a073d2c3896514",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CPVG00CPV\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0171.npz",
+      "bytes": 946,
+      "copied_original_sha256": "0d6cb965debbfda5b7bd629f5d300a18de832f928e1baa081ff7c3cde5a1331a",
+      "release_sha256": "0d6cb965debbfda5b7bd629f5d300a18de832f928e1baa081ff7c3cde5a1331a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CRO100VIR\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0172.npz",
+      "bytes": 951,
+      "copied_original_sha256": "68914c721ae23e133bdf5de9bd7f8d03025dde16f889b602ecaf70a07d30ae85",
+      "release_sha256": "68914c721ae23e133bdf5de9bd7f8d03025dde16f889b602ecaf70a07d30ae85",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\CRO100VIR\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0173.npz",
+      "bytes": 944,
+      "copied_original_sha256": "5a601e75d4c739e728c8d158592739cdc253637293c326dd25b5939d62961139",
+      "release_sha256": "5a601e75d4c739e728c8d158592739cdc253637293c326dd25b5939d62961139",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\DRDN00IND\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0174.npz",
+      "bytes": 942,
+      "copied_original_sha256": "5954799bdb26be657ebb4b7de0135161fc18590138073bdc7b9d1d8522214a6c",
+      "release_sha256": "5954799bdb26be657ebb4b7de0135161fc18590138073bdc7b9d1d8522214a6c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\DYNG00GRC\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0175.npz",
+      "bytes": 942,
+      "copied_original_sha256": "33703cbe5c8f27ee8b8221e7aa96d47780ec4547c37617c6b2b2538d0ae0e743",
+      "release_sha256": "33703cbe5c8f27ee8b8221e7aa96d47780ec4547c37617c6b2b2538d0ae0e743",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\DYNG00GRC\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0176.npz",
+      "bytes": 946,
+      "copied_original_sha256": "b6ee7e511b14fafdacf64b3911c87ffc5667b63e8e119e4069dba65eb0b09b4f",
+      "release_sha256": "b6ee7e511b14fafdacf64b3911c87ffc5667b63e8e119e4069dba65eb0b09b4f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\EDS100AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0177.npz",
+      "bytes": 921,
+      "copied_original_sha256": "88eacd1be974ac8e70181a044288211d1d685261b82ed2a8f16e124182286e4c",
+      "release_sha256": "88eacd1be974ac8e70181a044288211d1d685261b82ed2a8f16e124182286e4c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\EDS100AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0178.npz",
+      "bytes": 915,
+      "copied_original_sha256": "7b46642281f79a82f0d623756f3641b0958bf3047bee312584ce207001ee4d84",
+      "release_sha256": "7b46642281f79a82f0d623756f3641b0958bf3047bee312584ce207001ee4d84",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\EXMT00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0179.npz",
+      "bytes": 920,
+      "copied_original_sha256": "ca3010b23542599e09adc17252482f3080dabfb9d1bbc3617cdc68f6768a9bbe",
+      "release_sha256": "ca3010b23542599e09adc17252482f3080dabfb9d1bbc3617cdc68f6768a9bbe",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\EXMT00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0180.npz",
+      "bytes": 915,
+      "copied_original_sha256": "295426069f0da8829dabdf3b8c5dc851b0c20435e915cc7fdac59a9a656ffd96",
+      "release_sha256": "295426069f0da8829dabdf3b8c5dc851b0c20435e915cc7fdac59a9a656ffd96",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\FALK00FLK\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0181.npz",
+      "bytes": 947,
+      "copied_original_sha256": "06e98d1dc7270bc327c1224ec0e8b795281883d08545d37072b0652cbc9d7daa",
+      "release_sha256": "06e98d1dc7270bc327c1224ec0e8b795281883d08545d37072b0652cbc9d7daa",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10087_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0182.npz",
+      "bytes": 1013,
+      "copied_original_sha256": "5d01b419f3576c0b019e22fb1a0e311521c0d9a5ad3cfba44305f24fa8b78791",
+      "release_sha256": "5d01b419f3576c0b019e22fb1a0e311521c0d9a5ad3cfba44305f24fa8b78791",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GAMB00PYF\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0183.npz",
+      "bytes": 940,
+      "copied_original_sha256": "de7396c82628e544cb6f6aa88c82a7b35a647ce8f4c5c9f64f1444359e8af4df",
+      "release_sha256": "de7396c82628e544cb6f6aa88c82a7b35a647ce8f4c5c9f64f1444359e8af4df",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GAMG00KOR\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0184.npz",
+      "bytes": 947,
+      "copied_original_sha256": "b23cd249283c586cae1f80e36f70acc22e6c011b86e3f71fecefd92d36726fca",
+      "release_sha256": "b23cd249283c586cae1f80e36f70acc22e6c011b86e3f71fecefd92d36726fca",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10090_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0185.npz",
+      "bytes": 962,
+      "copied_original_sha256": "7736ff141e2291333c14c662b7e1cb59101332bb194895a20757eaa614046a34",
+      "release_sha256": "7736ff141e2291333c14c662b7e1cb59101332bb194895a20757eaa614046a34",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GLPS00ECU\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0186.npz",
+      "bytes": 941,
+      "copied_original_sha256": "97576fcd6ce74219ca9777466d8211307540ea3d72529a617498676a368cc303",
+      "release_sha256": "97576fcd6ce74219ca9777466d8211307540ea3d72529a617498676a368cc303",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GLPS00ECU\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0187.npz",
+      "bytes": 938,
+      "copied_original_sha256": "ecdc28c7d3772b5d287119bb2cf1bf4f7782dfdbdca0c113ed6d62918d9d02fc",
+      "release_sha256": "ecdc28c7d3772b5d287119bb2cf1bf4f7782dfdbdca0c113ed6d62918d9d02fc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GRAC00FRA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0188.npz",
+      "bytes": 947,
+      "copied_original_sha256": "68f4a150bcad7c9df8c74a36cd587bee83062f385cc927290a64d4db12090ae5",
+      "release_sha256": "68f4a150bcad7c9df8c74a36cd587bee83062f385cc927290a64d4db12090ae5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GRAC00FRA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0189.npz",
+      "bytes": 943,
+      "copied_original_sha256": "26be330e8da11acf723fa02db9f5aba3cdec5f02894d206838c2e49f437996d1",
+      "release_sha256": "26be330e8da11acf723fa02db9f5aba3cdec5f02894d206838c2e49f437996d1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GUAM00GUM\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0190.npz",
+      "bytes": 944,
+      "copied_original_sha256": "a29fe035c360974e10ab07b975520f69fa46eb1ee96810c8af9ed3939a129b57",
+      "release_sha256": "a29fe035c360974e10ab07b975520f69fa46eb1ee96810c8af9ed3939a129b57",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10096_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0191.npz",
+      "bytes": 961,
+      "copied_original_sha256": "114492d4bc9d1205abf9375e6c74926b16fa608f3db4f5c05a3b35b62b05df81",
+      "release_sha256": "114492d4bc9d1205abf9375e6c74926b16fa608f3db4f5c05a3b35b62b05df81",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GVDG00GRC\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0192.npz",
+      "bytes": 946,
+      "copied_original_sha256": "ccf35726fa3afd0ee47085a6481b4b7197387577166547d960606e5855b1bb9c",
+      "release_sha256": "ccf35726fa3afd0ee47085a6481b4b7197387577166547d960606e5855b1bb9c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\GVDG00GRC\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0193.npz",
+      "bytes": 949,
+      "copied_original_sha256": "9928d837ca89a2a1e09dd4723aa60f97cb4e9244837dc15900d6dba0389e9a12",
+      "release_sha256": "9928d837ca89a2a1e09dd4723aa60f97cb4e9244837dc15900d6dba0389e9a12",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\HALL00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0194.npz",
+      "bytes": 915,
+      "copied_original_sha256": "50a12fb0efeb5943278831bb57a4de900fafbfa63bfae9640ae77ba026ebf5f8",
+      "release_sha256": "50a12fb0efeb5943278831bb57a4de900fafbfa63bfae9640ae77ba026ebf5f8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\HARB00ZAF\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0195.npz",
+      "bytes": 946,
+      "copied_original_sha256": "fcba9ee5959f64697a29571affc724121ea217494e1a8051fdee64a17e529b39",
+      "release_sha256": "fcba9ee5959f64697a29571affc724121ea217494e1a8051fdee64a17e529b39",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10101_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0196.npz",
+      "bytes": 964,
+      "copied_original_sha256": "c7c2c9589ffaa9b0707f1ef8c8197f9e33085ac6a09f4a9cd73d332d669af930",
+      "release_sha256": "c7c2c9589ffaa9b0707f1ef8c8197f9e33085ac6a09f4a9cd73d332d669af930",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\HUGH00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0197.npz",
+      "bytes": 920,
+      "copied_original_sha256": "9da49076b0e7deb6d60d04a8e3b011bc28c62553e5e804624a7d1f505a9d4ae9",
+      "release_sha256": "9da49076b0e7deb6d60d04a8e3b011bc28c62553e5e804624a7d1f505a9d4ae9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\IISC00IND\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0198.npz",
+      "bytes": 944,
+      "copied_original_sha256": "24b514e6870ec257e05d48b4218396813a87513cd81d226fcfdf0e061e0b6723",
+      "release_sha256": "24b514e6870ec257e05d48b4218396813a87513cd81d226fcfdf0e061e0b6723",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10104_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0199.npz",
+      "bytes": 1026,
+      "copied_original_sha256": "befa8245a5e41e579b6e63eb46cdc9444a81ca0b39bdc5e9b17a3ae559c80448",
+      "release_sha256": "befa8245a5e41e579b6e63eb46cdc9444a81ca0b39bdc5e9b17a3ae559c80448",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\ILKA00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0200.npz",
+      "bytes": 923,
+      "copied_original_sha256": "28dfb93569a58c74ff6b8d6ae795b59937a16c2c13521576979a23411bb40098",
+      "release_sha256": "28dfb93569a58c74ff6b8d6ae795b59937a16c2c13521576979a23411bb40098",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\ILKA00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0201.npz",
+      "bytes": 915,
+      "copied_original_sha256": "a63b4d577fc855c79bf33dde1812614292a270458c09496a9276c40dfd6edff3",
+      "release_sha256": "a63b4d577fc855c79bf33dde1812614292a270458c09496a9276c40dfd6edff3",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\IMKA00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0202.npz",
+      "bytes": 921,
+      "copied_original_sha256": "638b2ac4bc046b5ed82d919f6f25abff18f3bccb0b6f78e38324fb46b78a8cda",
+      "release_sha256": "638b2ac4bc046b5ed82d919f6f25abff18f3bccb0b6f78e38324fb46b78a8cda",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\IMKA00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0203.npz",
+      "bytes": 919,
+      "copied_original_sha256": "4b5292690656ac90ac5eabc3ea9d59a58ac13e52d2e6173c52935451d4db1b73",
+      "release_sha256": "4b5292690656ac90ac5eabc3ea9d59a58ac13e52d2e6173c52935451d4db1b73",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\INVR00GBR\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0204.npz",
+      "bytes": 942,
+      "copied_original_sha256": "ae2f0d6427144a490ed9889985b506cbf559099d0157da386a0243db66c76a0b",
+      "release_sha256": "ae2f0d6427144a490ed9889985b506cbf559099d0157da386a0243db66c76a0b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10110_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0205.npz",
+      "bytes": 982,
+      "copied_original_sha256": "53d1a831194f4638b0100398c87eac95af56025c1e92894817f708083266ebc5",
+      "release_sha256": "53d1a831194f4638b0100398c87eac95af56025c1e92894817f708083266ebc5",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\IZAN00ESP\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0206.npz",
+      "bytes": 946,
+      "copied_original_sha256": "16f00009e87fd3511215910d20eaab4990db14e797f471548684d0aa4b5a3761",
+      "release_sha256": "16f00009e87fd3511215910d20eaab4990db14e797f471548684d0aa4b5a3761",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\IZAN00ESP\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0207.npz",
+      "bytes": 951,
+      "copied_original_sha256": "8287e8231184e673b43a91218157d8a9926e5cbe2723732c7b31d99c288aecac",
+      "release_sha256": "8287e8231184e673b43a91218157d8a9926e5cbe2723732c7b31d99c288aecac",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\JDPR00IND\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0208.npz",
+      "bytes": 941,
+      "copied_original_sha256": "c0dd8c8943f23a4183173693ae9ad8f6ee6975df730af5d49fd0e3cf8b73ebbf",
+      "release_sha256": "c0dd8c8943f23a4183173693ae9ad8f6ee6975df730af5d49fd0e3cf8b73ebbf",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\masks\\part_10114_episode_R3.npz",
+      "package_path": "provenance/selection_masks/part_0209.npz",
+      "bytes": 1171,
+      "copied_original_sha256": "a8b5f33052249ce751271b6911acf2170c818f29141b979dd1352d77e7217c09",
+      "release_sha256": "a8b5f33052249ce751271b6911acf2170c818f29141b979dd1352d77e7217c09",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KMAN00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0210.npz",
+      "bytes": 919,
+      "copied_original_sha256": "df1705f58c2aff4cb8f9fa01925c5e556b6d6afe31ca1b147dec66be3aada43e",
+      "release_sha256": "df1705f58c2aff4cb8f9fa01925c5e556b6d6afe31ca1b147dec66be3aada43e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KMAN00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0211.npz",
+      "bytes": 918,
+      "copied_original_sha256": "e98e72b4c5cfd4327c8373ce1f44edacb5da607137c299d3f6b1274c407530ba",
+      "release_sha256": "e98e72b4c5cfd4327c8373ce1f44edacb5da607137c299d3f6b1274c407530ba",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KOKB00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0212.npz",
+      "bytes": 951,
+      "copied_original_sha256": "21aa436e9c1cfa97109924018188b502db1ae79e369d7031368754694fc79984",
+      "release_sha256": "21aa436e9c1cfa97109924018188b502db1ae79e369d7031368754694fc79984",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KOKB00USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0213.npz",
+      "bytes": 949,
+      "copied_original_sha256": "2d31f90cbc7142a740fd1faed97cf3af202f3ba3f9c21bc44c351a9909ca1eef",
+      "release_sha256": "2d31f90cbc7142a740fd1faed97cf3af202f3ba3f9c21bc44c351a9909ca1eef",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KOS100NLD\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0214.npz",
+      "bytes": 949,
+      "copied_original_sha256": "d017816cdfb07597d2dd87350e2704909cc168677ac57e69c13e29379f37d3b8",
+      "release_sha256": "d017816cdfb07597d2dd87350e2704909cc168677ac57e69c13e29379f37d3b8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KOS100NLD\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0215.npz",
+      "bytes": 952,
+      "copied_original_sha256": "4174826aa6031cc76096f613b301c8f6ad785e35b3f03859588e1cab58e3a8c0",
+      "release_sha256": "4174826aa6031cc76096f613b301c8f6ad785e35b3f03859588e1cab58e3a8c0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\KRGG00ATF\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0216.npz",
+      "bytes": 947,
+      "copied_original_sha256": "b8df180878da01d48992b1d31e3de48adde055e8340e892b470a699e1df43989",
+      "release_sha256": "b8df180878da01d48992b1d31e3de48adde055e8340e892b470a699e1df43989",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LAMP00ITA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0217.npz",
+      "bytes": 947,
+      "copied_original_sha256": "da0b8bc42cc3a57eb1518894852d469c16e61ce1a2f1746baa1ded9f31bdb42e",
+      "release_sha256": "da0b8bc42cc3a57eb1518894852d469c16e61ce1a2f1746baa1ded9f31bdb42e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LAMP00ITA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0218.npz",
+      "bytes": 947,
+      "copied_original_sha256": "a4f5d74c28d1a8eb94c15794d2aa134acee83988f458b3c5447e10274c88db6d",
+      "release_sha256": "a4f5d74c28d1a8eb94c15794d2aa134acee83988f458b3c5447e10274c88db6d",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LAUT00FJI\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0219.npz",
+      "bytes": 950,
+      "copied_original_sha256": "f1a27a9b3617555a6575bd4109c447138119acd883984c750c8cea4bb6613324",
+      "release_sha256": "f1a27a9b3617555a6575bd4109c447138119acd883984c750c8cea4bb6613324",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10125_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0220.npz",
+      "bytes": 963,
+      "copied_original_sha256": "aca662030c301dc86453c6fc2020f5ce14accbd1fbb5e51d82f45832a16297dc",
+      "release_sha256": "aca662030c301dc86453c6fc2020f5ce14accbd1fbb5e51d82f45832a16297dc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LCK400IND\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0221.npz",
+      "bytes": 935,
+      "copied_original_sha256": "53095350becf240db55c86d90a1d15f025740c0eb8f913050a8005b85a426198",
+      "release_sha256": "53095350becf240db55c86d90a1d15f025740c0eb8f913050a8005b85a426198",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LONA00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0222.npz",
+      "bytes": 917,
+      "copied_original_sha256": "cf9913e1447df405f4d8939f8647296d0dc6a6b1cd4f27c893d0bc21ef04dcdc",
+      "release_sha256": "cf9913e1447df405f4d8939f8647296d0dc6a6b1cd4f27c893d0bc21ef04dcdc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LORD00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0223.npz",
+      "bytes": 919,
+      "copied_original_sha256": "96a78f2f62d0183614988a3d3cbf3f48657304f340a1530c20a117d4173ffd21",
+      "release_sha256": "96a78f2f62d0183614988a3d3cbf3f48657304f340a1530c20a117d4173ffd21",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LORD00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0224.npz",
+      "bytes": 916,
+      "copied_original_sha256": "8ffe374d9b53bb90ef9092d64b3d45018857c593253c27c1573845910a0e2242",
+      "release_sha256": "8ffe374d9b53bb90ef9092d64b3d45018857c593253c27c1573845910a0e2242",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LPAL00ESP\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0225.npz",
+      "bytes": 949,
+      "copied_original_sha256": "816ef2a58ae374010ba61bef4c333bee10beae43f94fe13b5442929e633ac4d7",
+      "release_sha256": "816ef2a58ae374010ba61bef4c333bee10beae43f94fe13b5442929e633ac4d7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\LPAL00ESP\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0226.npz",
+      "bytes": 949,
+      "copied_original_sha256": "63891fb9a2877ae3b27519d8ddbaae652b5216e7d595f4c8f1e0d58c4b5b1a91",
+      "release_sha256": "63891fb9a2877ae3b27519d8ddbaae652b5216e7d595f4c8f1e0d58c4b5b1a91",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\M0SE00ITA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0227.npz",
+      "bytes": 933,
+      "copied_original_sha256": "f060b7e29da0d65b61055e4374c982b7a5fc75748f5b4b3490c30a9b1b8e73b6",
+      "release_sha256": "f060b7e29da0d65b61055e4374c982b7a5fc75748f5b4b3490c30a9b1b8e73b6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\M0SE00ITA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0228.npz",
+      "bytes": 934,
+      "copied_original_sha256": "dae730a14bad5f8da0cf6f8947dd11567f280df64919f2c3e29a5da00ea2a7e4",
+      "release_sha256": "dae730a14bad5f8da0cf6f8947dd11567f280df64919f2c3e29a5da00ea2a7e4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MAJU00MHL\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0229.npz",
+      "bytes": 941,
+      "copied_original_sha256": "799f5519381b94a4d7c7ba5700230c543b1391d002686b1a57f715ca7e160056",
+      "release_sha256": "799f5519381b94a4d7c7ba5700230c543b1391d002686b1a57f715ca7e160056",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10135_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0230.npz",
+      "bytes": 998,
+      "copied_original_sha256": "2ef293b97ac0333f94351d61936552ea173c91e0e557ff16864f3ac69b141694",
+      "release_sha256": "2ef293b97ac0333f94351d61936552ea173c91e0e557ff16864f3ac69b141694",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MALL00ESP\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0231.npz",
+      "bytes": 944,
+      "copied_original_sha256": "3b1a6a4cab368bf4433194b3707efba80e7a96a57235e53b1e6571c08596a49e",
+      "release_sha256": "3b1a6a4cab368bf4433194b3707efba80e7a96a57235e53b1e6571c08596a49e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MALL00ESP\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0232.npz",
+      "bytes": 948,
+      "copied_original_sha256": "5312fd86ab5046c20405da07e4ba6dc7db13795a302d73bd4373b2f6090604b9",
+      "release_sha256": "5312fd86ab5046c20405da07e4ba6dc7db13795a302d73bd4373b2f6090604b9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MATE00ITA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0233.npz",
+      "bytes": 944,
+      "copied_original_sha256": "26e58c2f4007d76435788f911eb4d2990cf7e9c9f28264bacc2459be430c96c9",
+      "release_sha256": "26e58c2f4007d76435788f911eb4d2990cf7e9c9f28264bacc2459be430c96c9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MATE00ITA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0234.npz",
+      "bytes": 944,
+      "copied_original_sha256": "eb8c014be3c31e70d31d536dbf727637bec1873d874ee288b91d1d9a66e79978",
+      "release_sha256": "eb8c014be3c31e70d31d536dbf727637bec1873d874ee288b91d1d9a66e79978",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MEDO00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0235.npz",
+      "bytes": 922,
+      "copied_original_sha256": "6a8ca0aa5b15ad4788f2e985edfef94424fc5ceeba29011262401dbf959f81d7",
+      "release_sha256": "6a8ca0aa5b15ad4788f2e985edfef94424fc5ceeba29011262401dbf959f81d7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MEDO00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0236.npz",
+      "bytes": 918,
+      "copied_original_sha256": "a291e02ed900fa6386831861b51a0ce85ad47997c50a7320bbf4decb85e41e35",
+      "release_sha256": "a291e02ed900fa6386831861b51a0ce85ad47997c50a7320bbf4decb85e41e35",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MKEA00USA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0237.npz",
+      "bytes": 949,
+      "copied_original_sha256": "3d84c571535b1af311dd2b99ab5cc88276049427e4b2cf0531deaaaac161c5ab",
+      "release_sha256": "3d84c571535b1af311dd2b99ab5cc88276049427e4b2cf0531deaaaac161c5ab",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MKEA00USA\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0238.npz",
+      "bytes": 953,
+      "copied_original_sha256": "3cee96ec135333ed4cdddcab4dd526270fc05e9a00b39b6c86e6e4997433c59c",
+      "release_sha256": "3cee96ec135333ed4cdddcab4dd526270fc05e9a00b39b6c86e6e4997433c59c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MOOL00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0239.npz",
+      "bytes": 920,
+      "copied_original_sha256": "3b3c83e81a08cc85272be02a44622ae9bc18be68a47d15d1f54718a0de60edf1",
+      "release_sha256": "3b3c83e81a08cc85272be02a44622ae9bc18be68a47d15d1f54718a0de60edf1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MOOL00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0240.npz",
+      "bytes": 919,
+      "copied_original_sha256": "d66f8088ef61b38e42c2701c5e7bfd21d8d45e922c2237693f33bae0c7373b08",
+      "release_sha256": "d66f8088ef61b38e42c2701c5e7bfd21d8d45e922c2237693f33bae0c7373b08",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MTDN00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0241.npz",
+      "bytes": 912,
+      "copied_original_sha256": "f1afb264817f8ca1aeca7c7d2f0d833de9daff835a0bc75ddc971c5f82506ee6",
+      "release_sha256": "f1afb264817f8ca1aeca7c7d2f0d833de9daff835a0bc75ddc971c5f82506ee6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MTIS00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0242.npz",
+      "bytes": 922,
+      "copied_original_sha256": "fab93cbc9af97e00cd2cc612348de2d948d9f62316bac7a7e063c9d1c69aa4d0",
+      "release_sha256": "fab93cbc9af97e00cd2cc612348de2d948d9f62316bac7a7e063c9d1c69aa4d0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\MTIS00AUS\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0243.npz",
+      "bytes": 919,
+      "copied_original_sha256": "76d26a196a3ad152ec63810885f231678101b8421a331353edefd2e0e15199b4",
+      "release_sha256": "76d26a196a3ad152ec63810885f231678101b8421a331353edefd2e0e15199b4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\NIUM00NIU\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0244.npz",
+      "bytes": 945,
+      "copied_original_sha256": "83ac90f252dc8912b8131b9bf59cc3da0020eedc62160d109f2caf3a1dbe5fbe",
+      "release_sha256": "83ac90f252dc8912b8131b9bf59cc3da0020eedc62160d109f2caf3a1dbe5fbe",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\NIUM00NIU\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0245.npz",
+      "bytes": 947,
+      "copied_original_sha256": "725726afe0aa42e4dd6478f669c0ead27fd582cdf4cb133e0451b6ae5170051f",
+      "release_sha256": "725726afe0aa42e4dd6478f669c0ead27fd582cdf4cb133e0451b6ae5170051f",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\OAKV00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0246.npz",
+      "bytes": 917,
+      "copied_original_sha256": "c4396aed4f5af62decfaa0592d09340f0628fd3c8059021e30a870864c95556e",
+      "release_sha256": "c4396aed4f5af62decfaa0592d09340f0628fd3c8059021e30a870864c95556e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\OWMG00NZL\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0247.npz",
+      "bytes": 950,
+      "copied_original_sha256": "cb3f9e46753d0e841a05d002c33e5ca9dec2e05389e313ed94c0a8894db741e4",
+      "release_sha256": "cb3f9e46753d0e841a05d002c33e5ca9dec2e05389e313ed94c0a8894db741e4",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10153_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0248.npz",
+      "bytes": 936,
+      "copied_original_sha256": "1535990fbcca66b5426e636128d15849c2bd1fccf1d03f90dbd6ac94bb1b1ed9",
+      "release_sha256": "1535990fbcca66b5426e636128d15849c2bd1fccf1d03f90dbd6ac94bb1b1ed9",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\PIMO00PHL\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0249.npz",
+      "bytes": 941,
+      "copied_original_sha256": "0a189af9d91351a395f013712e1e7a0669499e99fdff40272476e763bf71b707",
+      "release_sha256": "0a189af9d91351a395f013712e1e7a0669499e99fdff40272476e763bf71b707",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\PIMO00PHL\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0250.npz",
+      "bytes": 944,
+      "copied_original_sha256": "eabc1614ee5ef5410016038a0d1929739e14eeeb646c892970bbd7211aca1113",
+      "release_sha256": "eabc1614ee5ef5410016038a0d1929739e14eeeb646c892970bbd7211aca1113",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\PTHL00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0251.npz",
+      "bytes": 920,
+      "copied_original_sha256": "435b03d5dbed292e3236ec074a4f326fe8c044e72f07b8f32ededa4aae36c6f7",
+      "release_sha256": "435b03d5dbed292e3236ec074a4f326fe8c044e72f07b8f32ededa4aae36c6f7",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\PTSV00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0252.npz",
+      "bytes": 919,
+      "copied_original_sha256": "8cb575719dd524cb9d2e7b4236f869afd33fec986573783dbb65464c900b8e5c",
+      "release_sha256": "8cb575719dd524cb9d2e7b4236f869afd33fec986573783dbb65464c900b8e5c",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\ROAG00ESP\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0253.npz",
+      "bytes": 895,
+      "copied_original_sha256": "1d92b684e23f87a5c07d41b5aac3e3ecda78f8ba1808468a185e3ff26ba404bb",
+      "release_sha256": "1d92b684e23f87a5c07d41b5aac3e3ecda78f8ba1808468a185e3ff26ba404bb",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SABY00BES\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0254.npz",
+      "bytes": 944,
+      "copied_original_sha256": "b7765125ce9085a27db9032a037b0ca3d3fba51f266a3495612bd709ce827a5a",
+      "release_sha256": "b7765125ce9085a27db9032a037b0ca3d3fba51f266a3495612bd709ce827a5a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SABY00BES\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0255.npz",
+      "bytes": 947,
+      "copied_original_sha256": "dfed409c0db99099f4ac56543df7224d9cd661f0514d8c7a0dcbd6e5b136ad77",
+      "release_sha256": "dfed409c0db99099f4ac56543df7224d9cd661f0514d8c7a0dcbd6e5b136ad77",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SALA00ESP\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0256.npz",
+      "bytes": 947,
+      "copied_original_sha256": "fe69feb1e3b7af3c8c8d3888eb3c45c3f7ed905708fbc1b9566d8e27e4b97ac8",
+      "release_sha256": "fe69feb1e3b7af3c8c8d3888eb3c45c3f7ed905708fbc1b9566d8e27e4b97ac8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\masks\\part_10162_background_QC_R3.npz",
+      "package_path": "provenance/selection_masks/part_0257.npz",
+      "bytes": 961,
+      "copied_original_sha256": "511cc13b15d185f1c7a05901b60f813df17406bdaf419ebecb570b6eb9ba596e",
+      "release_sha256": "511cc13b15d185f1c7a05901b60f813df17406bdaf419ebecb570b6eb9ba596e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SANT00CHL\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0258.npz",
+      "bytes": 945,
+      "copied_original_sha256": "6f6d43656fe979c53e6697e3461172ee7831265b172a1098c218e42d7fdf1b27",
+      "release_sha256": "6f6d43656fe979c53e6697e3461172ee7831265b172a1098c218e42d7fdf1b27",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SANT00CHL\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0259.npz",
+      "bytes": 956,
+      "copied_original_sha256": "20f3425dd8e8fc7fd199ac509d42b92eeeac7b778d6c787547936a6d408fe50a",
+      "release_sha256": "20f3425dd8e8fc7fd199ac509d42b92eeeac7b778d6c787547936a6d408fe50a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SEUS00BES\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0260.npz",
+      "bytes": 948,
+      "copied_original_sha256": "b9c706ef10980f7c36ee94ac7e45fdb243912779d48ca968145d2ec259e2dfa6",
+      "release_sha256": "b9c706ef10980f7c36ee94ac7e45fdb243912779d48ca968145d2ec259e2dfa6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SEUS00BES\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0261.npz",
+      "bytes": 944,
+      "copied_original_sha256": "5834c20cfd73e18c981c763abbab7a679dc6ca7df566a906d824826d197ff6e1",
+      "release_sha256": "5834c20cfd73e18c981c763abbab7a679dc6ca7df566a906d824826d197ff6e1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SHLG00IND\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0262.npz",
+      "bytes": 925,
+      "copied_original_sha256": "7f8d938742ff596f36a1583beeec4027ec2d64ce2259d0d7ff49ebdc4b4cb2b1",
+      "release_sha256": "7f8d938742ff596f36a1583beeec4027ec2d64ce2259d0d7ff49ebdc4b4cb2b1",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SPTU00BRA\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0263.npz",
+      "bytes": 905,
+      "copied_original_sha256": "7e75a96687701e569922c6773982c0406670cfbb76b01b67ff4266befd47f966",
+      "release_sha256": "7e75a96687701e569922c6773982c0406670cfbb76b01b67ff4266befd47f966",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SUTH00ZAF\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0264.npz",
+      "bytes": 948,
+      "copied_original_sha256": "0a08f06305d7a925281b00b200ca1667a68d89174bf478d212cb44ffdf24b5dc",
+      "release_sha256": "0a08f06305d7a925281b00b200ca1667a68d89174bf478d212cb44ffdf24b5dc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\SUTH00ZAF\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0265.npz",
+      "bytes": 955,
+      "copied_original_sha256": "68e0e1f17f3af5ffbb16f3feb2aba13bb17e1bb5fbd7274393cefdd95188cf02",
+      "release_sha256": "68e0e1f17f3af5ffbb16f3feb2aba13bb17e1bb5fbd7274393cefdd95188cf02",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\TKBG00JPN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0266.npz",
+      "bytes": 950,
+      "copied_original_sha256": "e420058972e52072a95f4ab68e95808a73dbaf82b4a8fa6d415dc804df8ebfee",
+      "release_sha256": "e420058972e52072a95f4ab68e95808a73dbaf82b4a8fa6d415dc804df8ebfee",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\TURO00AUS\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0267.npz",
+      "bytes": 918,
+      "copied_original_sha256": "06ac5f0b7878f18637bb43f83c444570ee3eadee88aa2c4e78f724f2db33d771",
+      "release_sha256": "06ac5f0b7878f18637bb43f83c444570ee3eadee88aa2c4e78f724f2db33d771",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\USUD00JPN\\part00_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0268.npz",
+      "bytes": 947,
+      "copied_original_sha256": "ef5796ab5929843f4ad6287a62109e0691b2dfab88e69bf42fdee37101fde75a",
+      "release_sha256": "ef5796ab5929843f4ad6287a62109e0691b2dfab88e69bf42fdee37101fde75a",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_F_expansion_R3_20261028\\integration_pre_commonmode\\station_additions\\USUD00JPN\\part01_all_selected_R3.npz",
+      "package_path": "provenance/selection_masks/part_0269.npz",
+      "bytes": 950,
+      "copied_original_sha256": "7e33a817575ee13823f0ed2953432d778deb111e6b2a7479503eb6454b0c2c9b",
+      "release_sha256": "7e33a817575ee13823f0ed2953432d778deb111e6b2a7479503eb6454b0c2c9b",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\science_pipeline\\science_post_v4_verified_source_composite_v3\\All_original_large_windows_background_QC_R3.parquet",
+      "package_path": "provenance/scientific_QC/All_original_large_windows_background_QC_R3.parquet",
+      "bytes": 9471931,
+      "copied_original_sha256": "500f064c3fa5d3745702e86fdba2dad4f8bc18082094f22c18ee8d4a03fc2e06",
+      "release_sha256": "500f064c3fa5d3745702e86fdba2dad4f8bc18082094f22c18ee8d4a03fc2e06",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\Root_scientific_review_background_exclusions_v3_R3.json",
+      "package_path": "provenance/scientific_QC/Root_scientific_review_background_exclusions_v3_R3.json",
+      "bytes": 5887,
+      "copied_original_sha256": "bce2fe6fda3b5ba44c00383169888b3b703bad0cfd563f3bab8a33eed60df4fc",
+      "release_sha256": "bce2fe6fda3b5ba44c00383169888b3b703bad0cfd563f3bab8a33eed60df4fc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\Root_episode_exclusion_review_R3.json",
+      "package_path": "provenance/scientific_QC/Root_episode_exclusion_review_R3.json",
+      "bytes": 3234,
+      "copied_original_sha256": "b6a8836b322c4ac5c232439cf75be1465c790d1a1a13ee6f58c045fcef6450fc",
+      "release_sha256": "b6a8836b322c4ac5c232439cf75be1465c790d1a1a13ee6f58c045fcef6450fc",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\Ground_selection_R3.json",
+      "package_path": "provenance/scientific_QC/Ground_selection_R3.json",
+      "bytes": 362562,
+      "copied_original_sha256": "1552df637d9d653e8508baab9440c34cfbd9f0156b21688a4109d43a3367e3a0",
+      "release_sha256": "1552df637d9d653e8508baab9440c34cfbd9f0156b21688a4109d43a3367e3a0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\Episode_pair_decisions_R3.json",
+      "package_path": "provenance/scientific_QC/Episode_pair_decisions_R3.json",
+      "bytes": 56179,
+      "copied_original_sha256": "6055e38d5a88d0c7a13cc750412febb0d64e46a3c69eaab24fe9f15d55b440a8",
+      "release_sha256": "6055e38d5a88d0c7a13cc750412febb0d64e46a3c69eaab24fe9f15d55b440a8",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\figure_pipeline\\fig34\\comparison\\Station_signal_band_counts_R3.csv",
+      "package_path": "provenance/scientific_QC/Station_signal_band_counts_R3.csv",
+      "bytes": 21266,
+      "copied_original_sha256": "855abcf76e01510b2a9afab82e85b185ed849b18b84932bad0a2b99578e1a8c0",
+      "release_sha256": "855abcf76e01510b2a9afab82e85b185ed849b18b84932bad0a2b99578e1a8c0",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\fig34\\build_fig34_R3.py",
+      "package_path": "provenance/upstream_source_archive/build_fig34_R3.py",
+      "bytes": 10883,
+      "copied_original_sha256": "71059fb52330c3d5f7ff705edb551baab294f07920cd78ca2f821ac35e873ce6",
+      "release_sha256": "71059fb52330c3d5f7ff705edb551baab294f07920cd78ca2f821ac35e873ce6",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\build_solar_R3.py",
+      "package_path": "provenance/upstream_source_archive/build_solar_R3.py",
+      "bytes": 15668,
+      "copied_original_sha256": "b2162a0f05ebe096699d34a82528f869aba8ec7f9d303547abf2b94d48f0eb0e",
+      "release_sha256": "b2162a0f05ebe096699d34a82528f869aba8ec7f9d303547abf2b94d48f0eb0e",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\figures_R3\\Ground182_selected_six_R3_20261030\\geometry\\build_geometry_shared_selection_R3.py",
+      "package_path": "provenance/upstream_source_archive/build_geometry_shared_selection_R3.py",
+      "bytes": 19032,
+      "copied_original_sha256": "1af3c1d95d1b58e273a3af8f88d001ba93f2629dfc6e1ee2ab75ef3a7cef2035",
+      "release_sha256": "1af3c1d95d1b58e273a3af8f88d001ba93f2629dfc6e1ee2ab75ef3a7cef2035",
+      "adapted_for_portability": false
+    },
+    {
+      "source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\THREE_FIGURE_NUMERIC_VERIFICATION_R3.json",
+      "package_path": "provenance/THREE_FIGURE_NUMERIC_VERIFICATION_R3.json",
+      "bytes": 907,
+      "copied_original_sha256": "eac08d6b9c9c2dc1e2c9d57108c315dea2a231842ffcff40b54da1264f6bc2c0",
+      "release_sha256": "eac08d6b9c9c2dc1e2c9d57108c315dea2a231842ffcff40b54da1264f6bc2c0",
+      "adapted_for_portability": false
+    }
+  ],
+  "hash_scope": "copied_original_sha256 is the verified source/copy hash before adaptation; release_sha256 is the actual release file hash after documented Python portability edits."
+}

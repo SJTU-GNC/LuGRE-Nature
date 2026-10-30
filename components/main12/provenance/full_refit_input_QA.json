@@ -1,0 +1,51 @@
+{
+  "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\data\\all_LuGRE_E23_method_residuals.parquet",
+  "source_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "expected_source_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "rows": 993093,
+  "columns": [
+    "phase",
+    "op_id",
+    "sat",
+    "signal_id",
+    "signal_name",
+    "time_utc",
+    "rx_gps_seconds",
+    "cn0_dbhz",
+    "epoch_key",
+    "lugre_lat_wgs84",
+    "lugre_lon_wgs84",
+    "lugre_h_tan_wgs84_km",
+    "expected_fit_eligible",
+    "expected_fit_status",
+    "expected_e23_local_arc_id",
+    "expected_quartic_background_dbhz",
+    "expected_e23_residual_db"
+  ],
+  "native_input_columns": [
+    "phase",
+    "op_id",
+    "sat",
+    "signal_id",
+    "signal_name",
+    "time_utc",
+    "rx_gps_seconds",
+    "cn0_dbhz",
+    "epoch_key",
+    "lugre_lat_wgs84",
+    "lugre_lon_wgs84",
+    "lugre_h_tan_wgs84_km"
+  ],
+  "frozen_validation_columns": [
+    "expected_fit_eligible",
+    "expected_fit_status",
+    "expected_e23_local_arc_id",
+    "expected_quartic_background_dbhz",
+    "expected_e23_residual_db"
+  ],
+  "package": "data\\full_lugre\\native_cn0_verified_geometry_and_expected_results.parquet",
+  "bytes": 53226938,
+  "sha256": "b16cb29fc13f330c36ea6421e4639e751efc82ea5072e39fa982a250ea4e0ed0",
+  "geometry_reused_as_independently_verified_input_not_recalculated": true,
+  "scientific_values_unchanged": true
+}

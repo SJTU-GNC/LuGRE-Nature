@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "definition": "For each unchanged original_event_row profile/subset, take separate 95th percentiles of accepted 10-s S4 and sigma_phi windows; pandas linear interpolation. Current all-valid UTC/band support, event identities and QC are unchanged. This is a new aggregation from actual 10-s values, not a renamed P90.",
+  "full_window_rows": 900007,
+  "selected_window_rows": 64988,
+  "unchanged_profile_summaries": 1619,
+  "current_mask_source_alignment_verified": true,
+  "mask_exactly_reconstructed_from_current_band_UTC_support": true,
+  "prior_P90_reproduction_max_error": {
+    "s4_p90": 9.71445146547012e-17,
+    "sigma_phi_rad_p90": 9.71445146547012e-17
+  },
+  "independent_Numpy_P95_max_absolute_error": 1.1102230246251565e-16,
+  "all_metadata_and_n_native_windows_exactly_preserved": true,
+  "all_original_profile_rows_retained_even_if_new_summary_outside_display_axes": true,
+  "statistics_by_band": [
+    {
+      "band": "Equatorial",
+      "same_profile_summary_count": 247,
+      "selected_10s_window_count": 10339,
+      "previous_P90_visible_count_within_0_1_axes": 247,
+      "new_P95_visible_count_within_0_1_axes": 247,
+      "S4_median_P90_P95": [
+        0.1241138484975796,
+        0.132576520223557
+      ],
+      "phase_median_P90_P95": [
+        0.1453786049428109,
+        0.15305576747480681
+      ]
+    },
+    {
+      "band": "Mid-latitude",
+      "same_profile_summary_count": 1024,
+      "selected_10s_window_count": 41686,
+      "previous_P90_visible_count_within_0_1_axes": 1024,
+      "new_P95_visible_count_within_0_1_axes": 1024,
+      "S4_median_P90_P95": [
+        0.11061369565116244,
+        0.11755057870969707
+      ],
+      "phase_median_P90_P95": [
+        0.13254813528233028,
+        0.14062046078565915
+      ]
+    },
+    {
+      "band": "Polar",
+      "same_profile_summary_count": 348,
+      "selected_10s_window_count": 12963,
+      "previous_P90_visible_count_within_0_1_axes": 348,
+      "new_P95_visible_count_within_0_1_axes": 348,
+      "S4_median_P90_P95": [
+        0.1310667994652729,
+        0.13490815766681297
+      ],
+      "phase_median_P90_P95": [
+        0.20880724689900904,
+        0.21609808763689978
+      ]
+    }
+  ],
+  "sources": {
+    "E:\\LUGRE\\LuGRE_LT06_08_simultaneous_UTC_20260924\\joint_observables\\data\\leo_window_selection.pkl": "d9da989d95b17d5649be84cadfcb4d08c2a21aa24345d24b6b76991f3ba6ac10",
+    "E:\\LUGRE\\LuGRE_all_and_morning_sameband_UTC_20260924\\joint_observables\\data\\all_valid\\leo_window_selection.npz": "1fefaad9df4a3401d58b7e165fe937c4b09b84653aa01cb7c67b0bad03f98b67",
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\leo_profiles_selected.csv.gz": "f4c8303315d90c7938210040e43a579690c9507db4ac2f3ba644e6b40fdaae00",
+    "E:\\LUGRE\\LuGRE_all_and_morning_sameband_UTC_20260924\\joint_observables\\data\\all_valid\\used_band_UTC_support.csv": "ef7498823c6340032695a2d8816b6a4acae4517b55251d820b838d77b862645e"
+  },
+  "output": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\leo_profiles_selected_P95.csv.gz",
+  "output_sha256": "3daeea8d29fcc0626e1e252e94bbdaefaed177e7f2532b45164034b3f25825ae",
+  "explicit_selected_membership": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\LEO_P95_selected_10s_window_membership.csv.gz",
+  "membership_sha256": "620f689236bcabacf64ae53e6306bdbe5c3f11c8be2e83030ede5dd84141e8fc",
+  "script": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Fig5_sync\\code\\recompute_joint_LEO_P95.py",
+  "script_sha256": "7ebf4e41093a414e0aeb159ac0d2f86615670821de1e0c826c676977f845cae5",
+  "D_files_changed": false
+}

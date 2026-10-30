@@ -1,0 +1,60 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "baseline_directory": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028",
+  "pinned_small_sources": [
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\Ground_selection_R3.json",
+      "sha256": "981a73c3f5a60c4dc6c10bb62dc74dbfb5c503f5b75c093e50a089b7359c3fa2"
+    },
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\Five_figures_common141_R3.json",
+      "sha256": "9ac429224c803486694849fbbd52facf3a73c919c36ae488ffc3ea47a81e8bbb"
+    },
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\fig34\\FIG34_COMPLETION_R3.json",
+      "sha256": "e56f6324e3d64d0e9cd496b9cf02c45a381afb12c49f6c06f31e6d9b15807917"
+    },
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\geometry\\GEOMETRY_COMPLETION_R3.json",
+      "sha256": "ea280c5d58b845205e7e1dd73763571694a52a7730458bcf4ab506c8de85017e"
+    },
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\illumination\\ILLUMINATION_COMPLETION_R3.json",
+      "sha256": "375db09b651cf2a9889bef1d872d326eb5f7f351932846787534e69d3e06f88d"
+    }
+  ],
+  "nearspace_window_counts": {
+    "LEO-RO": 1161,
+    "LuGRE": 1352
+  },
+  "canonical_UTC_support_sha256": "f560e73f26c6a6726c10920f716449bf8e6ffcfeb0f83be8ed6b5e4b5d553a9e",
+  "current_LuGRE_fit_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "current_LuGRE_source_index": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_h50_current_version.json",
+  "current_LuGRE_source_index_sha256": "470b3e89e31e90d7ab77170e9fefdf5b8a99a82eab0fca4307045afc08c23b8f",
+  "expected_outputs": [
+    "fig34/figures/Fig3_R3.png",
+    "fig34/figures/Fig4_R3.png",
+    "geometry/figures/Extended_Data_Geometry_angles.png",
+    "geometry/figures/Extended_Data_Scan_speed_Fresnel_time.png",
+    "illumination/figures/Extended_Data_Local_time_illumination.png"
+  ],
+  "baseline_source_scripts": [
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\fig34\\build_fig34_R3.py",
+      "sha256": "280888c874974b228aac332bccc51fbf6d1b5e184d649b0f2e6a2c40b5120773"
+    },
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\geometry\\build_geometry_shared_selection_R3.py",
+      "sha256": "6979a76241ad19d7136df19513626cd82645736312405c895e1933ba3816ef54"
+    },
+    {
+      "path": "E:\\LUGRE\\figures_R3\\Ground141_common_selection_R3_20261028\\illumination\\build_common141_solar_R3.py",
+      "sha256": "2518aacf07b240cbb5f0d33075ef8c8ffb88c09c3e4e3d6f1906354f43b61963"
+    }
+  ],
+  "scientific_data_generated": false,
+  "figures_generated": false,
+  "formal_manuscript_modified": false,
+  "historical_h50_index_hash_in_baseline": "4c60f3433cdce8e392b47fc0acaa8de9b7783a42c386b0cecca0d5e8da120646",
+  "h50_source_identity_rechecked": "Active index residual SHA, LuGRE window count and50--1000km domain match the completed baseline; current index bytes pinned at adapter preparation."
+}

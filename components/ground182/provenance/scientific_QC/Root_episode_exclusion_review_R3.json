@@ -1,0 +1,67 @@
+{
+  "status": "PASS_CONFIRMED_WHOLE_EPISODE_GAP_EXCLUSIONS",
+  "UTC": "2026-10-30T01:33:21.461011+00:00",
+  "base_selection": {
+    "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\screened_selection_v3\\Ground_selection_R3.json",
+    "SHA256": "1552df637d9d653e8508baab9440c34cfbd9f0156b21688a4109d43a3367e3a0"
+  },
+  "episode_decisions": {
+    "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\Episode_pair_decisions_R3.json",
+    "SHA256": "6055e38d5a88d0c7a13cc750412febb0d64e46a3c69eaab24fe9f15d55b440a8"
+  },
+  "added_epochs": {
+    "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\Confirmed_added_original_epochs_R3.parquet",
+    "SHA256": "a74a6d8d28bf9b5eb59136522da37a6a4200bff37a6adb60b0ee2111b628d301"
+  },
+  "added_window_ids": {
+    "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_reassessment\\run_all_v1\\Confirmed_added_window_ids_R3.json",
+    "SHA256": "0343cbc153a48ab6394484cde1dbc444521e8d60f9d61da12646fc678d37c41a"
+  },
+  "approved_pair_ids": [
+    "140988_140990",
+    "141033_141035",
+    "141801_141803",
+    "235091_235093",
+    "235095_235097",
+    "235692_235694",
+    "235694_235696",
+    "293602_293604",
+    "293961_293963",
+    "359404_359406",
+    "463956_463959",
+    "464146_464148",
+    "464480_464482"
+  ],
+  "approved_added_window_ids": [
+    140989,
+    141034,
+    141802,
+    235092,
+    235096,
+    235693,
+    235695,
+    293603,
+    293962,
+    359405,
+    463957,
+    463958,
+    464147,
+    464481
+  ],
+  "no_original_KEEP_added": true,
+  "approved_pair_count": 13,
+  "approved_added_window_count": 14,
+  "approved_added_original_seconds": 840,
+  "independent_actual_result_review": {
+    "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\independent_episode_acceptance_v1\\INDEPENDENT_REAL_EPISODE_ACCEPTANCE_R3.json",
+    "SHA256": "f1345660d06479359819a97216a767764a078890ec6d0354964e2dc795cd2b5d"
+  },
+  "interval_contract": {
+    "path": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\INTERVAL_TASK_CONTRACT_R3_v2.json",
+    "SHA256": "23bf86b7c7d11ddf09c7d0468ff747479b45524553a10df8bee5572f142d57e0"
+  },
+  "authorization": "User clarified that a confirmed unsuitable local interval is removed in full, including low-amplitude values, while other observations at the station remain.",
+  "interpretation": "Only13 independently accepted pair spans are approved. Each constituent confirmed gap window loses all60 original seconds. Existing235 remain unchanged; KEEP and unresolved neighboring gaps remain unless separately proved. No outward buffering, station deletion, point-value censoring, refitting, or new scientific observations.",
+  "proof_scope": "All13 numerical/cached catalog checks and one actual ABPO context/median31/LOS/scalarDFT case passed; direct reopening every other historical raw source is not claimed.",
+  "old_v3_D_and_Overleaf_preserved": true
+}

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "version": "R3-Ground182-20261030",
+  "station_count": 182,
+  "Ground_epochs": 29803114,
+  "Ground_windows": 498430,
+  "successful_tasks": 12,
+  "requested_figure_outputs": 13,
+  "offline_guarded_relocated_execution": true,
+  "original_data_roots_disallowed": true,
+  "network_access_attempts": 0,
+  "LuGRE_full_refit": {
+    "status": "PASS",
+    "native_positive_epochs": 993093,
+    "arcs": 440,
+    "qualified_quartic_arcs": 423,
+    "fit_height_min_km": 50,
+    "statistical_shell_km": [
+      50,
+      1000
+    ],
+    "high_altitude_fit_context_preserved": true,
+    "global_group_keys": [
+      "phase",
+      "sat",
+      "signal_id"
+    ],
+    "split_only_after_height_selection_at_gap_gt_s": 7200,
+    "synthetic_samples": 0,
+    "background_and_residual_maximum_tolerance_db": 1e-10,
+    "frozen_eligibility_status_and_arc_ids_identical": true,
+    "expected_results_never_enter_fit": true,
+    "fit_status_counts": {
+      "quartic": 969776,
+      "below_50km_fit_domain": 19752,
+      "median_sparse_fit_points": 2237,
+      "missing_new_reference_geometry": 1299,
+      "median_too_few_points": 29
+    },
+    "elapsed_seconds": 6.125,
+    "numpy_version": "2.3.5",
+    "pandas_version": "3.0.1"
+  },
+  "reference_pngs_verified": 13,
+  "scientific_redraws_not_all_pixel_identical": true,
+  "public_release_permission_pending": [
+    "YunYao two profiles and extracted numerical observations"
+  ],
+  "environment": "CPython3.12 with declared installed library distributions; pinned Windows wheels included. Fresh pip installation not execution-tested.",
+  "visual_sheets": [
+    "E:\\LUGRE\\Zenodo_R3_build_20261030\\visual_QA\\comparison_1.png",
+    "E:\\LUGRE\\Zenodo_R3_build_20261030\\visual_QA\\comparison_2.png",
+    "E:\\LUGRE\\Zenodo_R3_build_20261030\\visual_QA\\comparison_3.png",
+    "E:\\LUGRE\\Zenodo_R3_build_20261030\\visual_QA\\comparison_4.png"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "comparison_sheets_reviewed": 4,
+    "figure_outputs_reviewed": 13,
+    "Fig5_layout_headers_legends_and_spacing_checked": true,
+    "official_reference_images_preserved": true
+  },
+  "installation_validation": "Pinned offline wheel files and dependency constraints verified; relocated scientific workflows tested. Fresh setup_windows.cmd pip installation was not executed."
+}

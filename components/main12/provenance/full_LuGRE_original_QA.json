@@ -1,0 +1,144 @@
+{
+  "status": "complete_all_source_epochs_accounted_for",
+  "revision": "R3",
+  "algorithm_source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\Figure\\op38_e23_front_arc_example_package_20260616_145440\\code\\GPS_simulator\\Build_QuadraticDetrendExample.py",
+  "algorithm_sha256": "9f6dd29e01dd32de3718ef05cc6d910b5f7ad3b651bd85497259ddec7f9632ee",
+  "source": "H:\\LUGRE\\lugre_occultation_match\\output\\phase_story_all_heights_source\\lugre_all_visible_master_tangent_cn0_tec_rot_old_logic_all_heights_with_s_phase_detrended_cn0.csv",
+  "source_sha256": "f8500332dec2746a0521e18dc359eefce8f55fb636c79889a4e40b5d8de45827",
+  "WGS84_source": "H:\\LUGRE\\repro_20260720\\shared\\WGS84\\phase_story_new_reference_tangent_geometry_wgs84_compact.csv",
+  "WGS84_source_sha256": "906d256986a1eef6d435b178d271b5efde8e65db4ace42a27f519436a0ac0910",
+  "geometry_missing_before_patch": 11116,
+  "geometry_missing_after_patch": 1299,
+  "scope": "All four LuGRE mission phases and all four GNSS signals in positive-native source; not only existing manuscript subset.",
+  "raw_source_rows": 993093,
+  "invalid_raw_CNo_excluded_upstream": 3,
+  "raw_phase_signal_counts": [
+    {
+      "phase": "C",
+      "signal_name": "GPS L1",
+      "n": 11090
+    },
+    {
+      "phase": "C",
+      "signal_name": "GPS L5",
+      "n": 10139
+    },
+    {
+      "phase": "C",
+      "signal_name": "Galileo E1",
+      "n": 8194
+    },
+    {
+      "phase": "C",
+      "signal_name": "Galileo E5a",
+      "n": 7171
+    },
+    {
+      "phase": "L",
+      "signal_name": "GPS L1",
+      "n": 6288
+    },
+    {
+      "phase": "L",
+      "signal_name": "GPS L5",
+      "n": 6424
+    },
+    {
+      "phase": "L",
+      "signal_name": "Galileo E1",
+      "n": 2364
+    },
+    {
+      "phase": "L",
+      "signal_name": "Galileo E5a",
+      "n": 2680
+    },
+    {
+      "phase": "S",
+      "signal_name": "GPS L1",
+      "n": 201036
+    },
+    {
+      "phase": "S",
+      "signal_name": "GPS L5",
+      "n": 202437
+    },
+    {
+      "phase": "S",
+      "signal_name": "Galileo E1",
+      "n": 202973
+    },
+    {
+      "phase": "S",
+      "signal_name": "Galileo E5a",
+      "n": 274198
+    },
+    {
+      "phase": "T",
+      "signal_name": "GPS L1",
+      "n": 18409
+    },
+    {
+      "phase": "T",
+      "signal_name": "GPS L5",
+      "n": 10585
+    },
+    {
+      "phase": "T",
+      "signal_name": "Galileo E1",
+      "n": 13720
+    },
+    {
+      "phase": "T",
+      "signal_name": "Galileo E5a",
+      "n": 15385
+    }
+  ],
+  "global_arc_keys": [
+    "phase",
+    "sat",
+    "signal_id"
+  ],
+  "op_file_boundary_does_not_split_arc": true,
+  "local_arc_split_rule": "After h>=50 km selection, successive real GPS seconds gap >7200 s.",
+  "fit_height_min_km": 50,
+  "fit_bins": "absolute GPS 60 s bins; median C/N0; sqrt(count) weight",
+  "robust_iteration": "Exact archived E23 function; up to 4 MAD rejection rounds, max(1 dB,2.8 scale).",
+  "gap_samples_in_fit_or_statistics": 0,
+  "degree0_fallbacks_admitted_as_quartic": false,
+  "height_domain_extension_below_80km": true,
+  "fit_status_counts": {
+    "quartic": 969776,
+    "below_50km_fit_domain": 19752,
+    "median_sparse_fit_points": 2237,
+    "missing_new_reference_geometry": 1299,
+    "median_too_few_points": 29
+  },
+  "arcs": 440,
+  "qualified_quartic_arcs": 423,
+  "cross_op_arcs": [
+    "S_E13_sig2_local006",
+    "S_E13_sig3_local006",
+    "S_G12_sig0_local005"
+  ],
+  "E23_independent_reproduction": [
+    {
+      "track": "E23 E1C",
+      "baseline_max_abs_error_db": 2.1316282072803006e-14
+    },
+    {
+      "track": "E23 E5Q",
+      "baseline_max_abs_error_db": 4.973799150320701e-14
+    }
+  ],
+  "old_figure_point_rows": 154328,
+  "new_figure_point_fit_status": {
+    "quartic": 154098,
+    "median_sparse_fit_points": 230
+  },
+  "figure_point_raw_CNo_max_abs_difference_db": 0.0,
+  "output": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\data\\all_LuGRE_E23_method_residuals.parquet",
+  "output_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "elapsed_s": 24.046999999991385,
+  "legacy_files_modified": false
+}

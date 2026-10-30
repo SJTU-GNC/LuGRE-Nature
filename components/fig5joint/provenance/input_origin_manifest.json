@@ -1,0 +1,378 @@
+[
+  {
+    "path": "data/panel_ready/Fig5/common/leoro_highrate_points.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\leoro_highrate_points.csv",
+    "bytes": 5356380,
+    "sha256": "6cf951b4199960c5075a69f32e8927cfd55c73142dfcf3b85633751a39a38ffa"
+  },
+  {
+    "path": "data/panel_ready/Fig5/common/leoro_rolling_points.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\leoro_rolling_points.csv",
+    "bytes": 131301,
+    "sha256": "784cf352bd212cb449129d2ef8b20890e48c8860148474283bdfdee81a6506f7"
+  },
+  {
+    "path": "data/panel_ready/Fig5/common/pfisr_profiles.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\pfisr_profiles.csv",
+    "bytes": 37605,
+    "sha256": "e6bc5e4ebfab0aa4b191794d60545f26df32cb3007469590b7ebdadf8ea0df9d"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/fan_cells.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\fan_cells.csv",
+    "bytes": 283090,
+    "sha256": "0fde5bc97620eb35428a131d23e1a3ea04fdfb4f6dd4c8af00b87fc8a3007493"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/fan_context.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\fan_context.csv",
+    "bytes": 85320,
+    "sha256": "6e448457e7755bc4dd63769bb3ac47ceb17028f951a2119536cc3a8cc729c989"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/ismr_context_field.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\ismr_context_field.csv",
+    "bytes": 1225812,
+    "sha256": "a0b3fd806a72de9fee3fef246b401ea6c19755c3a00406b019f977ed91f97146"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/lugre_los_paths.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\lugre_los_paths.csv",
+    "bytes": 1981943,
+    "sha256": "3f0b79d170ca1eb02d9e73d15b736ad4b4ea6091f997c8e4aa93ca9e1598aab2"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/roti_context_field.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\roti_context_field.csv",
+    "bytes": 276001,
+    "sha256": "27b52e8a2d173c29ff468f8c31859d0c7c8bacc5127ff1ee927efa92092a2931"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/ro_focus.json",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\ro_focus.json",
+    "bytes": 8284363,
+    "sha256": "d9e7482455a38fb761e98b7fb5620a12508f2713eceb995c65f5f69b31e1b178"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/selected_superdarn_row.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\selected_superdarn_row.csv",
+    "bytes": 267,
+    "sha256": "3f235251636fcb0af0f7d096de2d55e2611ec14f5f4cc24fecc79a3efa797fa0"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/selected_superdarn_station.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\selected_superdarn_station.csv",
+    "bytes": 1215,
+    "sha256": "9da7dc8b98aa73cb81687ff0642924da761a392ee2894afaab7a1625fe971ecd"
+  },
+  {
+    "path": "data/panel_ready/Fig5/south/track.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\south\\track.csv",
+    "bytes": 138947,
+    "sha256": "18256d353d05b42fa20868b3f3d1b324e73e43b49f5d99e729d0522f65f54866"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/ground_roti_matches.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\ground_roti_matches.csv",
+    "bytes": 73594,
+    "sha256": "dee10ec1291cd0e5d1f55e9e71ed6cb5e7508edb51349e0c46dc690047ed9d66"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/ismr_context_field.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\ismr_context_field.csv",
+    "bytes": 2488223,
+    "sha256": "b20fcb137b2f76a7d158868e44f6a3d144b0b090170b3f89d858dce92abc6b87"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/nearest_isr_profile_context.json",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\nearest_isr_profile_context.json",
+    "bytes": 271,
+    "sha256": "03018ef3010a5b2d752d8fbfe1646d5d6ad895637c76be5be057993f2baa1dc6"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/roti_context_field.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\roti_context_field.csv",
+    "bytes": 272244,
+    "sha256": "1890491ea0a0941364915c790e81eef1ce28934e4aad66d84ac081ddab203e59"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/ro_focus_used.json",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\ro_focus_used.json",
+    "bytes": 497769,
+    "sha256": "f5ec31f3bce3f35669af22e6c854d248ba932a14d9c68ddfda67d6cfb607bdb2"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/superdarn_fan_cells.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\superdarn_fan_cells.csv",
+    "bytes": 167454,
+    "sha256": "51a23de83c829ff5115150de86427a182c55a6310de657dff8367f960f15df78"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/superdarn_match_row.json",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\superdarn_match_row.json",
+    "bytes": 1792,
+    "sha256": "576852e2ec9cc7862e60c3ab49e21762a1820174ac6adbb7887f8091ca136b3b"
+  },
+  {
+    "path": "data/panel_ready/Fig5/north/track_145/track_points.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\north\\track_145\\track_points.csv",
+    "bytes": 79645,
+    "sha256": "bced4e718348861451c69fa3461f8aa143231e6d7b3a4c901bd5bb8e7d073845"
+  },
+  {
+    "path": "data/restricted_yunyao/matched_profiles.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\matched_profiles.csv",
+    "bytes": 2292,
+    "sha256": "0a9c33dcbd8aa633449fa7e74d445581faa592e44d7e8578016e84d1e24c94ec"
+  },
+  {
+    "path": "data/restricted_yunyao/track_009_Y040_C19/ionprf_position_time_ne_profile.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\track_009_Y040_C19\\ionprf_position_time_ne_profile.csv",
+    "bytes": 50091,
+    "sha256": "2cab5e5a260cec18ccacbcb06b17510c1051733b0873ef3f59dbab4970ca9c84"
+  },
+  {
+    "path": "data/restricted_yunyao/track_009_Y040_C19/iri_profile_50_1000km_median_location.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\track_009_Y040_C19\\iri_profile_50_1000km_median_location.csv",
+    "bytes": 28598,
+    "sha256": "d6854ccd53b47be8eeaa4afc42c0d2e3b5c28c48b16be1a151191500958248f1"
+  },
+  {
+    "path": "data/restricted_yunyao/track_009_Y040_C19/source_ionPrf_Y040.2025.062.12.17.C19_0001.0107_nc.nc",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\track_009_Y040_C19\\source_ionPrf_Y040.2025.062.12.17.C19_0001.0107_nc.nc",
+    "bytes": 9524,
+    "sha256": "8abf614c482b3700bb8fd00b10f5bdfc4b9c966c6a3ba191769069055899c7aa"
+  },
+  {
+    "path": "data/restricted_yunyao/track_145_Y038_E05/ionprf_position_time_ne_profile.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\track_145_Y038_E05\\ionprf_position_time_ne_profile.csv",
+    "bytes": 59277,
+    "sha256": "c280f1b39f453e5ca0f638af1da4629284cc45f184b36189499313524a135c00"
+  },
+  {
+    "path": "data/restricted_yunyao/track_145_Y038_E05/iri_profile_50_1000km_median_location.csv",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\track_145_Y038_E05\\iri_profile_50_1000km_median_location.csv",
+    "bytes": 28766,
+    "sha256": "7a9c4b052559db9af65d438be8655b16e7f21a8f1296e3bbd3706e559d1fd976"
+  },
+  {
+    "path": "data/restricted_yunyao/track_145_Y038_E05/source_ionPrf_Y038.2025.074.16.00.E05_0001.0107_nc.nc",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\data\\panel_ready\\Fig5\\common\\yunyao_profiles\\track_145_Y038_E05\\source_ionPrf_Y038.2025.074.16.00.E05_0001.0107_nc.nc",
+    "bytes": 11876,
+    "sha256": "eb845fe48df6ad4d8a462862fd8821be617aad4dbddacc66c44fed792dc9d481"
+  },
+  {
+    "path": "code/fig5_sources/north_source.py",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\panel_fig5\\north_source.py",
+    "adaptation": "relative component roots; private two-profile directory; local Natural Earth data",
+    "sha256": "a426d70d554d8caa44f9d654f9aa8161467ac2b83a7dd0dfe36b451bc0e46172",
+    "bytes": 51967
+  },
+  {
+    "path": "code/fig5_sources/south_source.py",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\panel_fig5\\south_source.py",
+    "adaptation": "relative component roots; private two-profile directory; local Natural Earth data",
+    "sha256": "1f80cd5a69e0476d9e3b75919defedb7dc37c238254f325116c5f1b447d39836",
+    "bytes": 49694
+  },
+  {
+    "path": "code/fig5_sources/v37_source.py",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\panel_fig5\\v37_source.py",
+    "adaptation": "relative component roots; private two-profile directory; local Natural Earth data",
+    "sha256": "4793d59d3e9d0cdc0b2a560ea7db4f4b2f8135a85519e3cb34b2a342203c0c00",
+    "bytes": 35062
+  },
+  {
+    "path": "code/fig5_sources/velocity_source.py",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\panel_fig5\\velocity_source.py",
+    "adaptation": "relative component roots; private two-profile directory; local Natural Earth data",
+    "sha256": "d58604fc83ea6c9904a05e2b4e240fa4385a04d608b0b60b1a29ae11fdd62981",
+    "bytes": 15513
+  },
+  {
+    "path": "data/natural_earth/ne_110m_coastline.cpg",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_coastline.dbf",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.dbf",
+    "bytes": 3747,
+    "sha256": "ac7e59083a862bafc20b86d73595fdf2a7c0693a411cf3ba91910a5de9df9bc3"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_coastline.prj",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.prj",
+    "bytes": 147,
+    "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_coastline.shp",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.shp",
+    "bytes": 89652,
+    "sha256": "a1f8285d0e0a4858392cd78fc74fa3ee4cd9088947cf6e3693729dc852d70b60"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_coastline.shx",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\physical\\ne_110m_coastline.shx",
+    "bytes": 1172,
+    "sha256": "53d8c141edfb7e05c59feecc7bb64b0e22bc2e282dfa1024d20ae54c3ef7b01e"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_admin_0_boundary_lines_land.cpg",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_admin_0_boundary_lines_land.dbf",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.dbf",
+    "bytes": 483250,
+    "sha256": "373d7a150b9f8dcb6ec918b52eea0f0361ad40ef433602a1b9f59b4de668daec"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_admin_0_boundary_lines_land.prj",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.prj",
+    "bytes": 147,
+    "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_admin_0_boundary_lines_land.shp",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.shp",
+    "bytes": 68372,
+    "sha256": "d19f784f92626816c064f878571f61bc43ec7bfc407666ce6a450d6e757afff0"
+  },
+  {
+    "path": "data/natural_earth/ne_110m_admin_0_boundary_lines_land.shx",
+    "source": "E:\\LUGRE\\repro_20260720\\LuGRE_Reviewer_Reproduction_Lite\\src\\tasks\\ed2\\cartopy_data\\shapefiles\\natural_earth\\cultural\\ne_110m_admin_0_boundary_lines_land.shx",
+    "bytes": 2748,
+    "sha256": "849899c47c51c6edd04750307b21cb109ae4c7e8ca3c5fee8606f8646dbe2787"
+  },
+  {
+    "path": "data/Fig5_LuGRE_h50_current.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\Fig5_sync\\data\\LuGRE_d_f_h50_matched_source_R3.csv",
+    "bytes": 379950,
+    "sha256": "0b024b305c1f2ec3035ae81fd1daf442125048930b64a66f585dcc8643261086"
+  },
+  {
+    "path": "data/Fig5_southern_FIR_current.csv",
+    "source": "H:\\LUGRE\\figures_R3\\Fig5_R3_SuperDARN_mean_abs_fix_20261023\\southern_FIR_track009_mean_absolute_velocity_R3.csv",
+    "bytes": 306873,
+    "sha256": "8eb2b8607e8034b679726b389affcc828881a11184c8ba032efc63a356cce9a7"
+  },
+  {
+    "path": "data/Fig5_southern_FIR_accepted_echoes.csv",
+    "source": "H:\\LUGRE\\figures_R3\\Fig5_R3_SuperDARN_mean_abs_fix_20261023\\southern_FIR_track009_accepted_raw_echoes_R3.csv",
+    "bytes": 639353,
+    "sha256": "318d94840b75d1e72954c31419f90c6c64c070d458275934dc75255c886ab55d"
+  },
+  {
+    "path": "provenance/SuperDARN_southern_mean_absolute_QA.json",
+    "source": "H:\\LUGRE\\figures_R3\\Fig5_R3_SuperDARN_mean_abs_fix_20261023\\independent_raw_mean_absolute_QA_R3.json",
+    "bytes": 2409,
+    "sha256": "de07b5578f35d932a39fd213172291c7800d4c2811eb69ed19323e436c7c28b5"
+  },
+  {
+    "path": "data/joint/ground_station_minutes_selected.csv.gz",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\ground_station_minutes_selected.csv.gz",
+    "bytes": 135350,
+    "sha256": "e518fb426c9778679644a17541d49614d55efde5e94a7860250455621868aade"
+  },
+  {
+    "path": "data/joint/hexbin_counts.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\hexbin_counts.csv",
+    "bytes": 228270,
+    "sha256": "2324a3c3ef462a62192d46e6346ef782707d3f9441d9cce42f010ed32e720ca2"
+  },
+  {
+    "path": "data/joint/joint_statistics.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\joint_statistics.csv",
+    "bytes": 2609,
+    "sha256": "8cf8cb24806c670b6db584fbbe32621e682c1959cc5d86b8dd8765030bb40020"
+  },
+  {
+    "path": "data/joint/LEO_P95_drawn_hexbin_counts_R3.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\LEO_P95_drawn_hexbin_counts_R3.csv",
+    "bytes": 35584,
+    "sha256": "e2bef009ab00088794aa416b384125c3eec3da37a357969f66f7e825450e6fb8"
+  },
+  {
+    "path": "data/joint/LEO_P95_selected_10s_window_membership.csv.gz",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\LEO_P95_selected_10s_window_membership.csv.gz",
+    "bytes": 1880796,
+    "sha256": "620f689236bcabacf64ae53e6306bdbe5c3f11c8be2e83030ede5dd84141e8fc"
+  },
+  {
+    "path": "data/joint/leo_profiles_selected.csv.gz",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\leo_profiles_selected.csv.gz",
+    "bytes": 56066,
+    "sha256": "3daeea8d29fcc0626e1e252e94bbdaefaed177e7f2532b45164034b3f25825ae"
+  },
+  {
+    "path": "data/joint/leo_profiles_selected_P95.csv.gz",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\leo_profiles_selected_P95.csv.gz",
+    "bytes": 56066,
+    "sha256": "3daeea8d29fcc0626e1e252e94bbdaefaed177e7f2532b45164034b3f25825ae"
+  },
+  {
+    "path": "data/joint/lugre_displayed_R3.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\lugre_displayed_R3.csv",
+    "bytes": 629222,
+    "sha256": "15a3a2dae0cce399c1c79ed9ac52430117231e07b27aa87693647763640c4653"
+  },
+  {
+    "path": "data/joint/lugre_paired_minutes_selection.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\lugre_paired_minutes_selection.csv",
+    "bytes": 631949,
+    "sha256": "15cc101a4aca4051805721f44d3c7beb4e1256fd19775f500d8d7ffd317afe31"
+  },
+  {
+    "path": "data/joint/LuGRE_point_amplitudes_before_after_R3.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\LuGRE_point_amplitudes_before_after_R3.csv",
+    "bytes": 144341,
+    "sha256": "fba95ff689cb98d19eca2221519ad624d393e39be3a30a3e12d582c539b31d4a"
+  },
+  {
+    "path": "data/joint/used_band_UTC_support.csv",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\data\\used_band_UTC_support.csv",
+    "bytes": 32455,
+    "sha256": "ef7498823c6340032695a2d8816b6a4acae4517b55251d820b838d77b862645e"
+  },
+  {
+    "path": "provenance/accepted_near_earth_drawing_historical.py.txt",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\code\\accepted_near_earth_drawing.py",
+    "bytes": 60209,
+    "sha256": "b36d5c896931eff6529a2c61c400b55185ebed2cc53f79c8fef674ac508f1080"
+  },
+  {
+    "path": "provenance/joint_h50_provenance_R3.json",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\joint_h50_provenance_R3.json",
+    "bytes": 3991,
+    "sha256": "a74b38a907f07fd05f72c1609450d936aa9370159bf3217d2d229d19f388cde3"
+  },
+  {
+    "path": "provenance/LEO_true_P95_aggregation_QA.json",
+    "source": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_h50\\qa\\LEO_true_P95_aggregation_QA.json",
+    "bytes": 3760,
+    "sha256": "5050b00a22dd94dd7b95e64a62f37d256b33b2c99067470e05939cd0009765d9"
+  },
+  {
+    "path": "reference/Fig5_R3.png",
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig5_R3.png",
+    "bytes": 5606045,
+    "sha256": "e823d7f743b3e6bac69c8c8ce602757d1bf11a544514b61e49a089b47eea10ae"
+  },
+  {
+    "path": "reference/Extended_Data_Joint_observables.png",
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Extended_Data_Joint_observables.png",
+    "bytes": 1120850,
+    "sha256": "d0ef36148e710fd0d661d1b07374265c0986d37322ef97106376de7323d83ab1"
+  },
+  {
+    "path": "provenance/Fig5_R3_accepted_version.json",
+    "source": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig5_R3_accepted_version.json",
+    "bytes": 969,
+    "sha256": "b73e6b51ecdd208798e08bece57f18fd3fee217c6dd5c8491b7214182bb2ad4e"
+  }
+]

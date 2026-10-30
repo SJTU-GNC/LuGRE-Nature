@@ -1,0 +1,24 @@
+{
+  "status": "PASS_STATIC_PORTABILITY",
+  "active_python_files": [
+    "fig34\\plotting\\plot_Fig3_R3.py",
+    "fig34\\plotting\\plot_Fig4_R3.py",
+    "fig34\\plotting\\smoothing.py",
+    "illumination\\plot_LT_illumination_R3.py",
+    "illumination\\nearspace\\solar_geometry_R3.py",
+    "geometry\\plot_geometry_R3.py",
+    "context\\render_context.py",
+    "context\\reproduce_figure.py",
+    "context\\surface_only_layout.py",
+    "context\\surface_only_scope.py",
+    "context\\code\\create_global_plus_polar_zoom_station_map.py",
+    "context\\code\\create_global_plus_polar_zoom_station_map_v5_fig3_consistent_time_matched.py",
+    "context\\code\\dependency_create_combined_polar_source_maps.py",
+    "reproduce.py",
+    "validate_inputs.py",
+    "verify_outputs.py"
+  ],
+  "absolute_external_drive_paths_in_active_code": 0,
+  "archival_code_is_not_supported_entrypoint": true,
+  "original_selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32"
+}

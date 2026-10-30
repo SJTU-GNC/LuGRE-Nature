@@ -1,0 +1,197 @@
+[
+  {
+    "figure": "Fig1_R3.png",
+    "reproduced_file": "verified_results/figures/Fig1_R3.png",
+    "pixels": [
+      4323,
+      3963
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "fde7c0ddc129dbe3bdaa49e4a73fea43a4dbce6c8d86bfdbbf68d4428a344278",
+    "reproduction_class": "authored schematic reference plus verified finite-source Fresnel calculation; optional Windows PowerPoint native source export",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Fig2_R3.png",
+    "reproduced_file": "verified_results/figures/Fig2_R3.png",
+    "pixels": [
+      4322,
+      4015
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "0ed8700411c68cfe217bca11714dc1754fcab34f8c09e32bbf5dfba60b5716b1",
+    "reproduction_class": "frozen source tables to full scientific figure",
+    "identical_to_official_reference": false
+  },
+  {
+    "figure": "Extended_Data_CN0_detrending_OP38_E21.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_CN0_detrending_OP38_E21.png",
+    "pixels": [
+      4320,
+      2889
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "66dbadd639151d976358feda91c02b4f7172e02f1f2c3aa18a898b6d19c1d584",
+    "reproduction_class": "measured C/N0 through archived E23 robust quartic to full figure",
+    "identical_to_official_reference": false
+  },
+  {
+    "figure": "Extended_Data_Space_weather_index.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_Space_weather_index.png",
+    "pixels": [
+      4320,
+      4344
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "41ce1410d03406a005476ae2aa2c5e3a5b5b92ea095a0f97942b13293e044df9",
+    "reproduction_class": "frozen context grid plus recomputed OP statistics to full figure",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Extended_Data_GNSS_antenna_geometry.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_GNSS_antenna_geometry.png",
+    "pixels": [
+      4510,
+      2860
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "c8615d0c86f86366e52a5466b46df107795be27e704c4ad821375e9f35c19feb",
+    "reproduction_class": "raw/reference antenna inputs and point cache to numerical panels; authored schematic bitmap retained",
+    "identical_to_official_reference": false
+  },
+  {
+    "figure": "Fig3_R3.png",
+    "reproduced_file": "verified_results/figures/Fig3_R3.png",
+    "pixels": [
+      4322,
+      4488
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "daa2a851e0b8ad270ca15d4539c5758490d464fad54ecc1b350a1981ae684fc1",
+    "reproduction_class": "plot_from_frozen_source_data",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Fig4_R3.png",
+    "reproduced_file": "verified_results/figures/Fig4_R3.png",
+    "pixels": [
+      4322,
+      3118
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "811aa40cc0b162512bde294a298f48fdbed5780b48a43e07234ab16f0631fff7",
+    "reproduction_class": "plot_from_frozen_source_data",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Extended_Data_Local_time_illumination.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_Local_time_illumination.png",
+    "pixels": [
+      4322,
+      4488
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "7c1106dccc9b75b7576df7df9c214ce1b358ebbe6916d4d018388fd8c11b7863",
+    "reproduction_class": "plot_from_frozen_source_data",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Extended_Data_Geometry_angles.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_Geometry_angles.png",
+    "pixels": [
+      4251,
+      4181
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "c64e51ba2c4cd601730143ed5cdb0069f0557b4ba1eb31a6d0584127aca62e6b",
+    "reproduction_class": "plot_from_frozen_source_data",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Extended_Data_Scan_speed_Fresnel_time.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_Scan_speed_Fresnel_time.png",
+    "pixels": [
+      4724,
+      4960
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "d18ee242a32dfb83f53434be2b6804d3eeed3b87116b59604c128b67829b55d3",
+    "reproduction_class": "plot_from_frozen_source_data",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Extended_Data_Observing_context.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_Observing_context.png",
+    "pixels": [
+      4251,
+      3188
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "6a7084f42293d03dc10761c72075329248eaf4b931eabef74eb78746e654ee6d",
+    "reproduction_class": "plot_from_frozen_source_data_and_cartographic_assets",
+    "identical_to_official_reference": true
+  },
+  {
+    "figure": "Fig5_R3.png",
+    "reproduced_file": "verified_results/figures/Fig5_R3.png",
+    "pixels": [
+      4203,
+      4800
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "197c6eb542bb8ffd5119ea416ee9bbdd783cc9930ae7f85a3152f9c5dcf4a960",
+    "reproduction_class": "scientific_numerical_redraw",
+    "identical_to_official_reference": false
+  },
+  {
+    "figure": "Extended_Data_Joint_observables.png",
+    "reproduced_file": "verified_results/figures/Extended_Data_Joint_observables.png",
+    "pixels": [
+      4251,
+      4015
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "sha256": "050741a111d6880018f3fea415536fae5533c8f17c3665e70ffc052748da4c4d",
+    "reproduction_class": "scientific_numerical_redraw",
+    "identical_to_official_reference": false
+  }
+]

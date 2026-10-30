@@ -1,65 +1,32 @@
 # Research Context, Attribution, and Responsible Reuse
 
-## Associated manuscript
+This software and its associated data version support the manuscript
+*Observing Earth's ionospheric irregularities from the moon*.
 
-This dataset and the associated software release support the unpublished
-manuscript *Lunar GNSS reveals a polar-dominant ionospheric amplitude
-response*, which was ready for submission at the time of deposit.
-
-The DOI records document the creators, release date, version, and provenance
-of the reproducibility package:
-
-- Dataset: https://doi.org/10.5281/zenodo.21672261
-- Software: https://doi.org/10.5281/zenodo.21675358
-
-## Applicable licences
-
-The dataset and figures are released under the Creative Commons Attribution
-4.0 International License (CC BY 4.0). The software is released under the MIT
-License.
+The software is released under the MIT License. Author-generated data in the
+associated Zenodo record are released under CC BY 4.0, subject to the explicit
+third-party exclusions in that record. The YunYao profiles identified in the
+R3 provenance require provider permission and are not included in the public
+GitHub or Zenodo updates.
 
 Reuse must comply with the applicable licence terms. Users must provide
 appropriate attribution where required, retain applicable copyright and
-licence notices, and clearly indicate modifications. This statement does not
-impose restrictions beyond the rights and obligations in those licences.
+licence notices, and clearly indicate modifications. Reuse must not imply
+endorsement by the manuscript authors or their institutions and must not
+misrepresent the original data, methods, figures, findings, qualifications, or
+known limitations.
 
-Copyright (c) 2026 SJTU-GNC.
+For scholarly use, cite both the archived R3 software release and the
+associated Zenodo data version. Publications based substantially on these
+resources should distinguish reused material from new contributions and cite
+the manuscript when a public article or preprint citation becomes available.
 
-## Scholarly attribution
+Researchers planning substantially overlapping analyses during the manuscript
+submission and peer-review period are encouraged to contact the corresponding
+author, Rong Yang (rongyang@sjtu.edu.cn), for appropriate attribution and
+scientific coordination. This is a coordination request, not an additional
+restriction on the applicable open licences.
 
-For scholarly use, please cite both DOI records:
-
-- *LuGRE figure reproduction data and source data*, version 1.0.0. Zenodo.
-  https://doi.org/10.5281/zenodo.21672261
-- *LuGRE Reviewer Reproduction*, version 1.0.0. Zenodo.
-  https://doi.org/10.5281/zenodo.21675358
-
-Publications based substantially on these resources should clearly distinguish
-reused data, figures, methods, code, and findings from new contributions.
-Please cite the associated manuscript when a public article or preprint
-citation becomes available.
-
-## Integrity and non-endorsement
-
-Reuse must not imply endorsement by the manuscript authors or SJTU-GNC.
-Descriptions of reused or modified material must not misrepresent the original
-data, methods, figures, results, or limitations. Modified outputs should be
-identified as derivatives and should not be presented as original author
-outputs.
-
-## Scientific coordination during manuscript review
-
-Researchers planning analyses that substantially overlap the associated
-manuscript during its submission and peer-review period are encouraged to
-contact the corresponding authors. This is a request for appropriate
-attribution and scientific coordination, not an additional restriction on the
-applicable open licences.
-
-- Rong Yang: rongyang@sjtu.edu.cn
-- Y. Jade Morton: jade.morton@Colorado.edu
-
-## Manuscript status
-
-Until a public article or preprint citation is available, describe the
-associated manuscript as "ready to submit" or "unpublished". Do not describe it
-as an accepted or published article.
+Copyright (c) 2026 Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio
+Dovis, Claudio Cesaroni, Luca Spogli, Lucilla Alfonsi, Xirui Miao, Yuquan Ma,
+Wei Gao, Li-Ta Hsu, and Xingqun Zhan.

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "Ground_epochs": 29803114,
+  "Ground_stations": 182,
+  "Ground_windows": 498430,
+  "selection_masks_checked": 270,
+  "independently_recomputed_Fig4_bin_summaries": 162,
+  "histogram_group_counts_checked": 9,
+  "solar_window_membership_checked": true,
+  "geometry_binding_checked": true,
+  "station_coordinates_membership_checked": true
+}

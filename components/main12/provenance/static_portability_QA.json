@@ -1,0 +1,87 @@
+[
+  {
+    "file": "run.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\e21_fit.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\e21_style.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\generate_panels_bc.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\generate_panel_c_individual.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\plot_main_lobe_gps_galileo.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\plot_main_lobe_grap_revised.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\plot_main_lobe_nature_figures.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\plot_main_lobe_previous_ab_gps_galileo.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\polar_helper.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\polar_primitives.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\refit_lugre_h50.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\render_antenna.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\render_e21.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\render_fig2.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\render_space_weather.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  },
+  {
+    "file": "code\\selected_track_primitives.py",
+    "syntax": "PASS",
+    "absolute_source_path_lines": []
+  }
+]

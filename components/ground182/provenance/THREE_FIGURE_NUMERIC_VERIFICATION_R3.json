@@ -1,0 +1,31 @@
+{
+  "status": "PASS_THREE_FIGURE_SHARED_SELECTION_AND_NEARSPACE",
+  "Ground_epochs": 29803114,
+  "Ground_windows": 498430,
+  "epoch_station_count": 182,
+  "window_station_count": 182,
+  "Fig4_and_illumination_exact_same_windows": true,
+  "nearspace": [
+    {
+      "path": "amplitude_source/histogram_source_data.csv",
+      "all_nearspace_values_exact": true
+    },
+    {
+      "path": "amplitude_source/signed_distribution_summary.csv",
+      "all_nearspace_values_exact": true
+    },
+    {
+      "path": "amplitude_source/quantiles.csv",
+      "all_nearspace_values_exact": true
+    },
+    {
+      "path": "response_source/common_60s_response_windows_R3.csv",
+      "all_nearspace_values_exact": true
+    },
+    {
+      "path": "response_source/angle_bin_median_IQR_counts_R3.csv",
+      "all_nearspace_values_exact": true
+    }
+  ],
+  "native_residuals_refitted": false
+}

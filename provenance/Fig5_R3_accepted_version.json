@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-28T09:06:27.248Z",
+  "revision": "R3",
+  "status": "ACCEPTED_LAYOUT_USER_REQUESTED_H50_RESIDUAL_UPDATE",
+  "name": "Fig5_R3.png",
+  "source": "E:/LUGRE/figures_R3/LuGRE_E23_h50_R3_20261028/Fig5_sync/figures/Fig5_R3_h50.png",
+  "sha256": "e823d7f743b3e6bac69c8c8ce602757d1bf11a544514b61e49a089b47eea10ae",
+  "formal_png": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\Fig5_R3.png",
+  "qa": "E:/LUGRE/figures_R3/LuGRE_E23_h50_R3_20261028/Fig5_sync/qa/Fig5_h50_QA.json",
+  "updated_panels": [
+    "d",
+    "f"
+  ],
+  "unchanged_other_pixels": true,
+  "northern_case_epochs": 591,
+  "southern_case_epochs": 930,
+  "northern_min_height_km": 144.19716861316556,
+  "southern_min_height_km": 106.139975884661,
+  "SuperDARN_velocity": "mean(abs(LOS velocity)), latest northern and southern corrections preserved",
+  "previous_record": "E:\\LUGRE\\manuscript_R3_writing_20261028\\Extended_Data_revision\\before\\Fig5_R3_accepted_version.json"
+}

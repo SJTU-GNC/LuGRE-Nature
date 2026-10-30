@@ -1,0 +1,63 @@
+{
+  "status": "PASS_TRUE_P95_H50_LUGRE_AND_LEO_FIXED_GROUND",
+  "LuGRE_points": 920,
+  "LuGRE_native_samples": 52572,
+  "old_sample_n_and_point_P95_reproduced": true,
+  "nearEarth_tables_byte_identical": false,
+  "ROTI_and_point_latitude_longitude_height_and_UTC_identical": true,
+  "magnetic_latitude": "Historical IGRF14 dip latitude at minute representative WGS84 tangent point; differs from main Fig3/4 centred-dipole epoch bands",
+  "time_selection": "Historical 20260924 all_valid same-band UTC selection retained; not current main Fig3/4 support",
+  "LuGRE_amplitude": "Historical point membership and within-minute P95 absolute residual definition retained; underlying residual replaced with true h50 E23 quartic",
+  "raw_time_bridge": "unique phase/OP/satellite/signal/integer-UTC-second, UTC from native GPS seconds+315964782; all lat/lon/height agree <1e-13; no time shift applied",
+  "full_refit_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "source_sha256": {
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\ground_station_minutes_selected.csv.gz": "e518fb426c9778679644a17541d49614d55efde5e94a7860250455621868aade",
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\hexbin_counts.csv": "2324a3c3ef462a62192d46e6346ef782707d3f9441d9cce42f010ed32e720ca2",
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\joint_statistics.csv": "481847bd8611b94ee162d3ce115653c9e32202b75e1c9ef870a08ebbdba1113c",
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\leo_profiles_selected.csv.gz": "f4c8303315d90c7938210040e43a579690c9507db4ac2f3ba644e6b40fdaae00",
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\lugre_paired_minutes_selection.csv": "b99cd757081a25551dfe39a77c41852f53bf61d8631eb1a0fbc2237edad4d07b",
+    "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures\\joint_original\\data\\used_band_UTC_support.csv": "ef7498823c6340032695a2d8816b6a4acae4517b55251d820b838d77b862645e"
+  },
+  "summary": [
+    {
+      "platform": "LuGRE",
+      "latitude_band": "Equatorial",
+      "source_n": 207,
+      "displayed_n": 204,
+      "x_median": 0.33685496421254174,
+      "x_p95": 0.8928796976927742,
+      "x_max": 2.5338191133403196,
+      "y_median": 4.021661405716021,
+      "y_p95": 33.884336398176615,
+      "y_max": 63.66414542358221
+    },
+    {
+      "platform": "LuGRE",
+      "latitude_band": "Mid-latitude",
+      "source_n": 413,
+      "displayed_n": 412,
+      "x_median": 0.3110217142863815,
+      "x_p95": 0.7104740310035536,
+      "x_max": 1.1805914423283375,
+      "y_median": 3.403945439106667,
+      "y_p95": 16.75983509133358,
+      "y_max": 66.66500721374871
+    },
+    {
+      "platform": "LuGRE",
+      "latitude_band": "Polar",
+      "source_n": 300,
+      "displayed_n": 300,
+      "x_median": 0.45239297045721727,
+      "x_p95": 2.245270660957029,
+      "x_max": 3.8113108386324983,
+      "y_median": 5.034649383626785,
+      "y_p95": 21.07699910461251,
+      "y_max": 52.606721488749656
+    }
+  ],
+  "nearEarth_latitude_scope": "LEO source profiles classified from tangent-point centred-dipole latitude where available; Ground eSWua minute-IPP and CHAIN>=20deg/350km-IPP centred-dipole station-minute grouping retained. LuGRE minute grouping independently uses IGRF14 dip latitude. See source chain in LEOP95QA.",
+  "LEO": "True P95 recomputed from same64988selected10s windows and same1619profile identities; oldP90 reproduced first; seeqa/LEO_true_P95_aggregation_QA.json",
+  "Ground_unchanged": true,
+  "summary_domain": "The summary list here uses all selected source points; data/joint_statistics.csv retains the original displayed-range summary convention. Four LuGRE points aboveROTI60 remain in the complete source table."
+}

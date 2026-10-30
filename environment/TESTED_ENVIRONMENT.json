@@ -1,0 +1,251 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "distribution_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.1",
+    "scipy": "1.18.1",
+    "cartopy": "0.25.0",
+    "pyarrow": "25.0.1",
+    "pillow": "12.3.0",
+    "openpyxl": "3.1.5",
+    "pypdf": "6.10.0",
+    "pyerfa": "2.0.1.5",
+    "python-dateutil": "2.9.0.post0",
+    "tzdata": "2026.5",
+    "contourpy": "1.3.3",
+    "cycler": "0.12.1",
+    "fonttools": "4.63.0",
+    "kiwisolver": "1.5.0",
+    "packaging": "26.3",
+    "pyparsing": "3.3.2",
+    "shapely": "2.2.0",
+    "pyshp": "3.1.6",
+    "pyproj": "3.8.0",
+    "et-xmlfile": "2.0.0",
+    "six": "1.17.0",
+    "certifi": "2026.10.19"
+  },
+  "distribution_locations_during_validation": {
+    "numpy": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "pandas": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "matplotlib": "E:\\LUGRE\\python_deps\\matplotlib_py312",
+    "scipy": "E:\\LUGRE\\python_deps\\scipy_py312",
+    "cartopy": "E:\\LUGRE\\python_deps\\cartopy_py312",
+    "pyarrow": "E:\\LUGRE\\python_deps\\pyarrow_py312",
+    "pillow": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "openpyxl": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "pypdf": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "pyerfa": "E:\\LUGRE\\Zenodo_R3_build_20261030\\test_env\\Lib\\site-packages",
+    "python-dateutil": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "tzdata": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "contourpy": "E:\\LUGRE\\python_deps\\matplotlib_py312",
+    "cycler": "E:\\LUGRE\\python_deps\\matplotlib_py312",
+    "fonttools": "E:\\LUGRE\\python_deps\\matplotlib_py312",
+    "kiwisolver": "E:\\LUGRE\\python_deps\\matplotlib_py312",
+    "packaging": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "pyparsing": "E:\\LUGRE\\python_deps\\matplotlib_py312",
+    "shapely": "E:\\LUGRE\\python_deps\\cartopy_py312",
+    "pyshp": "E:\\LUGRE\\python_deps\\cartopy_py312",
+    "pyproj": "E:\\LUGRE\\python_deps\\cartopy_py312",
+    "et-xmlfile": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "six": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+    "certifi": "C:\\Users\\YR\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages"
+  },
+  "environment_method": "CPython3.12 with explicitly declared installed scientific distributions; exact versions and complete offline wheels retained. The original analysis-data roots are disallowed by the runtime audit guard. A fresh pip installation was not used for the execution test.",
+  "wheel_files": [
+    {
+      "name": "pyerfa",
+      "version": "2.0.1.5",
+      "file": "offline_wheels/pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl",
+      "bytes": 349410,
+      "sha256": "66292d437dcf75925b694977aa06eb697126e7b86553e620371ed3e48b5e0ad0",
+      "source_url": "https://files.pythonhosted.org/packages/b4/11/97233cf23ad5411ac6f13b1d6ee3888f90ace4f974d9bf9db887aa428912/pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl"
+    },
+    {
+      "name": "cartopy",
+      "version": "0.25.0",
+      "file": "offline_wheels/cartopy-0.25.0-cp312-cp312-win_amd64.whl",
+      "bytes": 10983127,
+      "sha256": "efedb82f38409b72becdfee02231126952816d33a68b1c584bd2136713036bfb",
+      "source_url": "https://files.pythonhosted.org/packages/1d/52/3a57ecb4598c33ee06b512d3686e46b3983e65abd6ec94c5262d01930ed9/cartopy-0.25.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.19",
+      "file": "offline_wheels/certifi-2026.10.19-py3-none-any.whl",
+      "bytes": 136464,
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+      "source_url": "https://files.pythonhosted.org/packages/c4/51/29046e48f693c54e5b7412216d447a1d8362c9653148d98c02cdf65fa733/certifi-2026.10.19-py3-none-any.whl"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "file": "offline_wheels/contourpy-1.3.3-cp312-cp312-win_amd64.whl",
+      "bytes": 226567,
+      "sha256": "8153b8bfc11e1e4d75bcb0bff1db232f9e10b274e0929de9d608027e0d34ff8b",
+      "source_url": "https://files.pythonhosted.org/packages/19/e8/6026ed58a64563186a9ee3f29f41261fd1828f527dd93d33b60feca63352/contourpy-1.3.3-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "file": "offline_wheels/cycler-0.12.1-py3-none-any.whl",
+      "bytes": 8321,
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+      "source_url": "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl"
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "file": "offline_wheels/et_xmlfile-2.0.0-py3-none-any.whl",
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+      "source_url": "https://files.pythonhosted.org/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.63.0",
+      "file": "offline_wheels/fonttools-4.63.0-cp312-cp312-win_amd64.whl",
+      "bytes": 2343211,
+      "sha256": "59ac449f8cca9b4ffa08d2e7bbadad87ce710d69d1eda5c3c1ce579baa987272",
+      "source_url": "https://files.pythonhosted.org/packages/87/36/cccb9bc2a6ab63d1b2980374f0dca72ce95ae267c9b4cfe77455bb70d0d4/fonttools-4.63.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "file": "offline_wheels/kiwisolver-1.5.0-cp312-cp312-win_amd64.whl",
+      "bytes": 73569,
+      "sha256": "f18c2d9782259a6dc132fdc7a63c168cbc74b35284b6d75c673958982a378384",
+      "source_url": "https://files.pythonhosted.org/packages/ad/cf/0348374369ca588f8fe9c338fae49fa4e16eeb10ffb3d012f23a54578a9e/kiwisolver-1.5.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.1",
+      "file": "offline_wheels/matplotlib-3.11.1-cp312-cp312-win_amd64.whl",
+      "bytes": 9333886,
+      "sha256": "88a2a27dd9691ae448dfae4b26f59036be90c3c28757edd3553a29559d00859f",
+      "source_url": "https://files.pythonhosted.org/packages/88/89/56649bbaa2fd12e20f3be03dbcc135b0c8676d88bac17977599e3eb442a0/matplotlib-3.11.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "numpy",
+      "version": "2.3.5",
+      "file": "offline_wheels/numpy-2.3.5-cp312-cp312-win_amd64.whl",
+      "bytes": 12782922,
+      "sha256": "86945f2ee6d10cdfd67bcb4069c1662dd711f7e2a4343db5cecec06b87cf31aa",
+      "source_url": "https://files.pythonhosted.org/packages/2d/57/8aeaf160312f7f489dea47ab61e430b5cb051f59a98ae68b7133ce8fa06a/numpy-2.3.5-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "file": "offline_wheels/openpyxl-3.1.5-py2.py3-none-any.whl",
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+      "source_url": "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "file": "offline_wheels/packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "source_url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.1",
+      "file": "offline_wheels/pandas-3.0.1-cp312-cp312-win_amd64.whl",
+      "bytes": 9741627,
+      "sha256": "536232a5fe26dd989bd633e7a0c450705fdc86a207fec7254a55e9a22950fe43",
+      "source_url": "https://files.pythonhosted.org/packages/75/08/67cc404b3a966b6df27b38370ddd96b3b023030b572283d035181854aac5/pandas-3.0.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "file": "offline_wheels/pillow-12.3.0-cp312-cp312-win_amd64.whl",
+      "bytes": 7227137,
+      "sha256": "a2b55dd6b2a4c4b7d87ffa56bdb33fdc5fdb9a462173861a7bc097f17d91cb09",
+      "source_url": "https://files.pythonhosted.org/packages/45/89/da2f7971a317f83d807fdd4065c0af40208e59e692cc43d315a71a0e96d1/pillow-12.3.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "pyarrow",
+      "version": "25.0.1",
+      "file": "offline_wheels/pyarrow-25.0.1-cp312-cp312-win_amd64.whl",
+      "bytes": 27953934,
+      "sha256": "8858d7bfc22e3f51529aeaa4077225029724623e4595dc9eff8c793935c34140",
+      "source_url": "https://files.pythonhosted.org/packages/65/ee/197cbf47e49f83e6ebeb946a5259a48a638dea27ac774db42fe78022179d/pyarrow-25.0.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "file": "offline_wheels/pyparsing-3.3.2-py3-none-any.whl",
+      "bytes": 122781,
+      "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d",
+      "source_url": "https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl"
+    },
+    {
+      "name": "pypdf",
+      "version": "6.10.0",
+      "file": "offline_wheels/pypdf-6.10.0-py3-none-any.whl",
+      "bytes": 334459,
+      "sha256": "90005e959e1596c6e6c84c8b0ad383285b3e17011751cedd17f2ce8fcdfc86de",
+      "source_url": "https://files.pythonhosted.org/packages/55/f2/7ebe366f633f30a6ad105f650f44f24f98cb1335c4157d21ae47138b3482/pypdf-6.10.0-py3-none-any.whl"
+    },
+    {
+      "name": "pyproj",
+      "version": "3.8.0",
+      "file": "offline_wheels/pyproj-3.8.0-cp312-cp312-win_amd64.whl",
+      "bytes": 6714045,
+      "sha256": "0556ce011e1530aea2084a12e39dc9c6ccd25a16c1db5457f39bf83161e7c301",
+      "source_url": "https://files.pythonhosted.org/packages/b7/d7/2c861a429581577a441e03020d27274812d7969748f5951d972f6e34597f/pyproj-3.8.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "pyshp",
+      "version": "3.1.6",
+      "file": "offline_wheels/pyshp-3.1.6-py3-none-any.whl",
+      "bytes": 73744,
+      "sha256": "be8cd9436dcbde477c63ea789f7dcdea3af19f17ea84f2744bfc12efe9145d1e",
+      "source_url": "https://files.pythonhosted.org/packages/ac/72/1f79dab76eb7651b5e3622a46b18a7f93f57c3a1317b712986c58810895e/pyshp-3.1.6-py3-none-any.whl"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "file": "offline_wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "bytes": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "source_url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "file": "offline_wheels/scipy-1.18.1-cp312-cp312-win_amd64.whl",
+      "bytes": 36658278,
+      "sha256": "5e4d44984abc0020154ea81b247adeddcc3ac5527b975ff798bd1ba0adc513c2",
+      "source_url": "https://files.pythonhosted.org/packages/39/e7/979fd14e75008623df31ba70d6bb144700f68feadcea042021c06a05bf82/scipy-1.18.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "shapely",
+      "version": "2.2.0",
+      "file": "offline_wheels/shapely-2.2.0-cp312-cp312-win_amd64.whl",
+      "bytes": 1791280,
+      "sha256": "90895df6542ae039fc6557dec6194e3509e883fbd6f5788e3c3e7a38fe46b257",
+      "source_url": "https://files.pythonhosted.org/packages/f6/26/ba9192f0a72c830aa8cc1c61e207ada57cc54b7de81668b1836f575ee717/shapely-2.2.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "file": "offline_wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "source_url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5",
+      "file": "offline_wheels/tzdata-2026.5-py2.py3-none-any.whl",
+      "bytes": 347996,
+      "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+      "source_url": "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl"
+    }
+  ],
+  "all_wheel_hashes_match_PyPI": true
+}

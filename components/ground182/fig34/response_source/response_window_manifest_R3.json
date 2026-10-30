@@ -1,0 +1,131 @@
+{
+  "status": "PASS_FIG4_R3_FINAL_SELECTION",
+  "canonical_support_sha256": "f560e73f26c6a6726c10920f716449bf8e6ffcfeb0f83be8ed6b5e4b5d553a9e",
+  "platforms": [
+    {
+      "platform": "Ground",
+      "n_records": 29803114,
+      "signal_counts": {
+        "GPS L1": 18548716,
+        "Galileo E1": 11254398
+      },
+      "latitude_counts": {
+        "Equatorial": 4372844,
+        "Mid-latitude": 22214337,
+        "Polar": 3215933
+      },
+      "n_source_units": 182,
+      "n_fitting_arcs": 29205,
+      "same_latitude_band_UTC_all": true,
+      "n_outside_display_minus10_plus10": 76
+    },
+    {
+      "platform": "LuGRE",
+      "n_records": 82761,
+      "latitude_counts": {
+        "Mid-latitude": 36993,
+        "Polar": 25188,
+        "Equatorial": 20580
+      },
+      "signal_counts": {
+        "Galileo E1": 42577,
+        "GPS L1": 40184
+      },
+      "n_source_units": 6,
+      "n_fitting_arcs": 107,
+      "n_outside_display_minus10_plus10": 0,
+      "same_latitude_band_UTC_all": true,
+      "windows_rebuilt": 1352,
+      "window_latitude_counts": {
+        "Mid-latitude": 612,
+        "Polar": 403,
+        "Equatorial": 337
+      }
+    },
+    {
+      "platform": "LEO-RO",
+      "n_records": 73519,
+      "latitude_counts": {
+        "Mid-latitude": 46748,
+        "Polar": 15045,
+        "Equatorial": 11726
+      },
+      "signal_counts": {
+        "GPS L1": 54447,
+        "Galileo E1": 19072
+      },
+      "n_source_units": 4,
+      "n_fitting_arcs": 1592,
+      "n_outside_display_minus10_plus10": 0,
+      "same_latitude_band_UTC_all": true,
+      "windows_rebuilt": 1161,
+      "window_latitude_counts": {
+        "Mid-latitude": 735,
+        "Polar": 227,
+        "Equatorial": 199
+      },
+      "candidate_windows": 2825,
+      "incomplete_geometry_windows": 0,
+      "insufficient_seconds_windows": 1664
+    }
+  ],
+  "method_by_platform": {
+    "Ground": "Unchanged native1Hz independent quartic arc residuals; verified finer-than1dB products; frozen full-native-background quality masks and original common UTC/IPP selection; no latitude-based rejection",
+    "LuGRE": "E23 robust_poly4_median60s, actual fit-input and output height>=50km",
+    "LEO-RO": "unchanged accepted rolling-median residuals"
+  },
+  "methods": {
+    "Ground": "Unchanged native1Hz independent quartic arc residuals; verified finer-than1dB products; frozen full-native-background quality masks and original common UTC/IPP selection; no latitude-based rejection",
+    "LuGRE": "E23 robust_poly4_median60s, actual fit-input and output height>=50km",
+    "LEO-RO": "unchanged accepted rolling-median residuals"
+  },
+  "same_nearspace_epoch_population_in_top_middle_bottom_rows": true,
+  "all_actual_epochs_match_same_band_UTC": true,
+  "UTC_rule": "entire analysis matching interval [utc_s,utc_s+1) in same-band LuGRE union; not an assumed integration time",
+  "latitude_definition": "per-epoch geocentric centered dipole from actual tangent-point ECEF, pole 80.65N -72.68W; Eq<20 Mid20to<60 Polar>=60",
+  "window_rule": "UTC half-open minutes;30-60 actual continuous1Hz samples; source/satellite/signal/originalQC/E23fit/per-epoch-band boundaries preserved; gap>1.5s splits; all three acute angles finite on every included epoch; W=P95-P05; median angles; equal-window 15deg summaries",
+  "source_heights": "Original accepted source heights preserved; LuGRE50–80km original approvedQC identities restored. New LuGRE height bin origin50km, step32km; LEO unchanged.",
+  "Ground_scope": "182 actual Ground epoch contributors in the new screened selection; original receiver identities and source residuals preserved",
+  "Ground_epochs": 29803114,
+  "LEO_epochs": 73519,
+  "LuGRE_epochs": 82761,
+  "window_counts": {
+    "Ground": 498430,
+    "LEO-RO": 1161,
+    "LuGRE": 1352
+  },
+  "original_residuals_refitted": true,
+  "plasma_drift_included": false,
+  "shared_selection_manifest": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\Ground_selection_R3.json",
+  "shared_selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "selection_variant": "frozen141_plus_qualified_F_new_sources",
+  "population_limitations": "Product-resolution subset; native temporal averaging and site-response differences remain; not a calibrated platform sensitivity ranking",
+  "common_event_scope": "The separate FLAA common-event mask and manually reviewed longer episode are not silently merged into this time-block variant. Residual shared-change limitations remain disclosed in version notes.",
+  "epoch_partition_manifest": "E:\\LUGRE\\figures_R3\\Ground_fractional_CN0_R3_20261028\\epoch_partition\\Epoch_partition_completion_R3.json",
+  "epoch_partition_sha256": "6d247a1305d71b485f928702e7be248fb0d24ea7cfc44cd31239d8505182451f",
+  "UTC_support_update": {
+    "old": {
+      "Equatorial": 19697.0,
+      "Mid-latitude": 33693.0,
+      "Polar": 24625.0
+    },
+    "new": {
+      "Equatorial": 20107.0,
+      "Mid-latitude": 35046.0,
+      "Polar": 24682.0
+    },
+    "old_intervals_all_contained": true,
+    "Ground_and_LEO_new_seconds_added": false
+  },
+  "retained_Ground_LEO_support_sha256": "f560e73f26c6a6726c10920f716449bf8e6ffcfeb0f83be8ed6b5e4b5d553a9e",
+  "expanded_LuGRE_support_sha256": "4eeb88a5829c4c6c52b4045d6e86bb05fead65d61ccb6acd4ef481fd07723326",
+  "current_LuGRE_fit_sha256": "98da6c8566682a5a4cc546c745fdc4fd44df2a9915d81fae41ae07c837805c1c",
+  "refitted_platforms": [
+    "LuGRE"
+  ],
+  "local_refit_performed": false,
+  "LuGRE_source_index": "D:\\Reference\\Paper\\2026\\Nature_LuGRE\\LuGRE_Latex_R3\\R3_h50_current_version.json",
+  "LuGRE_source_index_sha256": "4c60f3433cdce8e392b47fc0acaa8de9b7783a42c386b0cecca0d5e8da120646",
+  "LuGRE_source_tables": "E:\\LUGRE\\figures_R3\\LuGRE_E23_h50_R3_20261028\\derived_figures",
+  "Ground_LEO_samples_and_residuals_unchanged": true
+}

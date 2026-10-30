@@ -1,0 +1,39 @@
+{
+  "status": "PASS_EXPANDED_GROUND_SOLAR_EXACT_SHARED_WINDOWS",
+  "selection_manifest": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\Ground_selection_R3.json",
+  "selection_sha256": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+  "windows_source": "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\Ground_response_windows_episode_screened_R3.parquet",
+  "windows_sha256": "9e91d6b5f49e6b5ca916d06d1a5234a24720accb943bf37bb0c0e2cb6a7eb7a5",
+  "Ground_stations": 182,
+  "Ground_windows": 498430,
+  "window_counts": {
+    "Equatorial": 72374,
+    "Mid-latitude": 373152,
+    "Polar": 52904
+  },
+  "represented_native_epochs": 28810247,
+  "reused_windows": 498430,
+  "new_windows": 0,
+  "recomputed_station_ids": [],
+  "new_stations": [],
+  "old_solar_values_bitexact": true,
+  "all_core_columns_bitexact": true,
+  "native_epoch_illumination_computed": true,
+  "representative_values_not_broadcast_to_other_epochs": true,
+  "interpolation": false,
+  "added_masks": false,
+  "nearspace_unchanged": true,
+  "solar_model": "Unchanged ERFA epv00/c2t06a; TT approximates TDB, UT1 approximates UTC, zero polar motion; solar-centre ray and solid WGS84 ellipsoid",
+  "parts": [],
+  "source_sha256": {
+    "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\Ground_selection_R3.json": "07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32",
+    "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\screened_selection_episode_v1\\Ground_response_windows_episode_screened_R3.parquet": "9e91d6b5f49e6b5ca916d06d1a5234a24720accb943bf37bb0c0e2cb6a7eb7a5",
+    "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\illumination\\ground\\Ground_solar_windows_R3.parquet": "ddc094b967beb244b81acc1b19d2dc522fe4ac10ab42cfd10b32865261884d08",
+    "E:\\LUGRE\\figures_R3\\Ground_F_expansion_R3_20261028\\illumination\\nearspace\\nearspace_solar_windows_R3.parquet": "769cf8483ff29e14ccd1ad259d24425480a154fec7a2bf527dd8996f587fb23b",
+    "E:\\LUGRE\\ground_1Hz_sameUTC_20261009\\sampling_illumination_R3_3x2_20261013\\build_sampling_illumination_R3.py": "d8ec4025a77293f5dd20e436436fcf78158a5c53a6c75f2bf20e2cab7c2e3a45"
+  },
+  "outputs": {
+    "E:\\LUGRE\\analysis_R3\\Ground_full_native_background_QC_R3_20261029\\interval_scope_review_20261030\\episode_downstream_v1\\figure_pipeline\\illumination\\ground\\Ground_solar_windows_R3.parquet": "2c463eb267186b57ce78324c7f2b45c278312f76c4cecd51382279f2fee68c4e"
+  },
+  "elapsed_seconds": 15.40967059135437
+}
