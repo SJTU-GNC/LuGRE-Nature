@@ -342,3 +342,16 @@ qa['method_update']='All eligible amplitude statistics recomputed; raw C/N0/ROTI
 (ROOT/'Fig2_R3_E23_h50_detrending_panel_mapping.json').write_text(json.dumps(PANEL_LABEL,indent=2),encoding='utf8')
 plt.close(fig)
 print(json.dumps(qa,ensure_ascii=False,indent=2))
+
+
+
+
+
+
+
+
+
+
+
+
+

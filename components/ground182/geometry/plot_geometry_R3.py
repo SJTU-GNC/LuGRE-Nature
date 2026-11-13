@@ -37,7 +37,7 @@ SPEED_METRICS = ("point_speed_mps", "scan_speed_mps", "fresnel_crossing_time_s")
 ANGLE_LABELS = (
     r"Ray–$\mathbf{B}$ angle, $\theta_{\rm ray}$ (°)",
     r"Scan–$\mathbf{B}_\perp$ angle, $\theta_{\rm scan}$ (°)",
-    "Ray azimuth to magnetic meridian,\n" + r"$\theta_{\rm mer}$ (°)",
+    "Ray azimuth to magnetic meridian, " + r"$\theta_{\rm mer}$ (°)",
 )
 SPEED_LABELS = (
     r"Tangent-point speed, $v_{\rm p}$ (m/s)",
@@ -51,7 +51,8 @@ GROUND_YLIMS = ((0., 25.0), (0., 25.0), (0., 30.))
 DPI = 600
 WIDTH_MM = 180.
 SPEED_WIDTH_MM = 200.
-SPEED_HEIGHT_MM = 210.
+ORIGINAL_MAIN_HEIGHT_MM=210.*(.92-.085)/(3.+2.*.62)
+SPEED_HEIGHT_MM=210.-2.*(.62-.50)*ORIGINAL_MAIN_HEIGHT_MM
 INSET_LABELS = (r"IPP speed, $v_{\rm p}$ (m/s)", r"Scan speed, $v_{\rm scan}$ (m/s)", "Geometric Fresnel crossing time\n"+r"$\tau_{\rm F,geom}$ (s)")
 
 mpl.rcParams.update({
@@ -124,7 +125,7 @@ def read_frozen():
 def new_grid(height_mm, width_mm=WIDTH_MM, speed=False):
     fig, axes = plt.subplots(3, 3, figsize=(width_mm/25.4, height_mm/25.4), dpi=DPI)
     if speed:
-        fig.subplots_adjust(left=.09, right=.985, bottom=.085, top=.92, wspace=.37, hspace=.62)
+        fig.subplots_adjust(left=.09,right=.985,bottom=(210.*.085)/height_mm,top=1.-(210.*.08)/height_mm,wspace=.37,hspace=.50)
     else:
         fig.subplots_adjust(left=.105, right=.985, bottom=.093, top=.905, wspace=.27, hspace=.49)
     for i, ax in enumerate(axes.flat):
@@ -198,7 +199,7 @@ def plot_angles(curves):
             ax.set_xlabel(ANGLE_LABELS[r], labelpad=4)
             if c == 0: ax.set_ylabel("Cumulative fraction", labelpad=4.5)
     handles = [Line2D([],[],color=COLORS[s],lw=1.3,label=s,ls="-") for s in SYSTEMS]
-    fig.legend(handles=handles,loc="upper center",bbox_to_anchor=(.545,.988),ncol=3,
+    fig.legend(handles=handles,loc="upper center",bbox_to_anchor=(.545,1.-210.*.012/SPEED_HEIGHT_MM),ncol=3,
                frameon=False,handlelength=2.25,columnspacing=1.8,handletextpad=.65)
     qa_text = verify_text_inside(fig)
     path=OUTPUT/"Extended_Data_Geometry_angles.png"
@@ -248,13 +249,13 @@ def plot_speeds(bins, support):
                 ax.set_yticks([0,5,10,15,20])
             # Upper-right in speed rows; upper-left in the time row. Main data
             # beneath the inset rectangle are verified below, without increasing y limits.
-            rect=(.53,.66,.42,.28) if r<2 else (.25,.66,.42,.28)
+            rect=(.53,.648,.42,.28) if r<2 else (.25,.648,.42,.28)
             inset=ax.inset_axes(rect)
             inset_pairs.append((ax,inset,metric,band))
             inset.set_facecolor("white")
             inset.set_zorder(5)
             inset.set_xlim(*GROUND_XLIMS[r]);inset.set_ylim(*GROUND_YLIMS[r])
-            inset.set_title("Ground",fontsize=6.2,pad=1.7)
+            inset.set_title("Ground",fontsize=6.2,pad=.7)
             inset.set_xlabel(INSET_LABELS[r],fontsize=5.7,labelpad=1.4)
             inset.set_ylabel("Weighted\nproportion (%)",fontsize=5.7,labelpad=1.2)
             inset.tick_params(labelsize=5.8,length=1.8,width=.5,pad=1)
@@ -296,7 +297,7 @@ def plot_speeds(bins, support):
                                  "inset_bottom_data_y_percent":y0,"main_data_occlusion":False})
     handles=[Patch(facecolor=to_rgba(COLORS[s],.25),edgecolor=COLORS[s],linewidth=.85,
                    label="Ground (inset)" if s=="Ground" else s) for s in SYSTEMS]
-    fig.legend(handles=handles,loc="upper center",bbox_to_anchor=(.545,.988),ncol=3,
+    fig.legend(handles=handles,loc="upper center",bbox_to_anchor=(.545,1.-210.*.012/SPEED_HEIGHT_MM),ncol=3,
                frameon=False,handlelength=1.75,columnspacing=1.8,handletextpad=.65)
     qa_text=verify_text_inside(fig)
     renderer=fig.canvas.get_renderer()

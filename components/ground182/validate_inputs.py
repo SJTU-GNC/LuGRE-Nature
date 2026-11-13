@@ -24,7 +24,7 @@ def main():
         assert count==part['retained_epochs']
         total+=count
     assert total==selected['Ground_epochs']==29803114
-    ground=pd.read_parquet(ROOT/'fig34/response_source/Ground_response_windows_R3.parquet')
+    ground=pd.read_parquet(ROOT/'fig34/response_source/Ground_response_windows_R3.parquet',columns=['window_id','source_unit','latitude_band','n_points'])
     assert len(ground)==498430 and ground.window_id.is_unique and ground.source_unit.nunique()==182
     assert set(ground.source_unit)==set(original['stations'])
     assert ground.groupby('latitude_band').size().to_dict()==selected['latitude_window_counts']
@@ -46,7 +46,7 @@ def main():
     for row in quant.itertuples():
         h=hist[hist.platform.eq(row.platform)&hist.latitude_band.eq(row.latitude_band)]
         assert int(h['count'].sum())==row.n_records
-    solar=pd.read_parquet(ROOT/'illumination/ground/Ground_solar_windows_R3.parquet')
+    solar=pd.read_parquet(ROOT/'illumination/ground/Ground_solar_windows_R3.parquet',columns=['source_unit','n_points'])
     assert len(solar)==498430 and solar.n_points.sum()==28810247
     assert set(solar.source_unit)==set(original['stations'])
     freeze=read(ROOT/'geometry/plot_data/GEOMETRY_FREEZE.json')
@@ -62,4 +62,18 @@ def main():
     (ROOT/'validation/input_checks.json').write_text(json.dumps(qa,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(qa,indent=2))
 
-if __name__=='__main__':main()
+
+
+def validate_r4():
+    sys.path.insert(0,str(ROOT/'code'))
+    from recompute_r4 import rebuild
+    result=rebuild(ROOT/'validation/reconstructed_r4',verify=True)
+    p=ROOT/'validation/input_checks.json';base=read(p)
+    base.update(revision='R4',R4_LuGRE_reconstruction_status=result['status'],
+        LuGRE_Fig3_epochs=result['Fig3_LuGRE_epochs'],LuGRE_quality_windows=result['Fig3_quality_windows'],
+        LuGRE_Fig4_LT_windows=result['Fig4_LT_LuGRE_windows'],
+        every_rebuilt_R4_table_matches_packaged_reference=True)
+    p.write_text(json.dumps(base,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps(base,indent=2))
+if __name__=='__main__':
+    main();validate_r4()

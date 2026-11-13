@@ -4,6 +4,7 @@ if os.environ.get('LUGRE_PORTABLE_GUARD')=='1':
     from pathlib import Path
     _roots=[Path(p).resolve() for p in json.loads(os.environ['LUGRE_ALLOWED_ROOTS'])]
     _log=Path(os.environ['LUGRE_GUARD_LOG'])
+    _null=Path(os.devnull).resolve()
     _busy=False
     def _deny(event,value):
         global _busy
@@ -22,5 +23,6 @@ if os.environ.get('LUGRE_PORTABLE_GUARD')=='1':
         if value is None or isinstance(value,int):return
         try:path=Path(os.fsdecode(value)).resolve()
         except (ValueError,TypeError,OSError):return
+        if path==_null:return  # Standard OS null device carries no scientific input.
         if not any(path==r or r in path.parents for r in _roots):_deny(event,path)
     sys.addaudithook(_hook)

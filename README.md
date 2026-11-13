@@ -1,97 +1,52 @@
-# LuGRE R3 Reproduction Code
+# LuGRE R4 data, results and reproducible analysis
 
-Python and PowerShell code supporting the manuscript *Observing Earth's
-ionospheric irregularities from the moon*.
+Prepared 13 November 2026 for the existing data record **10.5281/zenodo.21672260** and code record **10.5281/zenodo.21675357**. This local release does not assign a new version DOI or publish either record.
 
-This repository contains the public code release for the frozen R3 selected
-182-station analysis dated 30 October 2026. Numerical inputs, source data,
-official figure references, and verified outputs are versioned separately in
-the associated Zenodo data record.
+## Start here
 
-## R3 scope
+Extract **both** `LuGRE_R4_Data_20261113_References_checked.zip` and `LuGRE_R4_Code_20261113_References_checked.zip` into the same parent directory. They populate one folder, `LuGRE_R4_release/`. Shared documentation is identical; the archives contain complementary scientific inputs and software.
 
-- Five main figures and eight Extended Data figures.
-- A selected Ground population of 182 stations, 29,803,114 native 1-Hz
-  receiver-satellite epochs, and 498,430 accepted minute windows.
-- The accepted LuGRE h50 and LEO populations.
-- Portable relative-path entry points for Windows and Python 3.12.
-- Environment, provenance, selection, and validation metadata needed to audit
-  the analysis code.
-
-## Associated manuscript
-
-**Title:** *Observing Earth's ionospheric irregularities from the moon*
-
-**Authors:** Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio Dovis,
-Claudio Cesaroni, Luca Spogli, Lucilla Alfonsi, Xirui Miao, Yuquan Ma, Wei Gao,
-Li-Ta Hsu, and Xingqun Zhan.
-
-**Corresponding author:** Rong Yang (rongyang@sjtu.edu.cn)
-
-Full creator and affiliation metadata are recorded in `CITATION.cff` and
-`.zenodo.json`.
-
-## Data download
-
-Download the latest R3 data version from the Zenodo dataset concept record
-`10.5281/zenodo.21672260`, then extract its contents into this
-repository root. The data package restores the numerical-input, reference, and
-result paths expected by the code.
-
-The public data package deliberately excludes the YunYao profiles under
-`components/fig5joint/data/restricted_yunyao/` because provider permission for
-public redistribution has not been documented. The Fig.5 workflow therefore
-requires those separately authorised inputs for complete execution. No
-restricted YunYao file is present in this GitHub repository.
-
-## Environment and execution
-
-Create a Python 3.12 environment and install the pinned requirements:
+On 64-bit Windows with Python 3.12, run `setup_windows.cmd`, then:
 
 ```text
-python -m venv .venv
-.venv\Scripts\python -m pip install -r requirements.txt
+.venv\Scripts\python.exe verify_package.py
+.venv\Scripts\python.exe run_all.py --list
+.venv\Scripts\python.exe run_all.py
 ```
 
-After merging the Zenodo data package into the repository root:
+Alternatively install `requirements.txt` in your Python 3.12 environment and use `python` for these commands. The bundled wheels target Windows x64/Python 3.12; other platforms need corresponding dependency builds and have not been execution-tested. Scientific plotting does not download data. Results and logs go to `outputs/`; immutable inputs are preserved.
+
+## What this version contains
+
+- The **5 main and 9 Extended Data figures** selected in the R4 manuscript, copied unchanged into `official_figures/` and bound by SHA-256. Full-quality English/Chinese PDFs and their sources are in `manuscript_snapshot/`.
+- Processed observations, source tables, background/QC examples, geometry and station metadata, plotting resources, and a figure-to-input/task index in `RESULTS_INDEX.csv`.
+- Current R4 lunar QC, spectra, paired-frequency widths and threshold-sensitivity calculations. An optional native-C/N0 refit independently verifies the archived LuGRE fourth-order polynomial algorithm.
+- The selected **182-station** Ground results, accepted LEO products and their source/selection provenance. The full29.8-million-epoch Ground residual matrix and raw multi-network GNSS archives are not duplicated: Ground distributions start from frozen histogram/quantile source tables, while all retained comparison-window inputs are supplied. Mission telemetry acquisition, orbit determination and full upstream geometry production are outside this compact reproduction boundary; access routes and historical processing scripts are provided.
+
+The current Fig.2 event cohort contains **2,196 valid one-minute satellite-signal windows**: 21/515 equatorial, 26/1,001 mid-latitude and 207/680 polar windows exceed W=1.5 dB. Simultaneous signals and tracks retain their own source identities. The comparison cohort for Fig.3/4 is intentionally different: Fig.3 has 77,945 LuGRE epochs from 1,354 QC windows; Fig.4/illumination use 1,342 windows with complete geometry. Ground retains 29,803,114 accepted 1-Hz epochs and 498,430 windows from 182 contributing stations. The space-weather figure uses its separately frozen context cohort; do not substitute its counts for the event denominator.
+
+For lunar amplitude statistics, C/N0 below25 dB-Hz is removed, then60-s windows require at least30 actual valid1-Hz samples and an absolute signed-residual median no greater than1 dB. Entire failing windows are excluded. P95 and P05 summarize the accepted distribution; they are not an additional deletion of tail observations. W=P95(delta C/N0)-P05(delta C/N0), while P95(abs(delta C/N0)) is a different summary. The0.75/1.0/1.5-dB sensitivity tests keep the same cohort. A nominal0.5-dB empirical background width is not a Gaussian sigma.
+
+Ground long-arc fourth-order fits, LuGRE archived E23 fourth-order fits and LEO rolling-median detrending remain distinct methods. No amplitude-based station selection or platform-wide detrending replacement is introduced by packaging.
+
+## Reproduction levels and access boundary
+
+Supported commands are registered in `components/*/component.json`. Use `run_all.py`, `main12/run_processing_r4.py`, `main12/run_other_r4.py`, `ground182/reproduce.py` and `fig5joint/run_R4.py`. Legacy R3 basenames and scripts in provenance preserve source history; they are not the current entrypoints.
+
+Most tasks recalculate numerical summaries and redraw panels from packaged measurements or processed source inputs. Geometry distributions and some context products start from frozen source tables rather than original orbit/field calculations. Fig.1 is authored artwork: its theory curves are independently checked and its approved PNG is explicitly copied. Antenna artwork and historical montage layout are distinguished from numerical panels. Font-dependent pixel identity is not claimed. The selected paper figures remain unchanged regardless of redraw differences.
+
+**YunYao exception:** the public package excludes the two provider-restricted original electron-density profiles and their extracted numerical profiles. The complete approved Fig.5 remains a reference result, but default numerical reproduction writes `Fig5_R4_public_partial.png`, marking the unavailable panels. A full numerical redraw requires separately obtained authorized inputs. ED9 and the remaining public calculations are unaffected. See `THIRD_PARTY_ACCESS.md`.
+
+For the optional full LuGRE refit:
 
 ```text
-.venv\Scripts\python run_all.py --list
-.venv\Scripts\python run_all.py
-.venv\Scripts\python run_all.py --tasks fig3 fig4
+python components/main12/code/refit_lugre_h50.py --output outputs/full_lugre_refit
 ```
 
-The bundled Windows setup script in the complete Zenodo reproduction package
-can install from its verified offline wheels. Those wheels are not duplicated
-in this code repository.
+Expected columns in the native compact input are validation targets and never enter fitting. The source contains positive native observations and verified geometry; synthetic gap measurements are not used.
 
-## Reproduction boundaries
+## Files and provenance
 
-The code regenerates scientific plots from the versioned numerical inputs.
-Some approved manuscript figures contain authored artwork or manual composite
-layout elements; their task metadata states where pixel identity is not
-claimed. Large upstream mission, RINEX, radar, and radio-occultation archives
-remain with their original providers and are documented through provenance and
-access inventories rather than redistributed here.
+`FILE_MANIFEST.csv` and `SHA256SUMS.txt` verify the merged static release. `provenance/MANUSCRIPT_FIGURE_SNAPSHOT.json` identifies the exact R4 figures and manuscripts. Component dictionaries describe variables, units, cohorts and source boundaries. `validation/` contains the executed numerical/portability checks; historical R3 metadata is labelled by its original revision and is not a substitute for these R4 checks.
 
-## Citation and responsible reuse
-
-Please cite the software concept DOI `10.5281/zenodo.21675357` and the data
-concept DOI `10.5281/zenodo.21672260`. Cite the manuscript when a public
-citation becomes available. Reuse
-must preserve applicable copyright and licence notices, give appropriate
-attribution, identify modifications, and must not imply endorsement or
-misrepresent the original data, methods, results, figures, or limitations.
-
-See `REUSE_AND_CITATION.md` for the complete statement.
-
-## Licences
-
-Copyright (c) 2026 Rong Yang, Zhihong Li, Andrea Nardin, Alex Minetto, Fabio
-Dovis, Claudio Cesaroni, Luca Spogli, Lucilla Alfonsi, Xirui Miao, Yuquan Ma,
-Wei Gao, Li-Ta Hsu, and Xingqun Zhan.
-
-Original project software is released under the MIT License; see `LICENSE`.
-Author-generated data are licensed separately under CC BY 4.0 in the Zenodo
-data record. Third-party materials retain their original terms and are not
-relicensed by this repository.
+Author code retains MIT licensing. Author-owned derived source data retain CC BY4.0. Third-party observations, maps, antenna references, artwork, templates and dependency wheels retain their own notices; inclusion does not grant a new licence. No proprietary Windows fonts, email drafts, coauthor review files or unrelated acquisition caches are included. See `ZENODO_UPLOAD_NOTES.md` for repository/version instructions.

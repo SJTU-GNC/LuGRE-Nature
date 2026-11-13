@@ -45,7 +45,7 @@ def draw(data_dir, output_dir, expected_status=None):
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
     assert manifest['status'] == (expected_status or 'PASS_FIG4_R3_PLATFORM_SPECIFIC_DETRENDING')
     hashes = {str(p):sha(p) for p in [windows_path,bins_path,manifest_path]}
-    windows,table = pd.read_csv(windows_path,float_precision='round_trip',low_memory=False),pd.read_csv(bins_path,float_precision='round_trip')
+    windows,table = pd.read_csv(windows_path,float_precision='round_trip',low_memory=False,usecols=['platform','signal','latitude_band','width_db']),pd.read_csv(bins_path,float_precision='round_trip')
     assert len(table)==162 and np.all(table.bin_right_deg-table.bin_left_deg==15)
     for platform in PLATFORMS:
         assert set(windows[windows.platform.eq(platform)].signal).issubset({'GPS L1','Galileo E1'})
@@ -189,7 +189,7 @@ def draw(data_dir, output_dir, expected_status=None):
     assert min(tick_gaps)>0
     for r in range(3):
         assert np.array_equal(axes[r,0].get_yticks(),axes[r,2].get_yticks())
-    output=OUT/'Fig4_R3.png'
+    output=OUT/'Fig4_R4.png'
     fig.savefig(output,dpi=dpi,format='png',bbox_inches=None,pad_inches=0,pil_kwargs={'compress_level':9})
     plt.close(fig)
     with Image.open(output) as im:
@@ -250,3 +250,4 @@ if __name__=='__main__':
     parser.add_argument('--expected-status',default=None)
     args=parser.parse_args()
     draw(args.data_dir,args.output_dir,args.expected_status)
+

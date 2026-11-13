@@ -36,21 +36,14 @@ def main():
     assert np.allclose(merged.s4_p95,merged.s4_check,atol=1e-12,rtol=0)
     assert np.allclose(merged.sigma_phi_rad_p95,merged.sigma_check,atol=1e-12,rtol=0)
     assert np.array_equal(merged.n_native_windows,merged.n_check)
-    restricted=ROOT/'data/restricted_yunyao'
-    private=list(restricted.glob('*/source_ionPrf*.nc'))
-    public_subset=not (restricted/'matched_profiles.csv').is_file()
-    if public_subset:
-        assert not private
-    else:
-        assert len(private)==2
-        summary=pd.read_csv(restricted/'matched_profiles.csv')
-        assert set(summary.track_index)=={9,145}
+    private=list((ROOT/'data/restricted_yunyao').glob('*/source_ionPrf*.nc'))
+    assert len(private)==2
+    summary=pd.read_csv(ROOT/'data/restricted_yunyao/matched_profiles.csv')
+    assert set(summary.track_index)=={9,145}
     report={'status':'PASS','Fig5_LuGRE_epoch_counts':lu.hemisphere.value_counts().to_dict(),
         'Fig5_southern_velocity':fan_check,'Joint_LuGRE_points':920,'LEO_profiles':1619,
-        'LEO_10s_windows':64988,'true_P95_recomputed':True,
-        'YunYao_profiles_only':0 if public_subset else 2,
-        'public_subset':public_subset,
-        'data_permission':'YunYao profiles excluded from public release pending provider approval' if public_subset else 'YunYao approval required before public redistribution'}
+        'LEO_10s_windows':64988,'true_P95_recomputed':True,'YunYao_profiles_only':2,
+        'data_permission':'YunYao approval required before public redistribution'}
     args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

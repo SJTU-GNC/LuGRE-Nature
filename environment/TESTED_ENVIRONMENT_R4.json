@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "environment_method": "CPython3.12.14 with all24 locked Windows wheels freshly unpacked to a new isolated import target; all scientific imports checked to originate there. Not a successful pip/venv install claim.",
+  "modules": [
+    {
+      "module": "numpy",
+      "version": "2.3.5",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "pandas",
+      "version": "3.0.1",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "matplotlib",
+      "version": "3.11.1",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "scipy",
+      "version": "1.18.1",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "cartopy",
+      "version": "0.25.0",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "pyarrow",
+      "version": "25.0.1",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "PIL",
+      "version": "12.3.0",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "openpyxl",
+      "version": "3.1.5",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "pypdf",
+      "version": "6.10.0",
+      "source": "fresh_offline_wheels"
+    },
+    {
+      "module": "erfa",
+      "version": "2.0.1.5",
+      "source": "fresh_offline_wheels"
+    }
+  ]
+}

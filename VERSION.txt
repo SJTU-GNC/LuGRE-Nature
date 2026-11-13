@@ -1,0 +1,6 @@
+LuGRE R4 release snapshot: 2026-11-13
+Selected Ground stations:182
+Main figures:5
+Extended Data figures:9
+Data record:10.5281/zenodo.21672260
+Code record:10.5281/zenodo.21675357

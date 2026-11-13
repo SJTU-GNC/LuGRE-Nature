@@ -1,0 +1,42 @@
+source_url,scope,notes
+https://doi.org/10.5281/zenodo.21672260,current_author_data_record,User-provided existing data record;new version DOI assigned only upon repository publication.
+https://doi.org/10.5281/zenodo.21675357,current_author_code_record,User-provided existing software record;new version DOI assigned only upon repository publication.
+https://doi.org/10.5281/zenodo.21672261,earlier_author_data_release,"Previous release, not the R3/182station archive."
+https://doi.org/10.5281/zenodo.16411687,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://naif.jpl.nasa.gov/pub/naif/pds/pds4/clps/clps_spice/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://data.unavco.org/archive/gnss/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://cddis.nasa.gov/archive/gnss/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://igs.bkg.bund.de/root_ftp/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+ftp://igs.ign.fr/pub/igs/data/highrate/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://data.gnss.ga.gov.au/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://cacsa.nrcan.gc.ca/gps/data/hrdata/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.geodesy.org/pub/data/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.myfloridagps.com/ftp/Rinex3/01/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://gnss.nps.gov/doi-gnss/Rinex/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.chain-project.net/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.chain-project.net/data/gps/ismr/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.eswua.ingv.it/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://igs.org/data-access/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://data.cosmic.ucar.edu/gnss-ro/planetiq/noaa/nrt/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://data.cosmic.ucar.edu/gnss-ro/spire/noaa/nrt/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://data.cosmic.ucar.edu/gnss-ro/tsx/postProc/level1b/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://user.eumetsat.int/catalogue/EO:EUM:DAT:METOP:GRASL1,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://doi.org/10.25921/7xdk-vy89,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://doi.org/10.25921/m2te-hp45,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://superdarn.ca/data-access/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://data.amisr.com/madrigal/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://irimodel.org/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.ncei.noaa.gov/products/international-geomagnetic-reference-field,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://omniweb.gsfc.nasa.gov/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://kp.gfz.de/en/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://wdc.kugi.kyoto-u.ac.jp/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://pcindex.org/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://www.naturalearthdata.com/downloads/,reused_observations_models_or_reference,Public source archive or provider portal; original terms and acknowledgements retained.
+https://open.tjyyspace.com/#/dataDownload,restricted_third_party,Original and extracted YunYao profiles excluded from the public R4 package; request authorized access from provider.
+https://navcen.uscg.gov/gps-technical-references,antenna_pattern_source,Recorded in original source catalog; original terms retained.
+https://navcen.uscg.gov/sites/default/files/ppt/gps/AppBAntennaPanelPatterns.pptx,GPS_IIR_IIRM_pattern_source,Exact source material recorded by current antenna component.
+https://joint-research-centre.ec.europa.eu/projects-and-activities/galileo-reference-antenna-pattern-model_en,Galileo_GRAP_model,Recorded in original source catalog.
+https://publications.jrc.ec.europa.eu/repository/handle/JRC135110,Galileo_GRAP_reference,Technical report DOI10.2760/765842; reference not duplicated.
+https://files.igs.org/pub/station/general/igs_satellite_metadata.snx,PRN_SVN_metadata,Recorded source for GPS pattern identification.
+https://www.gsc-europa.eu/sites/default/files/sites/all/files/Galileo_OS_SIS_ICD_in_force.pdf,signal_definition_reference,"Reference, not a runtime input."
+https://github.com/NavsasPolito/LuNART,current_R4_manuscript_source,Source explicitly cited in the current R4 availability statement; access conditions and source terms apply.

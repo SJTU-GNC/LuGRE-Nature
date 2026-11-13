@@ -1,15 +1,131 @@
 {
   "component": "main12",
-  "requirements": ["numpy", "pandas", "matplotlib", "scipy", "cartopy", "pyarrow", "Pillow", "openpyxl", "pypdf"],
-  "restricted_files": [],
+  "revision": "R4",
   "tasks": [
-    {"id":"fig1","command":["run.py","--task","fig1"],"output_names":["fig1/Fig1_R3.png"],"reproduction_class":"authored schematic reference plus verified finite-source Fresnel calculation; optional Windows PowerPoint native source export","notes":"Editable PPTX supplied. Six embedded chart series (646 values) are independently calculated and checked. The approved schematic image is copied explicitly. Run code/export_fig1.ps1 to export editable artwork with PowerPoint."},
-    {"id":"fig2","command":["run.py","--task","fig2"],"output_names":["fig2/Fig2_R3_E23_h50_detrending.png"],"reproduction_class":"frozen source tables to full scientific figure","notes":"Current h50 E23 residual statistics; map and selected cases retain current scientific samples. Offline Natural Earth50m/110m supplied."},
-    {"id":"e21","command":["run.py","--task","e21"],"output_names":["e21/figures/Extended_Data_CN0_detrending_OP38_E21.png"],"reproduction_class":"measured C/N0 through archived E23 robust quartic to full figure","notes":"Measured height>=50km; independent geometry retained; display-only20–40 and−2–2 axes."},
-    {"id":"space_weather","command":["run.py","--task","space_weather"],"output_names":["space_weather/Extended_Data_Space_weather_index.png"],"reproduction_class":"frozen context grid plus recomputed OP statistics to full figure","notes":"Panel f mean widths recomputed from2244actual60s windows. Saved hourly context grid supplied for other panels."},
-    {"id":"antenna","command":["run.py","--task","antenna"],"output_names":["antenna/Extended_Data_GNSS_antenna_geometry.png"],"reproduction_class":"raw/reference antenna inputs and point cache to numerical panels; authored schematic bitmap retained","notes":"Original selected composite assembled manually. New deterministic assembly does not claim pixel identity. NAVCEN/JRC inputs and original numerical code supplied."}
+    {
+      "id": "fig1",
+      "command": [
+        "run_other_r4.py",
+        "--task",
+        "fig1"
+      ],
+      "output_names": [
+        "fig1/Fig1_R4.png"
+      ],
+      "reproduction_class": "authored_schematic_reference_plus_verified_theory",
+      "notes": "Authored artwork reference; 646 independently verified Fresnel-series values; does not claim a numerical reconstruction of the artwork."
+    },
+    {
+      "id": "fig2",
+      "command": [
+        "run_processing_r4.py",
+        "--task",
+        "fig2"
+      ],
+      "output_names": [
+        "fig2/figures/Fig2_R4.png"
+      ],
+      "reproduction_class": "recomputed three-condition point/window QC, native-bin PSD, fixed paired-block QC and source-backed plot"
+    },
+    {
+      "id": "e21",
+      "command": [
+        "run_processing_r4.py",
+        "--task",
+        "e21"
+      ],
+      "output_names": [
+        "e21/figures/Extended_Data_CN0_detrending_OP38_E21.png"
+      ],
+      "reproduction_class": "measured E21 observations, archived independent arc-fit coefficients and calculated reference geometry to plot"
+    },
+    {
+      "id": "qc_background",
+      "command": [
+        "run_processing_r4.py",
+        "--task",
+        "qc_background"
+      ],
+      "output_names": [
+        "qc_background/Extended_Data_Background_quantiles_QC.png"
+      ],
+      "reproduction_class": "native samples plus verified E23 residuals and source-segment identities to recomputed QC and background widths"
+    },
+    {
+      "id": "space_weather",
+      "command": [
+        "run_other_r4.py",
+        "--task",
+        "space_weather"
+      ],
+      "output_names": [
+        "space_weather/Extended_Data_Space_weather_index.png"
+      ],
+      "reproduction_class": "numerical_redraw_current_layout",
+      "notes": "Independent frozen context cohort of 2244 windows (693 polar), not the 2196-window R4 event cohort."
+    },
+    {
+      "id": "antenna",
+      "command": [
+        "run_other_r4.py",
+        "--task",
+        "antenna"
+      ],
+      "output_names": [
+        "antenna/Extended_Data_GNSS_antenna_geometry.png"
+      ],
+      "reproduction_class": "numerical_redraw_current_layout",
+      "notes": "Numerical antenna and angle panels plus authored geometry artwork; source sample scope documented separately."
+    },
+    {
+      "id": "thresholds",
+      "command": [
+        "run_processing_r4.py",
+        "--task",
+        "thresholds"
+      ],
+      "output_names": [
+        "thresholds/threshold_sensitivity_summary_R4.csv",
+        "thresholds/threshold_sensitivity_by_latitude_R4.csv",
+        "thresholds/verification.json"
+      ],
+      "reproduction_class": "recomputed fixed-cohort threshold sensitivity after current R4 window QC"
+    }
   ],
   "optional_tasks": [
-    {"id":"full_lugre_refit","command":["code/refit_lugre_h50.py"],"output_names":["full_lugre_refit/all_LuGRE_E23_h50_recomputed.parquet","full_lugre_refit/verification.json"],"reproduction_class":"all993093positive native observations plus verified geometry to exact archived E23h50 residuals","notes":"Separate slower processing verification, not part of the default13figure count. The compact53MB input contains expected_ columns only for validation; they never enter the fit."}
-  ]
+    {
+      "id": "full_lugre_refit",
+      "command": [
+        "code/refit_lugre_h50.py"
+      ],
+      "role": "Recomputes all 993093 native observations through the unchanged archived E23 fitter and verifies against frozen results; never fits to expected_* values."
+    }
+  ],
+  "restricted_files": [],
+  "archival_entrypoints": [
+    "provenance/legacy_run_R3.py"
+  ],
+  "default_entrypoints": [
+    "run_processing_r4.py",
+    "run_other_r4.py"
+  ],
+  "current_event_population": {
+    "valid_windows": 2196,
+    "events": 254,
+    "by_latitude": {
+      "Equatorial": [
+        21,
+        515
+      ],
+      "Mid-lat": [
+        26,
+        1001
+      ],
+      "Polar": [
+        207,
+        680
+      ]
+    }
+  },
+  "compatibility_entrypoint": "run.py"
 }

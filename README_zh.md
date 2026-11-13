@@ -1,19 +1,35 @@
-# LuGRE R3 重现代码：182站版本
+# LuGRE R4 数据、结果与复现代码
 
-本仓库对应论文 *Observing Earth's ionospheric irregularities from the moon*
-的 R3 公开代码版本，冻结日期为 2026 年 10 月 30 日。
+整理日期：2026年11月13日。对应现有数据记录 **10.5281/zenodo.21672260** 与代码记录 **10.5281/zenodo.21675357**；本地打包不分配新版本DOI，也不执行上传。
 
-GitHub 仅保存分析代码、运行入口、环境说明和可追溯元数据。数值输入、正式图件、
-验证结果及大文件在 Zenodo 数据记录中单独版本化。下载最新 R3 数据版本并解压到
-仓库根目录后，可按 `README.md` 中的命令运行。
+## 使用方法
 
-公开数据包不包含 `components/fig5joint/data/restricted_yunyao/` 下的云遥剖面，
-因为尚无可核验的公开再分发许可。完整执行 Fig.5 需要由数据提供方另行授权的输入；
-GitHub 和本次公开 Zenodo 更新均不会上传这些受限文件。
+将 Data 和 Code 两个ZIP解压到同一父目录，合并成 `LuGRE_R4_release/`。两个包中的共享说明完全相同，其余数据与软件互补。Windows64位/Python3.12可先运行 `setup_windows.cmd`，再运行：
 
-论文作者为 Rong Yang、Zhihong Li、Andrea Nardin、Alex Minetto、Fabio Dovis、
-Claudio Cesaroni、Luca Spogli、Lucilla Alfonsi、Xirui Miao、Yuquan Ma、Wei Gao、
-Li-Ta Hsu 和 Xingqun Zhan；通讯作者为 Rong Yang。
+```text
+.venv\Scripts\python.exe verify_package.py
+.venv\Scripts\python.exe run_all.py --list
+.venv\Scripts\python.exe run_all.py
+```
 
-代码使用 MIT 许可证；作者生成的数据在 Zenodo 中使用 CC BY 4.0。任何第三方材料
-仍受原提供方条款约束。引用和负责任再利用要求见 `REUSE_AND_CITATION.md`。
+也可自行安装 `requirements.txt`，使用对应环境的 `python`。离线wheel仅适用于Windows x64/Python3.12；其他平台需要相应依赖，尚未执行验证。绘图无需下载数据，重新生成的结果和日志保存在 `outputs/`，不会覆盖输入。
+
+## 本版范围
+
+`official_figures/` 保存当前R4正文采用的5张主图、9张拓展图，未经重画或压缩；`manuscript_snapshot/` 保存完整质量的中英文PDF及源文件。`RESULTS_INDEX.csv` 将图号、数据、脚本与复现入口对应起来。代码覆盖当前月面质量筛选、频谱、双频幅宽、背景统计和阈值敏感性；也保留从原生C/N0重新计算LuGRE四阶多项式拟合的独立验证入口。
+
+Fig.2事件统计使用2196个有效一分钟卫星—信号窗口，赤道21/515、中纬26/1001、极区207/680满足W≥1.5dB。Fig.3的月面对比样本为77945个历元、1354个质控窗口；Fig.4与地方时光照图另需完整几何信息，使用1342个窗口。这些母体不能互换。地基保持182站、29803114个有效1Hz历元和498430个窗口。空间天气图保留其独立背景群体，不用其数量替代主图事件分母。
+
+月面幅度先排除C/N0<25dB-Hz的观测，再要求60秒窗口至少30个有效1Hz样本、带符号δC/N0中位数的绝对值≤1dB；不合格窗口整窗不用。P95/P05是有效分布的统计表征，不是再逐点删除尾部。W=P95(δC/N0)−P05(δC/N0)与P95(|δC/N0|)含义不同。0.75/1.0/1.5dB敏感性比较保持同一母体；约0.5dB的背景幅宽不是高斯σ。地基、LuGRE的四阶拟合与LEO滑动中位数方法各自保留。
+
+本包从原生月面观测/已处理多平台观测及源表开始复现。地基未重复收入完整2980万历元残差矩阵，幅度分布从冻结的直方图/分位数源表开始，全部有效对比窗口输入已保留；没有重复打包全部原始台站档案、任务遥测下载缓存，也不宣称从原始轨道重新完成所有几何计算。原始来源、选样依据和历史处理脚本已保留。几何分布等部分任务从冻结源表绘制；Fig.1的理论曲线独立计算，示意图本身明确复制已批准参考图；数值重绘不承诺跨系统字体下的像素完全一致。正式图保持原样。
+
+云遥两条电子密度剖面的原始文件及提取数值有供应方公开再分发许可要求，本公开包先不收入。完整Fig.5仍作为论文结果保存；默认数值入口生成 `Fig5_R4_public_partial.png`，明确标出缺少的剖面。获得许可并另行补齐输入后可运行完整数值重绘；ED9和其他公开计算不受影响。详见 `THIRD_PARTY_ACCESS.md`。
+
+使用根目录 `run_all.py` 和各组件当前R4入口；旧R3文件名及provenance中的脚本用于追溯，不代表当前分析版本。可选原生月面拟合命令为：
+
+```text
+python components/main12/code/refit_lugre_h50.py --output outputs/full_lugre_refit
+```
+
+`FILE_MANIFEST.csv`、`SHA256SUMS.txt`用于完整性核验，`validation/`记录实际执行检查。作者代码延续MIT许可；作者有权分享的派生数据延续CC BY4.0。第三方观测、地图、天线资料、插图、模板与依赖保留其原有来源和权利。未包含邮件、团队内部意见或系统字体。上传时更新现有记录的新版本，实际版本DOI由仓库分配，见 `ZENODO_UPLOAD_NOTES.md`。

@@ -4,15 +4,6 @@ import argparse, datetime, json, os, subprocess, sys, time
 
 ROOT = Path(__file__).resolve().parent
 
-def restricted_yunyao_available():
-    root=ROOT/'components'/'fig5joint'/'data'/'restricted_yunyao'
-    required=[
-        root/'matched_profiles.csv',
-        root/'track_145_Y038_E05'/'ionprf_position_time_ne_profile.csv',
-        root/'track_009_Y040_C19'/'ionprf_position_time_ne_profile.csv',
-    ]
-    return all(path.is_file() for path in required)
-
 def task_index():
     tasks=[]
     for component in ('main12','ground182','fig5joint'):
@@ -39,12 +30,7 @@ def main():
     if 'all' not in requested:
         unknown=requested-{t['id'] for t in tasks}
         if unknown:parser.error('Unknown tasks: '+', '.join(sorted(unknown)))
-        if 'fig5' in requested and not restricted_yunyao_available():
-            parser.error('Fig.5 requires separately authorised YunYao profiles that are excluded from the public release.')
         tasks=[t for t in tasks if t['id'] in requested]
-    elif not restricted_yunyao_available():
-        print('NOTICE: skipping fig5 because separately authorised YunYao profiles are not included in the public release.',flush=True)
-        tasks=[t for t in tasks if t['id']!='fig5']
     output=args.output_dir.resolve();output.mkdir(parents=True,exist_ok=True)
     logs=output/'logs';logs.mkdir(exist_ok=True)
     env=os.environ.copy()
@@ -54,28 +40,38 @@ def main():
         'TEMP':str(output/'tmp'),'TMP':str(output/'tmp')})
     (output/'tmp').mkdir(exist_ok=True)
     report=[]
-    for task in tasks:
-        component=task['component'];component_root=ROOT/'components'/component
+    if 'all' in requested:
+        # Each all-component driver reuses its one numerical reconstruction.
+        groups=[('main12','main12_other',['run_other_r4.py','--task','all'],[t for t in tasks if t['id'] in {'fig1','space_weather','antenna'}]),
+                ('main12','main12_processing',['run_processing_r4.py','--task','all'],[t for t in tasks if t['id'] in {'fig2','e21','qc_background','thresholds'}]),
+                ('ground182','ground182_all',['reproduce.py','all'],[t for t in tasks if t['component']=='ground182']),
+                ('fig5joint','fig5joint_public',['run_R4.py','--figure','all'],[t for t in tasks if t['component']=='fig5joint'])]
+    else:
+        groups=[(t['component'],t['id'],t['command'],[t]) for t in tasks]
+    for component,group_id,group_command,covered in groups:
+        component_root=ROOT/'components'/component
         component_output=output/component
         flag='--output' if component=='main12' else '--output-dir'
-        command=[sys.executable,'-B',*task['command'],flag,str(component_output)]
-        log=logs/(task['id']+'.log')
-        print('Running '+task['id']+' ...',flush=True)
+        command=[sys.executable,'-B',*group_command,flag,str(component_output)]
+        log=logs/(group_id+'.log')
+        print('Running '+group_id+' ...',flush=True)
         start=time.monotonic()
         with log.open('w',encoding='utf-8') as f:
             result=subprocess.run(command,cwd=component_root,env=env,stdout=f,stderr=subprocess.STDOUT)
-        expected=[component_output/name for name in task['output_names']]
-        missing=[str(p) for p in expected if not p.is_file()]
-        record={'task':task['id'],'component':component,'returncode':result.returncode,
-            'seconds':round(time.monotonic()-start,3),'reproduction_class':task['reproduction_class'],
-            'notes':task.get('notes',''),'outputs':[str(p) for p in expected],
-            'missing_outputs':missing,'log':str(log)}
-        report.append(record)
+        missing_all=[]
+        for task in covered:
+            expected=[component_output/name for name in task['output_names']]
+            missing=[str(p) for p in expected if not p.is_file()]
+            missing_all.extend(missing)
+            report.append({'task':task['id'],'component':component,'execution_group':group_id,'returncode':result.returncode,
+                'group_seconds':round(time.monotonic()-start,3),'reproduction_class':task['reproduction_class'],
+                'notes':task.get('notes',''),'outputs':[str(p) for p in expected],
+                'missing_outputs':missing,'log':str(log)})
         (output/'RUN_REPORT.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
-        if result.returncode or missing:
-            print('FAILED '+task['id']+'; see '+str(log),file=sys.stderr)
+        if result.returncode or missing_all:
+            print('FAILED '+group_id+'; see '+str(log),file=sys.stderr)
             raise SystemExit(result.returncode or 1)
-        print('Finished '+task['id'],flush=True)
+        print('Finished '+group_id,flush=True)
     print('All requested tasks completed. Report: '+str(output/'RUN_REPORT.json'))
 
 if __name__=='__main__':main()

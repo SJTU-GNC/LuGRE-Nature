@@ -58,8 +58,10 @@ def dawn_limits(suns,latitudes,height=350):
     return dawn.min(axis=0),dawn.max(axis=0)
 
 def main():
-    sources=[ROOT/'ground/Ground_solar_windows_R3.parquet',ROOT/'nearspace/nearspace_solar_windows_R3.parquet']
-    g=pd.read_parquet(sources[0]);near=pd.read_parquet(sources[1])
+    sources=[ROOT/'ground/Ground_solar_windows_R3.parquet',Path(os.environ.get('LUGRE_NEARSPACE_SOLAR',str(ROOT/'nearspace/nearspace_solar_windows_R3.parquet')))]
+    # Read only plotting/validation fields; keep every original row and its fixed-seed ordering.
+    plot_columns=['platform','source_unit','satellite','signal','latitude_band','n_points','window_id','representative_utc_s','plot_sza_deg','representative_mlat_centered_dipole_deg','width_db','representative_sunlit','plot_solar_local_time_h','plot_latitude_deg','plot_height_km','sunlit_fraction']
+    g=pd.read_parquet(sources[0],columns=plot_columns);near=pd.read_parquet(sources[1],columns=plot_columns)
     qa_source=json.loads((ROOT/'ground/Ground_expanded_solar_QA_R3.json').read_text(encoding='utf8'))
     n_ground=qa_source['Ground_windows']
     assert len(g)==n_ground
@@ -199,3 +201,4 @@ def main():
     print(json.dumps({'status':qa['status'],'output':str(output),'points':qa['points'],'pixels':dimensions},indent=2),flush=True)
 
 if __name__=='__main__':main()
+

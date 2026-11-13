@@ -1,4 +1,4 @@
-"""Regenerate the six selected Ground182 figures from the bundled frozen inputs."""
+"""Reconstruct R4 LuGRE QC and regenerate the six Ground182 component figures offline."""
 from pathlib import Path
 import argparse, hashlib, importlib.util, json, os, subprocess, sys
 
@@ -49,31 +49,36 @@ def run_context(out):
     ctx.load_ground_stations=load_final
     return ctx.render(path,out,inventory_provenance=provenance_path)
 
-def run(task,output):
+
+def run(task,output,numeric=None):
     output.mkdir(parents=True,exist_ok=True)
+    amp=(numeric/'amplitude_source') if numeric else ROOT/'fig34/amplitude_source'
+    response=(numeric/'response_source') if numeric else ROOT/'fig34/response_source'
     if task=='fig3':
-        command=[ROOT/'fig34/plotting/plot_Fig3_R3.py','--data-dir',ROOT/'fig34/amplitude_source','--output-dir',output,'--expected-status','COMPLETE_FIG3_R3_FINAL_SELECTION']
+        command=[ROOT/'fig34/plotting/plot_Fig3_R3.py','--data-dir',amp,'--output-dir',output,'--expected-status','COMPLETE_FIG3_R4_THREE_CONDITION_QC']
     elif task=='fig4':
-        command=[ROOT/'fig34/plotting/plot_Fig4_R3.py','--data-dir',ROOT/'fig34/response_source','--output-dir',output,'--expected-status','PASS_FIG4_R3_FINAL_SELECTION']
+        command=[ROOT/'fig34/plotting/plot_Fig4_R3.py','--data-dir',response,'--output-dir',output,'--expected-status','PASS_FIG4_R4_THREE_CONDITION_QC']
     elif task=='geometry':
         command=[ROOT/'geometry/plot_geometry_R3.py','--data-dir',ROOT/'geometry/plot_data','--output-dir',output]
-    elif task=='illumination':
-        command=[ROOT/'illumination/plot_LT_illumination_R3.py']
-    elif task=='context':
-        return run_context(output)
+    elif task=='illumination':command=[ROOT/'illumination/plot_LT_illumination_R3.py']
+    elif task=='context':return run_context(output)
     else:raise ValueError(task)
     env=os.environ.copy();env['LUGRE_FIGURE_OUTPUT']=str(output)
+    if task=='illumination' and numeric:env['LUGRE_NEARSPACE_SOLAR']=str(numeric/'illumination/nearspace_solar_windows_R3.parquet')
     env['PYTHONDONTWRITEBYTECODE']='1';env['PYTHONUTF8']='1'
     subprocess.run([sys.executable,'-B',*map(str,command)],cwd=ROOT,env=env,check=True)
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('task',nargs='?',default='all',choices=['all',*TASKS])
-    parser.add_argument('--output-dir',type=Path,default=OUTPUT)
-    args=parser.parse_args()
-    for task in (TASKS if args.task=='all' else [args.task]):
-        print('Rendering',task,flush=True)
-        run(task,args.output_dir.resolve())
-    print('Outputs:',args.output_dir.resolve())
-
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('task',nargs='?',default='all',choices=['all','recompute',*TASKS])
+    p.add_argument('--output-dir',type=Path,default=OUTPUT)
+    a=p.parse_args();out=a.output_dir.resolve();out.mkdir(parents=True,exist_ok=True)
+    tasks=TASKS if a.task=='all' else [a.task]
+    numeric=out/'numerical_r4'
+    if a.task=='recompute' or any(t in ['fig3','fig4','illumination'] for t in tasks):
+        subprocess.run([sys.executable,'-B',str(ROOT/'code/recompute_r4.py'),'--output-dir',str(numeric)],cwd=ROOT,check=True)
+    if a.task!='recompute':
+        for task in tasks:
+            print('Rendering',task,flush=True);run(task,out,numeric if task in ['fig3','fig4','illumination'] else None)
+    print('Outputs:',out)
 if __name__=='__main__':main()

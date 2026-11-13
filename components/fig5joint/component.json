@@ -1,7 +1,7 @@
 {
   "component": "fig5joint",
-  "revision": "R3",
-  "scope": "Current polar case study and contextual joint observables",
+  "revision": "R4",
+  "scope": "Frozen R4 Fig5 cases and Extended Data9; public subset with explicit YunYao omissions",
   "requirements": [
     "numpy",
     "pandas",
@@ -13,32 +13,32 @@
     {
       "id": "fig5",
       "command": [
-        "run.py",
+        "run_R4.py",
         "--figure",
         "Fig5"
       ],
       "output_names": [
-        "Fig5_R3.png"
+        "Fig5_R4_public_partial.png"
       ],
-      "reproduction_class": "scientific_numerical_redraw",
-      "notes": "All scientific panels redraw when separately authorised case inputs are supplied. Exact 591/930 LuGRE h50 case epochs and corrected southern mean(abs(v_LOS)) are retained in the public data package. Original PowerPoint composite geometry/font pixels are not claimed exact. Two YunYao profiles and Fig.5 PNGs incorporating them are excluded from the public release pending provider approval."
+      "reproduction_class": "public_numerical_redraw_without_restricted_YunYao_panels",
+      "notes": "The exact approved complete Fig5_R4.png is separately retained as a reference result. Public numerical redraw explicitly marks omitted provider-restricted profiles."
     },
     {
       "id": "ed_joint",
       "command": [
-        "run.py",
+        "run_R4.py",
         "--figure",
-        "ED8"
+        "ED9"
       ],
       "output_names": [
         "Extended_Data_Joint_observables.png"
       ],
       "reproduction_class": "scientific_numerical_redraw",
-      "notes": "920 LuGRE amplitude/ROTI pairs, 1,619 true-P95 LEO profiles and the separate ground scintillation station-minute dataset retained. Source-specific historical grouping is intentional; not the Ground182 main-figure population."
+      "notes": "920 lunar amplitude/ROTI pairs, 1619 LEO profiles and separate ground scintillation products; source-specific cohorts retained."
     }
   ],
   "validation_command": [
-    "verify_inputs.py"
+    "verify_inputs_R4.py"
   ],
   "restricted_files": [
     "data/restricted_yunyao/matched_profiles.csv",
@@ -49,7 +49,7 @@
     "data/restricted_yunyao/track_009_Y040_C19/ionprf_position_time_ne_profile.csv",
     "data/restricted_yunyao/track_009_Y040_C19/iri_profile_50_1000km_median_location.csv"
   ],
-  "restricted_data_notice": "THIRD_PARTY_ACCESS.md",
+  "restricted_data_notice": "THIRD_PARTY_ACCESS_R4.md",
   "reference_artifacts_are_runtime_inputs": false,
   "raw_archive_to_figures_complete": false,
   "runtime_supports_offline_numerical_inputs": true,
@@ -59,5 +59,31 @@
     "__pycache__"
   ],
   "original_plot_sources": "provenance/input_origin_manifest.json",
-  "execution_status": "PRIVATE SOURCE VALIDATION PASS: numerical validators and relocated offline-guarded Fig5/EDjoint entrypoints executed before public filtering. PUBLIC RELEASE: EDjoint remains runnable; Fig5 is explicitly blocked until separately authorised YunYao inputs are supplied. See ../../validation/VALIDATION_SUMMARY.json and THIRD_PARTY_ACCESS.md."
+  "execution_status": "PASS: portable public Fig5 with restricted-access guard; ED9 redraw; numerical input validator. See main12/provenance/R4_OTHER_TASKS_QA.json.",
+  "optional_tasks": [
+    {
+      "id": "fig5_with_authorized_profiles",
+      "command": [
+        "run_R4.py",
+        "--figure",
+        "Fig5",
+        "--with-restricted"
+      ],
+      "output_names": [
+        "Fig5_R4.png"
+      ],
+      "permission_condition": "User must separately obtain permission and supply the documented YunYao inputs."
+    }
+  ],
+  "default_runtime_does_not_load_restricted": true,
+  "public_exclusion_manifest": "provenance/YunYao_public_exclusion_manifest_R4.json",
+  "public_Fig5_complete": false,
+  "approved_reference_figures": [
+    "reference/Fig5_R4.png",
+    "reference/Extended_Data_Joint_observables_R4.png"
+  ],
+  "public_default_reads_restricted_files": false,
+  "public_complete_Fig5_reproduction": false,
+  "compatibility_entrypoint": "run.py",
+  "archival_entrypoint": "provenance/legacy_run_R3.py"
 }

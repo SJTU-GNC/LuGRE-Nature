@@ -1,0 +1,44 @@
+{
+  "revision": "R4",
+  "prepared_date": "2026-11-13",
+  "publication_status": "Local release prepared; not uploaded; no new version-specific DOI assigned.",
+  "data_record_doi": "10.5281/zenodo.21672260",
+  "code_record_doi": "10.5281/zenodo.21675357",
+  "archive_layout": "Extract complementary Data and Code ZIPs into one parent to merge LuGRE_R4_release/",
+  "selected_main_figures": 5,
+  "selected_extended_data_figures": 9,
+  "selected_ground_station_ids": 182,
+  "figure_snapshot": "provenance/MANUSCRIPT_FIGURE_SNAPSHOT.json",
+  "scientific_source_index": "RESULTS_INDEX.csv",
+  "scientific_boundaries": [
+    "Native LuGRE refit and R4 QC available; geometry supplied as verified input rather than fresh orbit determination.",
+    "Ground distributions start from frozen histograms/quantiles; complete accepted window inputs included; full29.8Mpoint matrix/raw archives not duplicated.",
+    "Geometry/context retain their separately defined source populations.",
+    "Fig1 authored artwork is explicitly copied after independent theoretical-curve verification.",
+    "Public Fig5 numerical redraw is partial because supplier-restricted profiles are excluded; approved complete reference is supplied."
+  ],
+  "restricted_yunyao_original_and_extracted_files_in_public_package": false,
+  "restricted_files_excluded": 7,
+  "validation": {
+    "source_bound_manuscript_PDF_hashes": "validation/MANUSCRIPT_SNAPSHOT_ALIGNMENT_R4.json",
+    "native_refit": "validation/NATIVE_LUGRE_REFIT_R4.json",
+    "relocated_offline_public_subset": "validation/RELOCATION_VALIDATION_R4.json",
+    "current_R4_numeric_reconstruction": "validation/executed_results/",
+    "independent_mapping_review": "validation/INDEPENDENT_RELEASE_REVIEW_R4.json",
+    "registered_tasks_executed": 14,
+    "default_PNG_outputs_checked": 14,
+    "network_or_external_science_data_access_attempts": 0,
+    "reference_refresh": "validation/REFERENCE_REFRESH_R4.json"
+  },
+  "reference_refresh": {
+    "date": "2026-11-13",
+    "scope": "Bibliographic corrections and paired SJTU dark-green reference marking; no scientific analysis, data selection, figures or processing code changed.",
+    "audit": "reference_verification/REFERENCE_VERIFICATION_R4.json",
+    "validation": "validation/REFERENCE_REFRESH_R4.json",
+    "new_archive_suffix": "_References_checked",
+    "prior_ZIPs_and_original_checksum_README_preserved": true
+  },
+  "canonical_manuscript_updated_only_for_references": true,
+  "old_release_archives_unchanged": true,
+  "manuscript_snapshot_items": 9
+}

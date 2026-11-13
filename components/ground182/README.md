@@ -1,74 +1,73 @@
-# Ground182 figure reproduction component
+# R4 Ground182 reproduction component
 
-This component regenerates the current R3 Fig.3, Fig.4 and four Extended Data
-figures from the frozen numerical inputs used by the selected 182-station
-analysis. It works from its own directory after copying, without any E:, F:,
-H:, D: or network data dependency. Install the Python requirements once.
+This component regenerates R4 Fig.3, Fig.4 and the observing-context, geometry-angle,
+scan-speed/Fresnel-time and local-time/illumination Extended Data figures. All data
+lookups are relative to this directory. After installing the supplied dependencies,
+it runs without the original E/H/D drives or a network connection.
 
 ```text
-python -m pip install -r requirements.txt
 python validate_inputs.py
 python reproduce.py all
 python verify_outputs.py
 ```
 
-Individual commands are `python reproduce.py fig3`, `fig4`, `illumination`,
-`geometry` (two figures), and `context`. Use `--output-dir PATH` to choose a
-separate output directory. PNGs are exported at 600 dpi. `reference/` contains
-the exact approved PNGs; `outputs/` contains newly regenerated results and QA.
-Input data are never overwritten by these commands.
+Use `python reproduce.py fig3`, `fig4`, `illumination`, `geometry`, or `context`
+for a subset. `python reproduce.py recompute` reconstructs only the numerical R4
+LuGRE QC and summaries. `--output-dir PATH` selects a separate output location.
+The component-level requirements and package-level offline wheels provide the
+software environment. No original-machine dependency directories are imported.
 
-## Exact scientific version
+## What is recomputed
 
-- Selected Ground: 182 contributing stations, 29,803,114 accepted native 1-Hz
-  receiver-satellite epochs, 498,430 accepted minute windows.
-- Source selection SHA256:
-  `07214f1264ee81a24c80ff475a5c3d516539042cada62413f1df791eedde7b32`.
-- LuGRE and LEO-RO remain the separately accepted populations. Their temporal
-  support and sampling need not be identical to Ground.
-- No new refit, amplitude clipping, selection change or scientific rebinning is
-  performed during figure regeneration.
-- Ground quartic residuals, LuGRE h50 E23-method residuals and LEO-RO rolling
-  median residuals retain their distinct source methods.
-- Fig.3 absolute-residual P95 is different from minute width W=P95-P05.
+`inputs_r4/` contains the original 82,761 processed LuGRE comparison epochs,
+1,654 original UTC-minute/run/band candidate windows, and the original solar
+geometry/metadata. The supported entrypoint reapplies point C/N0 >=25 dB-Hz,
+at least 30 valid 1-Hz samples and absolute signed-residual median <=1 dB. Failed
+windows are excluded in full. It reconstructs the retained samples, quantiles,
+height envelopes, angle-bin summaries and solar-window selection, then checks
+those results against the frozen selected R4 tables before plotting.
+
+Fig.3 uses 77,945 actual epochs from 1,354 quality windows. Fig.4 and illumination
+use 1,342 windows, preserving their original additional complete-geometry condition.
+Their difference is intentional; unavailable scan-angle geometry does not remove
+an otherwise valid amplitude window from Fig.3. The comparison UTC partition
+must not be substituted with the different source-origin event windows of Fig.2.
+
+Ground remains 182 contributing stations,29,803,114 accepted native 1-Hz epochs and
+498,430 accepted windows. Those windows represent 28,810,247 actual receiver-satellite epoch memberships; the remaining epoch samples do not meet the separate window eligibility rules. Its selection masks and all LEO processed inputs remain
+unchanged. Their existing quartic/rolling-median methods are not replaced.
+Geometry-only CDFs and speed/time histograms also keep their established source
+population and bins. The context map retains the approved182 station identities
+and the separately defined polar/scintillation/radar/observing-track layers.
 
 ## Files and computational boundary
 
-| Directory | Purpose |
-|---|---|
-| `fig34/amplitude_source/` | Exact histogram counts, quantiles, height envelopes and actual near-space height/residual points for Fig.3 |
-| `fig34/response_source/` | Every accepted Ground/LEO/LuGRE response window and Fig.4 angle-bin summaries |
-| `illumination/ground/`, `illumination/nearspace/` | Actual per-window solar geometry and width inputs, not screenshots |
-| `geometry/plot_data/` | Frozen per-platform/band angle CDFs, speed histograms, support counts and selection binding |
-| `context/data/` | Frozen station/context layers, actual observing tracks, mission schematic assets and offline Natural Earth shapefiles |
-| `context/frozen/` | Exact station coordinates and context provenance; historical coordinate-table epoch totals are not used as current analysis counts |
-| `reference/` | Unmodified six user-approved figure PNGs |
-| `provenance/` | Original selection manifest, per-part masks, QC decisions, source map and upstream construction-script archive |
+- `inputs_r4/`: original processed LuGRE inputs for actual QC reconstruction.
+- `code/recompute_r4.py`: portable numerical reconstruction and comparison.
+- `fig34/amplitude_source/`, `fig34/response_source/`: selected R4 figure tables
+  and unchanged Ground/LEO processed inputs.
+- `illumination/`: package-local actual solar geometry and width inputs.
+- `geometry/plot_data/`: exact geometry CDF and speed/time histograms.
+- `context/`: frozen station/track tables, satellite illustrations and offline
+  Natural Earth map resources.
+- `reference/`: unchanged copies of the six selected formal R4 PNGs.
+- `DATA_DICTIONARY_R4.json`: variables, units, cohorts and counting boundaries.
+- `provenance/`: source checksums and original selection evidence. Assembly and
+  historical upstream scripts here deliberately retain original paths and are
+  not supported portable entrypoints.
 
-This compact release reproduces figures and checks the retained-window
-statistics from processed source data. It does not claim a complete rerun from
-all original raw GNSS files: those multi-station acquisition archives, precise
-orbit inputs and historical raw processing environments are documented by the
-source manifests. The upstream source scripts in
-`provenance/upstream_source_archive/` and the assembly script are historical
-evidence, not portable entrypoints. They deliberately preserve original paths.
+The release reproduces these results from processed observations and frozen
+near-Earth products. It is not a full raw multi-network acquisition or orbit/
+geomagnetic processing rerun. No missing samples are filled, no residual is
+refitted/recentered, and no new station or window is admitted during reproduction.
+Numeric tables are verified; font-dependent pixel identity is not required.
 
-The observing-context panel includes separate lower-rate polar GNSS,
-high-rate scintillation, radar and lunar/LEO observing layers. These are not all
-part of the 182-station amplitude population, and counts across categories must
-not be summed. The polar network's 30-s map label is the user-confirmed context
-label, not a remeasurement of every archived raw file's cadence.
+All new exports are 600 dpi PNG. Arial is used when installed and DejaVu Sans is
+available as a Matplotlib fallback; no proprietary fonts are redistributed.
+Legacy `R3` input basenames are stable internal interface names, not a claim
+that the selected scientific version is R3. Main outputs are `Fig3_R4.png` and
+`Fig4_R4.png`; descriptive Extended Data names remain stable.
 
-## Portability and fonts
-
-All supported entrypoints use script-relative paths. Numeric plotting inputs,
-map coastlines and tracking tables are bundled, so plotting requires no data
-downloads. Arial is used when installed. DejaVu Sans, supplied with Matplotlib,
-is the fallback; line wrapping or pixel-level typography can differ on another
-OS or font configuration while the scientific values remain identical. No
-proprietary Windows fonts are redistributed.
-
-Python 3.12 is recommended. See the package-level environment lock and
-verification report for the actually tested dependency versions. Original
-provider credits and rights remain with their respective providers; this
-component does not relicense third-party observations or icons.
+Provider credits and licences already supplied with the package remain in force.
+This component does not invent additional licences for third-party observations,
+mission images or map resources.

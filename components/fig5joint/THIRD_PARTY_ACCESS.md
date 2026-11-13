@@ -1,26 +1,7 @@
-# YunYao access and redistribution notice
+# YunYao access in the public R4 package
 
-**Provider approval is required before public redistribution of the YunYao
-measurements in this component, including the extracted numerical profiles.**
-These data were supplied on request by Tianjin Yunyao Aerospace Technology
-Co., Ltd. and were not publicly released when the analysis was performed.
-Only the two profiles used in the current Figure 5 are included in this local
-review package. No broader YunYao archive is included.
+The two original YunYao electron-density profiles and their extracted numerical values were supplied on request, and the original notice requires provider approval for public redistribution. Such approval is not asserted by this release. All seven files formerly below `data/restricted_yunyao/` have therefore been removed from the public release; local originals are preserved separately. See `provenance/YunYao_public_exclusion_manifest_R4.json` for identifiers, expected paths and hashes.
 
-The restricted paths are all files below `data/restricted_yunyao/`. In particular:
+Request authorized source observations from Tianjin Yunyao Aerospace Technology Co., Ltd. through https://open.tjyyspace.com/#/dataDownload. Supply the documented authorized input layout to `run_R4.py --with-restricted --restricted-dir ...` for a full numerical Fig.5 redraw. Public mode does not read these files and explicitly marks the unavailable panels. The approved complete Fig.5 is retained separately as a paper-result reference. ED9 and the remaining public calculations do not require these profiles.
 
-- `track_145_Y038_E05/source_ionPrf_Y038.2025.074.16.00.E05_0001.0107_nc.nc`
-- `track_145_Y038_E05/ionprf_position_time_ne_profile.csv`
-- `track_009_Y040_C19/source_ionPrf_Y040.2025.062.12.17.C19_0001.0107_nc.nc`
-- `track_009_Y040_C19/ionprf_position_time_ne_profile.csv`
-
-`matched_profiles.csv` contains metadata for those two used profiles only.
-Matched-location IRI model profiles are stored beside them for reproducibility;
-the provider's raw observations and extracted values are not relicensed by the
-authors' software licence. Keep this notice with any authorised redistribution.
-Requests for original YunYao data should be directed to the provider through
-https://open.tjyyspace.com/#/dataDownload.
-
-Other observational inputs retain their source-network data-use and citation
-requirements. The underlying data-access mapping is preserved in the R3
-manuscript Data availability section and the root release documentation.
+Original provider terms and source citations remain applicable to all other observations and artwork. The software licence does not relicense third-party inputs. The historical R3 access notice is preserved under provenance only as source history, not as a claim that the excluded files are present in this public release.

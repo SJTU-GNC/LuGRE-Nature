@@ -1,16 +1,9 @@
-__pycache__/
-*.py[cod]
-.venv/
 outputs/
-logs/
-*.log
-
-# R3 numerical inputs and publication artifacts are archived on Zenodo.
-components/**/data/
-components/**/reference/
-components/**/assets/
-components/**/source_artwork/
-official_figures/
-verified_results/
-offline_wheels/
-manuscript_snapshot/
+outputs_R4_other/
+results_R4/
+.venv/
+__pycache__/
+*.pyc
+work/
+cache/
+mplconfig/

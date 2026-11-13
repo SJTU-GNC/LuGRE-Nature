@@ -234,7 +234,7 @@ def draw(data_dir, output_dir, expected_status=None):
         assert right.get_ylabel() == left.get_ylabel()
         mirrored_y_axis_labels.append(ll)
     assert mirrored_y_axis_labels[2] == PLATFORMS
-    assert axes[2, 0].get_ylabel() == ''
+    assert axes[2, 0].get_ylabel() == '' 
     top_tick_min_gaps = []
     panel_alignment_errors = []
     for c in range(3):
@@ -271,7 +271,7 @@ def draw(data_dir, output_dir, expected_status=None):
             assert s.get_visible()
     for p in inputs:
         assert sha(p) == hashes[str(p)], f'Source changed: {p}'
-    output = OUT/'Fig3_R3.png'
+    output = OUT/'Fig3_R4.png'
     fig.savefig(output, dpi=dpi, format='png', bbox_inches=None, pad_inches=0,
                 pil_kwargs={'compress_level': 9})
     plt.close(fig)
@@ -360,3 +360,4 @@ if __name__=='__main__':
     parser.add_argument('--expected-status',default=None)
     args=parser.parse_args()
     draw(args.data_dir,args.output_dir,args.expected_status)
+

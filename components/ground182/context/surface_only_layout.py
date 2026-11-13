@@ -19,7 +19,7 @@ def _format_orbit(ax):
                 artist.xybox = icon_positions[xy]
                 artist.offsetbox.set_zoom(artist.offsetbox.get_zoom() * 0.80)
     name_positions = {'PlanetiQ':(1.00,730), 'Spire':(1.28,685),
-                      'TSX':(1.63,665), 'MetOp':(1.68,925)}
+                      'TSX':(1.63,645), 'MetOp':(1.68,925)}
     for text in ax.texts:
         value = text.get_text()
         if value in name_positions:
@@ -120,8 +120,14 @@ def install_layout(m):
         for ax in (a,b):
             for text in ax.texts:
                 if '180' in text.get_text():
-                    text.set_position((0.018,0.5))
-                    text.set_ha('left')
+                    text.set_position((-.02,.5))
+                    text.set_ha('right')
+                    text.set_clip_on(False)
+        for latitude in (60,70,80):
+            label_n=next(t for t in a.texts if t.get_text()==rf'${latitude}^\circ$N')
+            label_s=next(t for t in b.texts if t.get_text()==rf'${latitude}^\circ$S')
+            label_s.set_position((-160.,-float(latitude)))
+            label_s.set_ha(label_n.get_ha());label_s.set_va(label_n.get_va())
         for ax in (d,e,f):
             for text in ax.texts:
                 if 'lambda_m' in text.get_text():
