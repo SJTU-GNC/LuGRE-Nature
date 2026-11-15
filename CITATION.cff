@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the stable Zenodo software and data concept DOIs, and the manuscript when a public citation becomes available."
-title: "LuGRE R3 reproduction code: selected 182-station version"
-version: "R3-Ground182-20261030"
-date-released: 2026-10-30
+title: "LuGRE R4 reproduction code: selected 182-station version"
+version: "R4-Ground182-20261113"
+date-released: 2026-11-13
 type: software
 doi: "10.5281/zenodo.21675357"
 abstract: "Portable analysis and figure-reproduction code supporting the manuscript 'Observing Earth's ionospheric irregularities from the moon'."
